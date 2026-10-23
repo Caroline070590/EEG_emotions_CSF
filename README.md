@@ -48,7 +48,8 @@ affective conditions) and its independent replication in SEED-VII (20 participan
 │   ├── src/                  pipeline: 00_load_epochs → 01/02 features → 03 contrasts → fig*/sensitivity_*
 │   │   └── gnn/              graph neural networks (training, run configurations, Fig. S7)
 │   ├── figures/              Figs. 1–3, S1–S7
-│   ├── tables/               every test and model summary (all_contrasts.csv lists all 616 FACED tests)
+│   ├── tables/               every test and model summary (all_contrasts.csv lists all 616 FACED tests) and
+│   │                         the decoding permutation null distributions
 │   ├── results/gnn/          every graph-network run, including all permutations
 │   └── preregistration/      model-selection rule and its amendments
 ├── seed_vii/                 independent replication in SEED-VII (Section 3.2, Appendix C; Fig. S8)
@@ -57,7 +58,8 @@ affective conditions) and its independent replication in SEED-VII (20 participan
 │   └── run_all.sh
 ├── faced_1s_exploratory/     exploratory final-second analyses and behavioral analyses (Sections 3.3–3.5,
 │                             Appendices D–K; Figs. 4–6, S9–S29)
-├── multiplex_gnn/            complementary recurrence-multiplex graph network, GPU (Appendix B)
+├── multiplex_gnn/            complementary recurrence-multiplex graph network, GPU (Appendix B), with the
+│                             observed and permutation scores and the randomized-graph control
 ├── demo/                     one-minute demonstration on simulated data
 └── docs/                     overview figure
 ```

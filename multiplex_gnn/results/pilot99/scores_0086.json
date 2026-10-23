@@ -1,0 +1,22 @@
+{
+  "scores": {
+    "connectivity": 0.1111111111111111,
+    "recurrence": 0.12338151159289372,
+    "multiplex": 0.12556458897922312,
+    "connectivity_rqa": 0.12526347485697079
+  },
+  "increment": 0.014453477868112019,
+  "config": {
+    "features": "recurrence_multiplex/features",
+    "output": "recurrence_multiplex/pilot99",
+    "permutation": 86,
+    "epochs": 40,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "smoke": false
+  },
+  "device": "cuda"
+}

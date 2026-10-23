@@ -31,6 +31,8 @@ connectivity balanced accuracy; Holm correction over five tests.
 | `recurrence_multiplex/metric_increment.py` | increment of the recurrence metrics over synchronization |
 | `recurrence_multiplex/summarize.py`, `*_summary.py` | summaries and permutation tests |
 | `recurrence_multiplex/test_recurrence.py` | unit tests of the recurrence measures |
+| `results/pilot99/` | scores of the observed run (`scores_0000.json`) and the 99 permutations, and `SUMMARY.json` |
+| `results/graph_control99/` | randomized-graph control, observed and 99 permutations, and `RESULTS.json` |
 
 ## Running
 
@@ -50,7 +52,7 @@ done
 python recurrence_multiplex/summarize.py recurrence_multiplex/pilot99
 ```
 
-The control and physics-informed variants are run in the same way with `train_control.py` and
+The physics-informed variant is reported in the manuscript in summary form only. The control and physics-informed variants are run in the same way with `train_control.py` and
 `train_informed.py` (outputs `graph_control99` and `informed99`), followed by `control_summary.py` and
 `informed_summary.py`.
 

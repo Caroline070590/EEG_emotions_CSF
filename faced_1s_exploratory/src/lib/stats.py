@@ -87,8 +87,9 @@ def clustered_ols_emotion_contrasts(df, ycol, ref="neutral"):
     d = df[[ycol, "emotion", "subject"]].dropna().copy()
     means = d.groupby("subject")[ycol].transform("mean")
     sds = d.groupby("subject")[ycol].transform("std")
-    d["y"] = (d[ycol] - means) / sds.replace(0, np.nan)
-    d = d.dropna(subset=["y"])
+    # A participant whose measure has zero variance across videos (the lag of one participant) is assigned
+    # standardized values of zero, so every contrast uses all participants (as in Supplementary Table S1).
+    d["y"] = np.where(sds > 0, (d[ycol] - means) / sds.where(sds > 0, 1.0), 0.0)
     d["emotion"] = pd.Categorical(d["emotion"], categories=[ref] + [e for e in EMOS if e != ref])
     out = {ref: np.nan}
     m = smf.ols(f"y ~ C(emotion, Treatment('{ref}'))", d).fit(

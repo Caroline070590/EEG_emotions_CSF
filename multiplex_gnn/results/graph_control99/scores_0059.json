@@ -1,0 +1,19 @@
+{
+  "scores": {
+    "multiplex_scrambled": 0.08928033724781692
+  },
+  "control": "recurrence graph node identities permuted independently per trial/window; metrics and other layers unchanged",
+  "config": {
+    "features": "recurrence_multiplex/features",
+    "output": "recurrence_multiplex/graph_control99",
+    "permutation": 59,
+    "epochs": 40,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "smoke": false
+  },
+  "device": "cuda"
+}

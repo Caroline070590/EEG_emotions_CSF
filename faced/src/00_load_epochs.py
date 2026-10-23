@@ -6,6 +6,7 @@ import numpy as np, pandas as pd
 from joblib import Parallel, delayed
 
 OUT = Path(__file__).resolve().parents[1] / "cache"
+OUT.mkdir(parents=True, exist_ok=True)
 # path to the FACED full-trial export; override with the FACED_ZIP environment variable
 ZIP = Path(os.environ.get("FACED_ZIP", Path(__file__).resolve().parents[1] / "data" / "EEG-data-raw-multiscale.zip"))
 CH = ['FP1','FP2','FZ','F3','F4','F7','F8','FC1','FC2','FC5','FC6','CZ','C3','C4',

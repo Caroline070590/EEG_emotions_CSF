@@ -1,0 +1,37 @@
+[
+  {
+    "model_or_contrast": "connectivity",
+    "observed": 0.11254140319180969,
+    "mean_null": 0.10850373655251702,
+    "p": 0.16,
+    "p_holm": 0.16
+  },
+  {
+    "model_or_contrast": "recurrence",
+    "observed": 0.13527551942186086,
+    "mean_null": 0.11152324205621403,
+    "p": 0.04,
+    "p_holm": 0.12
+  },
+  {
+    "model_or_contrast": "multiplex",
+    "observed": 0.14092140921409213,
+    "mean_null": 0.11189355159544861,
+    "p": 0.01,
+    "p_holm": 0.05
+  },
+  {
+    "model_or_contrast": "connectivity_rqa",
+    "observed": 0.13527551942186092,
+    "mean_null": 0.11227070463746164,
+    "p": 0.03,
+    "p_holm": 0.12
+  },
+  {
+    "model_or_contrast": "increment",
+    "observed": 0.02838000602228244,
+    "mean_null": 0.0033898150429315776,
+    "p": 0.05,
+    "p_holm": 0.12
+  }
+]

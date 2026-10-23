@@ -1,0 +1,4001 @@
+features,permutation,balanced_accuracy
+Band-specific sync + power,1,0.06820234869015357
+Band-specific sync + power,2,0.0603733815115929
+Band-specific sync + power,3,0.06654622101776574
+Band-specific sync + power,4,0.06428786510087323
+Band-specific sync + power,5,0.06270701595904848
+Band-specific sync + power,6,0.06413730803974707
+Band-specific sync + power,7,0.0653417645287564
+Band-specific sync + power,8,0.09876543209876544
+Band-specific sync + power,9,0.0766335441132189
+Band-specific sync + power,10,0.06662149954832881
+Band-specific sync + power,11,0.10448660042155977
+Band-specific sync + power,12,0.057964468533574225
+Band-specific sync + power,13,0.0725685034628124
+Band-specific sync + power,14,0.10855164107196628
+Band-specific sync + power,15,0.06933152664859982
+Band-specific sync + power,16,0.09003312255344777
+Band-specific sync + power,17,0.08235471243601326
+Band-specific sync + power,18,0.07565492321589883
+Band-specific sync + power,19,0.05600722673893407
+Band-specific sync + power,20,0.07181571815718157
+Band-specific sync + power,21,0.09123757904245709
+Band-specific sync + power,22,0.06044866004215599
+Band-specific sync + power,23,0.0648900933453779
+Band-specific sync + power,24,0.04095152062631738
+Band-specific sync + power,25,0.1178861788617886
+Band-specific sync + power,26,0.062405901836796146
+Band-specific sync + power,27,0.05337247816922614
+Band-specific sync + power,28,0.07377295995182175
+Band-specific sync + power,29,0.05344775669978922
+Band-specific sync + power,30,0.02740138512496236
+Band-specific sync + power,31,0.03259560373381512
+Band-specific sync + power,32,0.04652213188798555
+Band-specific sync + power,33,0.062405901836796146
+Band-specific sync + power,34,0.07663354411321892
+Band-specific sync + power,35,0.04343571213489913
+Band-specific sync + power,36,0.0730201746461909
+Band-specific sync + power,37,0.058416139716952725
+Band-specific sync + power,38,0.04802770249924722
+Band-specific sync + power,39,0.08017163504968382
+Band-specific sync + power,40,0.06948208370972599
+Band-specific sync + power,41,0.06270701595904847
+Band-specific sync + power,42,0.06029810298102981
+Band-specific sync + power,43,0.09123757904245708
+Band-specific sync + power,44,0.09816320385426075
+Band-specific sync + power,45,0.05585666967780789
+Band-specific sync + power,46,0.06278229448961155
+Band-specific sync + power,47,0.04102679915688046
+Band-specific sync + power,48,0.07234266787112316
+Band-specific sync + power,49,0.06270701595904848
+Band-specific sync + power,50,0.06541704305931949
+Band-specific sync + power,51,0.07309545317675398
+Band-specific sync + power,52,0.08589280337247815
+Band-specific sync + power,53,0.09470039144835893
+Band-specific sync + power,54,0.04087624209575429
+Band-specific sync + power,55,0.0829569406805179
+Band-specific sync + power,56,0.04170430593194821
+Band-specific sync + power,57,0.08641975308641975
+Band-specific sync + power,58,0.06308340861186391
+Band-specific sync + power,59,0.034101174345076785
+Band-specific sync + power,60,0.06135200240891297
+Band-specific sync + power,61,0.10320686540198735
+Band-specific sync + power,62,0.07482685937970492
+Band-specific sync + power,63,0.05600722673893405
+Band-specific sync + power,64,0.07046070460704607
+Band-specific sync + power,65,0.05916892502258356
+Band-specific sync + power,66,0.0535230352303523
+Band-specific sync + power,67,0.038617886178861784
+Band-specific sync + power,68,0.03500451671183378
+Band-specific sync + power,69,0.04622101776573321
+Band-specific sync + power,70,0.05096356519120747
+Band-specific sync + power,71,0.06338452273411622
+Band-specific sync + power,72,0.08137609153869317
+Band-specific sync + power,73,0.06029810298102981
+Band-specific sync + power,74,0.06549232158988255
+Band-specific sync + power,75,0.05103884372177055
+Band-specific sync + power,76,0.06782595603733815
+Band-specific sync + power,77,0.05254441433303222
+Band-specific sync + power,78,0.056308340861186384
+Band-specific sync + power,79,0.10832580548027702
+Band-specific sync + power,80,0.08559168925022582
+Band-specific sync + power,81,0.031240590183679615
+Band-specific sync + power,82,0.0567600120445649
+Band-specific sync + power,83,0.07979524239686842
+Band-specific sync + power,84,0.08401084010840108
+Band-specific sync + power,85,0.06609454983438723
+Band-specific sync + power,86,0.04125263474856971
+Band-specific sync + power,87,0.05691056910569106
+Band-specific sync + power,88,0.06361035832580547
+Band-specific sync + power,89,0.04682324601023788
+Band-specific sync + power,90,0.04704908160192713
+Band-specific sync + power,91,0.07136404697380308
+Band-specific sync + power,92,0.06549232158988257
+Band-specific sync + power,93,0.0966576332429991
+Band-specific sync + power,94,0.05186690755796447
+Band-specific sync + power,95,0.07678410117434507
+Band-specific sync + power,96,0.07181571815718159
+Band-specific sync + power,97,0.059018367961457395
+Band-specific sync + power,98,0.042682926829268296
+Band-specific sync + power,99,0.05773863294188497
+Band-specific sync + power,100,0.06744956338452274
+Band-specific sync + power,101,0.06511592893706714
+Band-specific sync + power,102,0.09003312255344775
+Band-specific sync + power,103,0.08273110508882867
+Band-specific sync + power,104,0.050737729599518215
+Band-specific sync + power,105,0.05766335441132189
+Band-specific sync + power,106,0.0517163504968383
+Band-specific sync + power,107,0.04998494429388739
+Band-specific sync + power,108,0.05141523637458597
+Band-specific sync + power,109,0.0603733815115929
+Band-specific sync + power,110,0.06805179162902741
+Band-specific sync + power,111,0.047350195724179464
+Band-specific sync + power,112,0.05977115326708823
+Band-specific sync + power,113,0.03959650707618187
+Band-specific sync + power,114,0.04780186690755797
+Band-specific sync + power,115,0.052920806985847633
+Band-specific sync + power,116,0.05367359229147847
+Band-specific sync + power,117,0.04193014152363746
+Band-specific sync + power,118,0.05224330021077989
+Band-specific sync + power,119,0.058416139716952725
+Band-specific sync + power,120,0.05043661547726589
+Band-specific sync + power,121,0.08980728696175849
+Band-specific sync + power,122,0.07369768142125865
+Band-specific sync + power,123,0.08514001806684733
+Band-specific sync + power,124,0.06112616681722373
+Band-specific sync + power,125,0.054576934658235474
+Band-specific sync + power,126,0.07106293285155074
+Band-specific sync + power,127,0.037639265281541705
+Band-specific sync + power,128,0.039295392953929545
+Band-specific sync + power,129,0.051942186088527555
+Band-specific sync + power,130,0.07068654019873533
+Band-specific sync + power,131,0.047500752785305626
+Band-specific sync + power,132,0.07309545317675399
+Band-specific sync + power,133,0.09725986148750376
+Band-specific sync + power,134,0.047199638663053295
+Band-specific sync + power,135,0.09349593495934959
+Band-specific sync + power,136,0.06443842216199941
+Band-specific sync + power,137,0.07889190003011143
+Band-specific sync + power,138,0.07949412827461609
+Band-specific sync + power,139,0.06142728093947606
+Band-specific sync + power,140,0.074902137910268
+Band-specific sync + power,141,0.0707618187292984
+Band-specific sync + power,142,0.06609454983438723
+Band-specific sync + power,143,0.04433905450165613
+Band-specific sync + power,144,0.04448961156278229
+Band-specific sync + power,145,0.06918096958747366
+Band-specific sync + power,146,0.04599518217404396
+Band-specific sync + power,147,0.0499096657633243
+Band-specific sync + power,148,0.081225534477567
+Band-specific sync + power,149,0.06330924420355316
+Band-specific sync + power,150,0.04004817825956037
+Band-specific sync + power,151,0.08596808190304124
+Band-specific sync + power,152,0.040725685034628124
+Band-specific sync + power,153,0.06059921710328214
+Band-specific sync + power,154,0.06052393857271906
+Band-specific sync + power,155,0.041478470340258956
+Band-specific sync + power,156,0.04464016862390846
+Band-specific sync + power,157,0.048102981029810296
+Band-specific sync + power,158,0.05404998494429389
+Band-specific sync + power,159,0.12285456187895212
+Band-specific sync + power,160,0.06903041252634749
+Band-specific sync + power,161,0.0594700391448359
+Band-specific sync + power,162,0.04087624209575429
+Band-specific sync + power,163,0.06187895212285456
+Band-specific sync + power,164,0.04366154772658838
+Band-specific sync + power,165,0.06195423065341764
+Band-specific sync + power,166,0.08581752484191509
+Band-specific sync + power,167,0.050135501355013545
+Band-specific sync + power,168,0.039521228545618785
+Band-specific sync + power,169,0.06662149954832881
+Band-specific sync + power,170,0.07994579945799457
+Band-specific sync + power,171,0.05894308943089431
+Band-specific sync + power,172,0.07881662149954832
+Band-specific sync + power,173,0.05231857874134297
+Band-specific sync + power,174,0.040800963565191216
+Band-specific sync + power,175,0.05404998494429389
+Band-specific sync + power,176,0.09725986148750376
+Band-specific sync + power,177,0.08273110508882867
+Band-specific sync + power,178,0.07279433905450165
+Band-specific sync + power,179,0.07061126166817225
+Band-specific sync + power,180,0.1006473953628425
+Band-specific sync + power,181,0.07279433905450165
+Band-specific sync + power,182,0.04283348389039446
+Band-specific sync + power,183,0.05879253236976815
+Band-specific sync + power,184,0.04968383017163505
+Band-specific sync + power,185,0.06511592893706715
+Band-specific sync + power,186,0.05984643179765132
+Band-specific sync + power,187,0.056308340861186384
+Band-specific sync + power,188,0.05141523637458597
+Band-specific sync + power,189,0.07219211080999699
+Band-specific sync + power,190,0.07670882264378198
+Band-specific sync + power,191,0.09131285757302016
+Band-specific sync + power,192,0.08867810900331224
+Band-specific sync + power,193,0.06918096958747365
+Band-specific sync + power,194,0.03831677205660946
+Band-specific sync + power,195,0.05510388437217706
+Band-specific sync + power,196,0.03184281842818429
+Band-specific sync + power,197,0.11103583258054801
+Band-specific sync + power,198,0.07061126166817225
+Band-specific sync + power,199,0.0726437819933755
+Band-specific sync + power,200,0.06752484191508581
+Band-specific sync + power,201,0.07061126166817225
+Band-specific sync + power,202,0.061878952122854575
+Band-specific sync + power,203,0.04524239686841312
+Band-specific sync + power,204,0.050135501355013545
+Band-specific sync + power,205,0.06293285155073775
+Band-specific sync + power,206,0.0490063233965673
+Band-specific sync + power,207,0.05269497139415839
+Band-specific sync + power,208,0.06556760012044566
+Band-specific sync + power,209,0.042682926829268296
+Band-specific sync + power,210,0.07249322493224931
+Band-specific sync + power,211,0.08416139716952725
+Band-specific sync + power,212,0.05871725383920506
+Band-specific sync + power,213,0.07196627521830774
+Band-specific sync + power,214,0.06760012044564889
+Band-specific sync + power,215,0.08536585365853659
+Band-specific sync + power,216,0.05133995784402287
+Band-specific sync + power,217,0.06361035832580547
+Band-specific sync + power,218,0.04697380307136404
+Band-specific sync + power,219,0.10478771454381211
+Band-specific sync + power,220,0.06202950918398073
+Band-specific sync + power,221,0.05465221318879855
+Band-specific sync + power,222,0.04885576633544113
+Band-specific sync + power,223,0.05593194820837097
+Band-specific sync + power,224,0.05359831376091539
+Band-specific sync + power,225,0.05939476061427282
+Band-specific sync + power,226,0.03553146642577537
+Band-specific sync + power,227,0.05510388437217706
+Band-specific sync + power,228,0.11020776874435412
+Band-specific sync + power,229,0.05156579343571213
+Band-specific sync + power,230,0.06639566395663957
+Band-specific sync + power,231,0.05329719963866305
+Band-specific sync + power,232,0.05164107196627521
+Band-specific sync + power,233,0.078515507377296
+Band-specific sync + power,234,0.06541704305931947
+Band-specific sync + power,235,0.06744956338452274
+Band-specific sync + power,236,0.07956940680517915
+Band-specific sync + power,237,0.049457994579945805
+Band-specific sync + power,238,0.05999698885877748
+Band-specific sync + power,239,0.07324601023788015
+Band-specific sync + power,240,0.0643631436314363
+Band-specific sync + power,241,0.07505269497139415
+Band-specific sync + power,242,0.05111412225233364
+Band-specific sync + power,243,0.04622101776573321
+Band-specific sync + power,244,0.07023486901535682
+Band-specific sync + power,245,0.11178861788617886
+Band-specific sync + power,246,0.05284552845528455
+Band-specific sync + power,247,0.05164107196627522
+Band-specific sync + power,248,0.05058717253839205
+Band-specific sync + power,249,0.07776272207166518
+Band-specific sync + power,250,0.07633242999096658
+Band-specific sync + power,251,0.05088828666064438
+Band-specific sync + power,252,0.05743751881963263
+Band-specific sync + power,253,0.05788919000301113
+Band-specific sync + power,254,0.07746160794941283
+Band-specific sync + power,255,0.07618187292984041
+Band-specific sync + power,256,0.06827762722071666
+Band-specific sync + power,257,0.04426377597109304
+Band-specific sync + power,258,0.04832881662149954
+Band-specific sync + power,259,0.0584914182475158
+Band-specific sync + power,260,0.07979524239686842
+Band-specific sync + power,261,0.054501656127672396
+Band-specific sync + power,262,0.062330623306233054
+Band-specific sync + power,263,0.059846431797651305
+Band-specific sync + power,264,0.06729900632339657
+Band-specific sync + power,265,0.03568202348690153
+Band-specific sync + power,266,0.08769948810599218
+Band-specific sync + power,267,0.05292080698584764
+Band-specific sync + power,268,0.0698584763625414
+Band-specific sync + power,269,0.056082505269497145
+Band-specific sync + power,270,0.06391147244805781
+Band-specific sync + power,271,0.07941884974405299
+Band-specific sync + power,272,0.062405901836796146
+Band-specific sync + power,273,0.035155073772959955
+Band-specific sync + power,274,0.05186690755796448
+Band-specific sync + power,275,0.059620596205962065
+Band-specific sync + power,276,0.06052393857271906
+Band-specific sync + power,277,0.05495332731105088
+Band-specific sync + power,278,0.07640770852152967
+Band-specific sync + power,279,0.051942186088527555
+Band-specific sync + power,280,0.06985847636254142
+Band-specific sync + power,281,0.043209876543209874
+Band-specific sync + power,282,0.0671484492622704
+Band-specific sync + power,283,0.03922011442336645
+Band-specific sync + power,284,0.04223125564588979
+Band-specific sync + power,285,0.05103884372177055
+Band-specific sync + power,286,0.08115025594700391
+Band-specific sync + power,287,0.05819030412526348
+Band-specific sync + power,288,0.06692261367058115
+Band-specific sync + power,289,0.0571364046973803
+Band-specific sync + power,290,0.07204155374887082
+Band-specific sync + power,291,0.07369768142125865
+Band-specific sync + power,292,0.05954531767539898
+Band-specific sync + power,293,0.07038542607648299
+Band-specific sync + power,294,0.04433905450165613
+Band-specific sync + power,295,0.09507678410117434
+Band-specific sync + power,296,0.07542908762420958
+Band-specific sync + power,297,0.0757302017464619
+Band-specific sync + power,298,0.06564287865100873
+Band-specific sync + power,299,0.08687142426979826
+Band-specific sync + power,300,0.13256549232158987
+Band-specific sync + power,301,0.04832881662149955
+Band-specific sync + power,302,0.0530713640469738
+Band-specific sync + power,303,0.05006022282445047
+Band-specific sync + power,304,0.05728696175850648
+Band-specific sync + power,305,0.05593194820837097
+Band-specific sync + power,306,0.06835290575127972
+Band-specific sync + power,307,0.06278229448961155
+Band-specific sync + power,308,0.0571364046973803
+Band-specific sync + power,309,0.04448961156278229
+Band-specific sync + power,310,0.056534176452875645
+Band-specific sync + power,311,0.06436314363143632
+Band-specific sync + power,312,0.055179162902740136
+Band-specific sync + power,313,0.04885576633544113
+Band-specific sync + power,314,0.05420054200542006
+Band-specific sync + power,315,0.0508130081300813
+Band-specific sync + power,316,0.04373682625715145
+Band-specific sync + power,317,0.06361035832580547
+Band-specific sync + power,318,0.07565492321589883
+Band-specific sync + power,319,0.05555555555555555
+Band-specific sync + power,320,0.050436615477265884
+Band-specific sync + power,321,0.059921710328214396
+Band-specific sync + power,322,0.0807738632941885
+Band-specific sync + power,323,0.04772658837699487
+Band-specific sync + power,324,0.0508130081300813
+Band-specific sync + power,325,0.06677205660945498
+Band-specific sync + power,326,0.075805480277025
+Band-specific sync + power,327,0.08664558867810901
+Band-specific sync + power,328,0.06398675097862089
+Band-specific sync + power,329,0.05540499849442939
+Band-specific sync + power,330,0.09537789822342667
+Band-specific sync + power,331,0.05450165612767239
+Band-specific sync + power,332,0.06752484191508581
+Band-specific sync + power,333,0.07460102378801566
+Band-specific sync + power,334,0.05457693465823547
+Band-specific sync + power,335,0.09590484793736827
+Band-specific sync + power,336,0.09123757904245708
+Band-specific sync + power,337,0.04464016862390847
+Band-specific sync + power,338,0.04862993074375188
+Band-specific sync + power,339,0.059620596205962065
+Band-specific sync + power,340,0.08672086720867209
+Band-specific sync + power,341,0.0644384221619994
+Band-specific sync + power,342,0.10004516711833784
+Band-specific sync + power,343,0.0490063233965673
+Band-specific sync + power,344,0.08664558867810901
+Band-specific sync + power,345,0.05788919000301115
+Band-specific sync + power,346,0.04742547425474255
+Band-specific sync + power,347,0.04840409515206263
+Band-specific sync + power,348,0.05299608551641072
+Band-specific sync + power,349,0.06767539897621197
+Band-specific sync + power,350,0.054275820535983135
+Band-specific sync + power,351,0.054652213188798565
+Band-specific sync + power,352,0.05201746461909063
+Band-specific sync + power,353,0.07158988256549231
+Band-specific sync + power,354,0.07949412827461608
+Band-specific sync + power,355,0.07384823848238482
+Band-specific sync + power,356,0.05954531767539897
+Band-specific sync + power,357,0.0666967780788919
+Band-specific sync + power,358,0.052243300210779886
+Band-specific sync + power,359,0.06052393857271906
+Band-specific sync + power,360,0.05329719963866305
+Band-specific sync + power,361,0.07309545317675398
+Band-specific sync + power,362,0.04622101776573321
+Band-specific sync + power,363,0.061653116531165314
+Band-specific sync + power,364,0.07648298705209274
+Band-specific sync + power,365,0.06835290575127972
+Band-specific sync + power,366,0.06775067750677506
+Band-specific sync + power,367,0.05623306233062331
+Band-specific sync + power,368,0.062180066245106906
+Band-specific sync + power,369,0.05465221318879856
+Band-specific sync + power,370,0.036660644384221626
+Band-specific sync + power,371,0.0621047877145438
+Band-specific sync + power,372,0.08024691358024691
+Band-specific sync + power,373,0.06285757302017464
+Band-specific sync + power,374,0.05269497139415839
+Band-specific sync + power,375,0.07204155374887083
+Band-specific sync + power,376,0.0763324299909666
+Band-specific sync + power,377,0.09876543209876543
+Band-specific sync + power,378,0.07512797350195724
+Band-specific sync + power,379,0.05879253236976814
+Band-specific sync + power,380,0.060825052694971404
+Band-specific sync + power,381,0.06458897922312556
+Band-specific sync + power,382,0.0689551339957844
+Band-specific sync + power,383,0.052393857271906055
+Band-specific sync + power,384,0.054275820535983135
+Band-specific sync + power,385,0.076708822643782
+Band-specific sync + power,386,0.06233062330623307
+Band-specific sync + power,387,0.03937067148449262
+Band-specific sync + power,388,0.04027401385124963
+Band-specific sync + power,389,0.06729900632339657
+Band-specific sync + power,390,0.038090936464920205
+Band-specific sync + power,391,0.03876844323998796
+Band-specific sync + power,392,0.03741342968985246
+Band-specific sync + power,393,0.07813911472448058
+Band-specific sync + power,394,0.044414333032219214
+Band-specific sync + power,395,0.04704908160192713
+Band-specific sync + power,396,0.05427582053598314
+Band-specific sync + power,397,0.04509183980728696
+Band-specific sync + power,398,0.06775067750677506
+Band-specific sync + power,399,0.07000903342366757
+Band-specific sync + power,400,0.09771153267088227
+Band-specific sync + power,401,0.062104787714543815
+Band-specific sync + power,402,0.09153869316470942
+Band-specific sync + power,403,0.05871725383920506
+Band-specific sync + power,404,0.0535230352303523
+Band-specific sync + power,405,0.07557964468533575
+Band-specific sync + power,406,0.06782595603733815
+Band-specific sync + power,407,0.049307437518819636
+Band-specific sync + power,408,0.06639566395663957
+Band-specific sync + power,409,0.08551641071966273
+Band-specific sync + power,410,0.08416139716952725
+Band-specific sync + power,411,0.05548027702499246
+Band-specific sync + power,412,0.06029810298102981
+Band-specific sync + power,413,0.06263173742848539
+Band-specific sync + power,414,0.0508130081300813
+Band-specific sync + power,415,0.05886781090033122
+Band-specific sync + power,416,0.06820234869015357
+Band-specific sync + power,417,0.0825805480277025
+Band-specific sync + power,418,0.04418849744052996
+Band-specific sync + power,419,0.10463715748268593
+Band-specific sync + power,420,0.06014754591990364
+Band-specific sync + power,421,0.0898825654923216
+Band-specific sync + power,422,0.054125263474856966
+Band-specific sync + power,423,0.04998494429388738
+Band-specific sync + power,424,0.0779885576633544
+Band-specific sync + power,425,0.08205359831376091
+Band-specific sync + power,426,0.06255645889792232
+Band-specific sync + power,427,0.047199638663053295
+Band-specific sync + power,428,0.09439927732610659
+Band-specific sync + power,429,0.07113821138211382
+Band-specific sync + power,430,0.050737729599518215
+Band-specific sync + power,431,0.07746160794941283
+Band-specific sync + power,432,0.06752484191508583
+Band-specific sync + power,433,0.06157783800060222
+Band-specific sync + power,434,0.06782595603733815
+Band-specific sync + power,435,0.08604336043360433
+Band-specific sync + power,436,0.06082505269497139
+Band-specific sync + power,437,0.091162300511894
+Band-specific sync + power,438,0.06910569105691057
+Band-specific sync + power,439,0.05239385727190605
+Band-specific sync + power,440,0.04569406805179163
+Band-specific sync + power,441,0.07603131586871424
+Band-specific sync + power,442,0.06955736224028906
+Band-specific sync + power,443,0.04697380307136404
+Band-specific sync + power,444,0.06594399277326107
+Band-specific sync + power,445,0.06790123456790123
+Band-specific sync + power,446,0.0508130081300813
+Band-specific sync + power,447,0.07151460403492924
+Band-specific sync + power,448,0.052544414333032224
+Band-specific sync + power,449,0.07670882264378201
+Band-specific sync + power,450,0.0699337548931045
+Band-specific sync + power,451,0.05856669677807888
+Band-specific sync + power,452,0.05578139114724481
+Band-specific sync + power,453,0.06278229448961156
+Band-specific sync + power,454,0.06639566395663958
+Band-specific sync + power,455,0.05427582053598314
+Band-specific sync + power,456,0.08137609153869316
+Band-specific sync + power,457,0.038015657934357114
+Band-specific sync + power,458,0.07151460403492924
+Band-specific sync + power,459,0.04554351099066546
+Band-specific sync + power,460,0.09364649202047576
+Band-specific sync + power,461,0.09334537789822342
+Band-specific sync + power,462,0.05412526347485697
+Band-specific sync + power,463,0.05781391147244805
+Band-specific sync + power,464,0.04915688045769347
+Band-specific sync + power,465,0.06812707015959049
+Band-specific sync + power,466,0.06074977416440831
+Band-specific sync + power,467,0.07731105088828666
+Band-specific sync + power,468,0.0816772056609455
+Band-specific sync + power,469,0.03688647997591087
+Band-specific sync + power,470,0.05615778380006023
+Band-specific sync + power,471,0.04975910870219814
+Band-specific sync + power,472,0.05088828666064439
+Band-specific sync + power,473,0.07776272207166517
+Band-specific sync + power,474,0.04712436013249022
+Band-specific sync + power,475,0.03816621499548329
+Band-specific sync + power,476,0.08227943390545017
+Band-specific sync + power,477,0.051942186088527555
+Band-specific sync + power,478,0.04742547425474254
+Band-specific sync + power,479,0.057437518819632646
+Band-specific sync + power,480,0.07143932550436616
+Band-specific sync + power,481,0.10689551339957844
+Band-specific sync + power,482,0.06391147244805781
+Band-specific sync + power,483,0.06022282445046672
+Band-specific sync + power,484,0.045091839807286954
+Band-specific sync + power,485,0.05359831376091539
+Band-specific sync + power,486,0.049156880457693466
+Band-specific sync + power,487,0.05593194820837097
+Band-specific sync + power,488,0.08303221921108099
+Band-specific sync + power,489,0.04878048780487805
+Band-specific sync + power,490,0.03891900030111412
+Band-specific sync + power,491,0.06865401987353208
+Band-specific sync + power,492,0.03824149352604637
+Band-specific sync + power,493,0.06398675097862089
+Band-specific sync + power,494,0.06722372779283349
+Band-specific sync + power,495,0.09259259259259262
+Band-specific sync + power,496,0.05224330021077988
+Band-specific sync + power,497,0.05834086118638964
+Band-specific sync + power,498,0.03387533875338753
+Band-specific sync + power,499,0.07422463113520024
+Band-specific sync + power,500,0.066772056609455
+Band-specific sync + power,501,0.10682023486901536
+Band-specific sync + power,502,0.07091237579042457
+Band-specific sync + power,503,0.045618789521228546
+Band-specific sync + power,504,0.05638361939174947
+Band-specific sync + power,505,0.05314664257753689
+Band-specific sync + power,506,0.08145137006925623
+Band-specific sync + power,507,0.08250526949713942
+Band-specific sync + power,508,0.05819030412526348
+Band-specific sync + power,509,0.06052393857271906
+Band-specific sync + power,510,0.06361035832580547
+Band-specific sync + power,511,0.08423667570009034
+Band-specific sync + power,512,0.04591990364348088
+Band-specific sync + power,513,0.10140018066847335
+Band-specific sync + power,514,0.06142728093947606
+Band-specific sync + power,515,0.07158988256549231
+Band-specific sync + power,516,0.06074977416440831
+Band-specific sync + power,517,0.05683529057512798
+Band-specific sync + power,518,0.06157783800060222
+Band-specific sync + power,519,0.0703101475459199
+Band-specific sync + power,520,0.08160192713038242
+Band-specific sync + power,521,0.06632038542607649
+Band-specific sync + power,522,0.07874134296898523
+Band-specific sync + power,523,0.07557964468533575
+Band-specific sync + power,524,0.07881662149954834
+Band-specific sync + power,525,0.07098765432098766
+Band-specific sync + power,526,0.07106293285155074
+Band-specific sync + power,527,0.0966576332429991
+Band-specific sync + power,528,0.04953327311050889
+Band-specific sync + power,529,0.06157783800060222
+Band-specific sync + power,530,0.053824149352604635
+Band-specific sync + power,531,0.04591990364348088
+Band-specific sync + power,532,0.04900632339656729
+Band-specific sync + power,533,0.06790123456790123
+Band-specific sync + power,534,0.07083709725986148
+Band-specific sync + power,535,0.04223125564588979
+Band-specific sync + power,536,0.04004817825956037
+Band-specific sync + power,537,0.05660945498343872
+Band-specific sync + power,538,0.06571815718157181
+Band-specific sync + power,539,0.058416139716952725
+Band-specific sync + power,540,0.05314664257753689
+Band-specific sync + power,541,0.10170129479072568
+Band-specific sync + power,542,0.06142728093947606
+Band-specific sync + power,543,0.08190304125263476
+Band-specific sync + power,544,0.08062330623306234
+Band-specific sync + power,545,0.06519120746763024
+Band-specific sync + power,546,0.055706112616681715
+Band-specific sync + power,547,0.05126467931345981
+Band-specific sync + power,548,0.06948208370972599
+Band-specific sync + power,549,0.04358626919602529
+Band-specific sync + power,550,0.05269497139415839
+Band-specific sync + power,551,0.08860283047274917
+Band-specific sync + power,552,0.10855164107196627
+Band-specific sync + power,553,0.06586871424269797
+Band-specific sync + power,554,0.0661698283649503
+Band-specific sync + power,555,0.06707317073170732
+Band-specific sync + power,556,0.08724781692261369
+Band-specific sync + power,557,0.0449412827461608
+Band-specific sync + power,558,0.07467630231857875
+Band-specific sync + power,559,0.07497741644083107
+Band-specific sync + power,560,0.0712134899126769
+Band-specific sync + power,561,0.05721168322794339
+Band-specific sync + power,562,0.08611863896416744
+Band-specific sync + power,563,0.08002107798855766
+Band-specific sync + power,564,0.0490063233965673
+Band-specific sync + power,565,0.05337247816922614
+Band-specific sync + power,566,0.05465221318879856
+Band-specific sync + power,567,0.05231857874134297
+Band-specific sync + power,568,0.07226738934056007
+Band-specific sync + power,569,0.07761216501053898
+Band-specific sync + power,570,0.052996085516410725
+Band-specific sync + power,571,0.076708822643782
+Band-specific sync + power,572,0.04938271604938271
+Band-specific sync + power,573,0.05412526347485697
+Band-specific sync + power,574,0.06707317073170732
+Band-specific sync + power,575,0.03982234266787112
+Band-specific sync + power,576,0.06278229448961156
+Band-specific sync + power,577,0.04351099066546222
+Band-specific sync + power,578,0.052393857271906055
+Band-specific sync + power,579,0.06127672387834989
+Band-specific sync + power,580,0.06135200240891298
+Band-specific sync + power,581,0.07294489611562782
+Band-specific sync + power,582,0.05879253236976814
+Band-specific sync + power,583,0.05803974706413731
+Band-specific sync + power,584,0.07196627521830773
+Band-specific sync + power,585,0.06880457693465823
+Band-specific sync + power,586,0.06963264077085214
+Band-specific sync + power,587,0.04622101776573321
+Band-specific sync + power,588,0.09138813610358326
+Band-specific sync + power,589,0.06323396567299006
+Band-specific sync + power,590,0.07889190003011141
+Band-specific sync + power,591,0.047199638663053295
+Band-specific sync + power,592,0.05758807588075881
+Band-specific sync + power,593,0.05141523637458597
+Band-specific sync + power,594,0.05698584763625414
+Band-specific sync + power,595,0.07189099668774465
+Band-specific sync + power,596,0.06729900632339657
+Band-specific sync + power,597,0.07738632941884975
+Band-specific sync + power,598,0.06790123456790123
+Band-specific sync + power,599,0.10990665462210177
+Band-specific sync + power,600,0.08009635651912074
+Band-specific sync + power,601,0.08815115928937067
+Band-specific sync + power,602,0.0693315266485998
+Band-specific sync + power,603,0.07211683227943391
+Band-specific sync + power,604,0.04569406805179163
+Band-specific sync + power,605,0.07708521529659741
+Band-specific sync + power,606,0.07821439325504367
+Band-specific sync + power,607,0.0998193315266486
+Band-specific sync + power,608,0.0748268593797049
+Band-specific sync + power,609,0.04004817825956037
+Band-specific sync + power,610,0.03771454381210479
+Band-specific sync + power,611,0.054878048780487805
+Band-specific sync + power,612,0.05186690755796446
+Band-specific sync + power,613,0.05570611261668173
+Band-specific sync + power,614,0.09620596205962058
+Band-specific sync + power,615,0.08807588075880758
+Band-specific sync + power,616,0.0653417645287564
+Band-specific sync + power,617,0.06473953628425173
+Band-specific sync + power,618,0.07971996386630532
+Band-specific sync + power,619,0.10094850948509485
+Band-specific sync + power,620,0.052318578741342964
+Band-specific sync + power,621,0.06737428485395965
+Band-specific sync + power,622,0.04862993074375188
+Band-specific sync + power,623,0.07008431195423065
+Band-specific sync + power,624,0.06880457693465823
+Band-specific sync + power,625,0.06308340861186389
+Band-specific sync + power,626,0.053974706413730804
+Band-specific sync + power,627,0.06300813008130081
+Band-specific sync + power,628,0.04644685335742246
+Band-specific sync + power,629,0.06361035832580549
+Band-specific sync + power,630,0.07851550737729601
+Band-specific sync + power,631,0.08295694068051791
+Band-specific sync + power,632,0.06187895212285456
+Band-specific sync + power,633,0.07633242999096657
+Band-specific sync + power,634,0.10907859078590784
+Band-specific sync + power,635,0.09884071062932852
+Band-specific sync + power,636,0.05638361939174947
+Band-specific sync + power,637,0.04832881662149955
+Band-specific sync + power,638,0.05886781090033123
+Band-specific sync + power,639,0.04772658837699488
+Band-specific sync + power,640,0.07046070460704608
+Band-specific sync + power,641,0.07949412827461608
+Band-specific sync + power,642,0.0657934357121349
+Band-specific sync + power,643,0.08137609153869316
+Band-specific sync + power,644,0.06948208370972599
+Band-specific sync + power,645,0.0816772056609455
+Band-specific sync + power,646,0.05420054200542005
+Band-specific sync + power,647,0.0521680216802168
+Band-specific sync + power,648,0.051641071966275216
+Band-specific sync + power,649,0.06835290575127974
+Band-specific sync + power,650,0.04524239686841313
+Band-specific sync + power,651,0.05450165612767239
+Band-specific sync + power,652,0.05021077988557663
+Band-specific sync + power,653,0.05465221318879855
+Band-specific sync + power,654,0.07015959048479374
+Band-specific sync + power,655,0.048705209274314966
+Band-specific sync + power,656,0.09063535079795243
+Band-specific sync + power,657,0.05314664257753688
+Band-specific sync + power,658,0.05299608551641072
+Band-specific sync + power,659,0.06052393857271906
+Band-specific sync + power,660,0.07377295995182175
+Band-specific sync + power,661,0.06293285155073773
+Band-specific sync + power,662,0.07708521529659741
+Band-specific sync + power,663,0.07362240289069558
+Band-specific sync + power,664,0.06857874134296899
+Band-specific sync + power,665,0.09402288467329117
+Band-specific sync + power,666,0.07384823848238481
+Band-specific sync + power,667,0.04418849744052997
+Band-specific sync + power,668,0.06880457693465823
+Band-specific sync + power,669,0.05856669677807888
+Band-specific sync + power,670,0.055179162902740136
+Band-specific sync + power,671,0.05984643179765132
+Band-specific sync + power,672,0.0453929539295393
+Band-specific sync + power,673,0.06639566395663955
+Band-specific sync + power,674,0.05435109906654622
+Band-specific sync + power,675,0.07098765432098765
+Band-specific sync + power,676,0.08747365251430293
+Band-specific sync + power,677,0.09093646492020477
+Band-specific sync + power,678,0.0503613369467028
+Band-specific sync + power,679,0.08378500451671184
+Band-specific sync + power,680,0.06195423065341765
+Band-specific sync + power,681,0.04862993074375188
+Band-specific sync + power,682,0.07896717856067449
+Band-specific sync + power,683,0.07527853056308341
+Band-specific sync + power,684,0.05623306233062331
+Band-specific sync + power,685,0.0829569406805179
+Band-specific sync + power,686,0.04810298102981029
+Band-specific sync + power,687,0.08634447455585667
+Band-specific sync + power,688,0.046898524540800964
+Band-specific sync + power,689,0.057136404697380315
+Band-specific sync + power,690,0.0617283950617284
+Band-specific sync + power,691,0.08370972598614874
+Band-specific sync + power,692,0.0898825654923216
+Band-specific sync + power,693,0.03944595001505571
+Band-specific sync + power,694,0.06654622101776572
+Band-specific sync + power,695,0.047199638663053295
+Band-specific sync + power,696,0.06293285155073773
+Band-specific sync + power,697,0.07324601023788016
+Band-specific sync + power,698,0.07941884974405299
+Band-specific sync + power,699,0.056082505269497145
+Band-specific sync + power,700,0.07595603733815116
+Band-specific sync + power,701,0.044263775971093045
+Band-specific sync + power,702,0.06955736224028906
+Band-specific sync + power,703,0.05698584763625414
+Band-specific sync + power,704,0.09018367961457392
+Band-specific sync + power,705,0.05954531767539898
+Band-specific sync + power,706,0.07234266787112316
+Band-specific sync + power,707,0.059244203553146635
+Band-specific sync + power,708,0.051339957844022885
+Band-specific sync + power,709,0.0907859078590786
+Band-specific sync + power,710,0.04750075278530563
+Band-specific sync + power,711,0.0462962962962963
+Band-specific sync + power,712,0.04464016862390846
+Band-specific sync + power,713,0.0676001204456489
+Band-specific sync + power,714,0.06760012044564889
+Band-specific sync + power,715,0.10140018066847337
+Band-specific sync + power,716,0.06376091538693164
+Band-specific sync + power,717,0.05743751881963263
+Band-specific sync + power,718,0.03590785907859079
+Band-specific sync + power,719,0.059846431797651305
+Band-specific sync + power,720,0.05472749171936164
+Band-specific sync + power,721,0.07911773562180066
+Band-specific sync + power,722,0.06187895212285456
+Band-specific sync + power,723,0.06112616681722373
+Band-specific sync + power,724,0.058566696778078894
+Band-specific sync + power,725,0.07588075880758809
+Band-specific sync + power,726,0.0490063233965673
+Band-specific sync + power,727,0.05021077988557662
+Band-specific sync + power,728,0.048404095152062634
+Band-specific sync + power,729,0.041779584462511295
+Band-specific sync + power,730,0.038617886178861784
+Band-specific sync + power,731,0.07377295995182175
+Band-specific sync + power,732,0.0535230352303523
+Band-specific sync + power,733,0.07317073170731708
+Band-specific sync + power,734,0.06195423065341764
+Band-specific sync + power,735,0.07015959048479374
+Band-specific sync + power,736,0.06647094248720264
+Band-specific sync + power,737,0.07174043962661848
+Band-specific sync + power,738,0.04697380307136405
+Band-specific sync + power,739,0.0508130081300813
+Band-specific sync + power,740,0.050963565191207455
+Band-specific sync + power,741,0.09086118638964166
+Band-specific sync + power,742,0.09146341463414635
+Band-specific sync + power,743,0.07557964468533573
+Band-specific sync + power,744,0.04546823246010238
+Band-specific sync + power,745,0.06933152664859982
+Band-specific sync + power,746,0.07460102378801566
+Band-specific sync + power,747,0.08408611863896416
+Band-specific sync + power,748,0.04772658837699488
+Band-specific sync + power,749,0.08498946100572116
+Band-specific sync + power,750,0.05826558265582656
+Band-specific sync + power,751,0.04787714543812105
+Band-specific sync + power,752,0.09274314965371876
+Band-specific sync + power,753,0.06903041252634749
+Band-specific sync + power,754,0.0635350797952424
+Band-specific sync + power,755,0.07000903342366756
+Band-specific sync + power,756,0.0630834086118639
+Band-specific sync + power,757,0.07452574525745258
+Band-specific sync + power,758,0.0680517916290274
+Band-specific sync + power,759,0.052544414333032224
+Band-specific sync + power,760,0.06639566395663957
+Band-specific sync + power,761,0.0671484492622704
+Band-specific sync + power,762,0.04817825956037339
+Band-specific sync + power,763,0.07836495031616983
+Band-specific sync + power,764,0.04388738331827762
+Band-specific sync + power,765,0.04644685335742246
+Band-specific sync + power,766,0.08024691358024691
+Band-specific sync + power,767,0.07911773562180066
+Band-specific sync + power,768,0.07113821138211382
+Band-specific sync + power,769,0.06692261367058115
+Band-specific sync + power,770,0.07618187292984041
+Band-specific sync + power,771,0.06443842216199941
+Band-specific sync + power,772,0.04953327311050888
+Band-specific sync + power,773,0.06413730803974707
+Band-specific sync + power,774,0.06451370069256247
+Band-specific sync + power,775,0.08943089430894309
+Band-specific sync + power,776,0.05803974706413731
+Band-specific sync + power,777,0.06270701595904848
+Band-specific sync + power,778,0.043661547726588375
+Band-specific sync + power,779,0.06684733514001806
+Band-specific sync + power,780,0.06135200240891297
+Band-specific sync + power,781,0.05435109906654622
+Band-specific sync + power,782,0.06300813008130082
+Band-specific sync + power,783,0.06955736224028906
+Band-specific sync + power,784,0.04689852454080097
+Band-specific sync + power,785,0.04065040650406504
+Band-specific sync + power,786,0.06142728093947606
+Band-specific sync + power,787,0.08152664859981933
+Band-specific sync + power,788,0.03839205058717253
+Band-specific sync + power,789,0.09221619993977719
+Band-specific sync + power,790,0.06586871424269797
+Band-specific sync + power,791,0.07738632941884976
+Band-specific sync + power,792,0.04140319180969588
+Band-specific sync + power,793,0.08611863896416742
+Band-specific sync + power,794,0.05691056910569106
+Band-specific sync + power,795,0.06985847636254142
+Band-specific sync + power,796,0.033574224631135206
+Band-specific sync + power,797,0.08220415537488707
+Band-specific sync + power,798,0.07595603733815115
+Band-specific sync + power,799,0.06767539897621198
+Band-specific sync + power,800,0.043435712134899135
+Band-specific sync + power,801,0.09116230051189401
+Band-specific sync + power,802,0.053297199638663056
+Band-specific sync + power,803,0.05156579343571213
+Band-specific sync + power,804,0.07000903342366757
+Band-specific sync + power,805,0.05412526347485697
+Band-specific sync + power,806,0.07625715146040349
+Band-specific sync + power,807,0.055706112616681715
+Band-specific sync + power,808,0.06910569105691058
+Band-specific sync + power,809,0.07196627521830773
+Band-specific sync + power,810,0.045694068051791624
+Band-specific sync + power,811,0.04637157482685938
+Band-specific sync + power,812,0.06052393857271906
+Band-specific sync + power,813,0.07640770852152966
+Band-specific sync + power,814,0.0680517916290274
+Band-specific sync + power,815,0.06978319783197832
+Band-specific sync + power,816,0.06135200240891298
+Band-specific sync + power,817,0.05066245106895514
+Band-specific sync + power,818,0.06406202950918398
+Band-specific sync + power,819,0.04652213188798555
+Band-specific sync + power,820,0.03523035230352303
+Band-specific sync + power,821,0.06586871424269798
+Band-specific sync + power,822,0.06647094248720264
+Band-specific sync + power,823,0.04847937368262571
+Band-specific sync + power,824,0.07919301415236374
+Band-specific sync + power,825,0.05404998494429389
+Band-specific sync + power,826,0.07241794640168624
+Band-specific sync + power,827,0.07279433905450167
+Band-specific sync + power,828,0.048855766335441135
+Band-specific sync + power,829,0.05781391147244806
+Band-specific sync + power,830,0.04862993074375188
+Band-specific sync + power,831,0.07595603733815118
+Band-specific sync + power,832,0.13512496236073473
+Band-specific sync + power,833,0.050361336946702806
+Band-specific sync + power,834,0.05133995784402288
+Band-specific sync + power,835,0.05721168322794338
+Band-specific sync + power,836,0.06910569105691057
+Band-specific sync + power,837,0.04245709123757904
+Band-specific sync + power,838,0.050436615477265884
+Band-specific sync + power,839,0.049232158988256544
+Band-specific sync + power,840,0.06300813008130081
+Band-specific sync + power,841,0.062405901836796146
+Band-specific sync + power,842,0.06007226738934056
+Band-specific sync + power,843,0.06699789220114423
+Band-specific sync + power,844,0.06323396567299006
+Band-specific sync + power,845,0.05886781090033122
+Band-specific sync + power,846,0.08747365251430292
+Band-specific sync + power,847,0.09357121348991267
+Band-specific sync + power,848,0.060825052694971404
+Band-specific sync + power,849,0.06910569105691058
+Band-specific sync + power,850,0.03568202348690154
+Band-specific sync + power,851,0.06790123456790123
+Band-specific sync + power,852,0.06601927130382415
+Band-specific sync + power,853,0.06466425775368864
+Band-specific sync + power,854,0.054878048780487805
+Band-specific sync + power,855,0.08099969888587774
+Band-specific sync + power,856,0.07384823848238482
+Band-specific sync + power,857,0.05201746461909064
+Band-specific sync + power,858,0.05803974706413731
+Band-specific sync + power,859,0.04923215898825655
+Band-specific sync + power,860,0.0662451068955134
+Band-specific sync + power,861,0.06361035832580547
+Band-specific sync + power,862,0.06406202950918398
+Band-specific sync + power,863,0.08325805480277025
+Band-specific sync + power,864,0.03184281842818429
+Band-specific sync + power,865,0.07648298705209274
+Band-specific sync + power,866,0.08566696778078892
+Band-specific sync + power,867,0.059846431797651305
+Band-specific sync + power,868,0.07181571815718157
+Band-specific sync + power,869,0.060298102981029805
+Band-specific sync + power,870,0.05299608551641072
+Band-specific sync + power,871,0.08483890394459499
+Band-specific sync + power,872,0.060448660042155974
+Band-specific sync + power,873,0.09319482083709725
+Band-specific sync + power,874,0.055706112616681715
+Band-specific sync + power,875,0.07128876844324
+Band-specific sync + power,876,0.06135200240891298
+Band-specific sync + power,877,0.05435109906654622
+Band-specific sync + power,878,0.04576934658235471
+Band-specific sync + power,879,0.04464016862390846
+Band-specific sync + power,880,0.03289671785606744
+Band-specific sync + power,881,0.053974706413730804
+Band-specific sync + power,882,0.06029810298102981
+Band-specific sync + power,883,0.07294489611562782
+Band-specific sync + power,884,0.03756398675097863
+Band-specific sync + power,885,0.07407407407407407
+Band-specific sync + power,886,0.056157783800060215
+Band-specific sync + power,887,0.05766335441132189
+Band-specific sync + power,888,0.062180066245106885
+Band-specific sync + power,889,0.0490063233965673
+Band-specific sync + power,890,0.061803673592291476
+Band-specific sync + power,891,0.09334537789822343
+Band-specific sync + power,892,0.07038542607648299
+Band-specific sync + power,893,0.05013550135501355
+Band-specific sync + power,894,0.09424872026498042
+Band-specific sync + power,895,0.08227943390545016
+Band-specific sync + power,896,0.07136404697380307
+Band-specific sync + power,897,0.06790123456790123
+Band-specific sync + power,898,0.07241794640168625
+Band-specific sync + power,899,0.05269497139415839
+Band-specific sync + power,900,0.06014754591990364
+Band-specific sync + power,901,0.06865401987353209
+Band-specific sync + power,902,0.10644384221619993
+Band-specific sync + power,903,0.08988256549232158
+Band-specific sync + power,904,0.0779885576633544
+Band-specific sync + power,905,0.05179162902740139
+Band-specific sync + power,906,0.05141523637458597
+Band-specific sync + power,907,0.05999698885877748
+Band-specific sync + power,908,0.07429990966576333
+Band-specific sync + power,909,0.056082505269497145
+Band-specific sync + power,910,0.08679614573923516
+Band-specific sync + power,911,0.057964468533574225
+Band-specific sync + power,912,0.07633242999096658
+Band-specific sync + power,913,0.069482083709726
+Band-specific sync + power,914,0.09492622704004818
+Band-specific sync + power,915,0.08483890394459499
+Band-specific sync + power,916,0.08363444745558567
+Band-specific sync + power,917,0.060900331225534475
+Band-specific sync + power,918,0.091162300511894
+Band-specific sync + power,919,0.053824149352604635
+Band-specific sync + power,920,0.03282143932550437
+Band-specific sync + power,921,0.05216802168021681
+Band-specific sync + power,922,0.06519120746763024
+Band-specific sync + power,923,0.07610659439927732
+Band-specific sync + power,924,0.05186690755796447
+Band-specific sync + power,925,0.0566847335140018
+Band-specific sync + power,926,0.05525444143330322
+Band-specific sync + power,927,0.11457392351701293
+Band-specific sync + power,928,0.05404998494429388
+Band-specific sync + power,929,0.08205359831376091
+Band-specific sync + power,930,0.09974405299608552
+Band-specific sync + power,931,0.0798705209274315
+Band-specific sync + power,932,0.06820234869015357
+Band-specific sync + power,933,0.05465221318879856
+Band-specific sync + power,934,0.07309545317675399
+Band-specific sync + power,935,0.0685034628124059
+Band-specific sync + power,936,0.06112616681722373
+Band-specific sync + power,937,0.09695874736525142
+Band-specific sync + power,938,0.08047274917193616
+Band-specific sync + power,939,0.07482685937970492
+Band-specific sync + power,940,0.058641975308641965
+Band-specific sync + power,941,0.04193014152363746
+Band-specific sync + power,942,0.05337247816922613
+Band-specific sync + power,943,0.06368563685636858
+Band-specific sync + power,944,0.04923215898825655
+Band-specific sync + power,945,0.05555555555555555
+Band-specific sync + power,946,0.06255645889792232
+Band-specific sync + power,947,0.09515206263173744
+Band-specific sync + power,948,0.03922011442336646
+Band-specific sync + power,949,0.08679614573923518
+Band-specific sync + power,950,0.05706112616681723
+Band-specific sync + power,951,0.07136404697380308
+Band-specific sync + power,952,0.030638361939174946
+Band-specific sync + power,953,0.059620596205962065
+Band-specific sync + power,954,0.08325805480277025
+Band-specific sync + power,955,0.05420054200542005
+Band-specific sync + power,956,0.08498946100572116
+Band-specific sync + power,957,0.048253538090936465
+Band-specific sync + power,958,0.08130081300813008
+Band-specific sync + power,959,0.06865401987353208
+Band-specific sync + power,960,0.05389942788316772
+Band-specific sync + power,961,0.06097560975609757
+Band-specific sync + power,962,0.035305630834086124
+Band-specific sync + power,963,0.06609454983438723
+Band-specific sync + power,964,0.06451370069256249
+Band-specific sync + power,965,0.050888286660644384
+Band-specific sync + power,966,0.06910569105691056
+Band-specific sync + power,967,0.06639566395663957
+Band-specific sync + power,968,0.05947003914483589
+Band-specific sync + power,969,0.0494579945799458
+Band-specific sync + power,970,0.06827762722071665
+Band-specific sync + power,971,0.06790123456790124
+Band-specific sync + power,972,0.0458446251129178
+Band-specific sync + power,973,0.060222824450466735
+Band-specific sync + power,974,0.05021077988557663
+Band-specific sync + power,975,0.07971996386630531
+Band-specific sync + power,976,0.04283348389039446
+Band-specific sync + power,977,0.06609454983438724
+Band-specific sync + power,978,0.05864197530864198
+Band-specific sync + power,979,0.05834086118638964
+Band-specific sync + power,980,0.04494128274616079
+Band-specific sync + power,981,0.06413730803974706
+Band-specific sync + power,982,0.04238181270701596
+Band-specific sync + power,983,0.045919903643480885
+Band-specific sync + power,984,0.07234266787112315
+Band-specific sync + power,985,0.04591990364348088
+Band-specific sync + power,986,0.05420054200542005
+Band-specific sync + power,987,0.04795242396868413
+Band-specific sync + power,988,0.04878048780487805
+Band-specific sync + power,989,0.07603131586871424
+Band-specific sync + power,990,0.08235471243601326
+Band-specific sync + power,991,0.05834086118638964
+Band-specific sync + power,992,0.10094850948509486
+Band-specific sync + power,993,0.06827762722071665
+Band-specific sync + power,994,0.056082505269497145
+Band-specific sync + power,995,0.06880457693465823
+Band-specific sync + power,996,0.09552845528455284
+Band-specific sync + power,997,0.0802469135802469
+Band-specific sync + power,998,0.039972899728997285
+Band-specific sync + power,999,0.06428786510087324
+Band-specific sync + power,1000,0.06157783800060222
+MTF q=30 edges,1,0.0661698283649503
+MTF q=30 edges,2,0.06526648599819332
+MTF q=30 edges,3,0.06752484191508581
+MTF q=30 edges,4,0.0685034628124059
+MTF q=30 edges,5,0.0581150255947004
+MTF q=30 edges,6,0.055028605841613974
+MTF q=30 edges,7,0.0643631436314363
+MTF q=30 edges,8,0.077612165010539
+MTF q=30 edges,9,0.07588075880758807
+MTF q=30 edges,10,0.07362240289069558
+MTF q=30 edges,11,0.07768744354110207
+MTF q=30 edges,12,0.06308340861186389
+MTF q=30 edges,13,0.06007226738934056
+MTF q=30 edges,14,0.07189099668774465
+MTF q=30 edges,15,0.07708521529659741
+MTF q=30 edges,16,0.07286961758506474
+MTF q=30 edges,17,0.06677205660945498
+MTF q=30 edges,18,0.07061126166817225
+MTF q=30 edges,19,0.06639566395663958
+MTF q=30 edges,20,0.06218006624510689
+MTF q=30 edges,21,0.07339656729900632
+MTF q=30 edges,22,0.062405901836796146
+MTF q=30 edges,23,0.0626317374284854
+MTF q=30 edges,24,0.05788919000301115
+MTF q=30 edges,25,0.07286961758506473
+MTF q=30 edges,26,0.059921710328214396
+MTF q=30 edges,27,0.06127672387834989
+MTF q=30 edges,28,0.06300813008130082
+MTF q=30 edges,29,0.06293285155073775
+MTF q=30 edges,30,0.06029810298102981
+MTF q=30 edges,31,0.0553297199638663
+MTF q=30 edges,32,0.07158988256549231
+MTF q=30 edges,33,0.07467630231857875
+MTF q=30 edges,34,0.07527853056308342
+MTF q=30 edges,35,0.06790123456790124
+MTF q=30 edges,36,0.0653417645287564
+MTF q=30 edges,37,0.07859078590785908
+MTF q=30 edges,38,0.06391147244805781
+MTF q=30 edges,39,0.07693465823547124
+MTF q=30 edges,40,0.07015959048479374
+MTF q=30 edges,41,0.06067449563384523
+MTF q=30 edges,42,0.05645889792231256
+MTF q=30 edges,43,0.0707618187292984
+MTF q=30 edges,44,0.05916892502258356
+MTF q=30 edges,45,0.062481180367359244
+MTF q=30 edges,46,0.05525444143330323
+MTF q=30 edges,47,0.05924420355314665
+MTF q=30 edges,48,0.06526648599819332
+MTF q=30 edges,49,0.0676001204456489
+MTF q=30 edges,50,0.07061126166817225
+MTF q=30 edges,51,0.07384823848238481
+MTF q=30 edges,52,0.06330924420355315
+MTF q=30 edges,53,0.07151460403492924
+MTF q=30 edges,54,0.06315868714242698
+MTF q=30 edges,55,0.05819030412526348
+MTF q=30 edges,56,0.0657934357121349
+MTF q=30 edges,57,0.07648298705209275
+MTF q=30 edges,58,0.07708521529659741
+MTF q=30 edges,59,0.05864197530864198
+MTF q=30 edges,60,0.06601927130382416
+MTF q=30 edges,61,0.06699789220114422
+MTF q=30 edges,62,0.05201746461909063
+MTF q=30 edges,63,0.05909364649202047
+MTF q=30 edges,64,0.06511592893706715
+MTF q=30 edges,65,0.05992171032821439
+MTF q=30 edges,66,0.06782595603733815
+MTF q=30 edges,67,0.06052393857271906
+MTF q=30 edges,68,0.054426377597109304
+MTF q=30 edges,69,0.061502559470039145
+MTF q=30 edges,70,0.06760012044564889
+MTF q=30 edges,71,0.05871725383920506
+MTF q=30 edges,72,0.06308340861186389
+MTF q=30 edges,73,0.06406202950918398
+MTF q=30 edges,74,0.05909364649202047
+MTF q=30 edges,75,0.060448660042155974
+MTF q=30 edges,76,0.0784402288467329
+MTF q=30 edges,77,0.05608250526949713
+MTF q=30 edges,78,0.07234266787112315
+MTF q=30 edges,79,0.08641975308641975
+MTF q=30 edges,80,0.06827762722071666
+MTF q=30 edges,81,0.05721168322794339
+MTF q=30 edges,82,0.06458897922312556
+MTF q=30 edges,83,0.07106293285155074
+MTF q=30 edges,84,0.07828967178560675
+MTF q=30 edges,85,0.0653417645287564
+MTF q=30 edges,86,0.06270701595904848
+MTF q=30 edges,87,0.05277024992472147
+MTF q=30 edges,88,0.06571815718157183
+MTF q=30 edges,89,0.05457693465823547
+MTF q=30 edges,90,0.06481481481481483
+MTF q=30 edges,91,0.06722372779283349
+MTF q=30 edges,92,0.07264378199337548
+MTF q=30 edges,93,0.06413730803974707
+MTF q=30 edges,94,0.0639867509786209
+MTF q=30 edges,95,0.05412526347485697
+MTF q=30 edges,96,0.06398675097862089
+MTF q=30 edges,97,0.06315868714242698
+MTF q=30 edges,98,0.07113821138211382
+MTF q=30 edges,99,0.06835290575127974
+MTF q=30 edges,100,0.0779885576633544
+MTF q=30 edges,101,0.07241794640168625
+MTF q=30 edges,102,0.0775368864799759
+MTF q=30 edges,103,0.07414935260463715
+MTF q=30 edges,104,0.07023486901535683
+MTF q=30 edges,105,0.05186690755796447
+MTF q=30 edges,106,0.061050888286660644
+MTF q=30 edges,107,0.0734718458295694
+MTF q=30 edges,108,0.06609454983438723
+MTF q=30 edges,109,0.06978319783197832
+MTF q=30 edges,110,0.0657934357121349
+MTF q=30 edges,111,0.056308340861186384
+MTF q=30 edges,112,0.06526648599819332
+MTF q=30 edges,113,0.05819030412526348
+MTF q=30 edges,114,0.0662451068955134
+MTF q=30 edges,115,0.06022282445046672
+MTF q=30 edges,116,0.07106293285155074
+MTF q=30 edges,117,0.05758807588075881
+MTF q=30 edges,118,0.06451370069256249
+MTF q=30 edges,119,0.06278229448961156
+MTF q=30 edges,120,0.057964468533574225
+MTF q=30 edges,121,0.059846431797651305
+MTF q=30 edges,122,0.07542908762420958
+MTF q=30 edges,123,0.07189099668774467
+MTF q=30 edges,124,0.05728696175850648
+MTF q=30 edges,125,0.06571815718157181
+MTF q=30 edges,126,0.0512646793134598
+MTF q=30 edges,127,0.05864197530864198
+MTF q=30 edges,128,0.06067449563384523
+MTF q=30 edges,129,0.06504065040650406
+MTF q=30 edges,130,0.0684281842818428
+MTF q=30 edges,131,0.0662451068955134
+MTF q=30 edges,132,0.06677205660945498
+MTF q=30 edges,133,0.06300813008130082
+MTF q=30 edges,134,0.06067449563384522
+MTF q=30 edges,135,0.06647094248720264
+MTF q=30 edges,136,0.06519120746763024
+MTF q=30 edges,137,0.07189099668774464
+MTF q=30 edges,138,0.06677205660945498
+MTF q=30 edges,139,0.07339656729900633
+MTF q=30 edges,140,0.059620596205962065
+MTF q=30 edges,141,0.07046070460704607
+MTF q=30 edges,142,0.06052393857271906
+MTF q=30 edges,143,0.06255645889792232
+MTF q=30 edges,144,0.06436314363143632
+MTF q=30 edges,145,0.07324601023788016
+MTF q=30 edges,146,0.06458897922312556
+MTF q=30 edges,147,0.05773863294188497
+MTF q=30 edges,148,0.06421258657031013
+MTF q=30 edges,149,0.06504065040650406
+MTF q=30 edges,150,0.0526196928635953
+MTF q=30 edges,151,0.06632038542607649
+MTF q=30 edges,152,0.05706112616681723
+MTF q=30 edges,153,0.06812707015959048
+MTF q=30 edges,154,0.05916892502258356
+MTF q=30 edges,155,0.0621047877145438
+MTF q=30 edges,156,0.05751279735019573
+MTF q=30 edges,157,0.06112616681722373
+MTF q=30 edges,158,0.07452574525745258
+MTF q=30 edges,159,0.0757302017464619
+MTF q=30 edges,160,0.05886781090033122
+MTF q=30 edges,161,0.07377295995182173
+MTF q=30 edges,162,0.06632038542607648
+MTF q=30 edges,163,0.07038542607648297
+MTF q=30 edges,164,0.07181571815718157
+MTF q=30 edges,165,0.06157783800060222
+MTF q=30 edges,166,0.061050888286660644
+MTF q=30 edges,167,0.06376091538693164
+MTF q=30 edges,168,0.06812707015959048
+MTF q=30 edges,169,0.0753538090936465
+MTF q=30 edges,170,0.0779885576633544
+MTF q=30 edges,171,0.05924420355314665
+MTF q=30 edges,172,0.07738632941884975
+MTF q=30 edges,173,0.06368563685636856
+MTF q=30 edges,174,0.05495332731105088
+MTF q=30 edges,175,0.06677205660945498
+MTF q=30 edges,176,0.07249322493224931
+MTF q=30 edges,177,0.06835290575127974
+MTF q=30 edges,178,0.05826558265582656
+MTF q=30 edges,179,0.052770249924721464
+MTF q=30 edges,180,0.06564287865100873
+MTF q=30 edges,181,0.062405901836796146
+MTF q=30 edges,182,0.0566847335140018
+MTF q=30 edges,183,0.07196627521830773
+MTF q=30 edges,184,0.05992171032821439
+MTF q=30 edges,185,0.06639566395663957
+MTF q=30 edges,186,0.046597410418548625
+MTF q=30 edges,187,0.055179162902740136
+MTF q=30 edges,188,0.06933152664859982
+MTF q=30 edges,189,0.06948208370972599
+MTF q=30 edges,190,0.06519120746763023
+MTF q=30 edges,191,0.06300813008130081
+MTF q=30 edges,192,0.06330924420355316
+MTF q=30 edges,193,0.07422463113520023
+MTF q=30 edges,194,0.060523938572719066
+MTF q=30 edges,195,0.0634598012646793
+MTF q=30 edges,196,0.058190304125263465
+MTF q=30 edges,197,0.0662451068955134
+MTF q=30 edges,198,0.06496537187594098
+MTF q=30 edges,199,0.0685034628124059
+MTF q=30 edges,200,0.06692261367058115
+MTF q=30 edges,201,0.06940680517916291
+MTF q=30 edges,202,0.06112616681722373
+MTF q=30 edges,203,0.06059921710328214
+MTF q=30 edges,204,0.060900331225534475
+MTF q=30 edges,205,0.0499096657633243
+MTF q=30 edges,206,0.06165311653116531
+MTF q=30 edges,207,0.075805480277025
+MTF q=30 edges,208,0.06835290575127974
+MTF q=30 edges,209,0.0626317374284854
+MTF q=30 edges,210,0.05781391147244805
+MTF q=30 edges,211,0.081225534477567
+MTF q=30 edges,212,0.07527853056308341
+MTF q=30 edges,213,0.06293285155073773
+MTF q=30 edges,214,0.06022282445046672
+MTF q=30 edges,215,0.06910569105691057
+MTF q=30 edges,216,0.07015959048479374
+MTF q=30 edges,217,0.0712134899126769
+MTF q=30 edges,218,0.06225534477566999
+MTF q=30 edges,219,0.06255645889792232
+MTF q=30 edges,220,0.06511592893706715
+MTF q=30 edges,221,0.06338452273411624
+MTF q=30 edges,222,0.06067449563384523
+MTF q=30 edges,223,0.06985847636254142
+MTF q=30 edges,224,0.052996085516410725
+MTF q=30 edges,225,0.06872929840409515
+MTF q=30 edges,226,0.06248118036735923
+MTF q=30 edges,227,0.06428786510087324
+MTF q=30 edges,228,0.06970791930141523
+MTF q=30 edges,229,0.061577838000602236
+MTF q=30 edges,230,0.059244203553146635
+MTF q=30 edges,231,0.05834086118638964
+MTF q=30 edges,232,0.060448660042155974
+MTF q=30 edges,233,0.059846431797651305
+MTF q=30 edges,234,0.07158988256549233
+MTF q=30 edges,235,0.08182776272207165
+MTF q=30 edges,236,0.0689551339957844
+MTF q=30 edges,237,0.06187895212285456
+MTF q=30 edges,238,0.061803673592291476
+MTF q=30 edges,239,0.07934357121348991
+MTF q=30 edges,240,0.06857874134296899
+MTF q=30 edges,241,0.07053598313760917
+MTF q=30 edges,242,0.07309545317675399
+MTF q=30 edges,243,0.06722372779283348
+MTF q=30 edges,244,0.0653417645287564
+MTF q=30 edges,245,0.08122553447756699
+MTF q=30 edges,246,0.05909364649202047
+MTF q=30 edges,247,0.060298102981029805
+MTF q=30 edges,248,0.05728696175850648
+MTF q=30 edges,249,0.05879253236976814
+MTF q=30 edges,250,0.06481481481481481
+MTF q=30 edges,251,0.06293285155073775
+MTF q=30 edges,252,0.06775067750677506
+MTF q=30 edges,253,0.0834838903944595
+MTF q=30 edges,254,0.0689551339957844
+MTF q=30 edges,255,0.05758807588075881
+MTF q=30 edges,256,0.06654622101776572
+MTF q=30 edges,257,0.06067449563384523
+MTF q=30 edges,258,0.06556760012044566
+MTF q=30 edges,259,0.056308340861186384
+MTF q=30 edges,260,0.07422463113520024
+MTF q=30 edges,261,0.05623306233062331
+MTF q=30 edges,262,0.062180066245106885
+MTF q=30 edges,263,0.06112616681722373
+MTF q=30 edges,264,0.07053598313760914
+MTF q=30 edges,265,0.05788919000301115
+MTF q=30 edges,266,0.06504065040650407
+MTF q=30 edges,267,0.059018367961457395
+MTF q=30 edges,268,0.06481481481481483
+MTF q=30 edges,269,0.06775067750677508
+MTF q=30 edges,270,0.05879253236976815
+MTF q=30 edges,271,0.07731105088828666
+MTF q=30 edges,272,0.06278229448961155
+MTF q=30 edges,273,0.06519120746763024
+MTF q=30 edges,274,0.06135200240891298
+MTF q=30 edges,275,0.06489009334537789
+MTF q=30 edges,276,0.06752484191508583
+MTF q=30 edges,277,0.06609454983438724
+MTF q=30 edges,278,0.07595603733815115
+MTF q=30 edges,279,0.059620596205962065
+MTF q=30 edges,280,0.07640770852152966
+MTF q=30 edges,281,0.060825052694971404
+MTF q=30 edges,282,0.088452273411623
+MTF q=30 edges,283,0.05969587473652514
+MTF q=30 edges,284,0.061502559470039145
+MTF q=30 edges,285,0.061502559470039145
+MTF q=30 edges,286,0.05834086118638964
+MTF q=30 edges,287,0.06428786510087323
+MTF q=30 edges,288,0.06504065040650406
+MTF q=30 edges,289,0.05420054200542005
+MTF q=30 edges,290,0.06654622101776574
+MTF q=30 edges,291,0.06504065040650406
+MTF q=30 edges,292,0.06315868714242698
+MTF q=30 edges,293,0.0612767238783499
+MTF q=30 edges,294,0.06857874134296899
+MTF q=30 edges,295,0.06285757302017464
+MTF q=30 edges,296,0.06925624811803673
+MTF q=30 edges,297,0.06616982836495032
+MTF q=30 edges,298,0.07189099668774465
+MTF q=30 edges,299,0.07091237579042457
+MTF q=30 edges,300,0.06466425775368864
+MTF q=30 edges,301,0.06504065040650407
+MTF q=30 edges,302,0.06059921710328214
+MTF q=30 edges,303,0.06345980126467932
+MTF q=30 edges,304,0.06443842216199941
+MTF q=30 edges,305,0.06428786510087324
+MTF q=30 edges,306,0.061878952122854575
+MTF q=30 edges,307,0.05465221318879856
+MTF q=30 edges,308,0.07512797350195727
+MTF q=30 edges,309,0.06323396567299006
+MTF q=30 edges,310,0.059846431797651305
+MTF q=30 edges,311,0.07588075880758807
+MTF q=30 edges,312,0.05359831376091539
+MTF q=30 edges,313,0.06270701595904848
+MTF q=30 edges,314,0.06910569105691057
+MTF q=30 edges,315,0.05277024992472147
+MTF q=30 edges,316,0.06383619391749475
+MTF q=30 edges,317,0.06406202950918398
+MTF q=30 edges,318,0.0661698283649503
+MTF q=30 edges,319,0.057061126166817216
+MTF q=30 edges,320,0.06903041252634749
+MTF q=30 edges,321,0.06948208370972599
+MTF q=30 edges,322,0.05743751881963263
+MTF q=30 edges,323,0.059168925022583564
+MTF q=30 edges,324,0.060900331225534475
+MTF q=30 edges,325,0.06481481481481483
+MTF q=30 edges,326,0.06059921710328214
+MTF q=30 edges,327,0.05969587473652514
+MTF q=30 edges,328,0.05788919000301115
+MTF q=30 edges,329,0.06443842216199941
+MTF q=30 edges,330,0.074902137910268
+MTF q=30 edges,331,0.05495332731105088
+MTF q=30 edges,332,0.06285757302017465
+MTF q=30 edges,333,0.057738632941884985
+MTF q=30 edges,334,0.06443842216199941
+MTF q=30 edges,335,0.0716651610960554
+MTF q=30 edges,336,0.06865401987353208
+MTF q=30 edges,337,0.06722372779283348
+MTF q=30 edges,338,0.05555555555555555
+MTF q=30 edges,339,0.05834086118638964
+MTF q=30 edges,340,0.07189099668774465
+MTF q=30 edges,341,0.062405901836796146
+MTF q=30 edges,342,0.06135200240891298
+MTF q=30 edges,343,0.06067449563384523
+MTF q=30 edges,344,0.07023486901535682
+MTF q=30 edges,345,0.06165311653116531
+MTF q=30 edges,346,0.05096356519120747
+MTF q=30 edges,347,0.0698584763625414
+MTF q=30 edges,348,0.05728696175850648
+MTF q=30 edges,349,0.06812707015959049
+MTF q=30 edges,350,0.0617283950617284
+MTF q=30 edges,351,0.06293285155073772
+MTF q=30 edges,352,0.06812707015959048
+MTF q=30 edges,353,0.06323396567299006
+MTF q=30 edges,354,0.06330924420355316
+MTF q=30 edges,355,0.0698584763625414
+MTF q=30 edges,356,0.055329719963866306
+MTF q=30 edges,357,0.052393857271906055
+MTF q=30 edges,358,0.06112616681722373
+MTF q=30 edges,359,0.06752484191508581
+MTF q=30 edges,360,0.05525444143330322
+MTF q=30 edges,361,0.0725685034628124
+MTF q=30 edges,362,0.0648900933453779
+MTF q=30 edges,363,0.05826558265582656
+MTF q=30 edges,364,0.06225534477566998
+MTF q=30 edges,365,0.06669677807889189
+MTF q=30 edges,366,0.05962059620596205
+MTF q=30 edges,367,0.06376091538693164
+MTF q=30 edges,368,0.06519120746763023
+MTF q=30 edges,369,0.0734718458295694
+MTF q=30 edges,370,0.05788919000301115
+MTF q=30 edges,371,0.06082505269497139
+MTF q=30 edges,372,0.08092442035531465
+MTF q=30 edges,373,0.06504065040650407
+MTF q=30 edges,374,0.05209274314965372
+MTF q=30 edges,375,0.06097560975609757
+MTF q=30 edges,376,0.07038542607648297
+MTF q=30 edges,377,0.0712134899126769
+MTF q=30 edges,378,0.07083709725986148
+MTF q=30 edges,379,0.06729900632339657
+MTF q=30 edges,380,0.06112616681722373
+MTF q=30 edges,381,0.07497741644083107
+MTF q=30 edges,382,0.061201445347786806
+MTF q=30 edges,383,0.06330924420355316
+MTF q=30 edges,384,0.053221921108099965
+MTF q=30 edges,385,0.06541704305931947
+MTF q=30 edges,386,0.06338452273411624
+MTF q=30 edges,387,0.05600722673893405
+MTF q=30 edges,388,0.06421258657031015
+MTF q=30 edges,389,0.05600722673893405
+MTF q=30 edges,390,0.06413730803974708
+MTF q=30 edges,391,0.06466425775368864
+MTF q=30 edges,392,0.06594399277326107
+MTF q=30 edges,393,0.06910569105691058
+MTF q=30 edges,394,0.06722372779283348
+MTF q=30 edges,395,0.06007226738934056
+MTF q=30 edges,396,0.06067449563384522
+MTF q=30 edges,397,0.06097560975609757
+MTF q=30 edges,398,0.06315868714242698
+MTF q=30 edges,399,0.06872929840409515
+MTF q=30 edges,400,0.06135200240891298
+MTF q=30 edges,401,0.06534176452875641
+MTF q=30 edges,402,0.06526648599819332
+MTF q=30 edges,403,0.06135200240891298
+MTF q=30 edges,404,0.07128876844323999
+MTF q=30 edges,405,0.06473953628425173
+MTF q=30 edges,406,0.06797651309846431
+MTF q=30 edges,407,0.06978319783197832
+MTF q=30 edges,408,0.05781391147244805
+MTF q=30 edges,409,0.06338452273411624
+MTF q=30 edges,410,0.06481481481481483
+MTF q=30 edges,411,0.06270701595904847
+MTF q=30 edges,412,0.0612767238783499
+MTF q=30 edges,413,0.06218006624510689
+MTF q=30 edges,414,0.06398675097862089
+MTF q=30 edges,415,0.06323396567299006
+MTF q=30 edges,416,0.07143932550436614
+MTF q=30 edges,417,0.06767539897621198
+MTF q=30 edges,418,0.0635350797952424
+MTF q=30 edges,419,0.0770852152965974
+MTF q=30 edges,420,0.06729900632339657
+MTF q=30 edges,421,0.079418849744053
+MTF q=30 edges,422,0.06872929840409515
+MTF q=30 edges,423,0.06511592893706715
+MTF q=30 edges,424,0.07053598313760916
+MTF q=30 edges,425,0.06473953628425172
+MTF q=30 edges,426,0.05721168322794339
+MTF q=30 edges,427,0.0717404396266185
+MTF q=30 edges,428,0.06391147244805781
+MTF q=30 edges,429,0.06263173742848539
+MTF q=30 edges,430,0.06029810298102981
+MTF q=30 edges,431,0.06692261367058114
+MTF q=30 edges,432,0.06300813008130082
+MTF q=30 edges,433,0.06202950918398073
+MTF q=30 edges,434,0.07618187292984041
+MTF q=30 edges,435,0.07693465823547124
+MTF q=30 edges,436,0.06127672387834989
+MTF q=30 edges,437,0.05924420355314665
+MTF q=30 edges,438,0.064062029509184
+MTF q=30 edges,439,0.06775067750677506
+MTF q=30 edges,440,0.05585666967780789
+MTF q=30 edges,441,0.05947003914483589
+MTF q=30 edges,442,0.07392351701294791
+MTF q=30 edges,443,0.06383619391749473
+MTF q=30 edges,444,0.06398675097862089
+MTF q=30 edges,445,0.06270701595904847
+MTF q=30 edges,446,0.06857874134296899
+MTF q=30 edges,447,0.06594399277326107
+MTF q=30 edges,448,0.06300813008130082
+MTF q=30 edges,449,0.06729900632339655
+MTF q=30 edges,450,0.0703101475459199
+MTF q=30 edges,451,0.06714844926227041
+MTF q=30 edges,452,0.05977115326708823
+MTF q=30 edges,453,0.06918096958747365
+MTF q=30 edges,454,0.0730201746461909
+MTF q=30 edges,455,0.06225534477566998
+MTF q=30 edges,456,0.06225534477566998
+MTF q=30 edges,457,0.06827762722071665
+MTF q=30 edges,458,0.07151460403492924
+MTF q=30 edges,459,0.06586871424269797
+MTF q=30 edges,460,0.06903041252634749
+MTF q=30 edges,461,0.06330924420355315
+MTF q=30 edges,462,0.06202950918398072
+MTF q=30 edges,463,0.06835290575127974
+MTF q=30 edges,464,0.062330623306233054
+MTF q=30 edges,465,0.0626317374284854
+MTF q=30 edges,466,0.05849141824751582
+MTF q=30 edges,467,0.06368563685636856
+MTF q=30 edges,468,0.07475158084914182
+MTF q=30 edges,469,0.06157783800060222
+MTF q=30 edges,470,0.0671484492622704
+MTF q=30 edges,471,0.06293285155073773
+MTF q=30 edges,472,0.059620596205962065
+MTF q=30 edges,473,0.0699337548931045
+MTF q=30 edges,474,0.05593194820837097
+MTF q=30 edges,475,0.05894308943089431
+MTF q=30 edges,476,0.064965371875941
+MTF q=30 edges,477,0.0657934357121349
+MTF q=30 edges,478,0.06007226738934056
+MTF q=30 edges,479,0.06978319783197831
+MTF q=30 edges,480,0.0584914182475158
+MTF q=30 edges,481,0.08333333333333333
+MTF q=30 edges,482,0.06489009334537789
+MTF q=30 edges,483,0.06918096958747365
+MTF q=30 edges,484,0.06910569105691056
+MTF q=30 edges,485,0.06782595603733815
+MTF q=30 edges,486,0.06323396567299006
+MTF q=30 edges,487,0.061050888286660644
+MTF q=30 edges,488,0.07460102378801564
+MTF q=30 edges,489,0.06278229448961156
+MTF q=30 edges,490,0.054727491719361636
+MTF q=30 edges,491,0.06398675097862089
+MTF q=30 edges,492,0.05698584763625414
+MTF q=30 edges,493,0.07302017464619091
+MTF q=30 edges,494,0.07497741644083109
+MTF q=30 edges,495,0.06511592893706714
+MTF q=30 edges,496,0.06556760012044566
+MTF q=30 edges,497,0.06684733514001806
+MTF q=30 edges,498,0.0617283950617284
+MTF q=30 edges,499,0.06978319783197831
+MTF q=30 edges,500,0.059244203553146635
+MTF q=30 edges,501,0.0689551339957844
+MTF q=30 edges,502,0.07926829268292683
+MTF q=30 edges,503,0.06616982836495032
+MTF q=30 edges,504,0.06293285155073775
+MTF q=30 edges,505,0.05698584763625414
+MTF q=30 edges,506,0.06993375489310448
+MTF q=30 edges,507,0.06744956338452274
+MTF q=30 edges,508,0.06827762722071665
+MTF q=30 edges,509,0.06744956338452274
+MTF q=30 edges,510,0.07317073170731707
+MTF q=30 edges,511,0.08408611863896416
+MTF q=30 edges,512,0.06022282445046672
+MTF q=30 edges,513,0.0707618187292984
+MTF q=30 edges,514,0.05947003914483589
+MTF q=30 edges,515,0.07610659439927732
+MTF q=30 edges,516,0.05728696175850648
+MTF q=30 edges,517,0.05728696175850648
+MTF q=30 edges,518,0.06880457693465825
+MTF q=30 edges,519,0.05916892502258356
+MTF q=30 edges,520,0.059921710328214396
+MTF q=30 edges,521,0.055706112616681715
+MTF q=30 edges,522,0.07264378199337547
+MTF q=30 edges,523,0.07859078590785909
+MTF q=30 edges,524,0.07497741644083106
+MTF q=30 edges,525,0.06872929840409515
+MTF q=30 edges,526,0.06361035832580547
+MTF q=30 edges,527,0.06933152664859982
+MTF q=30 edges,528,0.0698584763625414
+MTF q=30 edges,529,0.0567600120445649
+MTF q=30 edges,530,0.06632038542607649
+MTF q=30 edges,531,0.06865401987353208
+MTF q=30 edges,532,0.07429990966576332
+MTF q=30 edges,533,0.062104787714543815
+MTF q=30 edges,534,0.0576633544113219
+MTF q=30 edges,535,0.06330924420355315
+MTF q=30 edges,536,0.057437518819632646
+MTF q=30 edges,537,0.06458897922312556
+MTF q=30 edges,538,0.06240590183679614
+MTF q=30 edges,539,0.06519120746763024
+MTF q=30 edges,540,0.06639566395663955
+MTF q=30 edges,541,0.0725685034628124
+MTF q=30 edges,542,0.05773863294188497
+MTF q=30 edges,543,0.0789671785606745
+MTF q=30 edges,544,0.05088828666064439
+MTF q=30 edges,545,0.05615778380006023
+MTF q=30 edges,546,0.06541704305931947
+MTF q=30 edges,547,0.07000903342366757
+MTF q=30 edges,548,0.05623306233062331
+MTF q=30 edges,549,0.06767539897621198
+MTF q=30 edges,550,0.05758807588075881
+MTF q=30 edges,551,0.08536585365853659
+MTF q=30 edges,552,0.07083709725986148
+MTF q=30 edges,553,0.06157783800060222
+MTF q=30 edges,554,0.0617283950617284
+MTF q=30 edges,555,0.06549232158988255
+MTF q=30 edges,556,0.05909364649202047
+MTF q=30 edges,557,0.06218006624510689
+MTF q=30 edges,558,0.07497741644083106
+MTF q=30 edges,559,0.06187895212285456
+MTF q=30 edges,560,0.06014754591990365
+MTF q=30 edges,561,0.06029810298102981
+MTF q=30 edges,562,0.06940680517916291
+MTF q=30 edges,563,0.07768744354110207
+MTF q=30 edges,564,0.05909364649202047
+MTF q=30 edges,565,0.054727491719361636
+MTF q=30 edges,566,0.056534176452875645
+MTF q=30 edges,567,0.06361035832580549
+MTF q=30 edges,568,0.06790123456790124
+MTF q=30 edges,569,0.06511592893706714
+MTF q=30 edges,570,0.057061126166817216
+MTF q=30 edges,571,0.06398675097862089
+MTF q=30 edges,572,0.06579343571213489
+MTF q=30 edges,573,0.07015959048479373
+MTF q=30 edges,574,0.06820234869015357
+MTF q=30 edges,575,0.06391147244805781
+MTF q=30 edges,576,0.07015959048479374
+MTF q=30 edges,577,0.06782595603733815
+MTF q=30 edges,578,0.06398675097862089
+MTF q=30 edges,579,0.05299608551641072
+MTF q=30 edges,580,0.06692261367058115
+MTF q=30 edges,581,0.06519120746763024
+MTF q=30 edges,582,0.06684733514001806
+MTF q=30 edges,583,0.06684733514001807
+MTF q=30 edges,584,0.06029810298102981
+MTF q=30 edges,585,0.06376091538693165
+MTF q=30 edges,586,0.06338452273411622
+MTF q=30 edges,587,0.06082505269497139
+MTF q=30 edges,588,0.07904245709123757
+MTF q=30 edges,589,0.06165311653116529
+MTF q=30 edges,590,0.05977115326708823
+MTF q=30 edges,591,0.05916892502258356
+MTF q=30 edges,592,0.06127672387834989
+MTF q=30 edges,593,0.06519120746763024
+MTF q=30 edges,594,0.06842818428184282
+MTF q=30 edges,595,0.05412526347485697
+MTF q=30 edges,596,0.062104787714543815
+MTF q=30 edges,597,0.07098765432098765
+MTF q=30 edges,598,0.05623306233062331
+MTF q=30 edges,599,0.06647094248720266
+MTF q=30 edges,600,0.07384823848238482
+MTF q=30 edges,601,0.05954531767539898
+MTF q=30 edges,602,0.06925624811803674
+MTF q=30 edges,603,0.06647094248720266
+MTF q=30 edges,604,0.06421258657031013
+MTF q=30 edges,605,0.0671484492622704
+MTF q=30 edges,606,0.061201445347786806
+MTF q=30 edges,607,0.05412526347485697
+MTF q=30 edges,608,0.07219211080999699
+MTF q=30 edges,609,0.06067449563384523
+MTF q=30 edges,610,0.0662451068955134
+MTF q=30 edges,611,0.06632038542607649
+MTF q=30 edges,612,0.06225534477566998
+MTF q=30 edges,613,0.06074977416440831
+MTF q=30 edges,614,0.059846431797651305
+MTF q=30 edges,615,0.06451370069256249
+MTF q=30 edges,616,0.06654622101776574
+MTF q=30 edges,617,0.058566696778078894
+MTF q=30 edges,618,0.056308340861186384
+MTF q=30 edges,619,0.07603131586871423
+MTF q=30 edges,620,0.06903041252634749
+MTF q=30 edges,621,0.06601927130382415
+MTF q=30 edges,622,0.06127672387834989
+MTF q=30 edges,623,0.06662149954832881
+MTF q=30 edges,624,0.07753688647997589
+MTF q=30 edges,625,0.05126467931345981
+MTF q=30 edges,626,0.06692261367058115
+MTF q=30 edges,627,0.07136404697380308
+MTF q=30 edges,628,0.059319482083709726
+MTF q=30 edges,629,0.05969587473652514
+MTF q=30 edges,630,0.06632038542607649
+MTF q=30 edges,631,0.07083709725986148
+MTF q=30 edges,632,0.0617283950617284
+MTF q=30 edges,633,0.06285757302017464
+MTF q=30 edges,634,0.07158988256549231
+MTF q=30 edges,635,0.0730201746461909
+MTF q=30 edges,636,0.0603733815115929
+MTF q=30 edges,637,0.06225534477566999
+MTF q=30 edges,638,0.0644384221619994
+MTF q=30 edges,639,0.06963264077085214
+MTF q=30 edges,640,0.0666214995483288
+MTF q=30 edges,641,0.06202950918398072
+MTF q=30 edges,642,0.0653417645287564
+MTF q=30 edges,643,0.05728696175850648
+MTF q=30 edges,644,0.07535380909364649
+MTF q=30 edges,645,0.06993375489310448
+MTF q=30 edges,646,0.05728696175850648
+MTF q=30 edges,647,0.06481481481481481
+MTF q=30 edges,648,0.05322192110809997
+MTF q=30 edges,649,0.059846431797651305
+MTF q=30 edges,650,0.06067449563384523
+MTF q=30 edges,651,0.06744956338452274
+MTF q=30 edges,652,0.06880457693465823
+MTF q=30 edges,653,0.056684733514001814
+MTF q=30 edges,654,0.0666967780788919
+MTF q=30 edges,655,0.04757603131586871
+MTF q=30 edges,656,0.06361035832580549
+MTF q=30 edges,657,0.0635350797952424
+MTF q=30 edges,658,0.06361035832580547
+MTF q=30 edges,659,0.05751279735019573
+MTF q=30 edges,660,0.0717404396266185
+MTF q=30 edges,661,0.05766335441132189
+MTF q=30 edges,662,0.06556760012044566
+MTF q=30 edges,663,0.07219211080999699
+MTF q=30 edges,664,0.07113821138211382
+MTF q=30 edges,665,0.06880457693465823
+MTF q=30 edges,666,0.06955736224028908
+MTF q=30 edges,667,0.06669677807889189
+MTF q=30 edges,668,0.07083709725986148
+MTF q=30 edges,669,0.07053598313760917
+MTF q=30 edges,670,0.0684281842818428
+MTF q=30 edges,671,0.0712134899126769
+MTF q=30 edges,672,0.06323396567299006
+MTF q=30 edges,673,0.06263173742848539
+MTF q=30 edges,674,0.06300813008130082
+MTF q=30 edges,675,0.06579343571213489
+MTF q=30 edges,676,0.07143932550436616
+MTF q=30 edges,677,0.06443842216199941
+MTF q=30 edges,678,0.0584914182475158
+MTF q=30 edges,679,0.061050888286660644
+MTF q=30 edges,680,0.06842818428184282
+MTF q=30 edges,681,0.06029810298102981
+MTF q=30 edges,682,0.06315868714242698
+MTF q=30 edges,683,0.059018367961457395
+MTF q=30 edges,684,0.0634598012646793
+MTF q=30 edges,685,0.06368563685636856
+MTF q=30 edges,686,0.06225534477566998
+MTF q=30 edges,687,0.06601927130382415
+MTF q=30 edges,688,0.06248118036735923
+MTF q=30 edges,689,0.06345980126467932
+MTF q=30 edges,690,0.052318578741342964
+MTF q=30 edges,691,0.06421258657031015
+MTF q=30 edges,692,0.07414935260463716
+MTF q=30 edges,693,0.05156579343571214
+MTF q=30 edges,694,0.0689551339957844
+MTF q=30 edges,695,0.06820234869015357
+MTF q=30 edges,696,0.06564287865100873
+MTF q=30 edges,697,0.08408611863896416
+MTF q=30 edges,698,0.07158988256549231
+MTF q=30 edges,699,0.057061126166817216
+MTF q=30 edges,700,0.07347184582956941
+MTF q=30 edges,701,0.05969587473652514
+MTF q=30 edges,702,0.05999698885877748
+MTF q=30 edges,703,0.06865401987353206
+MTF q=30 edges,704,0.06233062330623307
+MTF q=30 edges,705,0.05292080698584764
+MTF q=30 edges,706,0.07083709725986148
+MTF q=30 edges,707,0.0607497741644083
+MTF q=30 edges,708,0.07000903342366757
+MTF q=30 edges,709,0.06496537187594097
+MTF q=30 edges,710,0.06165311653116531
+MTF q=30 edges,711,0.06729900632339657
+MTF q=30 edges,712,0.05284552845528455
+MTF q=30 edges,713,0.06549232158988257
+MTF q=30 edges,714,0.06744956338452274
+MTF q=30 edges,715,0.06097560975609757
+MTF q=30 edges,716,0.062405901836796146
+MTF q=30 edges,717,0.0730201746461909
+MTF q=30 edges,718,0.05721168322794339
+MTF q=30 edges,719,0.07249322493224933
+MTF q=30 edges,720,0.0634598012646793
+MTF q=30 edges,721,0.08099969888587774
+MTF q=30 edges,722,0.055179162902740136
+MTF q=30 edges,723,0.06270701595904847
+MTF q=30 edges,724,0.05879253236976814
+MTF q=30 edges,725,0.07023486901535682
+MTF q=30 edges,726,0.04847937368262572
+MTF q=30 edges,727,0.07143932550436614
+MTF q=30 edges,728,0.059319482083709726
+MTF q=30 edges,729,0.05894308943089431
+MTF q=30 edges,730,0.06963264077085216
+MTF q=30 edges,731,0.05608250526949713
+MTF q=30 edges,732,0.06737428485395965
+MTF q=30 edges,733,0.07241794640168624
+MTF q=30 edges,734,0.06647094248720264
+MTF q=30 edges,735,0.06511592893706714
+MTF q=30 edges,736,0.06398675097862089
+MTF q=30 edges,737,0.07015959048479374
+MTF q=30 edges,738,0.061653116531165314
+MTF q=30 edges,739,0.06007226738934056
+MTF q=30 edges,740,0.058416139716952725
+MTF q=30 edges,741,0.07332128876844324
+MTF q=30 edges,742,0.06850346281240591
+MTF q=30 edges,743,0.07226738934056007
+MTF q=30 edges,744,0.0612767238783499
+MTF q=30 edges,745,0.07143932550436616
+MTF q=30 edges,746,0.07527853056308341
+MTF q=30 edges,747,0.0784402288467329
+MTF q=30 edges,748,0.06376091538693165
+MTF q=30 edges,749,0.054727491719361636
+MTF q=30 edges,750,0.06647094248720264
+MTF q=30 edges,751,0.05638361939174947
+MTF q=30 edges,752,0.06511592893706715
+MTF q=30 edges,753,0.06632038542607649
+MTF q=30 edges,754,0.06519120746763023
+MTF q=30 edges,755,0.0689551339957844
+MTF q=30 edges,756,0.06654622101776574
+MTF q=30 edges,757,0.06270701595904848
+MTF q=30 edges,758,0.06421258657031015
+MTF q=30 edges,759,0.06323396567299006
+MTF q=30 edges,760,0.055480277024992475
+MTF q=30 edges,761,0.0603733815115929
+MTF q=30 edges,762,0.060298102981029805
+MTF q=30 edges,763,0.0743751881963264
+MTF q=30 edges,764,0.05736224028906957
+MTF q=30 edges,765,0.06067449563384523
+MTF q=30 edges,766,0.07038542607648297
+MTF q=30 edges,767,0.06323396567299006
+MTF q=30 edges,768,0.06842818428184282
+MTF q=30 edges,769,0.06662149954832881
+MTF q=30 edges,770,0.07384823848238482
+MTF q=30 edges,771,0.05826558265582656
+MTF q=30 edges,772,0.05563083408611864
+MTF q=30 edges,773,0.06142728093947606
+MTF q=30 edges,774,0.060448660042155974
+MTF q=30 edges,775,0.0689551339957844
+MTF q=30 edges,776,0.05495332731105088
+MTF q=30 edges,777,0.06059921710328215
+MTF q=30 edges,778,0.07136404697380307
+MTF q=30 edges,779,0.061577838000602236
+MTF q=30 edges,780,0.06933152664859982
+MTF q=30 edges,781,0.0603733815115929
+MTF q=30 edges,782,0.05894308943089431
+MTF q=30 edges,783,0.06564287865100872
+MTF q=30 edges,784,0.058340861186389655
+MTF q=30 edges,785,0.06285757302017464
+MTF q=30 edges,786,0.07347184582956941
+MTF q=30 edges,787,0.06684733514001806
+MTF q=30 edges,788,0.06609454983438723
+MTF q=30 edges,789,0.06752484191508581
+MTF q=30 edges,790,0.06165311653116531
+MTF q=30 edges,791,0.05788919000301115
+MTF q=30 edges,792,0.0643631436314363
+MTF q=30 edges,793,0.06082505269497139
+MTF q=30 edges,794,0.05593194820837097
+MTF q=30 edges,795,0.06594399277326106
+MTF q=30 edges,796,0.06248118036735923
+MTF q=30 edges,797,0.08242999096657633
+MTF q=30 edges,798,0.07106293285155073
+MTF q=30 edges,799,0.06504065040650406
+MTF q=30 edges,800,0.05645889792231256
+MTF q=30 edges,801,0.08002107798855766
+MTF q=30 edges,802,0.06067449563384523
+MTF q=30 edges,803,0.07309545317675398
+MTF q=30 edges,804,0.06684733514001806
+MTF q=30 edges,805,0.06632038542607649
+MTF q=30 edges,806,0.07595603733815115
+MTF q=30 edges,807,0.06744956338452274
+MTF q=30 edges,808,0.07076181872929839
+MTF q=30 edges,809,0.07919301415236374
+MTF q=30 edges,810,0.06090033122553448
+MTF q=30 edges,811,0.062330623306233054
+MTF q=30 edges,812,0.05638361939174947
+MTF q=30 edges,813,0.0643631436314363
+MTF q=30 edges,814,0.06022282445046672
+MTF q=30 edges,815,0.07226738934056007
+MTF q=30 edges,816,0.06556760012044566
+MTF q=30 edges,817,0.06820234869015357
+MTF q=30 edges,818,0.0666967780788919
+MTF q=30 edges,819,0.06880457693465823
+MTF q=30 edges,820,0.06857874134296899
+MTF q=30 edges,821,0.06632038542607649
+MTF q=30 edges,822,0.0617283950617284
+MTF q=30 edges,823,0.0689551339957844
+MTF q=30 edges,824,0.07256850346281239
+MTF q=30 edges,825,0.05781391147244806
+MTF q=30 edges,826,0.05374887082204156
+MTF q=30 edges,827,0.06850346281240591
+MTF q=30 edges,828,0.0685034628124059
+MTF q=30 edges,829,0.06218006624510689
+MTF q=30 edges,830,0.05593194820837097
+MTF q=30 edges,831,0.07068654019873533
+MTF q=30 edges,832,0.06933152664859982
+MTF q=30 edges,833,0.05691056910569106
+MTF q=30 edges,834,0.05954531767539898
+MTF q=30 edges,835,0.05834086118638964
+MTF q=30 edges,836,0.06519120746763023
+MTF q=30 edges,837,0.055179162902740136
+MTF q=30 edges,838,0.05977115326708823
+MTF q=30 edges,839,0.06504065040650404
+MTF q=30 edges,840,0.05645889792231256
+MTF q=30 edges,841,0.06790123456790124
+MTF q=30 edges,842,0.0680517916290274
+MTF q=30 edges,843,0.06654622101776574
+MTF q=30 edges,844,0.0666967780788919
+MTF q=30 edges,845,0.06202950918398073
+MTF q=30 edges,846,0.06413730803974706
+MTF q=30 edges,847,0.06541704305931947
+MTF q=30 edges,848,0.06112616681722373
+MTF q=30 edges,849,0.07475158084914184
+MTF q=30 edges,850,0.06157783800060222
+MTF q=30 edges,851,0.06496537187594098
+MTF q=30 edges,852,0.06812707015959048
+MTF q=30 edges,853,0.07399879554351099
+MTF q=30 edges,854,0.06029810298102981
+MTF q=30 edges,855,0.06519120746763024
+MTF q=30 edges,856,0.07678410117434506
+MTF q=30 edges,857,0.06729900632339655
+MTF q=30 edges,858,0.06413730803974707
+MTF q=30 edges,859,0.05894308943089431
+MTF q=30 edges,860,0.06586871424269797
+MTF q=30 edges,861,0.07527853056308341
+MTF q=30 edges,862,0.06910569105691056
+MTF q=30 edges,863,0.05871725383920506
+MTF q=30 edges,864,0.06428786510087323
+MTF q=30 edges,865,0.06865401987353208
+MTF q=30 edges,866,0.08280638361939174
+MTF q=30 edges,867,0.06827762722071666
+MTF q=30 edges,868,0.07151460403492924
+MTF q=30 edges,869,0.060448660042155974
+MTF q=30 edges,870,0.06722372779283349
+MTF q=30 edges,871,0.061803673592291476
+MTF q=30 edges,872,0.06142728093947606
+MTF q=30 edges,873,0.07294489611562782
+MTF q=30 edges,874,0.06007226738934056
+MTF q=30 edges,875,0.0603733815115929
+MTF q=30 edges,876,0.06059921710328215
+MTF q=30 edges,877,0.05653417645287565
+MTF q=30 edges,878,0.06436314363143632
+MTF q=30 edges,879,0.06744956338452274
+MTF q=30 edges,880,0.05156579343571213
+MTF q=30 edges,881,0.05600722673893405
+MTF q=30 edges,882,0.06647094248720266
+MTF q=30 edges,883,0.060900331225534475
+MTF q=30 edges,884,0.06436314363143632
+MTF q=30 edges,885,0.0721168322794339
+MTF q=30 edges,886,0.05758807588075881
+MTF q=30 edges,887,0.061728395061728385
+MTF q=30 edges,888,0.06827762722071666
+MTF q=30 edges,889,0.06376091538693164
+MTF q=30 edges,890,0.05954531767539897
+MTF q=30 edges,891,0.051339957844022885
+MTF q=30 edges,892,0.06887985546522131
+MTF q=30 edges,893,0.06029810298102981
+MTF q=30 edges,894,0.06775067750677506
+MTF q=30 edges,895,0.07151460403492925
+MTF q=30 edges,896,0.06007226738934056
+MTF q=30 edges,897,0.07151460403492924
+MTF q=30 edges,898,0.0530713640469738
+MTF q=30 edges,899,0.05819030412526348
+MTF q=30 edges,900,0.06872929840409514
+MTF q=30 edges,901,0.07000903342366756
+MTF q=30 edges,902,0.0662451068955134
+MTF q=30 edges,903,0.06601927130382415
+MTF q=30 edges,904,0.06865401987353208
+MTF q=30 edges,905,0.0603733815115929
+MTF q=30 edges,906,0.058416139716952725
+MTF q=30 edges,907,0.06699789220114423
+MTF q=30 edges,908,0.05420054200542005
+MTF q=30 edges,909,0.06187895212285456
+MTF q=30 edges,910,0.06616982836495032
+MTF q=30 edges,911,0.0603733815115929
+MTF q=30 edges,912,0.06790123456790124
+MTF q=30 edges,913,0.07512797350195723
+MTF q=30 edges,914,0.0699337548931045
+MTF q=30 edges,915,0.08084914182475159
+MTF q=30 edges,916,0.06142728093947606
+MTF q=30 edges,917,0.07377295995182173
+MTF q=30 edges,918,0.07520325203252033
+MTF q=30 edges,919,0.06255645889792232
+MTF q=30 edges,920,0.05826558265582656
+MTF q=30 edges,921,0.05856669677807888
+MTF q=30 edges,922,0.056534176452875645
+MTF q=30 edges,923,0.06880457693465823
+MTF q=30 edges,924,0.05969587473652514
+MTF q=30 edges,925,0.06285757302017464
+MTF q=30 edges,926,0.06240590183679614
+MTF q=30 edges,927,0.07550436615477266
+MTF q=30 edges,928,0.06504065040650406
+MTF q=30 edges,929,0.0661698283649503
+MTF q=30 edges,930,0.0752785305630834
+MTF q=30 edges,931,0.07143932550436616
+MTF q=30 edges,932,0.05721168322794339
+MTF q=30 edges,933,0.0680517916290274
+MTF q=30 edges,934,0.059620596205962065
+MTF q=30 edges,935,0.06112616681722373
+MTF q=30 edges,936,0.06865401987353208
+MTF q=30 edges,937,0.07256850346281239
+MTF q=30 edges,938,0.05510388437217706
+MTF q=30 edges,939,0.05826558265582656
+MTF q=30 edges,940,0.07392351701294791
+MTF q=30 edges,941,0.059921710328214396
+MTF q=30 edges,942,0.059846431797651305
+MTF q=30 edges,943,0.06383619391749473
+MTF q=30 edges,944,0.06579343571213489
+MTF q=30 edges,945,0.06187895212285456
+MTF q=30 edges,946,0.0666214995483288
+MTF q=30 edges,947,0.07693465823547124
+MTF q=30 edges,948,0.06406202950918398
+MTF q=30 edges,949,0.08115025594700392
+MTF q=30 edges,950,0.060298102981029805
+MTF q=30 edges,951,0.06970791930141523
+MTF q=30 edges,952,0.057738632941884985
+MTF q=30 edges,953,0.05593194820837097
+MTF q=30 edges,954,0.06918096958747363
+MTF q=30 edges,955,0.07015959048479374
+MTF q=30 edges,956,0.06097560975609757
+MTF q=30 edges,957,0.06797651309846432
+MTF q=30 edges,958,0.07557964468533575
+MTF q=30 edges,959,0.07542908762420958
+MTF q=30 edges,960,0.06857874134296899
+MTF q=30 edges,961,0.061728395061728385
+MTF q=30 edges,962,0.056308340861186384
+MTF q=30 edges,963,0.06549232158988255
+MTF q=30 edges,964,0.06737428485395965
+MTF q=30 edges,965,0.05103884372177055
+MTF q=30 edges,966,0.06662149954832881
+MTF q=30 edges,967,0.06218006624510689
+MTF q=30 edges,968,0.06903041252634749
+MTF q=30 edges,969,0.06707317073170732
+MTF q=30 edges,970,0.07452574525745256
+MTF q=30 edges,971,0.06752484191508583
+MTF q=30 edges,972,0.06466425775368866
+MTF q=30 edges,973,0.07467630231857875
+MTF q=30 edges,974,0.08099969888587773
+MTF q=30 edges,975,0.07286961758506476
+MTF q=30 edges,976,0.06255645889792233
+MTF q=30 edges,977,0.06458897922312556
+MTF q=30 edges,978,0.06481481481481483
+MTF q=30 edges,979,0.07136404697380308
+MTF q=30 edges,980,0.05999698885877748
+MTF q=30 edges,981,0.058416139716952725
+MTF q=30 edges,982,0.06489009334537789
+MTF q=30 edges,983,0.0671484492622704
+MTF q=30 edges,984,0.07046070460704607
+MTF q=30 edges,985,0.06887985546522131
+MTF q=30 edges,986,0.0581150255947004
+MTF q=30 edges,987,0.06187895212285456
+MTF q=30 edges,988,0.06218006624510689
+MTF q=30 edges,989,0.07836495031616983
+MTF q=30 edges,990,0.061577838000602236
+MTF q=30 edges,991,0.07588075880758807
+MTF q=30 edges,992,0.05721168322794339
+MTF q=30 edges,993,0.05600722673893405
+MTF q=30 edges,994,0.06330924420355315
+MTF q=30 edges,995,0.05819030412526348
+MTF q=30 edges,996,0.0744504667268895
+MTF q=30 edges,997,0.06887985546522131
+MTF q=30 edges,998,0.06737428485395963
+MTF q=30 edges,999,0.05495332731105089
+MTF q=30 edges,1000,0.05721168322794338
+QG q=30 edges,1,0.07369768142125865
+QG q=30 edges,2,0.07708521529659743
+QG q=30 edges,3,0.07324601023788015
+QG q=30 edges,4,0.06767539897621197
+QG q=30 edges,5,0.0721168322794339
+QG q=30 edges,6,0.059319482083709726
+QG q=30 edges,7,0.06361035832580547
+QG q=30 edges,8,0.08227943390545017
+QG q=30 edges,9,0.060900331225534475
+QG q=30 edges,10,0.076708822643782
+QG q=30 edges,11,0.06782595603733815
+QG q=30 edges,12,0.05660945498343872
+QG q=30 edges,13,0.07015959048479374
+QG q=30 edges,14,0.06624510689551341
+QG q=30 edges,15,0.07091237579042459
+QG q=30 edges,16,0.07008431195423065
+QG q=30 edges,17,0.06760012044564889
+QG q=30 edges,18,0.05811502559470039
+QG q=30 edges,19,0.06526648599819332
+QG q=30 edges,20,0.06609454983438723
+QG q=30 edges,21,0.07866606443842215
+QG q=30 edges,22,0.07106293285155073
+QG q=30 edges,23,0.06135200240891298
+QG q=30 edges,24,0.06428786510087323
+QG q=30 edges,25,0.07332128876844324
+QG q=30 edges,26,0.06376091538693165
+QG q=30 edges,27,0.06827762722071666
+QG q=30 edges,28,0.07294489611562782
+QG q=30 edges,29,0.0698584763625414
+QG q=30 edges,30,0.06782595603733815
+QG q=30 edges,31,0.06270701595904847
+QG q=30 edges,32,0.06285757302017464
+QG q=30 edges,33,0.07023486901535682
+QG q=30 edges,34,0.07204155374887083
+QG q=30 edges,35,0.06654622101776574
+QG q=30 edges,36,0.07158988256549231
+QG q=30 edges,37,0.07113821138211382
+QG q=30 edges,38,0.07061126166817223
+QG q=30 edges,39,0.08084914182475159
+QG q=30 edges,40,0.07023486901535682
+QG q=30 edges,41,0.07000903342366757
+QG q=30 edges,42,0.0689551339957844
+QG q=30 edges,43,0.07414935260463716
+QG q=30 edges,44,0.07113821138211382
+QG q=30 edges,45,0.07362240289069558
+QG q=30 edges,46,0.07964468533574226
+QG q=30 edges,47,0.06285757302017464
+QG q=30 edges,48,0.07700993676603432
+QG q=30 edges,49,0.06255645889792232
+QG q=30 edges,50,0.06466425775368866
+QG q=30 edges,51,0.06782595603733815
+QG q=30 edges,52,0.06473953628425172
+QG q=30 edges,53,0.07746160794941281
+QG q=30 edges,54,0.06812707015959048
+QG q=30 edges,55,0.06827762722071666
+QG q=30 edges,56,0.07219211080999698
+QG q=30 edges,57,0.08017163504968383
+QG q=30 edges,58,0.08273110508882867
+QG q=30 edges,59,0.06549232158988257
+QG q=30 edges,60,0.0603733815115929
+QG q=30 edges,61,0.06654622101776572
+QG q=30 edges,62,0.05608250526949713
+QG q=30 edges,63,0.054727491719361636
+QG q=30 edges,64,0.06933152664859982
+QG q=30 edges,65,0.06677205660945498
+QG q=30 edges,66,0.06187895212285455
+QG q=30 edges,67,0.06647094248720264
+QG q=30 edges,68,0.06654622101776572
+QG q=30 edges,69,0.06428786510087323
+QG q=30 edges,70,0.06270701595904847
+QG q=30 edges,71,0.0644384221619994
+QG q=30 edges,72,0.06541704305931947
+QG q=30 edges,73,0.06443842216199941
+QG q=30 edges,74,0.07181571815718157
+QG q=30 edges,75,0.0657934357121349
+QG q=30 edges,76,0.0635350797952424
+QG q=30 edges,77,0.05947003914483589
+QG q=30 edges,78,0.06970791930141523
+QG q=30 edges,79,0.08152664859981933
+QG q=30 edges,80,0.08032219211080999
+QG q=30 edges,81,0.06067449563384523
+QG q=30 edges,82,0.06797651309846431
+QG q=30 edges,83,0.0676001204456489
+QG q=30 edges,84,0.07362240289069559
+QG q=30 edges,85,0.0666967780788919
+QG q=30 edges,86,0.06368563685636856
+QG q=30 edges,87,0.06835290575127972
+QG q=30 edges,88,0.07633242999096658
+QG q=30 edges,89,0.0603733815115929
+QG q=30 edges,90,0.05886781090033123
+QG q=30 edges,91,0.06963264077085214
+QG q=30 edges,92,0.08017163504968383
+QG q=30 edges,93,0.06473953628425172
+QG q=30 edges,94,0.06541704305931947
+QG q=30 edges,95,0.05660945498343872
+QG q=30 edges,96,0.06541704305931947
+QG q=30 edges,97,0.06963264077085216
+QG q=30 edges,98,0.06466425775368864
+QG q=30 edges,99,0.06187895212285456
+QG q=30 edges,100,0.0666967780788919
+QG q=30 edges,101,0.07640770852152966
+QG q=30 edges,102,0.07023486901535682
+QG q=30 edges,103,0.0666967780788919
+QG q=30 edges,104,0.07520325203252032
+QG q=30 edges,105,0.05864197530864198
+QG q=30 edges,106,0.064062029509184
+QG q=30 edges,107,0.054125263474856966
+QG q=30 edges,108,0.06601927130382416
+QG q=30 edges,109,0.06812707015959048
+QG q=30 edges,110,0.059319482083709726
+QG q=30 edges,111,0.06157783800060222
+QG q=30 edges,112,0.06308340861186391
+QG q=30 edges,113,0.0644384221619994
+QG q=30 edges,114,0.07091237579042457
+QG q=30 edges,115,0.06812707015959048
+QG q=30 edges,116,0.06451370069256249
+QG q=30 edges,117,0.061050888286660644
+QG q=30 edges,118,0.06278229448961156
+QG q=30 edges,119,0.06097560975609755
+QG q=30 edges,120,0.06647094248720264
+QG q=30 edges,121,0.07437518819632641
+QG q=30 edges,122,0.07399879554351099
+QG q=30 edges,123,0.07399879554351099
+QG q=30 edges,124,0.06511592893706715
+QG q=30 edges,125,0.06473953628425173
+QG q=30 edges,126,0.07738632941884975
+QG q=30 edges,127,0.06361035832580549
+QG q=30 edges,128,0.07091237579042457
+QG q=30 edges,129,0.06760012044564889
+QG q=30 edges,130,0.06285757302017465
+QG q=30 edges,131,0.05329719963866305
+QG q=30 edges,132,0.07008431195423065
+QG q=30 edges,133,0.06504065040650406
+QG q=30 edges,134,0.07204155374887083
+QG q=30 edges,135,0.07015959048479374
+QG q=30 edges,136,0.07377295995182173
+QG q=30 edges,137,0.06790123456790124
+QG q=30 edges,138,0.06692261367058115
+QG q=30 edges,139,0.07339656729900633
+QG q=30 edges,140,0.07061126166817223
+QG q=30 edges,141,0.06594399277326106
+QG q=30 edges,142,0.06112616681722373
+QG q=30 edges,143,0.0676001204456489
+QG q=30 edges,144,0.0661698283649503
+QG q=30 edges,145,0.06398675097862089
+QG q=30 edges,146,0.06142728093947606
+QG q=30 edges,147,0.06263173742848539
+QG q=30 edges,148,0.06233062330623307
+QG q=30 edges,149,0.06737428485395965
+QG q=30 edges,150,0.061878952122854575
+QG q=30 edges,151,0.08491418247515808
+QG q=30 edges,152,0.06556760012044566
+QG q=30 edges,153,0.07083709725986148
+QG q=30 edges,154,0.06248118036735923
+QG q=30 edges,155,0.06654622101776574
+QG q=30 edges,156,0.06368563685636856
+QG q=30 edges,157,0.06376091538693165
+QG q=30 edges,158,0.062405901836796146
+QG q=30 edges,159,0.07294489611562782
+QG q=30 edges,160,0.06398675097862089
+QG q=30 edges,161,0.06752484191508583
+QG q=30 edges,162,0.0784402288467329
+QG q=30 edges,163,0.07317073170731707
+QG q=30 edges,164,0.06767539897621197
+QG q=30 edges,165,0.06052393857271906
+QG q=30 edges,166,0.06300813008130081
+QG q=30 edges,167,0.07414935260463716
+QG q=30 edges,168,0.06767539897621197
+QG q=30 edges,169,0.07399879554351099
+QG q=30 edges,170,0.07678410117434507
+QG q=30 edges,171,0.0653417645287564
+QG q=30 edges,172,0.0735471243601325
+QG q=30 edges,173,0.0721168322794339
+QG q=30 edges,174,0.07128876844323999
+QG q=30 edges,175,0.0735471243601325
+QG q=30 edges,176,0.07768744354110207
+QG q=30 edges,177,0.0735471243601325
+QG q=30 edges,178,0.061502559470039145
+QG q=30 edges,179,0.05849141824751582
+QG q=30 edges,180,0.0671484492622704
+QG q=30 edges,181,0.06496537187594098
+QG q=30 edges,182,0.06752484191508583
+QG q=30 edges,183,0.06737428485395966
+QG q=30 edges,184,0.06586871424269798
+QG q=30 edges,185,0.0689551339957844
+QG q=30 edges,186,0.06677205660945498
+QG q=30 edges,187,0.06993375489310448
+QG q=30 edges,188,0.06526648599819332
+QG q=30 edges,189,0.06496537187594097
+QG q=30 edges,190,0.0661698283649503
+QG q=30 edges,191,0.05028605841613972
+QG q=30 edges,192,0.07234266787112315
+QG q=30 edges,193,0.07181571815718156
+QG q=30 edges,194,0.058416139716952725
+QG q=30 edges,195,0.05834086118638964
+QG q=30 edges,196,0.061803673592291476
+QG q=30 edges,197,0.054727491719361636
+QG q=30 edges,198,0.06549232158988255
+QG q=30 edges,199,0.07046070460704607
+QG q=30 edges,200,0.06451370069256249
+QG q=30 edges,201,0.06564287865100873
+QG q=30 edges,202,0.06489009334537789
+QG q=30 edges,203,0.06511592893706715
+QG q=30 edges,204,0.06067449563384523
+QG q=30 edges,205,0.06218006624510689
+QG q=30 edges,206,0.06699789220114423
+QG q=30 edges,207,0.06406202950918398
+QG q=30 edges,208,0.06609454983438724
+QG q=30 edges,209,0.05879253236976814
+QG q=30 edges,210,0.06323396567299006
+QG q=30 edges,211,0.06330924420355316
+QG q=30 edges,212,0.0703101475459199
+QG q=30 edges,213,0.06406202950918398
+QG q=30 edges,214,0.07384823848238481
+QG q=30 edges,215,0.07429990966576333
+QG q=30 edges,216,0.059093646492020487
+QG q=30 edges,217,0.06571815718157181
+QG q=30 edges,218,0.06865401987353208
+QG q=30 edges,219,0.07979524239686842
+QG q=30 edges,220,0.07399879554351099
+QG q=30 edges,221,0.07317073170731707
+QG q=30 edges,222,0.06594399277326107
+QG q=30 edges,223,0.0721168322794339
+QG q=30 edges,224,0.061502559470039145
+QG q=30 edges,225,0.06391147244805781
+QG q=30 edges,226,0.061653116531165314
+QG q=30 edges,227,0.06059921710328214
+QG q=30 edges,228,0.0643631436314363
+QG q=30 edges,229,0.057061126166817216
+QG q=30 edges,230,0.0671484492622704
+QG q=30 edges,231,0.06654622101776574
+QG q=30 edges,232,0.0716651610960554
+QG q=30 edges,233,0.06504065040650407
+QG q=30 edges,234,0.06443842216199941
+QG q=30 edges,235,0.07061126166817223
+QG q=30 edges,236,0.06707317073170732
+QG q=30 edges,237,0.0581150255947004
+QG q=30 edges,238,0.05864197530864198
+QG q=30 edges,239,0.06639566395663958
+QG q=30 edges,240,0.06812707015959048
+QG q=30 edges,241,0.07143932550436616
+QG q=30 edges,242,0.06677205660945498
+QG q=30 edges,243,0.060448660042155974
+QG q=30 edges,244,0.06632038542607648
+QG q=30 edges,245,0.06910569105691058
+QG q=30 edges,246,0.07038542607648297
+QG q=30 edges,247,0.06699789220114423
+QG q=30 edges,248,0.06022282445046672
+QG q=30 edges,249,0.06443842216199941
+QG q=30 edges,250,0.06887985546522132
+QG q=30 edges,251,0.06112616681722373
+QG q=30 edges,252,0.05992171032821439
+QG q=30 edges,253,0.07723577235772358
+QG q=30 edges,254,0.06744956338452274
+QG q=30 edges,255,0.06609454983438724
+QG q=30 edges,256,0.06315868714242698
+QG q=30 edges,257,0.056082505269497145
+QG q=30 edges,258,0.06481481481481483
+QG q=30 edges,259,0.06594399277326106
+QG q=30 edges,260,0.0666967780788919
+QG q=30 edges,261,0.06880457693465823
+QG q=30 edges,262,0.06586871424269798
+QG q=30 edges,263,0.06775067750677505
+QG q=30 edges,264,0.07031014754591991
+QG q=30 edges,265,0.06820234869015357
+QG q=30 edges,266,0.0666967780788919
+QG q=30 edges,267,0.07166516109605542
+QG q=30 edges,268,0.07091237579042459
+QG q=30 edges,269,0.07317073170731708
+QG q=30 edges,270,0.06278229448961155
+QG q=30 edges,271,0.06857874134296899
+QG q=30 edges,272,0.06662149954832881
+QG q=30 edges,273,0.06293285155073773
+QG q=30 edges,274,0.06699789220114424
+QG q=30 edges,275,0.06616982836495032
+QG q=30 edges,276,0.06662149954832881
+QG q=30 edges,277,0.0689551339957844
+QG q=30 edges,278,0.06586871424269798
+QG q=30 edges,279,0.05593194820837097
+QG q=30 edges,280,0.07241794640168625
+QG q=30 edges,281,0.07377295995182173
+QG q=30 edges,282,0.07332128876844324
+QG q=30 edges,283,0.06662149954832881
+QG q=30 edges,284,0.06835290575127974
+QG q=30 edges,285,0.0657934357121349
+QG q=30 edges,286,0.06383619391749473
+QG q=30 edges,287,0.061577838000602236
+QG q=30 edges,288,0.06933152664859982
+QG q=30 edges,289,0.060448660042155974
+QG q=30 edges,290,0.06993375489310448
+QG q=30 edges,291,0.06918096958747366
+QG q=30 edges,292,0.06556760012044566
+QG q=30 edges,293,0.05999698885877748
+QG q=30 edges,294,0.06361035832580549
+QG q=30 edges,295,0.061653116531165314
+QG q=30 edges,296,0.06473953628425172
+QG q=30 edges,297,0.06925624811803673
+QG q=30 edges,298,0.07482685937970492
+QG q=30 edges,299,0.07038542607648297
+QG q=30 edges,300,0.08453778982234267
+QG q=30 edges,301,0.06782595603733815
+QG q=30 edges,302,0.06383619391749473
+QG q=30 edges,303,0.0666967780788919
+QG q=30 edges,304,0.06067449563384522
+QG q=30 edges,305,0.06744956338452274
+QG q=30 edges,306,0.06993375489310448
+QG q=30 edges,307,0.05638361939174948
+QG q=30 edges,308,0.07542908762420958
+QG q=30 edges,309,0.06918096958747365
+QG q=30 edges,310,0.06519120746763023
+QG q=30 edges,311,0.06443842216199941
+QG q=30 edges,312,0.06195423065341764
+QG q=30 edges,313,0.06835290575127972
+QG q=30 edges,314,0.07286961758506474
+QG q=30 edges,315,0.06428786510087323
+QG q=30 edges,316,0.07286961758506474
+QG q=30 edges,317,0.07196627521830773
+QG q=30 edges,318,0.07158988256549231
+QG q=30 edges,319,0.05811502559470039
+QG q=30 edges,320,0.07309545317675398
+QG q=30 edges,321,0.06775067750677506
+QG q=30 edges,322,0.07098765432098766
+QG q=30 edges,323,0.06187895212285456
+QG q=30 edges,324,0.06165311653116531
+QG q=30 edges,325,0.06925624811803674
+QG q=30 edges,326,0.06323396567299006
+QG q=30 edges,327,0.07136404697380307
+QG q=30 edges,328,0.06052393857271906
+QG q=30 edges,329,0.06541704305931949
+QG q=30 edges,330,0.07302017464619091
+QG q=30 edges,331,0.06481481481481483
+QG q=30 edges,332,0.06368563685636858
+QG q=30 edges,333,0.06526648599819332
+QG q=30 edges,334,0.06556760012044566
+QG q=30 edges,335,0.07068654019873533
+QG q=30 edges,336,0.07347184582956941
+QG q=30 edges,337,0.06729900632339657
+QG q=30 edges,338,0.06714844926227041
+QG q=30 edges,339,0.06684733514001806
+QG q=30 edges,340,0.07302017464619091
+QG q=30 edges,341,0.0566847335140018
+QG q=30 edges,342,0.062405901836796146
+QG q=30 edges,343,0.06767539897621197
+QG q=30 edges,344,0.06782595603733815
+QG q=30 edges,345,0.06586871424269798
+QG q=30 edges,346,0.0603733815115929
+QG q=30 edges,347,0.06624510689551338
+QG q=30 edges,348,0.07204155374887083
+QG q=30 edges,349,0.06970791930141523
+QG q=30 edges,350,0.06345980126467932
+QG q=30 edges,351,0.0581150255947004
+QG q=30 edges,352,0.06760012044564889
+QG q=30 edges,353,0.05954531767539897
+QG q=30 edges,354,0.061502559470039145
+QG q=30 edges,355,0.0666967780788919
+QG q=30 edges,356,0.06722372779283349
+QG q=30 edges,357,0.06594399277326107
+QG q=30 edges,358,0.060222824450466735
+QG q=30 edges,359,0.0617283950617284
+QG q=30 edges,360,0.06338452273411622
+QG q=30 edges,361,0.06865401987353208
+QG q=30 edges,362,0.07053598313760917
+QG q=30 edges,363,0.06052393857271906
+QG q=30 edges,364,0.060900331225534475
+QG q=30 edges,365,0.06880457693465823
+QG q=30 edges,366,0.07128876844324
+QG q=30 edges,367,0.07241794640168625
+QG q=30 edges,368,0.06827762722071665
+QG q=30 edges,369,0.08536585365853659
+QG q=30 edges,370,0.06985847636254139
+QG q=30 edges,371,0.05337247816922614
+QG q=30 edges,372,0.08476362541403192
+QG q=30 edges,373,0.06376091538693165
+QG q=30 edges,374,0.06233062330623307
+QG q=30 edges,375,0.0621047877145438
+QG q=30 edges,376,0.06202950918398072
+QG q=30 edges,377,0.07550436615477267
+QG q=30 edges,378,0.06827762722071666
+QG q=30 edges,379,0.07294489611562782
+QG q=30 edges,380,0.06790123456790124
+QG q=30 edges,381,0.07851550737729601
+QG q=30 edges,382,0.06451370069256249
+QG q=30 edges,383,0.06361035832580547
+QG q=30 edges,384,0.059620596205962065
+QG q=30 edges,385,0.06564287865100873
+QG q=30 edges,386,0.06767539897621198
+QG q=30 edges,387,0.06790123456790123
+QG q=30 edges,388,0.06157783800060222
+QG q=30 edges,389,0.05954531767539898
+QG q=30 edges,390,0.06285757302017464
+QG q=30 edges,391,0.0735471243601325
+QG q=30 edges,392,0.05977115326708823
+QG q=30 edges,393,0.06097560975609755
+QG q=30 edges,394,0.06323396567299006
+QG q=30 edges,395,0.06872929840409515
+QG q=30 edges,396,0.06842818428184283
+QG q=30 edges,397,0.07068654019873533
+QG q=30 edges,398,0.06248118036735922
+QG q=30 edges,399,0.06820234869015357
+QG q=30 edges,400,0.06918096958747365
+QG q=30 edges,401,0.06556760012044566
+QG q=30 edges,402,0.06782595603733815
+QG q=30 edges,403,0.07008431195423065
+QG q=30 edges,404,0.06918096958747365
+QG q=30 edges,405,0.06940680517916291
+QG q=30 edges,406,0.06933152664859982
+QG q=30 edges,407,0.059620596205962065
+QG q=30 edges,408,0.06699789220114423
+QG q=30 edges,409,0.061427280939476074
+QG q=30 edges,410,0.07038542607648297
+QG q=30 edges,411,0.07407407407407407
+QG q=30 edges,412,0.0666967780788919
+QG q=30 edges,413,0.06737428485395965
+QG q=30 edges,414,0.05977115326708823
+QG q=30 edges,415,0.06451370069256249
+QG q=30 edges,416,0.06744956338452274
+QG q=30 edges,417,0.07407407407407408
+QG q=30 edges,418,0.07429990966576333
+QG q=30 edges,419,0.08273110508882867
+QG q=30 edges,420,0.06556760012044564
+QG q=30 edges,421,0.077612165010539
+QG q=30 edges,422,0.06955736224028906
+QG q=30 edges,423,0.0657934357121349
+QG q=30 edges,424,0.08024691358024691
+QG q=30 edges,425,0.06586871424269798
+QG q=30 edges,426,0.06767539897621198
+QG q=30 edges,427,0.06007226738934056
+QG q=30 edges,428,0.05924420355314665
+QG q=30 edges,429,0.06142728093947606
+QG q=30 edges,430,0.06255645889792232
+QG q=30 edges,431,0.06925624811803673
+QG q=30 edges,432,0.06594399277326107
+QG q=30 edges,433,0.06647094248720266
+QG q=30 edges,434,0.06677205660945498
+QG q=30 edges,435,0.07174043962661848
+QG q=30 edges,436,0.06330924420355315
+QG q=30 edges,437,0.06684733514001807
+QG q=30 edges,438,0.05886781090033123
+QG q=30 edges,439,0.056534176452875645
+QG q=30 edges,440,0.051791629027401385
+QG q=30 edges,441,0.057061126166817216
+QG q=30 edges,442,0.07008431195423065
+QG q=30 edges,443,0.07151460403492924
+QG q=30 edges,444,0.07128876844323999
+QG q=30 edges,445,0.0734718458295694
+QG q=30 edges,446,0.0744504667268895
+QG q=30 edges,447,0.061201445347786806
+QG q=30 edges,448,0.06549232158988255
+QG q=30 edges,449,0.06812707015959048
+QG q=30 edges,450,0.06594399277326107
+QG q=30 edges,451,0.06541704305931947
+QG q=30 edges,452,0.07595603733815116
+QG q=30 edges,453,0.0661698283649503
+QG q=30 edges,454,0.07813911472448058
+QG q=30 edges,455,0.06729900632339655
+QG q=30 edges,456,0.06202950918398072
+QG q=30 edges,457,0.0630834086118639
+QG q=30 edges,458,0.07249322493224934
+QG q=30 edges,459,0.07362240289069558
+QG q=30 edges,460,0.06790123456790123
+QG q=30 edges,461,0.07460102378801566
+QG q=30 edges,462,0.06910569105691057
+QG q=30 edges,463,0.06534176452875641
+QG q=30 edges,464,0.0676001204456489
+QG q=30 edges,465,0.07490213791026798
+QG q=30 edges,466,0.0676001204456489
+QG q=30 edges,467,0.06421258657031015
+QG q=30 edges,468,0.07866606443842217
+QG q=30 edges,469,0.06963264077085214
+QG q=30 edges,470,0.0775368864799759
+QG q=30 edges,471,0.06880457693465823
+QG q=30 edges,472,0.06112616681722374
+QG q=30 edges,473,0.06699789220114424
+QG q=30 edges,474,0.06955736224028906
+QG q=30 edges,475,0.07000903342366757
+QG q=30 edges,476,0.06835290575127974
+QG q=30 edges,477,0.06775067750677506
+QG q=30 edges,478,0.07174043962661848
+QG q=30 edges,479,0.05743751881963263
+QG q=30 edges,480,0.06677205660945498
+QG q=30 edges,481,0.057136404697380315
+QG q=30 edges,482,0.07053598313760916
+QG q=30 edges,483,0.06195423065341765
+QG q=30 edges,484,0.0698584763625414
+QG q=30 edges,485,0.07204155374887083
+QG q=30 edges,486,0.06391147244805781
+QG q=30 edges,487,0.06737428485395965
+QG q=30 edges,488,0.062330623306233054
+QG q=30 edges,489,0.06014754591990364
+QG q=30 edges,490,0.07174043962661848
+QG q=30 edges,491,0.07053598313760917
+QG q=30 edges,492,0.05164107196627522
+QG q=30 edges,493,0.07106293285155074
+QG q=30 edges,494,0.07098765432098766
+QG q=30 edges,495,0.06835290575127974
+QG q=30 edges,496,0.06872929840409514
+QG q=30 edges,497,0.07407407407407408
+QG q=30 edges,498,0.0717404396266185
+QG q=30 edges,499,0.07181571815718156
+QG q=30 edges,500,0.06729900632339655
+QG q=30 edges,501,0.06887985546522131
+QG q=30 edges,502,0.07121348991267691
+QG q=30 edges,503,0.06090033122553448
+QG q=30 edges,504,0.07196627521830773
+QG q=30 edges,505,0.06014754591990364
+QG q=30 edges,506,0.07008431195423065
+QG q=30 edges,507,0.07083709725986148
+QG q=30 edges,508,0.061050888286660644
+QG q=30 edges,509,0.06677205660945498
+QG q=30 edges,510,0.0676001204456489
+QG q=30 edges,511,0.0707618187292984
+QG q=30 edges,512,0.06315868714242698
+QG q=30 edges,513,0.08559168925022582
+QG q=30 edges,514,0.07437518819632641
+QG q=30 edges,515,0.06654622101776574
+QG q=30 edges,516,0.05871725383920506
+QG q=30 edges,517,0.06790123456790124
+QG q=30 edges,518,0.07219211080999699
+QG q=30 edges,519,0.06300813008130082
+QG q=30 edges,520,0.07934357121348991
+QG q=30 edges,521,0.06579343571213489
+QG q=30 edges,522,0.06082505269497139
+QG q=30 edges,523,0.07249322493224933
+QG q=30 edges,524,0.07000903342366756
+QG q=30 edges,525,0.0726437819933755
+QG q=30 edges,526,0.06827762722071665
+QG q=30 edges,527,0.06293285155073773
+QG q=30 edges,528,0.060900331225534475
+QG q=30 edges,529,0.06368563685636858
+QG q=30 edges,530,0.0757302017464619
+QG q=30 edges,531,0.06428786510087324
+QG q=30 edges,532,0.05879253236976814
+QG q=30 edges,533,0.0603733815115929
+QG q=30 edges,534,0.06835290575127974
+QG q=30 edges,535,0.06338452273411624
+QG q=30 edges,536,0.06707317073170731
+QG q=30 edges,537,0.07332128876844324
+QG q=30 edges,538,0.06074977416440831
+QG q=30 edges,539,0.05864197530864198
+QG q=30 edges,540,0.06293285155073773
+QG q=30 edges,541,0.07859078590785908
+QG q=30 edges,542,0.06880457693465823
+QG q=30 edges,543,0.06790123456790123
+QG q=30 edges,544,0.06338452273411624
+QG q=30 edges,545,0.06059921710328214
+QG q=30 edges,546,0.06707317073170732
+QG q=30 edges,547,0.06729900632339657
+QG q=30 edges,548,0.07700993676603432
+QG q=30 edges,549,0.07158988256549231
+QG q=30 edges,550,0.06330924420355316
+QG q=30 edges,551,0.07670882264378201
+QG q=30 edges,552,0.06639566395663957
+QG q=30 edges,553,0.05465221318879856
+QG q=30 edges,554,0.06421258657031015
+QG q=30 edges,555,0.06278229448961156
+QG q=30 edges,556,0.06880457693465825
+QG q=30 edges,557,0.06059921710328214
+QG q=30 edges,558,0.06699789220114422
+QG q=30 edges,559,0.06790123456790123
+QG q=30 edges,560,0.07520325203252032
+QG q=30 edges,561,0.07678410117434506
+QG q=30 edges,562,0.05849141824751582
+QG q=30 edges,563,0.07746160794941281
+QG q=30 edges,564,0.06293285155073773
+QG q=30 edges,565,0.062104787714543815
+QG q=30 edges,566,0.06948208370972599
+QG q=30 edges,567,0.07158988256549231
+QG q=30 edges,568,0.06767539897621198
+QG q=30 edges,569,0.06428786510087323
+QG q=30 edges,570,0.05728696175850648
+QG q=30 edges,571,0.0653417645287564
+QG q=30 edges,572,0.06594399277326107
+QG q=30 edges,573,0.07309545317675399
+QG q=30 edges,574,0.07015959048479373
+QG q=30 edges,575,0.06955736224028908
+QG q=30 edges,576,0.06481481481481483
+QG q=30 edges,577,0.056760012044564885
+QG q=30 edges,578,0.06925624811803674
+QG q=30 edges,579,0.06534176452875638
+QG q=30 edges,580,0.06315868714242698
+QG q=30 edges,581,0.061728395061728385
+QG q=30 edges,582,0.06594399277326106
+QG q=30 edges,583,0.0567600120445649
+QG q=30 edges,584,0.0735471243601325
+QG q=30 edges,585,0.06135200240891297
+QG q=30 edges,586,0.0644384221619994
+QG q=30 edges,587,0.05728696175850648
+QG q=30 edges,588,0.07422463113520024
+QG q=30 edges,589,0.07219211080999699
+QG q=30 edges,590,0.053974706413730804
+QG q=30 edges,591,0.07204155374887082
+QG q=30 edges,592,0.06948208370972599
+QG q=30 edges,593,0.06579343571213489
+QG q=30 edges,594,0.0762571514604035
+QG q=30 edges,595,0.061201445347786806
+QG q=30 edges,596,0.06699789220114423
+QG q=30 edges,597,0.07407407407407407
+QG q=30 edges,598,0.06654622101776572
+QG q=30 edges,599,0.07460102378801566
+QG q=30 edges,600,0.06549232158988257
+QG q=30 edges,601,0.06985847636254142
+QG q=30 edges,602,0.07595603733815115
+QG q=30 edges,603,0.061803673592291476
+QG q=30 edges,604,0.06654622101776574
+QG q=30 edges,605,0.06556760012044566
+QG q=30 edges,606,0.06714844926227041
+QG q=30 edges,607,0.06368563685636856
+QG q=30 edges,608,0.06903041252634749
+QG q=30 edges,609,0.06677205660945498
+QG q=30 edges,610,0.05909364649202047
+QG q=30 edges,611,0.06782595603733815
+QG q=30 edges,612,0.06556760012044566
+QG q=30 edges,613,0.07625715146040349
+QG q=30 edges,614,0.06361035832580549
+QG q=30 edges,615,0.07196627521830774
+QG q=30 edges,616,0.06135200240891297
+QG q=30 edges,617,0.07038542607648299
+QG q=30 edges,618,0.06586871424269798
+QG q=30 edges,619,0.0707618187292984
+QG q=30 edges,620,0.06722372779283349
+QG q=30 edges,621,0.06842818428184282
+QG q=30 edges,622,0.07384823848238482
+QG q=30 edges,623,0.0721168322794339
+QG q=30 edges,624,0.07512797350195724
+QG q=30 edges,625,0.06451370069256247
+QG q=30 edges,626,0.06564287865100873
+QG q=30 edges,627,0.07369768142125865
+QG q=30 edges,628,0.06489009334537789
+QG q=30 edges,629,0.07143932550436616
+QG q=30 edges,630,0.07618187292984041
+QG q=30 edges,631,0.07091237579042457
+QG q=30 edges,632,0.07136404697380307
+QG q=30 edges,633,0.06601927130382415
+QG q=30 edges,634,0.06692261367058115
+QG q=30 edges,635,0.06458897922312558
+QG q=30 edges,636,0.059018367961457395
+QG q=30 edges,637,0.06790123456790124
+QG q=30 edges,638,0.06345980126467932
+QG q=30 edges,639,0.06963264077085214
+QG q=30 edges,640,0.06903041252634748
+QG q=30 edges,641,0.0648900933453779
+QG q=30 edges,642,0.06805179162902741
+QG q=30 edges,643,0.06963264077085216
+QG q=30 edges,644,0.06835290575127972
+QG q=30 edges,645,0.06684733514001807
+QG q=30 edges,646,0.05909364649202047
+QG q=30 edges,647,0.0689551339957844
+QG q=30 edges,648,0.06067449563384523
+QG q=30 edges,649,0.06285757302017465
+QG q=30 edges,650,0.06707317073170732
+QG q=30 edges,651,0.07098765432098765
+QG q=30 edges,652,0.0666214995483288
+QG q=30 edges,653,0.06135200240891298
+QG q=30 edges,654,0.07497741644083106
+QG q=30 edges,655,0.06692261367058114
+QG q=30 edges,656,0.06684733514001806
+QG q=30 edges,657,0.06955736224028906
+QG q=30 edges,658,0.06428786510087323
+QG q=30 edges,659,0.06737428485395965
+QG q=30 edges,660,0.06112616681722373
+QG q=30 edges,661,0.0626317374284854
+QG q=30 edges,662,0.07783800060222824
+QG q=30 edges,663,0.06827762722071665
+QG q=30 edges,664,0.06684733514001807
+QG q=30 edges,665,0.06827762722071665
+QG q=30 edges,666,0.0784402288467329
+QG q=30 edges,667,0.07271906052393856
+QG q=30 edges,668,0.07399879554351098
+QG q=30 edges,669,0.06458897922312558
+QG q=30 edges,670,0.07731105088828666
+QG q=30 edges,671,0.0694068051791629
+QG q=30 edges,672,0.0662451068955134
+QG q=30 edges,673,0.062330623306233054
+QG q=30 edges,674,0.07143932550436616
+QG q=30 edges,675,0.074902137910268
+QG q=30 edges,676,0.07874134296898525
+QG q=30 edges,677,0.0712134899126769
+QG q=30 edges,678,0.07000903342366757
+QG q=30 edges,679,0.0712134899126769
+QG q=30 edges,680,0.06722372779283349
+QG q=30 edges,681,0.07008431195423065
+QG q=30 edges,682,0.06752484191508583
+QG q=30 edges,683,0.0639114724480578
+QG q=30 edges,684,0.06955736224028906
+QG q=30 edges,685,0.06842818428184282
+QG q=30 edges,686,0.05510388437217706
+QG q=30 edges,687,0.0685034628124059
+QG q=30 edges,688,0.06549232158988257
+QG q=30 edges,689,0.07091237579042457
+QG q=30 edges,690,0.05435109906654622
+QG q=30 edges,691,0.05826558265582656
+QG q=30 edges,692,0.06722372779283349
+QG q=30 edges,693,0.06556760012044566
+QG q=30 edges,694,0.07685937970490815
+QG q=30 edges,695,0.0680517916290274
+QG q=30 edges,696,0.07317073170731707
+QG q=30 edges,697,0.06872929840409515
+QG q=30 edges,698,0.0685034628124059
+QG q=30 edges,699,0.07286961758506473
+QG q=30 edges,700,0.0689551339957844
+QG q=30 edges,701,0.06925624811803673
+QG q=30 edges,702,0.06007226738934056
+QG q=30 edges,703,0.06496537187594098
+QG q=30 edges,704,0.07038542607648297
+QG q=30 edges,705,0.0635350797952424
+QG q=30 edges,706,0.0712134899126769
+QG q=30 edges,707,0.0653417645287564
+QG q=30 edges,708,0.07557964468533573
+QG q=30 edges,709,0.06940680517916291
+QG q=30 edges,710,0.06195423065341765
+QG q=30 edges,711,0.06248118036735923
+QG q=30 edges,712,0.06285757302017465
+QG q=30 edges,713,0.05472749171936164
+QG q=30 edges,714,0.07550436615477267
+QG q=30 edges,715,0.06692261367058114
+QG q=30 edges,716,0.0662451068955134
+QG q=30 edges,717,0.06323396567299006
+QG q=30 edges,718,0.05374887082204156
+QG q=30 edges,719,0.07038542607648297
+QG q=30 edges,720,0.06187895212285456
+QG q=30 edges,721,0.07309545317675399
+QG q=30 edges,722,0.06594399277326107
+QG q=30 edges,723,0.06737428485395965
+QG q=30 edges,724,0.0671484492622704
+QG q=30 edges,725,0.07685937970490815
+QG q=30 edges,726,0.0639867509786209
+QG q=30 edges,727,0.06707317073170732
+QG q=30 edges,728,0.07000903342366757
+QG q=30 edges,729,0.06195423065341764
+QG q=30 edges,730,0.05947003914483589
+QG q=30 edges,731,0.06692261367058115
+QG q=30 edges,732,0.06872929840409515
+QG q=30 edges,733,0.07716049382716049
+QG q=30 edges,734,0.07294489611562782
+QG q=30 edges,735,0.06880457693465822
+QG q=30 edges,736,0.06519120746763024
+QG q=30 edges,737,0.07128876844324
+QG q=30 edges,738,0.07369768142125867
+QG q=30 edges,739,0.07038542607648299
+QG q=30 edges,740,0.06835290575127974
+QG q=30 edges,741,0.06970791930141523
+QG q=30 edges,742,0.0630834086118639
+QG q=30 edges,743,0.06963264077085214
+QG q=30 edges,744,0.0685034628124059
+QG q=30 edges,745,0.07994579945799457
+QG q=30 edges,746,0.07437518819632641
+QG q=30 edges,747,0.07286961758506474
+QG q=30 edges,748,0.06451370069256249
+QG q=30 edges,749,0.05420054200542005
+QG q=30 edges,750,0.06376091538693165
+QG q=30 edges,751,0.0662451068955134
+QG q=30 edges,752,0.0671484492622704
+QG q=30 edges,753,0.06782595603733815
+QG q=30 edges,754,0.06504065040650407
+QG q=30 edges,755,0.07512797350195724
+QG q=30 edges,756,0.06963264077085214
+QG q=30 edges,757,0.061502559470039145
+QG q=30 edges,758,0.0643631436314363
+QG q=30 edges,759,0.06903041252634749
+QG q=30 edges,760,0.06097560975609757
+QG q=30 edges,761,0.06511592893706714
+QG q=30 edges,762,0.07256850346281239
+QG q=30 edges,763,0.06534176452875638
+QG q=30 edges,764,0.0612767238783499
+QG q=30 edges,765,0.06255645889792232
+QG q=30 edges,766,0.06579343571213489
+QG q=30 edges,767,0.0735471243601325
+QG q=30 edges,768,0.05909364649202047
+QG q=30 edges,769,0.06466425775368864
+QG q=30 edges,770,0.07286961758506474
+QG q=30 edges,771,0.0771604938271605
+QG q=30 edges,772,0.07143932550436616
+QG q=30 edges,773,0.06857874134296899
+QG q=30 edges,774,0.06790123456790123
+QG q=30 edges,775,0.0680517916290274
+QG q=30 edges,776,0.05728696175850648
+QG q=30 edges,777,0.07362240289069558
+QG q=30 edges,778,0.0703101475459199
+QG q=30 edges,779,0.0680517916290274
+QG q=30 edges,780,0.07527853056308341
+QG q=30 edges,781,0.06007226738934056
+QG q=30 edges,782,0.06022282445046672
+QG q=30 edges,783,0.0676001204456489
+QG q=30 edges,784,0.06782595603733815
+QG q=30 edges,785,0.0666967780788919
+QG q=30 edges,786,0.05781391147244806
+QG q=30 edges,787,0.0666967780788919
+QG q=30 edges,788,0.07083709725986148
+QG q=30 edges,789,0.066772056609455
+QG q=30 edges,790,0.06632038542607649
+QG q=30 edges,791,0.05969587473652514
+QG q=30 edges,792,0.06315868714242698
+QG q=30 edges,793,0.06910569105691058
+QG q=30 edges,794,0.06338452273411624
+QG q=30 edges,795,0.06519120746763024
+QG q=30 edges,796,0.06782595603733815
+QG q=30 edges,797,0.08235471243601325
+QG q=30 edges,798,0.07934357121348991
+QG q=30 edges,799,0.06616982836495032
+QG q=30 edges,800,0.06609454983438724
+QG q=30 edges,801,0.07595603733815116
+QG q=30 edges,802,0.0680517916290274
+QG q=30 edges,803,0.06082505269497139
+QG q=30 edges,804,0.06963264077085214
+QG q=30 edges,805,0.06955736224028906
+QG q=30 edges,806,0.05593194820837097
+QG q=30 edges,807,0.06421258657031015
+QG q=30 edges,808,0.07106293285155073
+QG q=30 edges,809,0.06556760012044566
+QG q=30 edges,810,0.06609454983438724
+QG q=30 edges,811,0.06978319783197834
+QG q=30 edges,812,0.05871725383920506
+QG q=30 edges,813,0.07143932550436616
+QG q=30 edges,814,0.06549232158988255
+QG q=30 edges,815,0.07068654019873533
+QG q=30 edges,816,0.0661698283649503
+QG q=30 edges,817,0.060298102981029805
+QG q=30 edges,818,0.06300813008130082
+QG q=30 edges,819,0.05660945498343872
+QG q=30 edges,820,0.06684733514001807
+QG q=30 edges,821,0.05766335441132189
+QG q=30 edges,822,0.06594399277326107
+QG q=30 edges,823,0.06632038542607649
+QG q=30 edges,824,0.05894308943089431
+QG q=30 edges,825,0.06812707015959048
+QG q=30 edges,826,0.06872929840409515
+QG q=30 edges,827,0.06526648599819332
+QG q=30 edges,828,0.06933152664859982
+QG q=30 edges,829,0.06782595603733815
+QG q=30 edges,830,0.0694068051791629
+QG q=30 edges,831,0.06564287865100873
+QG q=30 edges,832,0.06797651309846432
+QG q=30 edges,833,0.07384823848238482
+QG q=30 edges,834,0.07000903342366757
+QG q=30 edges,835,0.06948208370972599
+QG q=30 edges,836,0.06202950918398073
+QG q=30 edges,837,0.07068654019873533
+QG q=30 edges,838,0.06330924420355315
+QG q=30 edges,839,0.06338452273411622
+QG q=30 edges,840,0.06955736224028908
+QG q=30 edges,841,0.06428786510087323
+QG q=30 edges,842,0.06684733514001806
+QG q=30 edges,843,0.06707317073170732
+QG q=30 edges,844,0.07618187292984041
+QG q=30 edges,845,0.07286961758506473
+QG q=30 edges,846,0.06345980126467932
+QG q=30 edges,847,0.07836495031616983
+QG q=30 edges,848,0.056760012044564885
+QG q=30 edges,849,0.07076181872929839
+QG q=30 edges,850,0.06993375489310448
+QG q=30 edges,851,0.07700993676603433
+QG q=30 edges,852,0.06571815718157181
+QG q=30 edges,853,0.07015959048479374
+QG q=30 edges,854,0.06481481481481481
+QG q=30 edges,855,0.07452574525745256
+QG q=30 edges,856,0.059018367961457395
+QG q=30 edges,857,0.06850346281240591
+QG q=30 edges,858,0.06639566395663957
+QG q=30 edges,859,0.0766335441132189
+QG q=30 edges,860,0.07557964468533575
+QG q=30 edges,861,0.06835290575127974
+QG q=30 edges,862,0.06248118036735922
+QG q=30 edges,863,0.06481481481481481
+QG q=30 edges,864,0.06248118036735923
+QG q=30 edges,865,0.0717404396266185
+QG q=30 edges,866,0.06511592893706714
+QG q=30 edges,867,0.07128876844324
+QG q=30 edges,868,0.05886781090033122
+QG q=30 edges,869,0.06413730803974707
+QG q=30 edges,870,0.07046070460704607
+QG q=30 edges,871,0.0748268593797049
+QG q=30 edges,872,0.06586871424269798
+QG q=30 edges,873,0.06496537187594098
+QG q=30 edges,874,0.06571815718157181
+QG q=30 edges,875,0.06978319783197832
+QG q=30 edges,876,0.06466425775368864
+QG q=30 edges,877,0.06142728093947606
+QG q=30 edges,878,0.06007226738934056
+QG q=30 edges,879,0.0630834086118639
+QG q=30 edges,880,0.06887985546522132
+QG q=30 edges,881,0.0689551339957844
+QG q=30 edges,882,0.07091237579042457
+QG q=30 edges,883,0.06722372779283348
+QG q=30 edges,884,0.06323396567299006
+QG q=30 edges,885,0.06654622101776574
+QG q=30 edges,886,0.0603733815115929
+QG q=30 edges,887,0.0680517916290274
+QG q=30 edges,888,0.0703101475459199
+QG q=30 edges,889,0.0757302017464619
+QG q=30 edges,890,0.0648900933453779
+QG q=30 edges,891,0.06677205660945498
+QG q=30 edges,892,0.07023486901535682
+QG q=30 edges,893,0.06067449563384523
+QG q=30 edges,894,0.06519120746763024
+QG q=30 edges,895,0.07151460403492924
+QG q=30 edges,896,0.06903041252634749
+QG q=30 edges,897,0.07113821138211383
+QG q=30 edges,898,0.05540499849442939
+QG q=30 edges,899,0.06880457693465822
+QG q=30 edges,900,0.06782595603733815
+QG q=30 edges,901,0.05698584763625414
+QG q=30 edges,902,0.06775067750677508
+QG q=30 edges,903,0.07219211080999698
+QG q=30 edges,904,0.07121348991267691
+QG q=30 edges,905,0.06564287865100873
+QG q=30 edges,906,0.05864197530864198
+QG q=30 edges,907,0.07362240289069558
+QG q=30 edges,908,0.05947003914483589
+QG q=30 edges,909,0.07068654019873531
+QG q=30 edges,910,0.062104787714543815
+QG q=30 edges,911,0.06579343571213489
+QG q=30 edges,912,0.07874134296898525
+QG q=30 edges,913,0.07098765432098765
+QG q=30 edges,914,0.07618187292984041
+QG q=30 edges,915,0.07595603733815116
+QG q=30 edges,916,0.0676001204456489
+QG q=30 edges,917,0.061803673592291476
+QG q=30 edges,918,0.0699337548931045
+QG q=30 edges,919,0.058416139716952725
+QG q=30 edges,920,0.06112616681722373
+QG q=30 edges,921,0.06865401987353208
+QG q=30 edges,922,0.06187895212285456
+QG q=30 edges,923,0.06963264077085214
+QG q=30 edges,924,0.0717404396266185
+QG q=30 edges,925,0.06767539897621198
+QG q=30 edges,926,0.05781391147244805
+QG q=30 edges,927,0.07505269497139416
+QG q=30 edges,928,0.06797651309846432
+QG q=30 edges,929,0.07226738934056005
+QG q=30 edges,930,0.07211683227943391
+QG q=30 edges,931,0.06797651309846432
+QG q=30 edges,932,0.06903041252634749
+QG q=30 edges,933,0.06767539897621197
+QG q=30 edges,934,0.06315868714242699
+QG q=30 edges,935,0.07806383619391749
+QG q=30 edges,936,0.06692261367058115
+QG q=30 edges,937,0.07226738934056007
+QG q=30 edges,938,0.07151460403492924
+QG q=30 edges,939,0.06323396567299006
+QG q=30 edges,940,0.06451370069256249
+QG q=30 edges,941,0.06255645889792232
+QG q=30 edges,942,0.06361035832580547
+QG q=30 edges,943,0.06383619391749472
+QG q=30 edges,944,0.06857874134296899
+QG q=30 edges,945,0.07527853056308341
+QG q=30 edges,946,0.05698584763625414
+QG q=30 edges,947,0.07061126166817225
+QG q=30 edges,948,0.07234266787112316
+QG q=30 edges,949,0.06887985546522131
+QG q=30 edges,950,0.058416139716952725
+QG q=30 edges,951,0.07640770852152966
+QG q=30 edges,952,0.06504065040650406
+QG q=30 edges,953,0.06624510689551338
+QG q=30 edges,954,0.06571815718157181
+QG q=30 edges,955,0.06865401987353208
+QG q=30 edges,956,0.07956940680517915
+QG q=30 edges,957,0.06632038542607649
+QG q=30 edges,958,0.07384823848238481
+QG q=30 edges,959,0.06451370069256247
+QG q=30 edges,960,0.0648900933453779
+QG q=30 edges,961,0.0716651610960554
+QG q=30 edges,962,0.06594399277326107
+QG q=30 edges,963,0.05977115326708823
+QG q=30 edges,964,0.06880457693465823
+QG q=30 edges,965,0.06880457693465825
+QG q=30 edges,966,0.06330924420355316
+QG q=30 edges,967,0.06549232158988257
+QG q=30 edges,968,0.07437518819632641
+QG q=30 edges,969,0.07550436615477266
+QG q=30 edges,970,0.06767539897621198
+QG q=30 edges,971,0.06398675097862089
+QG q=30 edges,972,0.060448660042155974
+QG q=30 edges,973,0.07166516109605542
+QG q=30 edges,974,0.07128876844324
+QG q=30 edges,975,0.06263173742848539
+QG q=30 edges,976,0.07106293285155073
+QG q=30 edges,977,0.06910569105691056
+QG q=30 edges,978,0.06564287865100873
+QG q=30 edges,979,0.061502559470039145
+QG q=30 edges,980,0.07113821138211382
+QG q=30 edges,981,0.059620596205962065
+QG q=30 edges,982,0.06564287865100873
+QG q=30 edges,983,0.06662149954832881
+QG q=30 edges,984,0.06933152664859982
+QG q=30 edges,985,0.06300813008130081
+QG q=30 edges,986,0.07399879554351099
+QG q=30 edges,987,0.06609454983438723
+QG q=30 edges,988,0.06511592893706715
+QG q=30 edges,989,0.06300813008130082
+QG q=30 edges,990,0.06519120746763023
+QG q=30 edges,991,0.07339656729900632
+QG q=30 edges,992,0.06067449563384522
+QG q=30 edges,993,0.07249322493224933
+QG q=30 edges,994,0.06014754591990364
+QG q=30 edges,995,0.0666214995483288
+QG q=30 edges,996,0.08551641071966275
+QG q=30 edges,997,0.06775067750677505
+QG q=30 edges,998,0.0652664859981933
+QG q=30 edges,999,0.06014754591990364
+QG q=30 edges,1000,0.05879253236976814
+Spearman edges (signed),1,0.0685034628124059
+Spearman edges (signed),2,0.06338452273411624
+Spearman edges (signed),3,0.084838903944595
+Spearman edges (signed),4,0.07181571815718157
+Spearman edges (signed),5,0.06677205660945498
+Spearman edges (signed),6,0.060222824450466735
+Spearman edges (signed),7,0.057964468533574225
+Spearman edges (signed),8,0.08295694068051791
+Spearman edges (signed),9,0.06594399277326107
+Spearman edges (signed),10,0.05751279735019573
+Spearman edges (signed),11,0.09003312255344775
+Spearman edges (signed),12,0.055329719963866306
+Spearman edges (signed),13,0.05691056910569106
+Spearman edges (signed),14,0.10915386931647093
+Spearman edges (signed),15,0.06571815718157183
+Spearman edges (signed),16,0.09522734116230053
+Spearman edges (signed),17,0.08988256549232158
+Spearman edges (signed),18,0.06052393857271906
+Spearman edges (signed),19,0.06737428485395965
+Spearman edges (signed),20,0.0671484492622704
+Spearman edges (signed),21,0.09500150557061125
+Spearman edges (signed),22,0.07640770852152966
+Spearman edges (signed),23,0.07806383619391749
+Spearman edges (signed),24,0.04561878952122855
+Spearman edges (signed),25,0.10222824450466726
+Spearman edges (signed),26,0.07136404697380307
+Spearman edges (signed),27,0.058566696778078894
+Spearman edges (signed),28,0.07113821138211382
+Spearman edges (signed),29,0.06970791930141523
+Spearman edges (signed),30,0.03658536585365854
+Spearman edges (signed),31,0.04569406805179163
+Spearman edges (signed),32,0.05126467931345981
+Spearman edges (signed),33,0.07422463113520024
+Spearman edges (signed),34,0.07226738934056007
+Spearman edges (signed),35,0.04200542005420054
+Spearman edges (signed),36,0.07542908762420958
+Spearman edges (signed),37,0.05194218608852755
+Spearman edges (signed),38,0.05623306233062329
+Spearman edges (signed),39,0.07874134296898525
+Spearman edges (signed),40,0.06564287865100873
+Spearman edges (signed),41,0.06857874134296899
+Spearman edges (signed),42,0.05751279735019573
+Spearman edges (signed),43,0.08965672990063234
+Spearman edges (signed),44,0.07640770852152966
+Spearman edges (signed),45,0.061803673592291476
+Spearman edges (signed),46,0.05819030412526348
+Spearman edges (signed),47,0.041026799156880456
+Spearman edges (signed),48,0.0730201746461909
+Spearman edges (signed),49,0.05751279735019573
+Spearman edges (signed),50,0.06549232158988255
+Spearman edges (signed),51,0.0657934357121349
+Spearman edges (signed),52,0.08212887684432399
+Spearman edges (signed),53,0.08657031014754593
+Spearman edges (signed),54,0.04998494429388738
+Spearman edges (signed),55,0.0635350797952424
+Spearman edges (signed),56,0.0440379403794038
+Spearman edges (signed),57,0.07994579945799457
+Spearman edges (signed),58,0.0566847335140018
+Spearman edges (signed),59,0.04336043360433604
+Spearman edges (signed),60,0.05721168322794339
+Spearman edges (signed),61,0.08160192713038242
+Spearman edges (signed),62,0.06872929840409515
+Spearman edges (signed),63,0.04155374887082204
+Spearman edges (signed),64,0.08739837398373984
+Spearman edges (signed),65,0.04938271604938271
+Spearman edges (signed),66,0.06699789220114423
+Spearman edges (signed),67,0.0766335441132189
+Spearman edges (signed),68,0.0526196928635953
+Spearman edges (signed),69,0.04614573923517013
+Spearman edges (signed),70,0.042758205359831374
+Spearman edges (signed),71,0.04870520927431497
+Spearman edges (signed),72,0.07023486901535682
+Spearman edges (signed),73,0.05683529057512798
+Spearman edges (signed),74,0.06729900632339657
+Spearman edges (signed),75,0.05480277024992472
+Spearman edges (signed),76,0.06647094248720266
+Spearman edges (signed),77,0.054576934658235474
+Spearman edges (signed),78,0.057964468533574225
+Spearman edges (signed),79,0.09432399879554351
+Spearman edges (signed),80,0.07332128876844325
+Spearman edges (signed),81,0.04953327311050888
+Spearman edges (signed),82,0.04682324601023788
+Spearman edges (signed),83,0.08054802770249925
+Spearman edges (signed),84,0.08280638361939174
+Spearman edges (signed),85,0.06278229448961156
+Spearman edges (signed),86,0.047801866907557965
+Spearman edges (signed),87,0.04885576633544113
+Spearman edges (signed),88,0.07700993676603433
+Spearman edges (signed),89,0.05186690755796446
+Spearman edges (signed),90,0.05751279735019573
+Spearman edges (signed),91,0.06903041252634748
+Spearman edges (signed),92,0.05826558265582656
+Spearman edges (signed),93,0.09801264679313461
+Spearman edges (signed),94,0.04456489009334538
+Spearman edges (signed),95,0.09771153267088227
+Spearman edges (signed),96,0.07166516109605542
+Spearman edges (signed),97,0.06662149954832881
+Spearman edges (signed),98,0.0403492923818127
+Spearman edges (signed),99,0.06052393857271906
+Spearman edges (signed),100,0.06323396567299007
+Spearman edges (signed),101,0.05314664257753689
+Spearman edges (signed),102,0.08747365251430292
+Spearman edges (signed),103,0.06616982836495032
+Spearman edges (signed),104,0.05555555555555555
+Spearman edges (signed),105,0.06722372779283349
+Spearman edges (signed),106,0.03801565793435712
+Spearman edges (signed),107,0.06165311653116531
+Spearman edges (signed),108,0.04704908160192713
+Spearman edges (signed),109,0.06458897922312556
+Spearman edges (signed),110,0.07136404697380308
+Spearman edges (signed),111,0.038090936464920205
+Spearman edges (signed),112,0.07098765432098766
+Spearman edges (signed),113,0.045317675398976215
+Spearman edges (signed),114,0.06925624811803674
+Spearman edges (signed),115,0.05006022282445047
+Spearman edges (signed),116,0.0539747064137308
+Spearman edges (signed),117,0.05322192110809997
+Spearman edges (signed),118,0.06504065040650406
+Spearman edges (signed),119,0.05751279735019573
+Spearman edges (signed),120,0.050737729599518215
+Spearman edges (signed),121,0.08062330623306234
+Spearman edges (signed),122,0.07640770852152966
+Spearman edges (signed),123,0.0744504667268895
+Spearman edges (signed),124,0.04614573923517013
+Spearman edges (signed),125,0.06504065040650406
+Spearman edges (signed),126,0.07166516109605542
+Spearman edges (signed),127,0.039069557362240284
+Spearman edges (signed),128,0.05006022282445047
+Spearman edges (signed),129,0.04735019572417946
+Spearman edges (signed),130,0.066772056609455
+Spearman edges (signed),131,0.059168925022583564
+Spearman edges (signed),132,0.04817825956037339
+Spearman edges (signed),133,0.07286961758506474
+Spearman edges (signed),134,0.05540499849442939
+Spearman edges (signed),135,0.09086118638964168
+Spearman edges (signed),136,0.05977115326708823
+Spearman edges (signed),137,0.079418849744053
+Spearman edges (signed),138,0.10042155977115327
+Spearman edges (signed),139,0.06248118036735923
+Spearman edges (signed),140,0.07377295995182175
+Spearman edges (signed),141,0.06880457693465823
+Spearman edges (signed),142,0.07648298705209274
+Spearman edges (signed),143,0.05510388437217706
+Spearman edges (signed),144,0.04817825956037339
+Spearman edges (signed),145,0.07813911472448057
+Spearman edges (signed),146,0.0367359229147847
+Spearman edges (signed),147,0.045016561276723877
+Spearman edges (signed),148,0.06421258657031015
+Spearman edges (signed),149,0.06391147244805781
+Spearman edges (signed),150,0.043209876543209874
+Spearman edges (signed),151,0.09168925022583559
+Spearman edges (signed),152,0.05201746461909064
+Spearman edges (signed),153,0.06639566395663958
+Spearman edges (signed),154,0.05894308943089431
+Spearman edges (signed),155,0.04847937368262572
+Spearman edges (signed),156,0.04193014152363746
+Spearman edges (signed),157,0.06496537187594098
+Spearman edges (signed),158,0.06647094248720264
+Spearman edges (signed),159,0.11750978620897319
+Spearman edges (signed),160,0.07249322493224933
+Spearman edges (signed),161,0.06616982836495032
+Spearman edges (signed),162,0.06082505269497139
+Spearman edges (signed),163,0.07874134296898526
+Spearman edges (signed),164,0.057136404697380315
+Spearman edges (signed),165,0.060448660042155974
+Spearman edges (signed),166,0.06699789220114423
+Spearman edges (signed),167,0.0535230352303523
+Spearman edges (signed),168,0.05006022282445047
+Spearman edges (signed),169,0.06571815718157181
+Spearman edges (signed),170,0.07422463113520023
+Spearman edges (signed),171,0.062405901836796146
+Spearman edges (signed),172,0.08611863896416742
+Spearman edges (signed),173,0.05653417645287563
+Spearman edges (signed),174,0.04072568503462812
+Spearman edges (signed),175,0.05465221318879855
+Spearman edges (signed),176,0.08092442035531466
+Spearman edges (signed),177,0.07460102378801567
+Spearman edges (signed),178,0.06391147244805782
+Spearman edges (signed),179,0.0725685034628124
+Spearman edges (signed),180,0.08973200843119541
+Spearman edges (signed),181,0.067675398976212
+Spearman edges (signed),182,0.05412526347485697
+Spearman edges (signed),183,0.06775067750677506
+Spearman edges (signed),184,0.05834086118638964
+Spearman edges (signed),185,0.058566696778078894
+Spearman edges (signed),186,0.05660945498343872
+Spearman edges (signed),187,0.05615778380006023
+Spearman edges (signed),188,0.05736224028906957
+Spearman edges (signed),189,0.06978319783197832
+Spearman edges (signed),190,0.0757302017464619
+Spearman edges (signed),191,0.0784402288467329
+Spearman edges (signed),192,0.08574224631135201
+Spearman edges (signed),193,0.07053598313760916
+Spearman edges (signed),194,0.05563083408611864
+Spearman edges (signed),195,0.057362240289069555
+Spearman edges (signed),196,0.05051189400782897
+Spearman edges (signed),197,0.08024691358024691
+Spearman edges (signed),198,0.07317073170731708
+Spearman edges (signed),199,0.06361035832580549
+Spearman edges (signed),200,0.06218006624510689
+Spearman edges (signed),201,0.0716651610960554
+Spearman edges (signed),202,0.06496537187594098
+Spearman edges (signed),203,0.047651309846431796
+Spearman edges (signed),204,0.06662149954832881
+Spearman edges (signed),205,0.06090033122553448
+Spearman edges (signed),206,0.05292080698584764
+Spearman edges (signed),207,0.06752484191508583
+Spearman edges (signed),208,0.05962059620596205
+Spearman edges (signed),209,0.040575127973501955
+Spearman edges (signed),210,0.07046070460704607
+Spearman edges (signed),211,0.059620596205962065
+Spearman edges (signed),212,0.05788919000301115
+Spearman edges (signed),213,0.06285757302017464
+Spearman edges (signed),214,0.057437518819632646
+Spearman edges (signed),215,0.09567901234567902
+Spearman edges (signed),216,0.0666967780788919
+Spearman edges (signed),217,0.08152664859981934
+Spearman edges (signed),218,0.05495332731105088
+Spearman edges (signed),219,0.07941884974405299
+Spearman edges (signed),220,0.07610659439927732
+Spearman edges (signed),221,0.059620596205962065
+Spearman edges (signed),222,0.062405901836796146
+Spearman edges (signed),223,0.07527853056308341
+Spearman edges (signed),224,0.057437518819632646
+Spearman edges (signed),225,0.06353507979524238
+Spearman edges (signed),226,0.04479072568503463
+Spearman edges (signed),227,0.061050888286660644
+Spearman edges (signed),228,0.09093646492020475
+Spearman edges (signed),229,0.058641975308641965
+Spearman edges (signed),230,0.05352303523035231
+Spearman edges (signed),231,0.05645889792231256
+Spearman edges (signed),232,0.06323396567299006
+Spearman edges (signed),233,0.060900331225534475
+Spearman edges (signed),234,0.06707317073170732
+Spearman edges (signed),235,0.07971996386630534
+Spearman edges (signed),236,0.07881662149954832
+Spearman edges (signed),237,0.06263173742848539
+Spearman edges (signed),238,0.07685937970490815
+Spearman edges (signed),239,0.08882866606443843
+Spearman edges (signed),240,0.05585666967780789
+Spearman edges (signed),241,0.08980728696175849
+Spearman edges (signed),242,0.05600722673893407
+Spearman edges (signed),243,0.05126467931345981
+Spearman edges (signed),244,0.0666967780788919
+Spearman edges (signed),245,0.08190304125263476
+Spearman edges (signed),246,0.061728395061728385
+Spearman edges (signed),247,0.05758807588075881
+Spearman edges (signed),248,0.06865401987353206
+Spearman edges (signed),249,0.06775067750677508
+Spearman edges (signed),250,0.04622101776573321
+Spearman edges (signed),251,0.07158988256549231
+Spearman edges (signed),252,0.06699789220114423
+Spearman edges (signed),253,0.05540499849442939
+Spearman edges (signed),254,0.06473953628425172
+Spearman edges (signed),255,0.07000903342366757
+Spearman edges (signed),256,0.07174043962661848
+Spearman edges (signed),257,0.04569406805179163
+Spearman edges (signed),258,0.049156880457693466
+Spearman edges (signed),259,0.06466425775368864
+Spearman edges (signed),260,0.05811502559470039
+Spearman edges (signed),261,0.04328515507377296
+Spearman edges (signed),262,0.086645588678109
+Spearman edges (signed),263,0.06052393857271906
+Spearman edges (signed),264,0.0725685034628124
+Spearman edges (signed),265,0.05570611261668173
+Spearman edges (signed),266,0.06684733514001807
+Spearman edges (signed),267,0.05969587473652514
+Spearman edges (signed),268,0.0685034628124059
+Spearman edges (signed),269,0.05239385727190605
+Spearman edges (signed),270,0.04960855164107197
+Spearman edges (signed),271,0.09567901234567902
+Spearman edges (signed),272,0.06526648599819332
+Spearman edges (signed),273,0.04110207768744354
+Spearman edges (signed),274,0.05367359229147847
+Spearman edges (signed),275,0.06278229448961156
+Spearman edges (signed),276,0.05450165612767239
+Spearman edges (signed),277,0.05103884372177055
+Spearman edges (signed),278,0.09560373381511594
+Spearman edges (signed),279,0.04840409515206263
+Spearman edges (signed),280,0.06752484191508583
+Spearman edges (signed),281,0.04870520927431496
+Spearman edges (signed),282,0.06812707015959048
+Spearman edges (signed),283,0.043209876543209874
+Spearman edges (signed),284,0.061050888286660644
+Spearman edges (signed),285,0.04772658837699488
+Spearman edges (signed),286,0.05939476061427282
+Spearman edges (signed),287,0.06323396567299007
+Spearman edges (signed),288,0.06248118036735923
+Spearman edges (signed),289,0.04832881662149954
+Spearman edges (signed),290,0.07271906052393858
+Spearman edges (signed),291,0.06985847636254142
+Spearman edges (signed),292,0.0694068051791629
+Spearman edges (signed),293,0.050888286660644384
+Spearman edges (signed),294,0.059319482083709726
+Spearman edges (signed),295,0.09116230051189401
+Spearman edges (signed),296,0.08739837398373984
+Spearman edges (signed),297,0.04742547425474255
+Spearman edges (signed),298,0.06993375489310448
+Spearman edges (signed),299,0.07226738934056007
+Spearman edges (signed),300,0.1111111111111111
+Spearman edges (signed),301,0.07098765432098766
+Spearman edges (signed),302,0.06007226738934056
+Spearman edges (signed),303,0.05751279735019573
+Spearman edges (signed),304,0.0689551339957844
+Spearman edges (signed),305,0.04614573923517013
+Spearman edges (signed),306,0.06925624811803674
+Spearman edges (signed),307,0.05954531767539897
+Spearman edges (signed),308,0.05096356519120747
+Spearman edges (signed),309,0.06511592893706714
+Spearman edges (signed),310,0.058416139716952725
+Spearman edges (signed),311,0.07678410117434506
+Spearman edges (signed),312,0.05728696175850648
+Spearman edges (signed),313,0.0676001204456489
+Spearman edges (signed),314,0.04885576633544113
+Spearman edges (signed),315,0.054878048780487805
+Spearman edges (signed),316,0.037488708220415536
+Spearman edges (signed),317,0.06074977416440831
+Spearman edges (signed),318,0.06760012044564889
+Spearman edges (signed),319,0.05691056910569106
+Spearman edges (signed),320,0.06880457693465823
+Spearman edges (signed),321,0.05540499849442938
+Spearman edges (signed),322,0.07008431195423065
+Spearman edges (signed),323,0.055329719963866306
+Spearman edges (signed),324,0.04170430593194821
+Spearman edges (signed),325,0.0712134899126769
+Spearman edges (signed),326,0.060523938572719066
+Spearman edges (signed),327,0.07437518819632641
+Spearman edges (signed),328,0.0490063233965673
+Spearman edges (signed),329,0.06955736224028906
+Spearman edges (signed),330,0.09281842818428183
+Spearman edges (signed),331,0.04012345679012346
+Spearman edges (signed),332,0.05954531767539898
+Spearman edges (signed),333,0.06014754591990364
+Spearman edges (signed),334,0.0685034628124059
+Spearman edges (signed),335,0.07919301415236375
+Spearman edges (signed),336,0.06775067750677508
+Spearman edges (signed),337,0.043812104787714544
+Spearman edges (signed),338,0.06910569105691056
+Spearman edges (signed),339,0.07204155374887083
+Spearman edges (signed),340,0.0808491418247516
+Spearman edges (signed),341,0.064062029509184
+Spearman edges (signed),342,0.0825805480277025
+Spearman edges (signed),343,0.05525444143330322
+Spearman edges (signed),344,0.0898825654923216
+Spearman edges (signed),345,0.05758807588075881
+Spearman edges (signed),346,0.048780487804878044
+Spearman edges (signed),347,0.041327913279132794
+Spearman edges (signed),348,0.06127672387834989
+Spearman edges (signed),349,0.06466425775368864
+Spearman edges (signed),350,0.04607046070460705
+Spearman edges (signed),351,0.07625715146040349
+Spearman edges (signed),352,0.07648298705209274
+Spearman edges (signed),353,0.08130081300813008
+Spearman edges (signed),354,0.05412526347485697
+Spearman edges (signed),355,0.08318277627220717
+Spearman edges (signed),356,0.05058717253839205
+Spearman edges (signed),357,0.06059921710328215
+Spearman edges (signed),358,0.060900331225534475
+Spearman edges (signed),359,0.04757603131586871
+Spearman edges (signed),360,0.0508130081300813
+Spearman edges (signed),361,0.06278229448961155
+Spearman edges (signed),362,0.046747967479674794
+Spearman edges (signed),363,0.08777476663655526
+Spearman edges (signed),364,0.07249322493224933
+Spearman edges (signed),365,0.06315868714242698
+Spearman edges (signed),366,0.061502559470039145
+Spearman edges (signed),367,0.05894308943089431
+Spearman edges (signed),368,0.05721168322794339
+Spearman edges (signed),369,0.05465221318879856
+Spearman edges (signed),370,0.045317675398976215
+Spearman edges (signed),371,0.05420054200542005
+Spearman edges (signed),372,0.09311954230653419
+Spearman edges (signed),373,0.05660945498343872
+Spearman edges (signed),374,0.04644685335742246
+Spearman edges (signed),375,0.061050888286660644
+Spearman edges (signed),376,0.06082505269497139
+Spearman edges (signed),377,0.08769948810599217
+Spearman edges (signed),378,0.07279433905450165
+Spearman edges (signed),379,0.0503613369467028
+Spearman edges (signed),380,0.05977115326708823
+Spearman edges (signed),381,0.04998494429388739
+Spearman edges (signed),382,0.07497741644083107
+Spearman edges (signed),383,0.05555555555555555
+Spearman edges (signed),384,0.05766335441132189
+Spearman edges (signed),385,0.07000903342366756
+Spearman edges (signed),386,0.06007226738934056
+Spearman edges (signed),387,0.03989762119843421
+Spearman edges (signed),388,0.05028605841613972
+Spearman edges (signed),389,0.061653116531165314
+Spearman edges (signed),390,0.04230653417645288
+Spearman edges (signed),391,0.04524239686841313
+Spearman edges (signed),392,0.04554351099066546
+Spearman edges (signed),393,0.07565492321589881
+Spearman edges (signed),394,0.05096356519120747
+Spearman edges (signed),395,0.05179162902740138
+Spearman edges (signed),396,0.049006323396567304
+Spearman edges (signed),397,0.04750075278530563
+Spearman edges (signed),398,0.053974706413730804
+Spearman edges (signed),399,0.08152664859981934
+Spearman edges (signed),400,0.07497741644083107
+Spearman edges (signed),401,0.06880457693465823
+Spearman edges (signed),402,0.09906654622101778
+Spearman edges (signed),403,0.0453929539295393
+Spearman edges (signed),404,0.0539747064137308
+Spearman edges (signed),405,0.07723577235772357
+Spearman edges (signed),406,0.08468834688346882
+Spearman edges (signed),407,0.05600722673893405
+Spearman edges (signed),408,0.0612767238783499
+Spearman edges (signed),409,0.06933152664859982
+Spearman edges (signed),410,0.09409816320385425
+Spearman edges (signed),411,0.06609454983438723
+Spearman edges (signed),412,0.06315868714242698
+Spearman edges (signed),413,0.07015959048479373
+Spearman edges (signed),414,0.04644685335742246
+Spearman edges (signed),415,0.05638361939174947
+Spearman edges (signed),416,0.07128876844324
+Spearman edges (signed),417,0.07384823848238482
+Spearman edges (signed),418,0.04847937368262572
+Spearman edges (signed),419,0.09146341463414634
+Spearman edges (signed),420,0.05412526347485697
+Spearman edges (signed),421,0.07542908762420958
+Spearman edges (signed),422,0.04539295392953929
+Spearman edges (signed),423,0.058566696778078894
+Spearman edges (signed),424,0.08130081300813008
+Spearman edges (signed),425,0.07128876844324
+Spearman edges (signed),426,0.0716651610960554
+Spearman edges (signed),427,0.04817825956037338
+Spearman edges (signed),428,0.09146341463414634
+Spearman edges (signed),429,0.056308340861186384
+Spearman edges (signed),430,0.044866004215597714
+Spearman edges (signed),431,0.07911773562180066
+Spearman edges (signed),432,0.05660945498343872
+Spearman edges (signed),433,0.07527853056308341
+Spearman edges (signed),434,0.05683529057512798
+Spearman edges (signed),435,0.08227943390545016
+Spearman edges (signed),436,0.059846431797651305
+Spearman edges (signed),437,0.07211683227943391
+Spearman edges (signed),438,0.07422463113520024
+Spearman edges (signed),439,0.053297199638663056
+Spearman edges (signed),440,0.05111412225233363
+Spearman edges (signed),441,0.08679614573923516
+Spearman edges (signed),442,0.06376091538693165
+Spearman edges (signed),443,0.07000903342366757
+Spearman edges (signed),444,0.05886781090033122
+Spearman edges (signed),445,0.051942186088527555
+Spearman edges (signed),446,0.052544414333032224
+Spearman edges (signed),447,0.06443842216199941
+Spearman edges (signed),448,0.05495332731105088
+Spearman edges (signed),449,0.06737428485395963
+Spearman edges (signed),450,0.08092442035531466
+Spearman edges (signed),451,0.06519120746763024
+Spearman edges (signed),452,0.04667268894911171
+Spearman edges (signed),453,0.054652213188798565
+Spearman edges (signed),454,0.07128876844324
+Spearman edges (signed),455,0.051490514905149054
+Spearman edges (signed),456,0.07256850346281242
+Spearman edges (signed),457,0.04509183980728696
+Spearman edges (signed),458,0.06383619391749473
+Spearman edges (signed),459,0.05224330021077988
+Spearman edges (signed),460,0.09274314965371877
+Spearman edges (signed),461,0.08882866606443843
+Spearman edges (signed),462,0.051490514905149054
+Spearman edges (signed),463,0.059319482083709726
+Spearman edges (signed),464,0.06782595603733815
+Spearman edges (signed),465,0.08235471243601325
+Spearman edges (signed),466,0.0530713640469738
+Spearman edges (signed),467,0.08566696778078892
+Spearman edges (signed),468,0.09274314965371877
+Spearman edges (signed),469,0.04622101776573321
+Spearman edges (signed),470,0.06308340861186389
+Spearman edges (signed),471,0.053297199638663056
+Spearman edges (signed),472,0.0503613369467028
+Spearman edges (signed),473,0.06142728093947606
+Spearman edges (signed),474,0.0554049984944294
+Spearman edges (signed),475,0.05359831376091538
+Spearman edges (signed),476,0.06436314363143632
+Spearman edges (signed),477,0.05201746461909063
+Spearman edges (signed),478,0.050361336946702806
+Spearman edges (signed),479,0.050286058416139714
+Spearman edges (signed),480,0.07392351701294791
+Spearman edges (signed),481,0.09914182475158083
+Spearman edges (signed),482,0.07663354411321892
+Spearman edges (signed),483,0.07708521529659741
+Spearman edges (signed),484,0.05600722673893407
+Spearman edges (signed),485,0.04253236976814213
+Spearman edges (signed),486,0.050662451068955144
+Spearman edges (signed),487,0.05608250526949713
+Spearman edges (signed),488,0.07181571815718156
+Spearman edges (signed),489,0.07738632941884975
+Spearman edges (signed),490,0.0490063233965673
+Spearman edges (signed),491,0.07392351701294791
+Spearman edges (signed),492,0.05149051490514905
+Spearman edges (signed),493,0.05947003914483589
+Spearman edges (signed),494,0.08559168925022582
+Spearman edges (signed),495,0.08589280337247818
+Spearman edges (signed),496,0.062104787714543815
+Spearman edges (signed),497,0.06218006624510689
+Spearman edges (signed),498,0.03643480879253237
+Spearman edges (signed),499,0.06707317073170732
+Spearman edges (signed),500,0.059319482083709726
+Spearman edges (signed),501,0.07874134296898525
+Spearman edges (signed),502,0.07557964468533575
+Spearman edges (signed),503,0.05751279735019573
+Spearman edges (signed),504,0.06865401987353208
+Spearman edges (signed),505,0.074902137910268
+Spearman edges (signed),506,0.07023486901535682
+Spearman edges (signed),507,0.08928033724781693
+Spearman edges (signed),508,0.05540499849442939
+Spearman edges (signed),509,0.05510388437217705
+Spearman edges (signed),510,0.07136404697380308
+Spearman edges (signed),511,0.09259259259259259
+Spearman edges (signed),512,0.048253538090936465
+Spearman edges (signed),513,0.11939174947305028
+Spearman edges (signed),514,0.06278229448961156
+Spearman edges (signed),515,0.06458897922312556
+Spearman edges (signed),516,0.04358626919602529
+Spearman edges (signed),517,0.06729900632339657
+Spearman edges (signed),518,0.0725685034628124
+Spearman edges (signed),519,0.061502559470039145
+Spearman edges (signed),520,0.07964468533574225
+Spearman edges (signed),521,0.08370972598614874
+Spearman edges (signed),522,0.06248118036735923
+Spearman edges (signed),523,0.09244203553146642
+Spearman edges (signed),524,0.06677205660945498
+Spearman edges (signed),525,0.06029810298102981
+Spearman edges (signed),526,0.06827762722071666
+Spearman edges (signed),527,0.10335742246311351
+Spearman edges (signed),528,0.07949412827461608
+Spearman edges (signed),529,0.057437518819632646
+Spearman edges (signed),530,0.07106293285155074
+Spearman edges (signed),531,0.04366154772658838
+Spearman edges (signed),532,0.052845528455284556
+Spearman edges (signed),533,0.06052393857271906
+Spearman edges (signed),534,0.05871725383920506
+Spearman edges (signed),535,0.044263775971093045
+Spearman edges (signed),536,0.05510388437217705
+Spearman edges (signed),537,0.05322192110809997
+Spearman edges (signed),538,0.0748268593797049
+Spearman edges (signed),539,0.0617283950617284
+Spearman edges (signed),540,0.06948208370972599
+Spearman edges (signed),541,0.10998193315266486
+Spearman edges (signed),542,0.06059921710328215
+Spearman edges (signed),543,0.077612165010539
+Spearman edges (signed),544,0.07189099668774464
+Spearman edges (signed),545,0.06323396567299006
+Spearman edges (signed),546,0.05284552845528455
+Spearman edges (signed),547,0.06270701595904848
+Spearman edges (signed),548,0.06082505269497139
+Spearman edges (signed),549,0.04396266184884071
+Spearman edges (signed),550,0.039671785606744954
+Spearman edges (signed),551,0.09853959650707618
+Spearman edges (signed),552,0.11058416139716952
+Spearman edges (signed),553,0.05879253236976815
+Spearman edges (signed),554,0.04983438723276122
+Spearman edges (signed),555,0.05939476061427281
+Spearman edges (signed),556,0.07098765432098766
+Spearman edges (signed),557,0.05028605841613972
+Spearman edges (signed),558,0.07610659439927732
+Spearman edges (signed),559,0.06308340861186389
+Spearman edges (signed),560,0.054727491719361636
+Spearman edges (signed),561,0.05615778380006023
+Spearman edges (signed),562,0.0661698283649503
+Spearman edges (signed),563,0.07271906052393856
+Spearman edges (signed),564,0.04847937368262572
+Spearman edges (signed),565,0.0689551339957844
+Spearman edges (signed),566,0.05495332731105088
+Spearman edges (signed),567,0.05389942788316772
+Spearman edges (signed),568,0.06707317073170732
+Spearman edges (signed),569,0.08220415537488708
+Spearman edges (signed),570,0.044037940379403805
+Spearman edges (signed),571,0.08589280337247818
+Spearman edges (signed),572,0.06601927130382415
+Spearman edges (signed),573,0.06504065040650406
+Spearman edges (signed),574,0.0539747064137308
+Spearman edges (signed),575,0.056534176452875645
+Spearman edges (signed),576,0.06428786510087323
+Spearman edges (signed),577,0.04697380307136405
+Spearman edges (signed),578,0.05201746461909064
+Spearman edges (signed),579,0.04087624209575429
+Spearman edges (signed),580,0.05856669677807888
+Spearman edges (signed),581,0.08190304125263476
+Spearman edges (signed),582,0.06202950918398072
+Spearman edges (signed),583,0.06654622101776572
+Spearman edges (signed),584,0.06744956338452274
+Spearman edges (signed),585,0.054878048780487805
+Spearman edges (signed),586,0.06270701595904848
+Spearman edges (signed),587,0.03989762119843421
+Spearman edges (signed),588,0.08657031014754593
+Spearman edges (signed),589,0.049232158988256544
+Spearman edges (signed),590,0.06383619391749473
+Spearman edges (signed),591,0.04870520927431496
+Spearman edges (signed),592,0.05487804878048781
+Spearman edges (signed),593,0.052920806985847633
+Spearman edges (signed),594,0.05819030412526348
+Spearman edges (signed),595,0.07098765432098765
+Spearman edges (signed),596,0.09507678410117434
+Spearman edges (signed),597,0.0852905751279735
+Spearman edges (signed),598,0.05879253236976814
+Spearman edges (signed),599,0.1006473953628425
+Spearman edges (signed),600,0.06850346281240591
+Spearman edges (signed),601,0.07422463113520024
+Spearman edges (signed),602,0.08912978018669077
+Spearman edges (signed),603,0.07098765432098765
+Spearman edges (signed),604,0.04637157482685938
+Spearman edges (signed),605,0.08069858476362542
+Spearman edges (signed),606,0.09379704908160193
+Spearman edges (signed),607,0.074902137910268
+Spearman edges (signed),608,0.057362240289069555
+Spearman edges (signed),609,0.054727491719361636
+Spearman edges (signed),610,0.05766335441132189
+Spearman edges (signed),611,0.04712436013249021
+Spearman edges (signed),612,0.04599518217404396
+Spearman edges (signed),613,0.05367359229147847
+Spearman edges (signed),614,0.09342065642878651
+Spearman edges (signed),615,0.08160192713038242
+Spearman edges (signed),616,0.06240590183679614
+Spearman edges (signed),617,0.05773863294188497
+Spearman edges (signed),618,0.05269497139415838
+Spearman edges (signed),619,0.09846431797651312
+Spearman edges (signed),620,0.06218006624510689
+Spearman edges (signed),621,0.06790123456790124
+Spearman edges (signed),622,0.05954531767539898
+Spearman edges (signed),623,0.0530713640469738
+Spearman edges (signed),624,0.05864197530864198
+Spearman edges (signed),625,0.06421258657031015
+Spearman edges (signed),626,0.047425474254742556
+Spearman edges (signed),627,0.06345980126467932
+Spearman edges (signed),628,0.057437518819632646
+Spearman edges (signed),629,0.06880457693465825
+Spearman edges (signed),630,0.0603733815115929
+Spearman edges (signed),631,0.08340861186389642
+Spearman edges (signed),632,0.06729900632339658
+Spearman edges (signed),633,0.08657031014754592
+Spearman edges (signed),634,0.10230352303523034
+Spearman edges (signed),635,0.11058416139716953
+Spearman edges (signed),636,0.05073772959951822
+Spearman edges (signed),637,0.05066245106895513
+Spearman edges (signed),638,0.08498946100572118
+Spearman edges (signed),639,0.04614573923517014
+Spearman edges (signed),640,0.05028605841613972
+Spearman edges (signed),641,0.07746160794941283
+Spearman edges (signed),642,0.059846431797651305
+Spearman edges (signed),643,0.05879253236976815
+Spearman edges (signed),644,0.05563083408611865
+Spearman edges (signed),645,0.07994579945799457
+Spearman edges (signed),646,0.0635350797952424
+Spearman edges (signed),647,0.06421258657031015
+Spearman edges (signed),648,0.05156579343571214
+Spearman edges (signed),649,0.0666967780788919
+Spearman edges (signed),650,0.05186690755796446
+Spearman edges (signed),651,0.04373682625715145
+Spearman edges (signed),652,0.055706112616681715
+Spearman edges (signed),653,0.05683529057512798
+Spearman edges (signed),654,0.0662451068955134
+Spearman edges (signed),655,0.05051189400782897
+Spearman edges (signed),656,0.08506473953628427
+Spearman edges (signed),657,0.06669677807889189
+Spearman edges (signed),658,0.05721168322794339
+Spearman edges (signed),659,0.04938271604938271
+Spearman edges (signed),660,0.06135200240891297
+Spearman edges (signed),661,0.055179162902740136
+Spearman edges (signed),662,0.05284552845528455
+Spearman edges (signed),663,0.06978319783197832
+Spearman edges (signed),664,0.07158988256549231
+Spearman edges (signed),665,0.08453778982234267
+Spearman edges (signed),666,0.07347184582956941
+Spearman edges (signed),667,0.03794037940379404
+Spearman edges (signed),668,0.05149051490514905
+Spearman edges (signed),669,0.05788919000301113
+Spearman edges (signed),670,0.05006022282445046
+Spearman edges (signed),671,0.05389942788316773
+Spearman edges (signed),672,0.05555555555555555
+Spearman edges (signed),673,0.048404095152062634
+Spearman edges (signed),674,0.055706112616681715
+Spearman edges (signed),675,0.07068654019873533
+Spearman edges (signed),676,0.08062330623306233
+Spearman edges (signed),677,0.07896717856067449
+Spearman edges (signed),678,0.05939476061427281
+Spearman edges (signed),679,0.07392351701294791
+Spearman edges (signed),680,0.06225534477566998
+Spearman edges (signed),681,0.06052393857271906
+Spearman edges (signed),682,0.09191508581752485
+Spearman edges (signed),683,0.07046070460704607
+Spearman edges (signed),684,0.04607046070460705
+Spearman edges (signed),685,0.0861939174947305
+Spearman edges (signed),686,0.04418849744052996
+Spearman edges (signed),687,0.07189099668774465
+Spearman edges (signed),688,0.04418849744052996
+Spearman edges (signed),689,0.05179162902740139
+Spearman edges (signed),690,0.03989762119843421
+Spearman edges (signed),691,0.064062029509184
+Spearman edges (signed),692,0.08514001806684733
+Spearman edges (signed),693,0.04599518217404397
+Spearman edges (signed),694,0.07264378199337548
+Spearman edges (signed),695,0.047801866907557965
+Spearman edges (signed),696,0.039671785606744954
+Spearman edges (signed),697,0.06707317073170732
+Spearman edges (signed),698,0.05450165612767239
+Spearman edges (signed),699,0.056534176452875645
+Spearman edges (signed),700,0.06880457693465823
+Spearman edges (signed),701,0.06775067750677505
+Spearman edges (signed),702,0.06790123456790123
+Spearman edges (signed),703,0.0689551339957844
+Spearman edges (signed),704,0.07128876844323999
+Spearman edges (signed),705,0.03861788617886179
+Spearman edges (signed),706,0.08069858476362542
+Spearman edges (signed),707,0.06270701595904848
+Spearman edges (signed),708,0.08355916892502259
+Spearman edges (signed),709,0.0689551339957844
+Spearman edges (signed),710,0.04539295392953929
+Spearman edges (signed),711,0.04990966576332429
+Spearman edges (signed),712,0.045317675398976215
+Spearman edges (signed),713,0.053974706413730804
+Spearman edges (signed),714,0.07700993676603433
+Spearman edges (signed),715,0.08717253839205058
+Spearman edges (signed),716,0.05359831376091539
+Spearman edges (signed),717,0.04968383017163505
+Spearman edges (signed),718,0.049683830171635045
+Spearman edges (signed),719,0.049759108702198136
+Spearman edges (signed),720,0.04095152062631738
+Spearman edges (signed),721,0.09138813610358326
+Spearman edges (signed),722,0.05977115326708823
+Spearman edges (signed),723,0.0921409214092141
+Spearman edges (signed),724,0.06428786510087323
+Spearman edges (signed),725,0.06225534477566998
+Spearman edges (signed),726,0.04697380307136404
+Spearman edges (signed),727,0.05510388437217706
+Spearman edges (signed),728,0.05698584763625414
+Spearman edges (signed),729,0.05103884372177055
+Spearman edges (signed),730,0.045167118337850046
+Spearman edges (signed),731,0.052393857271906055
+Spearman edges (signed),732,0.059921710328214396
+Spearman edges (signed),733,0.05766335441132189
+Spearman edges (signed),734,0.06052393857271906
+Spearman edges (signed),735,0.06910569105691057
+Spearman edges (signed),736,0.06090033122553448
+Spearman edges (signed),737,0.07128876844324
+Spearman edges (signed),738,0.044414333032219214
+Spearman edges (signed),739,0.0453929539295393
+Spearman edges (signed),740,0.047199638663053295
+Spearman edges (signed),741,0.07768744354110207
+Spearman edges (signed),742,0.07460102378801566
+Spearman edges (signed),743,0.07859078590785908
+Spearman edges (signed),744,0.04682324601023788
+Spearman edges (signed),745,0.0852905751279735
+Spearman edges (signed),746,0.05999698885877748
+Spearman edges (signed),747,0.07279433905450167
+Spearman edges (signed),748,0.057964468533574225
+Spearman edges (signed),749,0.06963264077085214
+Spearman edges (signed),750,0.06323396567299006
+Spearman edges (signed),751,0.036058416139716956
+Spearman edges (signed),752,0.0626317374284854
+Spearman edges (signed),753,0.056082505269497145
+Spearman edges (signed),754,0.04260764829870521
+Spearman edges (signed),755,0.07859078590785909
+Spearman edges (signed),756,0.07505269497139416
+Spearman edges (signed),757,0.0643631436314363
+Spearman edges (signed),758,0.06263173742848539
+Spearman edges (signed),759,0.06406202950918398
+Spearman edges (signed),760,0.05939476061427281
+Spearman edges (signed),761,0.05894308943089431
+Spearman edges (signed),762,0.05826558265582655
+Spearman edges (signed),763,0.06481481481481483
+Spearman edges (signed),764,0.04569406805179163
+Spearman edges (signed),765,0.06473953628425173
+Spearman edges (signed),766,0.07264378199337548
+Spearman edges (signed),767,0.059093646492020487
+Spearman edges (signed),768,0.05397470641373081
+Spearman edges (signed),769,0.08047274917193617
+Spearman edges (signed),770,0.06293285155073773
+Spearman edges (signed),771,0.083032219211081
+Spearman edges (signed),772,0.04652213188798554
+Spearman edges (signed),773,0.05141523637458597
+Spearman edges (signed),774,0.06729900632339657
+Spearman edges (signed),775,0.09688346883468836
+Spearman edges (signed),776,0.07550436615477267
+Spearman edges (signed),777,0.06609454983438723
+Spearman edges (signed),778,0.0467479674796748
+Spearman edges (signed),779,0.05299608551641071
+Spearman edges (signed),780,0.06368563685636858
+Spearman edges (signed),781,0.0680517916290274
+Spearman edges (signed),782,0.05006022282445047
+Spearman edges (signed),783,0.0825805480277025
+Spearman edges (signed),784,0.05540499849442939
+Spearman edges (signed),785,0.060298102981029805
+Spearman edges (signed),786,0.06963264077085216
+Spearman edges (signed),787,0.08175248419150857
+Spearman edges (signed),788,0.040274013851249624
+Spearman edges (signed),789,0.0689551339957844
+Spearman edges (signed),790,0.05593194820837097
+Spearman edges (signed),791,0.07956940680517915
+Spearman edges (signed),792,0.054426377597109304
+Spearman edges (signed),793,0.07565492321589884
+Spearman edges (signed),794,0.047049081601927126
+Spearman edges (signed),795,0.07588075880758809
+Spearman edges (signed),796,0.061803673592291476
+Spearman edges (signed),797,0.06428786510087323
+Spearman edges (signed),798,0.10147545919903643
+Spearman edges (signed),799,0.05826558265582656
+Spearman edges (signed),800,0.03929539295392954
+Spearman edges (signed),801,0.08769948810599218
+Spearman edges (signed),802,0.04569406805179163
+Spearman edges (signed),803,0.06639566395663958
+Spearman edges (signed),804,0.05141523637458597
+Spearman edges (signed),805,0.07046070460704607
+Spearman edges (signed),806,0.07685937970490814
+Spearman edges (signed),807,0.04245709123757904
+Spearman edges (signed),808,0.06933152664859982
+Spearman edges (signed),809,0.07806383619391749
+Spearman edges (signed),810,0.06187895212285456
+Spearman edges (signed),811,0.06963264077085213
+Spearman edges (signed),812,0.06925624811803673
+Spearman edges (signed),813,0.06594399277326107
+Spearman edges (signed),814,0.057061126166817216
+Spearman edges (signed),815,0.0644384221619994
+Spearman edges (signed),816,0.05450165612767239
+Spearman edges (signed),817,0.057136404697380315
+Spearman edges (signed),818,0.0530713640469738
+Spearman edges (signed),819,0.04569406805179163
+Spearman edges (signed),820,0.04787714543812105
+Spearman edges (signed),821,0.06556760012044564
+Spearman edges (signed),822,0.053974706413730804
+Spearman edges (signed),823,0.03711231556760012
+Spearman edges (signed),824,0.06270701595904847
+Spearman edges (signed),825,0.04810298102981029
+Spearman edges (signed),826,0.07128876844324
+Spearman edges (signed),827,0.049909665763324305
+Spearman edges (signed),828,0.0648900933453779
+Spearman edges (signed),829,0.07821439325504366
+Spearman edges (signed),830,0.06067449563384522
+Spearman edges (signed),831,0.06187895212285456
+Spearman edges (signed),832,0.09643179765130985
+Spearman edges (signed),833,0.04464016862390847
+Spearman edges (signed),834,0.054275820535983135
+Spearman edges (signed),835,0.06737428485395965
+Spearman edges (signed),836,0.0757302017464619
+Spearman edges (signed),837,0.0453929539295393
+Spearman edges (signed),838,0.04403794037940379
+Spearman edges (signed),839,0.06097560975609757
+Spearman edges (signed),840,0.052544414333032224
+Spearman edges (signed),841,0.055706112616681715
+Spearman edges (signed),842,0.06887985546522131
+Spearman edges (signed),843,0.05051189400782897
+Spearman edges (signed),844,0.06632038542607649
+Spearman edges (signed),845,0.05969587473652514
+Spearman edges (signed),846,0.07685937970490817
+Spearman edges (signed),847,0.07369768142125867
+Spearman edges (signed),848,0.07377295995182173
+Spearman edges (signed),849,0.05179162902740138
+Spearman edges (signed),850,0.035757302017464625
+Spearman edges (signed),851,0.06007226738934056
+Spearman edges (signed),852,0.07738632941884975
+Spearman edges (signed),853,0.07211683227943393
+Spearman edges (signed),854,0.051339957844022885
+Spearman edges (signed),855,0.06308340861186389
+Spearman edges (signed),856,0.07836495031616982
+Spearman edges (signed),857,0.06270701595904848
+Spearman edges (signed),858,0.05404998494429389
+Spearman edges (signed),859,0.06654622101776574
+Spearman edges (signed),860,0.07211683227943391
+Spearman edges (signed),861,0.055103884372177066
+Spearman edges (signed),862,0.06790123456790123
+Spearman edges (signed),863,0.07813911472448058
+Spearman edges (signed),864,0.05510388437217706
+Spearman edges (signed),865,0.07031014754591991
+Spearman edges (signed),866,0.08145137006925623
+Spearman edges (signed),867,0.0526196928635953
+Spearman edges (signed),868,0.07136404697380308
+Spearman edges (signed),869,0.07603131586871423
+Spearman edges (signed),870,0.06052393857271906
+Spearman edges (signed),871,0.0989159891598916
+Spearman edges (signed),872,0.05164107196627522
+Spearman edges (signed),873,0.1044113218909967
+Spearman edges (signed),874,0.051415236374585976
+Spearman edges (signed),875,0.06090033122553448
+Spearman edges (signed),876,0.04667268894911172
+Spearman edges (signed),877,0.06255645889792232
+Spearman edges (signed),878,0.05111412225233363
+Spearman edges (signed),879,0.04968383017163505
+Spearman edges (signed),880,0.046597410418548625
+Spearman edges (signed),881,0.05314664257753689
+Spearman edges (signed),882,0.06074977416440831
+Spearman edges (signed),883,0.053071364046973796
+Spearman edges (signed),884,0.04479072568503463
+Spearman edges (signed),885,0.05683529057512796
+Spearman edges (signed),886,0.049759108702198136
+Spearman edges (signed),887,0.06383619391749473
+Spearman edges (signed),888,0.05013550135501355
+Spearman edges (signed),889,0.051415236374585976
+Spearman edges (signed),890,0.04817825956037339
+Spearman edges (signed),891,0.08777476663655527
+Spearman edges (signed),892,0.08408611863896416
+Spearman edges (signed),893,0.047199638663053295
+Spearman edges (signed),894,0.05555555555555555
+Spearman edges (signed),895,0.06805179162902741
+Spearman edges (signed),896,0.07821439325504367
+Spearman edges (signed),897,0.04878048780487805
+Spearman edges (signed),898,0.06918096958747365
+Spearman edges (signed),899,0.06014754591990364
+Spearman edges (signed),900,0.06202950918398072
+Spearman edges (signed),901,0.06466425775368864
+Spearman edges (signed),902,0.10140018066847334
+Spearman edges (signed),903,0.09176452875639868
+Spearman edges (signed),904,0.06812707015959048
+Spearman edges (signed),905,0.06330924420355315
+Spearman edges (signed),906,0.05269497139415838
+Spearman edges (signed),907,0.051791629027401385
+Spearman edges (signed),908,0.07046070460704607
+Spearman edges (signed),909,0.04358626919602529
+Spearman edges (signed),910,0.07332128876844324
+Spearman edges (signed),911,0.05209274314965371
+Spearman edges (signed),912,0.086645588678109
+Spearman edges (signed),913,0.07655826558265583
+Spearman edges (signed),914,0.08747365251430292
+Spearman edges (signed),915,0.08747365251430292
+Spearman edges (signed),916,0.07813911472448057
+Spearman edges (signed),917,0.07174043962661848
+Spearman edges (signed),918,0.0653417645287564
+Spearman edges (signed),919,0.06285757302017464
+Spearman edges (signed),920,0.04448961156278229
+Spearman edges (signed),921,0.06029810298102981
+Spearman edges (signed),922,0.049156880457693466
+Spearman edges (signed),923,0.06616982836495032
+Spearman edges (signed),924,0.05292080698584764
+Spearman edges (signed),925,0.07437518819632641
+Spearman edges (signed),926,0.047651309846431796
+Spearman edges (signed),927,0.09507678410117434
+Spearman edges (signed),928,0.06677205660945498
+Spearman edges (signed),929,0.07783800060222824
+Spearman edges (signed),930,0.09816320385426076
+Spearman edges (signed),931,0.05803974706413731
+Spearman edges (signed),932,0.09056007226738934
+Spearman edges (signed),933,0.0503613369467028
+Spearman edges (signed),934,0.06278229448961156
+Spearman edges (signed),935,0.07573020174646192
+Spearman edges (signed),936,0.07708521529659741
+Spearman edges (signed),937,0.08641975308641975
+Spearman edges (signed),938,0.0657934357121349
+Spearman edges (signed),939,0.05570611261668173
+Spearman edges (signed),940,0.06624510689551341
+Spearman edges (signed),941,0.03914483589280337
+Spearman edges (signed),942,0.05133995784402288
+Spearman edges (signed),943,0.06970791930141523
+Spearman edges (signed),944,0.06383619391749473
+Spearman edges (signed),945,0.061050888286660644
+Spearman edges (signed),946,0.06526648599819332
+Spearman edges (signed),947,0.0880006022282445
+Spearman edges (signed),948,0.05073772959951822
+Spearman edges (signed),949,0.092968985245408
+Spearman edges (signed),950,0.044715447154471545
+Spearman edges (signed),951,0.06872929840409515
+Spearman edges (signed),952,0.0462962962962963
+Spearman edges (signed),953,0.05179162902740139
+Spearman edges (signed),954,0.0813008130081301
+Spearman edges (signed),955,0.059018367961457395
+Spearman edges (signed),956,0.0685034628124059
+Spearman edges (signed),957,0.049307437518819636
+Spearman edges (signed),958,0.07046070460704607
+Spearman edges (signed),959,0.06489009334537792
+Spearman edges (signed),960,0.05126467931345981
+Spearman edges (signed),961,0.05088828666064438
+Spearman edges (signed),962,0.03395061728395062
+Spearman edges (signed),963,0.05623306233062331
+Spearman edges (signed),964,0.06970791930141523
+Spearman edges (signed),965,0.04080096356519121
+Spearman edges (signed),966,0.06970791930141523
+Spearman edges (signed),967,0.06857874134296899
+Spearman edges (signed),968,0.057964468533574225
+Spearman edges (signed),969,0.061577838000602236
+Spearman edges (signed),970,0.05909364649202047
+Spearman edges (signed),971,0.06970791930141523
+Spearman edges (signed),972,0.04230653417645288
+Spearman edges (signed),973,0.0657934357121349
+Spearman edges (signed),974,0.06451370069256249
+Spearman edges (signed),975,0.08054802770249925
+Spearman edges (signed),976,0.044263775971093045
+Spearman edges (signed),977,0.0671484492622704
+Spearman edges (signed),978,0.06903041252634748
+Spearman edges (signed),979,0.04878048780487806
+Spearman edges (signed),980,0.05111412225233364
+Spearman edges (signed),981,0.06857874134296899
+Spearman edges (signed),982,0.04757603131586871
+Spearman edges (signed),983,0.06345980126467932
+Spearman edges (signed),984,0.0921409214092141
+Spearman edges (signed),985,0.05525444143330322
+Spearman edges (signed),986,0.04095152062631738
+Spearman edges (signed),987,0.042908762420957536
+Spearman edges (signed),988,0.05916892502258356
+Spearman edges (signed),989,0.07859078590785908
+Spearman edges (signed),990,0.05510388437217705
+Spearman edges (signed),991,0.05645889792231256
+Spearman edges (signed),992,0.09251731406202951
+Spearman edges (signed),993,0.05066245106895514
+Spearman edges (signed),994,0.06255645889792233
+Spearman edges (signed),995,0.0798705209274315
+Spearman edges (signed),996,0.08935561577838
+Spearman edges (signed),997,0.08280638361939176
+Spearman edges (signed),998,0.04697380307136405
+Spearman edges (signed),999,0.05788919000301115
+Spearman edges (signed),1000,0.05231857874134297
