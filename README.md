@@ -1,80 +1,135 @@
 # EEG network organization across affective video conditions
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](requirements.txt)
+[![Data: FACED](https://img.shields.io/badge/Data-FACED-lightgrey.svg)](https://doi.org/10.1038/s41597-023-02650-w)
+[![Replication: SEED--VII](https://img.shields.io/badge/Replication-SEED--VII-lightgrey.svg)](https://bcmi.sjtu.edu.cn/~seed/seed-vii.html)
+
 Code accompanying
 
-> Alves C. L., Kalbasi A., Saccaro L. F., Andrianarivelo N., Panzeri A., Bellone C.
-> *EEG network organization across affective video conditions: complementary nonlinear representations,
-> topological summaries, and synchronization–topology coupling.* Chaos, Solitons & Fractals (under review).
+> **Alves C. L., Kalbasi A., Saccaro L. F., Andrianarivelo N., Panzeri A., Bellone C.**
+> EEG network organization across affective video conditions: complementary nonlinear representations,
+> topological summaries, and synchronization–topology coupling. *Chaos, Solitons & Fractals* (under review).
 
-The study asks which EEG network and dynamical descriptors of naturalistic affective stimulation
-generalize beyond the specific stimuli. It analyses band-specific synchronization, the topology of three
-complementary network representations (Spearman channel networks, Markov-transition-field and
-quantile-graph state-transition networks), persistence-based summaries, recurrence quantification and
-graph neural networks, with participants **and** stimuli treated as random factors, and replicates the
-main analyses in an independent dataset (SEED-VII).
+<p align="center"><img src="docs/overview.png" width="100%" alt="Analysis pipeline and headline results"></p>
+
+## Overview
+
+Naturalistic affective EEG studies present each emotion through a small set of video clips, so effects that
+are consistent across participants can still be specific to the clips. This repository implements a
+stimulus-aware analysis of EEG network organization in the FACED dataset (123 participants, 28 videos, nine
+affective conditions) and its independent replication in SEED-VII (20 participants, 80 clips):
+
+* **Representations**: band-specific synchronization (weighted phase-lag index, orthogonalized
+  amplitude-envelope correlation), topology of three complementary network representations (Spearman channel
+  networks, Markov-transition-field and quantile-graph state-transition networks), persistent homology and
+  recurrence quantification.
+* **Inference**: emotion-versus-neutral contrasts with participants **and** stimuli as crossed random factors
+  (min F′), in one pre-declared family of 224 tests with false-discovery-rate control.
+* **Generalization**: decoding of the condition of unseen stimuli against stimulus-structured permutation
+  nulls, with linear classifiers and pre-registered graph neural networks.
+* **Validity**: surrogate and independent-segment null models, quantile and density sweeps, muscle-artifact
+  checks, signed networks, metric persistence filtrations.
+
+## Key results
+
+| | |
+|:--:|:--:|
+| <img src="faced/figures/Fig2_participants_and_videos_random.png" width="100%"> | <img src="faced/figures/Fig3_decoding_unseen_videos.png" width="100%"> |
+| **Fig. 2** · 79 of 224 contrasts survive correction when videos are treated as fixed, none when videos are random. | **Fig. 3** · Band-specific synchronization and power decode the condition of unseen videos above a stimulus-structured null (13.7% vs 6.4%, *p* = 0.001). |
+
+<p align="center"><img src="seed7/figures/FigS8_seed7_replication.png" width="95%"></p>
+<p align="center"><b>Fig. S8</b> · Independent replication in SEED-VII: no contrast survives with stimuli random (18 of 168 with stimuli fixed), and synchronization and power again decode unseen stimuli (29.5% vs 12.3%).</p>
 
 ## Repository structure
 
-| Folder | Content | Manuscript |
-|---|---|---|
-| [`faced/`](faced) | FACED, released 30-s epochs: features, stimulus-aware statistics, null models, recurrence quantification, decoding of unseen videos, graph neural networks | Sections 2, 3.1; Appendices A–B; Figs. 1–3, S1–S7 |
-| [`seed7/`](seed7) | Independent replication in SEED-VII with the same code; analysis plan and deviation log | Section 3.2; Appendix C; Fig. S8 |
-| [`faced_1s_exploratory/`](faced_1s_exploratory) | Exploratory analyses of the final 1-s segment of each FACED trial (the analyses of the original submission) and the behavioral analyses | Sections 3.3–3.5; Appendices D–K; Figs. 4–6, S9–S29 |
-| [`multiplex_gnn/`](multiplex_gnn) | Complementary recurrence-multiplex graph network (GPU) | Appendix B |
+```
+├── faced/                    FACED, released 30-s epochs (Sections 2–3.1, Appendices A–B)
+│   ├── src/                  pipeline: 00_load_epochs → 01/02 features → 03 contrasts → fig*/sensitivity_*
+│   │   └── gnn/              graph neural networks (training, permutation runs, Fig. S7)
+│   ├── figures/              Figs. 1–3, S1–S7
+│   ├── tables/               every test and model summary (all_contrasts.csv lists all 616 FACED tests)
+│   ├── results/gnn/          every graph-network run, including all permutations
+│   ├── preregistration/      model-selection rule and its amendments
+│   └── slurm/                cluster job scripts
+├── seed7/                    independent replication in SEED-VII (Section 3.2, Appendix C; Fig. S8)
+│   ├── src/  figures/  tables/
+│   ├── ANALYSIS_PLAN.md      plan written before the data were analyzed, with a log of every later addition
+│   └── run_all.sh
+├── faced_1s_exploratory/     exploratory final-second analyses and behavioral analyses (Sections 3.3–3.5,
+│                             Appendices D–K; Figs. 4–6, S9–S29)
+├── multiplex_gnn/            complementary recurrence-multiplex graph network, GPU (Appendix B)
+├── demo/                     one-minute demonstration on simulated data
+└── docs/                     overview figure
+```
 
-Each analysis folder contains `src/` (code), `figures/` and `tables/` (the outputs reported in the paper).
+## System requirements
 
-## Data
-
-No EEG data are included.
-
-* **FACED** (Chen et al., 2023, *Scientific Data* 10, 740; doi:10.1038/s41597-023-02650-w): 123 participants,
-  28 videos, 9 conditions, 30 channels at 250 Hz. The 30-s analyses read the released preprocessed epochs
-  exported as one CSV per participant × video (`faced/src/00_load_epochs.py`, environment variable
-  `FACED_ZIP`); the 1-s analyses read the final second of each epoch (`<emotion>/Patient###/trial_*.csv`,
-  see `faced_1s_exploratory/src/validate_inputs.py`).
-* **SEED-VII** (Jiang et al., 2025, *IEEE Trans. Affect. Comput.* 16, 969; doi:10.1109/TAFFC.2024.3485057):
-  available on request from the BCMI laboratory (https://bcmi.sjtu.edu.cn/~seed/seed-vii.html) under a license
-  that does not permit redistribution. The replication uses the official preprocessed EEG.
-
-Intermediate caches (`cache/`) are created by the scripts and are not version-controlled.
+* **Operating system**: tested on Ubuntu 20.04 LTS and on a Linux HPC cluster (Slurm); expected to run on any
+  system with Python 3.11.
+* **Software**: Python 3.11 with the package versions in [`requirements.txt`](requirements.txt) (numpy,
+  scipy, pandas, scikit-learn, statsmodels, torch, matplotlib, mne, joblib, networkx, gudhi). The 1-s
+  analyses use [`faced_1s_exploratory/requirements.txt`](faced_1s_exploratory/requirements.txt).
+* **Hardware**: a standard computer runs the demo and the statistics. The full feature extraction is
+  CPU-intensive (FACED: about 30 CPU-hours; SEED-VII: about 3 hours on 12 cores). Only the complementary
+  multiplex network requires a GPU.
 
 ## Installation
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt                       # FACED 30-s and SEED-VII analyses
-pip install -r faced_1s_exploratory/requirements.txt  # 1-s exploratory analyses
+git clone https://github.com/Caroline070590/EEG_emotions_CSF.git
+cd EEG_emotions_CSF
+conda env create -f environment.yml && conda activate eeg-emotions-csf   # or: pip install -r requirements.txt
 ```
+
+Typical installation time: about 5 minutes.
+
+## Demo
+
+The demo simulates a FACED-like design (40 participants × 28 videos) with one feature that carries a
+condition effect shared by all videos and one that carries only video-specific fingerprints, and applies the
+two core procedures of the paper: stimulus-aware contrasts and decoding of unseen videos.
+
+```bash
+python demo/run_demo.py
+```
+
+Expected output ([`demo/expected_output.txt`](demo/expected_output.txt)); run time about 15 s:
+
+```
+1. Emotion-versus-neutral tests (p < 0.05 out of 8 contrasts)
+   feature_A_condition    participants random only: 8/8   participants + videos random: 7/8
+   feature_B_video_only   participants random only: 7/8   participants + videos random: 0/8
+
+2. Decoding the condition of unseen videos (leave-one-video-out, 200 permutations)
+   feature_A_condition    accuracy  7.4%   null mean  1.5%   p = 0.010
+   feature_B_video_only   accuracy  0.3%   null mean  2.1%   p = 0.975
+```
+
+The video-specific feature looks significant when videos are treated as fixed, but not when videos are
+random, and it does not decode unseen videos.
 
 ## Reproducing the analyses
 
-**FACED, 30-s epochs** (run from `faced/`). On a Slurm cluster, set `EEG_ENV` to the Python environment and
-submit `slurm/features_array.sh` and `slurm/rqa_array.sh`, then `slurm/analyses.sh`. Equivalent steps on one
-machine:
+**1. FACED, 30-s epochs** (from `faced/`; set `FACED_ZIP` to the exported epochs). On a Slurm cluster:
+submit `slurm/features_array.sh` and `slurm/rqa_array.sh`, then `slurm/analyses.sh`. On one machine:
 
 ```bash
 cd faced/src
-python 00_load_epochs.py                 # 3,444 epochs, 30 channels x 7,500 samples
-python 01_trial_features.py              # synchronization, network and topology features
+python 00_load_epochs.py
+python 01_trial_features.py
 python 02_recurrence_features.py --chunk 0 1 && python 02_recurrence_features.py --merge 1
-python 03_stimulus_aware_contrasts.py    # 224-test primary family and exploratory families
-python fig1_fig2_synchronization_and_stimulus.py
-python fig3_decoding_unseen_videos.py
-python figS1_quantile_density_sweep.py   # ... and the other figS*.py and sensitivity_*.py scripts
+python 03_stimulus_aware_contrasts.py
+python fig1_fig2_synchronization_and_stimulus.py && python fig3_decoding_unseen_videos.py
+for f in figS*.py sensitivity_*.py; do python "$f"; done
 ```
 
-Graph neural networks: `src/gnn/run_gnn.py` (one run per call; the parameter grids are in `slurm/*_params.txt`),
-`src/gnn/summarize_paired.py` and `src/gnn/figS7_gnn_models.py`. All runs, including every permutation, are in
-`results/gnn/`. The model-selection rule and its amendments, each recorded before the corresponding
-real-data run, are in `preregistration/gnn_model_selection_rule.md`.
+Graph neural networks: `gnn/run_gnn.py` (one run per call; parameter grids in `slurm/*_params.txt`), then
+`gnn/summarize_paired.py` and `gnn/figS7_gnn_models.py`.
 
-**SEED-VII** (run from `seed7/`): `./run_all.sh /path/to/SEED-VII`. The plan written before the data were
-analyzed, with a log of every later addition, is in `seed7/ANALYSIS_PLAN.md`.
+**2. SEED-VII** (from `seed7/`): `./run_all.sh /path/to/SEED-VII` (about 3 hours on 12 cores).
 
-**FACED, final 1-s segments** (run from `faced_1s_exploratory/src/`, with the 1-s export at `./EEG-data-raw`):
-`python validate_inputs.py --data-root EEG-data-raw`, then `python run_all.py --n_jobs -1 --n_rand 20 --n_boot 2000`
-for the base pipeline and the individual scripts listed below for the remaining figures.
+**3. FACED, final 1-s segments**: see [`faced_1s_exploratory/README.md`](faced_1s_exploratory/README.md).
 
 ## Figures
 
@@ -84,50 +139,42 @@ for the base pipeline and the individual scripts listed below for the remaining 
 | 3 | `faced/src/fig3_decoding_unseen_videos.py` |
 | 4 | `faced_1s_exploratory/src/part1_topology/run_part1_q30.py` |
 | 5 | `faced_1s_exploratory/src/part2_synchrony/run_part2.py` |
-| 6 | `faced_1s_exploratory/src/part4_regional/run_figure4_full_composite.py` (panels from `part6_advanced/run_nbs.py`, `run_centrality_topo.py`, `run_gudhi_simplices.py`, `part4_regional/run_fig4_panel_f_combined.py`) |
-| S1 | `faced/src/figS1_quantile_density_sweep.py` |
-| S2 | `faced/src/figS2_coupling_null_models.py` |
-| S3 | `faced/src/figS3_emg_checks.py` |
-| S4 | `faced/src/figS4_signed_nbs.py` |
-| S5 | `faced/src/figS5_persistent_homology.py` |
-| S6 | `faced/src/figS6_recurrence_statistics.py` |
+| 6 | `faced_1s_exploratory/src/part4_regional/run_figure4_full_composite.py` |
+| S1–S6 | `faced/src/figS1_quantile_density_sweep.py` … `figS6_recurrence_statistics.py` |
 | S7 | `faced/src/gnn/figS7_gnn_models.py` |
 | S8 | `seed7/src/figS8_compare_with_faced.py` |
 | S9 | `faced_1s_exploratory/src/part6_advanced/run_density_sweep_q30.py` |
 | S10 | `faced_1s_exploratory/src/part1_topology/run_chords_supp_q30.py` |
-| S11 | `faced_1s_exploratory/src/part1_topology/run_bootstrap_effects.py` |
-| S12 | `faced_1s_exploratory/src/part1_topology/run_pairwise.py` |
+| S11, S12 | `faced_1s_exploratory/src/part1_topology/run_bootstrap_effects.py`, `run_pairwise.py` |
 | S13 | `faced_1s_exploratory/src/part3_embedding_topology/run_umap_q30.py` |
 | S14 | `faced_1s_exploratory/src/part6_advanced/run_splithalf_q30_consolidated.py` |
-| S15 | `faced_1s_exploratory/src/part6_advanced/run_nbs.py` |
-| S16, S17 | `faced_1s_exploratory/src/part6_advanced/run_centrality_topo.py` |
+| S15–S17 | `faced_1s_exploratory/src/part6_advanced/run_nbs.py`, `run_centrality_topo.py` |
 | S18 | `faced_1s_exploratory/src/part6_advanced/run_nbs_threshold_sensitivity.py` |
 | S19 | `faced_1s_exploratory/src/part6_advanced/run_region_coupling_splithalf.py` |
 | S20 | `faced_1s_exploratory/src/part4_regional/run_part4_mtf_only_fancy_v2.py` |
 | S21 | `faced_1s_exploratory/src/part5_enrichment/run_network_enrichment.py` |
 | S22 | `faced_1s_exploratory/src/part6_advanced/run_richclub.py`, `run_richclub_mtf_q30.py` |
 | S23 | `faced_1s_exploratory/src/part6_advanced/run_participant_averaging_sensitivity.py` |
-| S24 | generator not recovered (leave-one-participant-out omnibus stability) |
+| S24 | generator not recovered (leave-one-participant-out stability) |
 | S25 | `faced_1s_exploratory/src/part6_advanced/run_contrast_splithalf.py` |
 | S26 | `faced_1s_exploratory/src/stimulus_aware/stimulus_aware_validation_pipeline.py` |
 | S27–S29 | `faced_1s_exploratory/src/behavioral/behavioral_grounding.py` |
 
-The figures generated by the 30-s, SEED-VII and regenerated 1-s scripts are included in the corresponding
-`figures/` folders; the other 1-s figures are produced by the scripts above.
+## Data availability
 
-## Tables
+No EEG data are redistributed here.
 
-`faced/tables/all_contrasts.csv` lists every FACED emotion-versus-neutral test with uncorrected and
-false-discovery-rate-adjusted values under both inference schemes (participants random; participants and
-videos random). `seed7/tables/all_contrasts.csv` is the SEED-VII counterpart. The remaining files in each
-`tables/` folder hold the results of the individual analyses and are named after them.
+* **FACED**: Chen J., Wang X., Huang C., Hu X., Shen X., Zhang D. A large finer-grained affective computing
+  EEG dataset. *Scientific Data* 10, 740 (2023). doi:[10.1038/s41597-023-02650-w](https://doi.org/10.1038/s41597-023-02650-w).
+* **SEED-VII**: Jiang W.-B., Liu X.-H., Zheng W.-L., Lu B.-L. SEED-VII: a multimodal dataset of six basic
+  emotions with continuous labels for emotion recognition. *IEEE Trans. Affect. Comput.* 16, 969–985 (2025).
+  doi:[10.1109/TAFFC.2024.3485057](https://doi.org/10.1109/TAFFC.2024.3485057). Available on request from the
+  [BCMI laboratory](https://bcmi.sjtu.edu.cn/~seed/seed-vii.html); the license does not permit redistribution.
 
-## Notes on the statistics
+## Citation
 
-* Participants and stimuli are treated as crossed random factors with the conservative min F' approach
-  (Clark, 1973) in `faced/src/lib_rev.py` and `seed7/src/lib_rev.py`.
-* Decoding of unseen stimuli is evaluated against stimulus-structured permutation nulls; every model used
-  for inference is compared with its own null.
-* Within-participant feature standardization uses all of a participant's stimuli (no labels). Refitting it on
-  training stimuli only is reported in `faced/src/sensitivity_normalization.py` and
-  `seed7/src/07_normalization_sensitivity.py`.
+Please cite the article above (see also [`CITATION.cff`](CITATION.cff)).
+
+## License
+
+[MIT](LICENSE).

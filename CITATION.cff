@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article."
+title: "Code for: EEG network organization across affective video conditions"
+authors:
+  - family-names: Alves
+    given-names: Caroline L.
+  - family-names: Kalbasi
+    given-names: Amirali
+  - family-names: Saccaro
+    given-names: Luigi F.
+  - family-names: Andrianarivelo
+    given-names: Njiva
+  - family-names: Panzeri
+    given-names: Alessandra
+  - family-names: Bellone
+    given-names: Camilla
+license: MIT
+repository-code: "https://github.com/Caroline070590/EEG_emotions_CSF"
+preferred-citation:
+  type: article
+  title: "EEG network organization across affective video conditions: complementary nonlinear representations, topological summaries, and synchronization-topology coupling"
+  authors:
+    - family-names: Alves
+      given-names: Caroline L.
+    - family-names: Kalbasi
+      given-names: Amirali
+    - family-names: Saccaro
+      given-names: Luigi F.
+    - family-names: Andrianarivelo
+      given-names: Njiva
+    - family-names: Panzeri
+      given-names: Alessandra
+    - family-names: Bellone
+      given-names: Camilla
+  journal: "Chaos, Solitons & Fractals"
+  status: submitted

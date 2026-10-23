@@ -1,0 +1,11 @@
+Simulated 40 participants x 28 videos = 1120 trials
+
+1. Emotion-versus-neutral tests (p < 0.05 out of 8 contrasts)
+   feature_A_condition    participants random only: 8/8   participants + videos random: 7/8
+   feature_B_video_only   participants random only: 7/8   participants + videos random: 0/8
+
+2. Decoding the condition of unseen videos (leave-one-video-out, 200 permutations)
+   feature_A_condition    accuracy  7.4%   null mean  1.5%   p = 0.010
+   feature_B_video_only   accuracy  0.3%   null mean  2.1%   p = 0.975
+
+Completed in about 15 s (typical laptop)
