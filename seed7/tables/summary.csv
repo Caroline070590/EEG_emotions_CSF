@@ -1,0 +1,4 @@
+family,domain,tests,q<.05 clips fixed,q<.05 clips random,q<.05 sources random
+primary,synchronization,60,10,0,0
+primary,topology,108,8,0,0
+recurrence,recurrence,36,27,23,23

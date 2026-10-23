@@ -1,0 +1,603 @@
+--data real --recurrence --model sfgnn --lam 0.0 --perm 0
+--data real --recurrence --model sfgnn --lam 1.0 --perm 0
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 0
+--data real --recurrence --model sfgnn --lam 0.0 --perm 1
+--data real --recurrence --model sfgnn --lam 1.0 --perm 1
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 1
+--data real --recurrence --model sfgnn --lam 0.0 --perm 2
+--data real --recurrence --model sfgnn --lam 1.0 --perm 2
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 2
+--data real --recurrence --model sfgnn --lam 0.0 --perm 3
+--data real --recurrence --model sfgnn --lam 1.0 --perm 3
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 3
+--data real --recurrence --model sfgnn --lam 0.0 --perm 4
+--data real --recurrence --model sfgnn --lam 1.0 --perm 4
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 4
+--data real --recurrence --model sfgnn --lam 0.0 --perm 5
+--data real --recurrence --model sfgnn --lam 1.0 --perm 5
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 5
+--data real --recurrence --model sfgnn --lam 0.0 --perm 6
+--data real --recurrence --model sfgnn --lam 1.0 --perm 6
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 6
+--data real --recurrence --model sfgnn --lam 0.0 --perm 7
+--data real --recurrence --model sfgnn --lam 1.0 --perm 7
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 7
+--data real --recurrence --model sfgnn --lam 0.0 --perm 8
+--data real --recurrence --model sfgnn --lam 1.0 --perm 8
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 8
+--data real --recurrence --model sfgnn --lam 0.0 --perm 9
+--data real --recurrence --model sfgnn --lam 1.0 --perm 9
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 9
+--data real --recurrence --model sfgnn --lam 0.0 --perm 10
+--data real --recurrence --model sfgnn --lam 1.0 --perm 10
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 10
+--data real --recurrence --model sfgnn --lam 0.0 --perm 11
+--data real --recurrence --model sfgnn --lam 1.0 --perm 11
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 11
+--data real --recurrence --model sfgnn --lam 0.0 --perm 12
+--data real --recurrence --model sfgnn --lam 1.0 --perm 12
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 12
+--data real --recurrence --model sfgnn --lam 0.0 --perm 13
+--data real --recurrence --model sfgnn --lam 1.0 --perm 13
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 13
+--data real --recurrence --model sfgnn --lam 0.0 --perm 14
+--data real --recurrence --model sfgnn --lam 1.0 --perm 14
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 14
+--data real --recurrence --model sfgnn --lam 0.0 --perm 15
+--data real --recurrence --model sfgnn --lam 1.0 --perm 15
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 15
+--data real --recurrence --model sfgnn --lam 0.0 --perm 16
+--data real --recurrence --model sfgnn --lam 1.0 --perm 16
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 16
+--data real --recurrence --model sfgnn --lam 0.0 --perm 17
+--data real --recurrence --model sfgnn --lam 1.0 --perm 17
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 17
+--data real --recurrence --model sfgnn --lam 0.0 --perm 18
+--data real --recurrence --model sfgnn --lam 1.0 --perm 18
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 18
+--data real --recurrence --model sfgnn --lam 0.0 --perm 19
+--data real --recurrence --model sfgnn --lam 1.0 --perm 19
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 19
+--data real --recurrence --model sfgnn --lam 0.0 --perm 20
+--data real --recurrence --model sfgnn --lam 1.0 --perm 20
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 20
+--data real --recurrence --model sfgnn --lam 0.0 --perm 21
+--data real --recurrence --model sfgnn --lam 1.0 --perm 21
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 21
+--data real --recurrence --model sfgnn --lam 0.0 --perm 22
+--data real --recurrence --model sfgnn --lam 1.0 --perm 22
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 22
+--data real --recurrence --model sfgnn --lam 0.0 --perm 23
+--data real --recurrence --model sfgnn --lam 1.0 --perm 23
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 23
+--data real --recurrence --model sfgnn --lam 0.0 --perm 24
+--data real --recurrence --model sfgnn --lam 1.0 --perm 24
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 24
+--data real --recurrence --model sfgnn --lam 0.0 --perm 25
+--data real --recurrence --model sfgnn --lam 1.0 --perm 25
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 25
+--data real --recurrence --model sfgnn --lam 0.0 --perm 26
+--data real --recurrence --model sfgnn --lam 1.0 --perm 26
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 26
+--data real --recurrence --model sfgnn --lam 0.0 --perm 27
+--data real --recurrence --model sfgnn --lam 1.0 --perm 27
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 27
+--data real --recurrence --model sfgnn --lam 0.0 --perm 28
+--data real --recurrence --model sfgnn --lam 1.0 --perm 28
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 28
+--data real --recurrence --model sfgnn --lam 0.0 --perm 29
+--data real --recurrence --model sfgnn --lam 1.0 --perm 29
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 29
+--data real --recurrence --model sfgnn --lam 0.0 --perm 30
+--data real --recurrence --model sfgnn --lam 1.0 --perm 30
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 30
+--data real --recurrence --model sfgnn --lam 0.0 --perm 31
+--data real --recurrence --model sfgnn --lam 1.0 --perm 31
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 31
+--data real --recurrence --model sfgnn --lam 0.0 --perm 32
+--data real --recurrence --model sfgnn --lam 1.0 --perm 32
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 32
+--data real --recurrence --model sfgnn --lam 0.0 --perm 33
+--data real --recurrence --model sfgnn --lam 1.0 --perm 33
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 33
+--data real --recurrence --model sfgnn --lam 0.0 --perm 34
+--data real --recurrence --model sfgnn --lam 1.0 --perm 34
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 34
+--data real --recurrence --model sfgnn --lam 0.0 --perm 35
+--data real --recurrence --model sfgnn --lam 1.0 --perm 35
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 35
+--data real --recurrence --model sfgnn --lam 0.0 --perm 36
+--data real --recurrence --model sfgnn --lam 1.0 --perm 36
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 36
+--data real --recurrence --model sfgnn --lam 0.0 --perm 37
+--data real --recurrence --model sfgnn --lam 1.0 --perm 37
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 37
+--data real --recurrence --model sfgnn --lam 0.0 --perm 38
+--data real --recurrence --model sfgnn --lam 1.0 --perm 38
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 38
+--data real --recurrence --model sfgnn --lam 0.0 --perm 39
+--data real --recurrence --model sfgnn --lam 1.0 --perm 39
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 39
+--data real --recurrence --model sfgnn --lam 0.0 --perm 40
+--data real --recurrence --model sfgnn --lam 1.0 --perm 40
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 40
+--data real --recurrence --model sfgnn --lam 0.0 --perm 41
+--data real --recurrence --model sfgnn --lam 1.0 --perm 41
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 41
+--data real --recurrence --model sfgnn --lam 0.0 --perm 42
+--data real --recurrence --model sfgnn --lam 1.0 --perm 42
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 42
+--data real --recurrence --model sfgnn --lam 0.0 --perm 43
+--data real --recurrence --model sfgnn --lam 1.0 --perm 43
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 43
+--data real --recurrence --model sfgnn --lam 0.0 --perm 44
+--data real --recurrence --model sfgnn --lam 1.0 --perm 44
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 44
+--data real --recurrence --model sfgnn --lam 0.0 --perm 45
+--data real --recurrence --model sfgnn --lam 1.0 --perm 45
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 45
+--data real --recurrence --model sfgnn --lam 0.0 --perm 46
+--data real --recurrence --model sfgnn --lam 1.0 --perm 46
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 46
+--data real --recurrence --model sfgnn --lam 0.0 --perm 47
+--data real --recurrence --model sfgnn --lam 1.0 --perm 47
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 47
+--data real --recurrence --model sfgnn --lam 0.0 --perm 48
+--data real --recurrence --model sfgnn --lam 1.0 --perm 48
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 48
+--data real --recurrence --model sfgnn --lam 0.0 --perm 49
+--data real --recurrence --model sfgnn --lam 1.0 --perm 49
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 49
+--data real --recurrence --model sfgnn --lam 0.0 --perm 50
+--data real --recurrence --model sfgnn --lam 1.0 --perm 50
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 50
+--data real --recurrence --model sfgnn --lam 0.0 --perm 51
+--data real --recurrence --model sfgnn --lam 1.0 --perm 51
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 51
+--data real --recurrence --model sfgnn --lam 0.0 --perm 52
+--data real --recurrence --model sfgnn --lam 1.0 --perm 52
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 52
+--data real --recurrence --model sfgnn --lam 0.0 --perm 53
+--data real --recurrence --model sfgnn --lam 1.0 --perm 53
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 53
+--data real --recurrence --model sfgnn --lam 0.0 --perm 54
+--data real --recurrence --model sfgnn --lam 1.0 --perm 54
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 54
+--data real --recurrence --model sfgnn --lam 0.0 --perm 55
+--data real --recurrence --model sfgnn --lam 1.0 --perm 55
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 55
+--data real --recurrence --model sfgnn --lam 0.0 --perm 56
+--data real --recurrence --model sfgnn --lam 1.0 --perm 56
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 56
+--data real --recurrence --model sfgnn --lam 0.0 --perm 57
+--data real --recurrence --model sfgnn --lam 1.0 --perm 57
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 57
+--data real --recurrence --model sfgnn --lam 0.0 --perm 58
+--data real --recurrence --model sfgnn --lam 1.0 --perm 58
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 58
+--data real --recurrence --model sfgnn --lam 0.0 --perm 59
+--data real --recurrence --model sfgnn --lam 1.0 --perm 59
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 59
+--data real --recurrence --model sfgnn --lam 0.0 --perm 60
+--data real --recurrence --model sfgnn --lam 1.0 --perm 60
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 60
+--data real --recurrence --model sfgnn --lam 0.0 --perm 61
+--data real --recurrence --model sfgnn --lam 1.0 --perm 61
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 61
+--data real --recurrence --model sfgnn --lam 0.0 --perm 62
+--data real --recurrence --model sfgnn --lam 1.0 --perm 62
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 62
+--data real --recurrence --model sfgnn --lam 0.0 --perm 63
+--data real --recurrence --model sfgnn --lam 1.0 --perm 63
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 63
+--data real --recurrence --model sfgnn --lam 0.0 --perm 64
+--data real --recurrence --model sfgnn --lam 1.0 --perm 64
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 64
+--data real --recurrence --model sfgnn --lam 0.0 --perm 65
+--data real --recurrence --model sfgnn --lam 1.0 --perm 65
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 65
+--data real --recurrence --model sfgnn --lam 0.0 --perm 66
+--data real --recurrence --model sfgnn --lam 1.0 --perm 66
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 66
+--data real --recurrence --model sfgnn --lam 0.0 --perm 67
+--data real --recurrence --model sfgnn --lam 1.0 --perm 67
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 67
+--data real --recurrence --model sfgnn --lam 0.0 --perm 68
+--data real --recurrence --model sfgnn --lam 1.0 --perm 68
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 68
+--data real --recurrence --model sfgnn --lam 0.0 --perm 69
+--data real --recurrence --model sfgnn --lam 1.0 --perm 69
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 69
+--data real --recurrence --model sfgnn --lam 0.0 --perm 70
+--data real --recurrence --model sfgnn --lam 1.0 --perm 70
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 70
+--data real --recurrence --model sfgnn --lam 0.0 --perm 71
+--data real --recurrence --model sfgnn --lam 1.0 --perm 71
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 71
+--data real --recurrence --model sfgnn --lam 0.0 --perm 72
+--data real --recurrence --model sfgnn --lam 1.0 --perm 72
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 72
+--data real --recurrence --model sfgnn --lam 0.0 --perm 73
+--data real --recurrence --model sfgnn --lam 1.0 --perm 73
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 73
+--data real --recurrence --model sfgnn --lam 0.0 --perm 74
+--data real --recurrence --model sfgnn --lam 1.0 --perm 74
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 74
+--data real --recurrence --model sfgnn --lam 0.0 --perm 75
+--data real --recurrence --model sfgnn --lam 1.0 --perm 75
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 75
+--data real --recurrence --model sfgnn --lam 0.0 --perm 76
+--data real --recurrence --model sfgnn --lam 1.0 --perm 76
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 76
+--data real --recurrence --model sfgnn --lam 0.0 --perm 77
+--data real --recurrence --model sfgnn --lam 1.0 --perm 77
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 77
+--data real --recurrence --model sfgnn --lam 0.0 --perm 78
+--data real --recurrence --model sfgnn --lam 1.0 --perm 78
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 78
+--data real --recurrence --model sfgnn --lam 0.0 --perm 79
+--data real --recurrence --model sfgnn --lam 1.0 --perm 79
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 79
+--data real --recurrence --model sfgnn --lam 0.0 --perm 80
+--data real --recurrence --model sfgnn --lam 1.0 --perm 80
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 80
+--data real --recurrence --model sfgnn --lam 0.0 --perm 81
+--data real --recurrence --model sfgnn --lam 1.0 --perm 81
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 81
+--data real --recurrence --model sfgnn --lam 0.0 --perm 82
+--data real --recurrence --model sfgnn --lam 1.0 --perm 82
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 82
+--data real --recurrence --model sfgnn --lam 0.0 --perm 83
+--data real --recurrence --model sfgnn --lam 1.0 --perm 83
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 83
+--data real --recurrence --model sfgnn --lam 0.0 --perm 84
+--data real --recurrence --model sfgnn --lam 1.0 --perm 84
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 84
+--data real --recurrence --model sfgnn --lam 0.0 --perm 85
+--data real --recurrence --model sfgnn --lam 1.0 --perm 85
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 85
+--data real --recurrence --model sfgnn --lam 0.0 --perm 86
+--data real --recurrence --model sfgnn --lam 1.0 --perm 86
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 86
+--data real --recurrence --model sfgnn --lam 0.0 --perm 87
+--data real --recurrence --model sfgnn --lam 1.0 --perm 87
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 87
+--data real --recurrence --model sfgnn --lam 0.0 --perm 88
+--data real --recurrence --model sfgnn --lam 1.0 --perm 88
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 88
+--data real --recurrence --model sfgnn --lam 0.0 --perm 89
+--data real --recurrence --model sfgnn --lam 1.0 --perm 89
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 89
+--data real --recurrence --model sfgnn --lam 0.0 --perm 90
+--data real --recurrence --model sfgnn --lam 1.0 --perm 90
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 90
+--data real --recurrence --model sfgnn --lam 0.0 --perm 91
+--data real --recurrence --model sfgnn --lam 1.0 --perm 91
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 91
+--data real --recurrence --model sfgnn --lam 0.0 --perm 92
+--data real --recurrence --model sfgnn --lam 1.0 --perm 92
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 92
+--data real --recurrence --model sfgnn --lam 0.0 --perm 93
+--data real --recurrence --model sfgnn --lam 1.0 --perm 93
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 93
+--data real --recurrence --model sfgnn --lam 0.0 --perm 94
+--data real --recurrence --model sfgnn --lam 1.0 --perm 94
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 94
+--data real --recurrence --model sfgnn --lam 0.0 --perm 95
+--data real --recurrence --model sfgnn --lam 1.0 --perm 95
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 95
+--data real --recurrence --model sfgnn --lam 0.0 --perm 96
+--data real --recurrence --model sfgnn --lam 1.0 --perm 96
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 96
+--data real --recurrence --model sfgnn --lam 0.0 --perm 97
+--data real --recurrence --model sfgnn --lam 1.0 --perm 97
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 97
+--data real --recurrence --model sfgnn --lam 0.0 --perm 98
+--data real --recurrence --model sfgnn --lam 1.0 --perm 98
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 98
+--data real --recurrence --model sfgnn --lam 0.0 --perm 99
+--data real --recurrence --model sfgnn --lam 1.0 --perm 99
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 99
+--data real --recurrence --model sfgnn --lam 0.0 --perm 100
+--data real --recurrence --model sfgnn --lam 1.0 --perm 100
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 100
+--data real --recurrence --model sfgnn --lam 0.0 --perm 101
+--data real --recurrence --model sfgnn --lam 1.0 --perm 101
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 101
+--data real --recurrence --model sfgnn --lam 0.0 --perm 102
+--data real --recurrence --model sfgnn --lam 1.0 --perm 102
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 102
+--data real --recurrence --model sfgnn --lam 0.0 --perm 103
+--data real --recurrence --model sfgnn --lam 1.0 --perm 103
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 103
+--data real --recurrence --model sfgnn --lam 0.0 --perm 104
+--data real --recurrence --model sfgnn --lam 1.0 --perm 104
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 104
+--data real --recurrence --model sfgnn --lam 0.0 --perm 105
+--data real --recurrence --model sfgnn --lam 1.0 --perm 105
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 105
+--data real --recurrence --model sfgnn --lam 0.0 --perm 106
+--data real --recurrence --model sfgnn --lam 1.0 --perm 106
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 106
+--data real --recurrence --model sfgnn --lam 0.0 --perm 107
+--data real --recurrence --model sfgnn --lam 1.0 --perm 107
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 107
+--data real --recurrence --model sfgnn --lam 0.0 --perm 108
+--data real --recurrence --model sfgnn --lam 1.0 --perm 108
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 108
+--data real --recurrence --model sfgnn --lam 0.0 --perm 109
+--data real --recurrence --model sfgnn --lam 1.0 --perm 109
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 109
+--data real --recurrence --model sfgnn --lam 0.0 --perm 110
+--data real --recurrence --model sfgnn --lam 1.0 --perm 110
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 110
+--data real --recurrence --model sfgnn --lam 0.0 --perm 111
+--data real --recurrence --model sfgnn --lam 1.0 --perm 111
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 111
+--data real --recurrence --model sfgnn --lam 0.0 --perm 112
+--data real --recurrence --model sfgnn --lam 1.0 --perm 112
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 112
+--data real --recurrence --model sfgnn --lam 0.0 --perm 113
+--data real --recurrence --model sfgnn --lam 1.0 --perm 113
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 113
+--data real --recurrence --model sfgnn --lam 0.0 --perm 114
+--data real --recurrence --model sfgnn --lam 1.0 --perm 114
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 114
+--data real --recurrence --model sfgnn --lam 0.0 --perm 115
+--data real --recurrence --model sfgnn --lam 1.0 --perm 115
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 115
+--data real --recurrence --model sfgnn --lam 0.0 --perm 116
+--data real --recurrence --model sfgnn --lam 1.0 --perm 116
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 116
+--data real --recurrence --model sfgnn --lam 0.0 --perm 117
+--data real --recurrence --model sfgnn --lam 1.0 --perm 117
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 117
+--data real --recurrence --model sfgnn --lam 0.0 --perm 118
+--data real --recurrence --model sfgnn --lam 1.0 --perm 118
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 118
+--data real --recurrence --model sfgnn --lam 0.0 --perm 119
+--data real --recurrence --model sfgnn --lam 1.0 --perm 119
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 119
+--data real --recurrence --model sfgnn --lam 0.0 --perm 120
+--data real --recurrence --model sfgnn --lam 1.0 --perm 120
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 120
+--data real --recurrence --model sfgnn --lam 0.0 --perm 121
+--data real --recurrence --model sfgnn --lam 1.0 --perm 121
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 121
+--data real --recurrence --model sfgnn --lam 0.0 --perm 122
+--data real --recurrence --model sfgnn --lam 1.0 --perm 122
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 122
+--data real --recurrence --model sfgnn --lam 0.0 --perm 123
+--data real --recurrence --model sfgnn --lam 1.0 --perm 123
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 123
+--data real --recurrence --model sfgnn --lam 0.0 --perm 124
+--data real --recurrence --model sfgnn --lam 1.0 --perm 124
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 124
+--data real --recurrence --model sfgnn --lam 0.0 --perm 125
+--data real --recurrence --model sfgnn --lam 1.0 --perm 125
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 125
+--data real --recurrence --model sfgnn --lam 0.0 --perm 126
+--data real --recurrence --model sfgnn --lam 1.0 --perm 126
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 126
+--data real --recurrence --model sfgnn --lam 0.0 --perm 127
+--data real --recurrence --model sfgnn --lam 1.0 --perm 127
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 127
+--data real --recurrence --model sfgnn --lam 0.0 --perm 128
+--data real --recurrence --model sfgnn --lam 1.0 --perm 128
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 128
+--data real --recurrence --model sfgnn --lam 0.0 --perm 129
+--data real --recurrence --model sfgnn --lam 1.0 --perm 129
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 129
+--data real --recurrence --model sfgnn --lam 0.0 --perm 130
+--data real --recurrence --model sfgnn --lam 1.0 --perm 130
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 130
+--data real --recurrence --model sfgnn --lam 0.0 --perm 131
+--data real --recurrence --model sfgnn --lam 1.0 --perm 131
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 131
+--data real --recurrence --model sfgnn --lam 0.0 --perm 132
+--data real --recurrence --model sfgnn --lam 1.0 --perm 132
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 132
+--data real --recurrence --model sfgnn --lam 0.0 --perm 133
+--data real --recurrence --model sfgnn --lam 1.0 --perm 133
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 133
+--data real --recurrence --model sfgnn --lam 0.0 --perm 134
+--data real --recurrence --model sfgnn --lam 1.0 --perm 134
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 134
+--data real --recurrence --model sfgnn --lam 0.0 --perm 135
+--data real --recurrence --model sfgnn --lam 1.0 --perm 135
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 135
+--data real --recurrence --model sfgnn --lam 0.0 --perm 136
+--data real --recurrence --model sfgnn --lam 1.0 --perm 136
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 136
+--data real --recurrence --model sfgnn --lam 0.0 --perm 137
+--data real --recurrence --model sfgnn --lam 1.0 --perm 137
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 137
+--data real --recurrence --model sfgnn --lam 0.0 --perm 138
+--data real --recurrence --model sfgnn --lam 1.0 --perm 138
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 138
+--data real --recurrence --model sfgnn --lam 0.0 --perm 139
+--data real --recurrence --model sfgnn --lam 1.0 --perm 139
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 139
+--data real --recurrence --model sfgnn --lam 0.0 --perm 140
+--data real --recurrence --model sfgnn --lam 1.0 --perm 140
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 140
+--data real --recurrence --model sfgnn --lam 0.0 --perm 141
+--data real --recurrence --model sfgnn --lam 1.0 --perm 141
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 141
+--data real --recurrence --model sfgnn --lam 0.0 --perm 142
+--data real --recurrence --model sfgnn --lam 1.0 --perm 142
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 142
+--data real --recurrence --model sfgnn --lam 0.0 --perm 143
+--data real --recurrence --model sfgnn --lam 1.0 --perm 143
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 143
+--data real --recurrence --model sfgnn --lam 0.0 --perm 144
+--data real --recurrence --model sfgnn --lam 1.0 --perm 144
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 144
+--data real --recurrence --model sfgnn --lam 0.0 --perm 145
+--data real --recurrence --model sfgnn --lam 1.0 --perm 145
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 145
+--data real --recurrence --model sfgnn --lam 0.0 --perm 146
+--data real --recurrence --model sfgnn --lam 1.0 --perm 146
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 146
+--data real --recurrence --model sfgnn --lam 0.0 --perm 147
+--data real --recurrence --model sfgnn --lam 1.0 --perm 147
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 147
+--data real --recurrence --model sfgnn --lam 0.0 --perm 148
+--data real --recurrence --model sfgnn --lam 1.0 --perm 148
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 148
+--data real --recurrence --model sfgnn --lam 0.0 --perm 149
+--data real --recurrence --model sfgnn --lam 1.0 --perm 149
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 149
+--data real --recurrence --model sfgnn --lam 0.0 --perm 150
+--data real --recurrence --model sfgnn --lam 1.0 --perm 150
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 150
+--data real --recurrence --model sfgnn --lam 0.0 --perm 151
+--data real --recurrence --model sfgnn --lam 1.0 --perm 151
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 151
+--data real --recurrence --model sfgnn --lam 0.0 --perm 152
+--data real --recurrence --model sfgnn --lam 1.0 --perm 152
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 152
+--data real --recurrence --model sfgnn --lam 0.0 --perm 153
+--data real --recurrence --model sfgnn --lam 1.0 --perm 153
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 153
+--data real --recurrence --model sfgnn --lam 0.0 --perm 154
+--data real --recurrence --model sfgnn --lam 1.0 --perm 154
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 154
+--data real --recurrence --model sfgnn --lam 0.0 --perm 155
+--data real --recurrence --model sfgnn --lam 1.0 --perm 155
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 155
+--data real --recurrence --model sfgnn --lam 0.0 --perm 156
+--data real --recurrence --model sfgnn --lam 1.0 --perm 156
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 156
+--data real --recurrence --model sfgnn --lam 0.0 --perm 157
+--data real --recurrence --model sfgnn --lam 1.0 --perm 157
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 157
+--data real --recurrence --model sfgnn --lam 0.0 --perm 158
+--data real --recurrence --model sfgnn --lam 1.0 --perm 158
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 158
+--data real --recurrence --model sfgnn --lam 0.0 --perm 159
+--data real --recurrence --model sfgnn --lam 1.0 --perm 159
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 159
+--data real --recurrence --model sfgnn --lam 0.0 --perm 160
+--data real --recurrence --model sfgnn --lam 1.0 --perm 160
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 160
+--data real --recurrence --model sfgnn --lam 0.0 --perm 161
+--data real --recurrence --model sfgnn --lam 1.0 --perm 161
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 161
+--data real --recurrence --model sfgnn --lam 0.0 --perm 162
+--data real --recurrence --model sfgnn --lam 1.0 --perm 162
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 162
+--data real --recurrence --model sfgnn --lam 0.0 --perm 163
+--data real --recurrence --model sfgnn --lam 1.0 --perm 163
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 163
+--data real --recurrence --model sfgnn --lam 0.0 --perm 164
+--data real --recurrence --model sfgnn --lam 1.0 --perm 164
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 164
+--data real --recurrence --model sfgnn --lam 0.0 --perm 165
+--data real --recurrence --model sfgnn --lam 1.0 --perm 165
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 165
+--data real --recurrence --model sfgnn --lam 0.0 --perm 166
+--data real --recurrence --model sfgnn --lam 1.0 --perm 166
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 166
+--data real --recurrence --model sfgnn --lam 0.0 --perm 167
+--data real --recurrence --model sfgnn --lam 1.0 --perm 167
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 167
+--data real --recurrence --model sfgnn --lam 0.0 --perm 168
+--data real --recurrence --model sfgnn --lam 1.0 --perm 168
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 168
+--data real --recurrence --model sfgnn --lam 0.0 --perm 169
+--data real --recurrence --model sfgnn --lam 1.0 --perm 169
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 169
+--data real --recurrence --model sfgnn --lam 0.0 --perm 170
+--data real --recurrence --model sfgnn --lam 1.0 --perm 170
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 170
+--data real --recurrence --model sfgnn --lam 0.0 --perm 171
+--data real --recurrence --model sfgnn --lam 1.0 --perm 171
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 171
+--data real --recurrence --model sfgnn --lam 0.0 --perm 172
+--data real --recurrence --model sfgnn --lam 1.0 --perm 172
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 172
+--data real --recurrence --model sfgnn --lam 0.0 --perm 173
+--data real --recurrence --model sfgnn --lam 1.0 --perm 173
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 173
+--data real --recurrence --model sfgnn --lam 0.0 --perm 174
+--data real --recurrence --model sfgnn --lam 1.0 --perm 174
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 174
+--data real --recurrence --model sfgnn --lam 0.0 --perm 175
+--data real --recurrence --model sfgnn --lam 1.0 --perm 175
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 175
+--data real --recurrence --model sfgnn --lam 0.0 --perm 176
+--data real --recurrence --model sfgnn --lam 1.0 --perm 176
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 176
+--data real --recurrence --model sfgnn --lam 0.0 --perm 177
+--data real --recurrence --model sfgnn --lam 1.0 --perm 177
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 177
+--data real --recurrence --model sfgnn --lam 0.0 --perm 178
+--data real --recurrence --model sfgnn --lam 1.0 --perm 178
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 178
+--data real --recurrence --model sfgnn --lam 0.0 --perm 179
+--data real --recurrence --model sfgnn --lam 1.0 --perm 179
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 179
+--data real --recurrence --model sfgnn --lam 0.0 --perm 180
+--data real --recurrence --model sfgnn --lam 1.0 --perm 180
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 180
+--data real --recurrence --model sfgnn --lam 0.0 --perm 181
+--data real --recurrence --model sfgnn --lam 1.0 --perm 181
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 181
+--data real --recurrence --model sfgnn --lam 0.0 --perm 182
+--data real --recurrence --model sfgnn --lam 1.0 --perm 182
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 182
+--data real --recurrence --model sfgnn --lam 0.0 --perm 183
+--data real --recurrence --model sfgnn --lam 1.0 --perm 183
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 183
+--data real --recurrence --model sfgnn --lam 0.0 --perm 184
+--data real --recurrence --model sfgnn --lam 1.0 --perm 184
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 184
+--data real --recurrence --model sfgnn --lam 0.0 --perm 185
+--data real --recurrence --model sfgnn --lam 1.0 --perm 185
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 185
+--data real --recurrence --model sfgnn --lam 0.0 --perm 186
+--data real --recurrence --model sfgnn --lam 1.0 --perm 186
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 186
+--data real --recurrence --model sfgnn --lam 0.0 --perm 187
+--data real --recurrence --model sfgnn --lam 1.0 --perm 187
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 187
+--data real --recurrence --model sfgnn --lam 0.0 --perm 188
+--data real --recurrence --model sfgnn --lam 1.0 --perm 188
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 188
+--data real --recurrence --model sfgnn --lam 0.0 --perm 189
+--data real --recurrence --model sfgnn --lam 1.0 --perm 189
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 189
+--data real --recurrence --model sfgnn --lam 0.0 --perm 190
+--data real --recurrence --model sfgnn --lam 1.0 --perm 190
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 190
+--data real --recurrence --model sfgnn --lam 0.0 --perm 191
+--data real --recurrence --model sfgnn --lam 1.0 --perm 191
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 191
+--data real --recurrence --model sfgnn --lam 0.0 --perm 192
+--data real --recurrence --model sfgnn --lam 1.0 --perm 192
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 192
+--data real --recurrence --model sfgnn --lam 0.0 --perm 193
+--data real --recurrence --model sfgnn --lam 1.0 --perm 193
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 193
+--data real --recurrence --model sfgnn --lam 0.0 --perm 194
+--data real --recurrence --model sfgnn --lam 1.0 --perm 194
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 194
+--data real --recurrence --model sfgnn --lam 0.0 --perm 195
+--data real --recurrence --model sfgnn --lam 1.0 --perm 195
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 195
+--data real --recurrence --model sfgnn --lam 0.0 --perm 196
+--data real --recurrence --model sfgnn --lam 1.0 --perm 196
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 196
+--data real --recurrence --model sfgnn --lam 0.0 --perm 197
+--data real --recurrence --model sfgnn --lam 1.0 --perm 197
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 197
+--data real --recurrence --model sfgnn --lam 0.0 --perm 198
+--data real --recurrence --model sfgnn --lam 1.0 --perm 198
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 198
+--data real --recurrence --model sfgnn --lam 0.0 --perm 199
+--data real --recurrence --model sfgnn --lam 1.0 --perm 199
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 199
+--data real --recurrence --model sfgnn --lam 0.0 --perm 200
+--data real --recurrence --model sfgnn --lam 1.0 --perm 200
+--data real --recurrence --model sfgnn --lam 0.0 --rex 1.0 --perm 200

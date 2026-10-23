@@ -1,0 +1,3 @@
+dataset,features,normalization_fitted_on,balanced_accuracy
+FACED,Band-specific sync + power,"all videos (primary, transductive)",0.13663053297199637
+FACED,Band-specific sync + power,training videos only,0.13896416741945197

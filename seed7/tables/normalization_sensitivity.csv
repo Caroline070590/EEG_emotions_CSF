@@ -1,0 +1,7 @@
+dataset,folds,features,normalization_fitted_on,balanced_accuracy
+SEED-VII,leave-one-source-out,Band-specific sync + power,"all clips (primary, transductive)",0.29523809523809524
+SEED-VII,leave-one-source-out,Band-specific sync + power,training clips only,0.2907738095238095
+SEED-VII,leave-one-source-out,RQA + JRS,"all clips (primary, transductive)",0.22708333333333333
+SEED-VII,leave-one-source-out,RQA + JRS,training clips only,0.22827380952380952
+SEED-VII,leave-one-source-out,Spearman edges (signed),"all clips (primary, transductive)",0.16547619047619047
+SEED-VII,leave-one-source-out,Spearman edges (signed),training clips only,0.1625

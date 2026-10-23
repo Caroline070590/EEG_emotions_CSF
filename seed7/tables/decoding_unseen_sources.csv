@@ -1,0 +1,6 @@
+folds,features,balanced_accuracy,chance,null_mean,null_95,gain_over_null,p_perm
+leave-one-source-out,Band-specific sync + power,0.2952380952380952,0.1429,0.1231,0.1503,0.1721380952380952,0.001
+leave-one-source-out,Spearman edges (signed),0.1654761904761904,0.1429,0.1271,0.1464,0.0383761904761904,0.001
+leave-one-source-out,MTF q=30 edges,0.1327,0.1429,0.1213,0.1372,0.0114,0.1279
+leave-one-source-out,QG q=30 edges,0.1164,0.1429,0.1249,0.1414,-0.0085,0.8062
+leave-one-source-out,RQA + JRS,0.2270833333333333,0.1429,0.124,0.1485,0.1030833333333333,0.001

@@ -1,0 +1,18 @@
+# data, caches and logs are not version-controlled
+data/
+cache/
+logs/
+EEG-data-raw
+EEG-data-raw-multiscale/
+multiplex_gnn/inputs/
+*.npy
+*.npz
+*.mat
+*.zip
+*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+# exception: small electrode-geometry file used by the multiplex network
+!multiplex_gnn/recurrence_multiplex/geometry.json

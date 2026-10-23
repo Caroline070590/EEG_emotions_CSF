@@ -1,0 +1,12 @@
+# Versions used for the FACED 30-s and SEED-VII analyses (Python 3.11)
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.6
+scikit-learn==1.9.1
+statsmodels==0.15.0
+torch==2.8.0
+matplotlib==3.11.2
+mne==1.13.2
+joblib==1.6.0
+networkx==3.6.1
+gudhi==3.13.0

@@ -1,0 +1,2 @@
+scope,n_subjects,n_observations,mean_target_rating,mean_nontarget_rating,mean_subject_level_difference,bootstrap_ci_low,bootstrap_ci_high,paired_subject_t,paired_subject_p,cohen_dz,target_is_max_rate,tie_rule
+all non-neutral videos,123,2952,4.72674731880884,1.3992080950370862,3.3275392237717547,3.1145010006912353,3.53079654459277,30.832125072284192,1.9696689995703918e-59,2.7800390949947067,0.6409214092140921,target counted when tied for maximum
