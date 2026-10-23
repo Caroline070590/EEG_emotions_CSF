@@ -121,7 +121,7 @@ ax.axvline(100 / 9, color="#c0392b", lw=0.7, ls="--", zorder=0)
 for b in (2.5, 5.5, 7.5, 9.5): ax.axhline(b, color="#eeeeee", lw=0.6, zorder=0)
 ax.set_yticks(y); ax.set_yticklabels([]); ax.set_ylim(len(ROWS) - 0.5, -0.5); ax.set_xlim(0, 34)
 ax.legend(handles=[Line2D([], [], marker="o", ls="", color="#2b6cb0", label="observed"),
-                   Patch(color="#d0d0d0", label="permutation null (200)"),
+                   Patch(color="#d0d0d0", label="permutation null (199–200)"),
                    Line2D([], [], color="#c0392b", ls="--", label="nominal chance")],
           fontsize=5.2, loc="upper center", bbox_to_anchor=(0.5, -0.11), ncol=1, frameon=False)
 ax.set_xlabel("Balanced accuracy, unseen videos (%)")

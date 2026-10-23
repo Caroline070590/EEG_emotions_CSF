@@ -1,7 +1,8 @@
 """Split-half directional stability of the nine FDR-significant 1-s synchronization contrasts
 (regenerates Supplementary Figure S25; the original generator could not be recovered).
 
-Estimator (as in Supplementary Table S1): each measure is z-scored within participant (ddof = 1) and the
+Estimator (as in Supplementary Table S1): each measure is z-scored within participant (ddof = 1; z = 0 for a
+participant with zero variance, which occurs for the lag of one participant) and the
 emotion-versus-neutral effect is the difference of mean z between the emotion and neutral trials.
 Procedure: 300 random partitions of the 123 participants into complementary halves (61 / 62). In each
 partition the effect is re-estimated in both halves. Because the halves are complementary and the
@@ -23,7 +24,9 @@ CONTRASTS = [("PLV", "disgust"), ("PLV", "anger"), ("PLV", "fear"), ("AEC", "dis
 N_PART, SEED = 300, 2026
 
 def participant_differences(d, metric, emo):
-    z = d.groupby("subject_id")[metric].transform(lambda x: (x - x.mean()) / x.std(ddof=1))
+    # z = 0 for a participant whose measure has zero variance across videos (as in Supplementary Table S1),
+    # so every contrast uses all 123 participants
+    z = d.groupby("subject_id")[metric].transform(lambda x: (x - x.mean()) / x.std(ddof=1) if x.std(ddof=1) > 0 else x * 0.0)
     t = pd.DataFrame({"z": z, "s": d.subject_id, "e": d.emotion}).groupby(["s", "e"]).z.mean().unstack()
     return (t[emo] - t["neutral"]).dropna()
 
