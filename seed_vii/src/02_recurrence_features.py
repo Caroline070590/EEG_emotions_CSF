@@ -82,7 +82,7 @@ if __name__ == "__main__":
     if a[0] == "--chunk":
         I, K = int(a[1]), int(a[2]); sel = np.array_split(np.arange(n), K)[I]
         t0 = time.time()
-        out = Parallel(n_jobs=int(os.environ.get("SLURM_CPUS_PER_TASK", 4)), batch_size=1)(delayed(one_trial)(int(i)) for i in sel)
+        out = Parallel(n_jobs=int(os.environ.get("N_JOBS", 4)), batch_size=1)(delayed(one_trial)(int(i)) for i in sel)
         (CACHE / "rqa_chunks").mkdir(exist_ok=True)
         pickle.dump(out, open(CACHE / "rqa_chunks" / f"chunk_{I:03d}.pkl", "wb"))
         print(f"{len(out)} trials in {time.time() - t0:.0f}s")

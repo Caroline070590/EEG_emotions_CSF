@@ -19,7 +19,7 @@ Sections 2 and 3.1 and Appendices A–B of the manuscript (Figs. 1–3, S1–S7)
 | | `figS5_persistent_homology.py` | Fig. S5 |
 | | `figS6_recurrence_statistics.py` | Fig. S6 |
 | | `sensitivity_qg_lag.py`, `sensitivity_normalization.py` | sensitivity analyses |
-| | `gnn/run_gnn.py`, `gnn/summarize_paired.py`, `gnn/figS7_gnn_models.py` | graph neural networks, Fig. S7 |
+| | `gnn/run_gnn.py`, `gnn/summarize_paired.py`, `gnn/figS7_gnn_models.py` | graph neural networks (run configurations in `gnn/configs/`), Fig. S7 |
 
 `lib_rev.py` contains the shared statistics: min F′ with participants and videos as crossed random factors
 (Clark, 1973), omnibus tests and Benjamini–Hochberg correction.
@@ -27,5 +27,6 @@ Sections 2 and 3.1 and Appendices A–B of the manuscript (Figs. 1–3, S1–S7)
 ## Running
 
 Set `FACED_ZIP` to the FACED epochs exported as one CSV per participant × video (channels as columns), then
-follow the steps above from `src/`, or on a Slurm cluster submit `slurm/features_array.sh` and
-`slurm/rqa_array.sh`, then `slurm/analyses.sh` (set `EEG_ENV` to the Python environment; see `env.sh`).
+follow the steps above from `src/`. The feature scripts accept `--chunk I K` to split the 3,444 epochs
+into K parallel chunks (merged with `--merge K`); `N_JOBS` sets the number of workers. Each line of
+`src/gnn/configs/*.txt` gives the arguments of one graph-network run.

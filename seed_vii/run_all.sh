@@ -1,5 +1,5 @@
 #!/bin/bash
-# SEED-VII replication, full run on one machine. usage (from seed7/): ./run_all.sh /path/to/SEED-VII
+# SEED-VII replication, full run on one machine. usage (from seed_vii/): ./run_all.sh /path/to/SEED-VII
 # SEED-VII must contain EEG_preprocessed/<subject>.mat and the metadata spreadsheets of the official release.
 set -euo pipefail
 export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 MPLBACKEND=Agg

@@ -36,7 +36,7 @@ def triangle_ratio_hist():
     f = CACHE / "ph_triangle_ratio_hist.npz"
     if not f.exists():
         n = np.load(CACHE / "eeg_30s.npy", mmap_mode="r").shape[0]
-        res = Parallel(n_jobs=int(os.environ.get("SLURM_CPUS_PER_TASK", 4)))(delayed(_ratios)(i) for i in range(n))
+        res = Parallel(n_jobs=int(os.environ.get("N_JOBS", 4)))(delayed(_ratios)(i) for i in range(n))
         np.savez(f, abs_hist=sum(r[0][0] for r in res), signed_hist=sum(r[1][0] for r in res),
                  abs_max=max(r[0][1] for r in res), signed_max=max(r[1][1] for r in res),
                  n_ratios=sum(r[0][2] for r in res), n_trials=n)

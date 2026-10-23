@@ -1,5 +1,5 @@
 """Overview figure for the README: analysis pipeline (top) and the two headline results (bottom).
-Numbers are those reported in the manuscript (faced/tables, seed7/tables).
+Numbers are those reported in the manuscript (faced/tables, seed_vii/tables).
 usage: python docs/make_overview_figure.py  ->  docs/overview.png"""
 from pathlib import Path
 import matplotlib; matplotlib.use("Agg")

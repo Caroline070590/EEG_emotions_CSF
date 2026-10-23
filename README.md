@@ -38,7 +38,7 @@ affective conditions) and its independent replication in SEED-VII (20 participan
 | <img src="faced/figures/Fig2_participants_and_videos_random.png" width="100%"> | <img src="faced/figures/Fig3_decoding_unseen_videos.png" width="100%"> |
 | **Fig. 2** · 79 of 224 contrasts survive correction when videos are treated as fixed, none when videos are random. | **Fig. 3** · Band-specific synchronization and power decode the condition of unseen videos above a stimulus-structured null (13.7% vs 6.4%, *p* = 0.001). |
 
-<p align="center"><img src="seed7/figures/FigS8_seed7_replication.png" width="95%"></p>
+<p align="center"><img src="seed_vii/figures/FigS8_seed7_replication.png" width="95%"></p>
 <p align="center"><b>Fig. S8</b> · Independent replication in SEED-VII: no contrast survives with stimuli random (18 of 168 with stimuli fixed), and synchronization and power again decode unseen stimuli (29.5% vs 12.3%).</p>
 
 ## Repository structure
@@ -46,13 +46,12 @@ affective conditions) and its independent replication in SEED-VII (20 participan
 ```
 ├── faced/                    FACED, released 30-s epochs (Sections 2–3.1, Appendices A–B)
 │   ├── src/                  pipeline: 00_load_epochs → 01/02 features → 03 contrasts → fig*/sensitivity_*
-│   │   └── gnn/              graph neural networks (training, permutation runs, Fig. S7)
+│   │   └── gnn/              graph neural networks (training, run configurations, Fig. S7)
 │   ├── figures/              Figs. 1–3, S1–S7
 │   ├── tables/               every test and model summary (all_contrasts.csv lists all 616 FACED tests)
 │   ├── results/gnn/          every graph-network run, including all permutations
-│   ├── preregistration/      model-selection rule and its amendments
-│   └── slurm/                cluster job scripts
-├── seed7/                    independent replication in SEED-VII (Section 3.2, Appendix C; Fig. S8)
+│   └── preregistration/      model-selection rule and its amendments
+├── seed_vii/                 independent replication in SEED-VII (Section 3.2, Appendix C; Fig. S8)
 │   ├── src/  figures/  tables/
 │   ├── ANALYSIS_PLAN.md      plan written before the data were analyzed, with a log of every later addition
 │   └── run_all.sh
@@ -65,8 +64,7 @@ affective conditions) and its independent replication in SEED-VII (20 participan
 
 ## System requirements
 
-* **Operating system**: tested on Ubuntu 20.04 LTS and on a Linux HPC cluster (Slurm); expected to run on any
-  system with Python 3.11.
+* **Operating system**: tested on Linux (Ubuntu 20.04 LTS); expected to run on any system with Python 3.11.
 * **Software**: Python 3.11 with the package versions in [`requirements.txt`](requirements.txt) (numpy,
   scipy, pandas, scikit-learn, statsmodels, torch, matplotlib, mne, joblib, networkx, gudhi). The 1-s
   analyses use [`faced_1s_exploratory/requirements.txt`](faced_1s_exploratory/requirements.txt).
@@ -111,8 +109,8 @@ random, and it does not decode unseen videos.
 
 ## Reproducing the analyses
 
-**1. FACED, 30-s epochs** (from `faced/`; set `FACED_ZIP` to the exported epochs). On a Slurm cluster:
-submit `slurm/features_array.sh` and `slurm/rqa_array.sh`, then `slurm/analyses.sh`. On one machine:
+**1. FACED, 30-s epochs** (from `faced/`; set `FACED_ZIP` to the exported epochs; `N_JOBS` sets the number of
+parallel workers):
 
 ```bash
 cd faced/src
@@ -124,10 +122,11 @@ python fig1_fig2_synchronization_and_stimulus.py && python fig3_decoding_unseen_
 for f in figS*.py sensitivity_*.py; do python "$f"; done
 ```
 
-Graph neural networks: `gnn/run_gnn.py` (one run per call; parameter grids in `slurm/*_params.txt`), then
+Graph neural networks: `gnn/run_gnn.py` (one run per call; each line of `gnn/configs/*.txt` gives the arguments
+of one run), then
 `gnn/summarize_paired.py` and `gnn/figS7_gnn_models.py`.
 
-**2. SEED-VII** (from `seed7/`): `./run_all.sh /path/to/SEED-VII` (about 3 hours on 12 cores).
+**2. SEED-VII** (from `seed_vii/`): `./run_all.sh /path/to/SEED-VII` (about 3 hours on 12 cores).
 
 **3. FACED, final 1-s segments**: see [`faced_1s_exploratory/README.md`](faced_1s_exploratory/README.md).
 
@@ -142,7 +141,7 @@ Graph neural networks: `gnn/run_gnn.py` (one run per call; parameter grids in `s
 | 6 | `faced_1s_exploratory/src/part4_regional/run_figure4_full_composite.py` |
 | S1–S6 | `faced/src/figS1_quantile_density_sweep.py` … `figS6_recurrence_statistics.py` |
 | S7 | `faced/src/gnn/figS7_gnn_models.py` |
-| S8 | `seed7/src/figS8_compare_with_faced.py` |
+| S8 | `seed_vii/src/figS8_compare_with_faced.py` |
 | S9 | `faced_1s_exploratory/src/part6_advanced/run_density_sweep_q30.py` |
 | S10 | `faced_1s_exploratory/src/part1_topology/run_chords_supp_q30.py` |
 | S11, S12 | `faced_1s_exploratory/src/part1_topology/run_bootstrap_effects.py`, `run_pairwise.py` |

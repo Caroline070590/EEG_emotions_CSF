@@ -52,7 +52,7 @@ whatever they are.
 
 ## Deviation log (recorded as it happened)
 * 2026-10-22 21:40, before the leave-one-clip-out results were computed: decoding took ~50 min per
-  feature set locally (Yggdrasil unavailable). The primary leave-one-source-out analysis was completed
+  feature set on a single workstation. The primary leave-one-source-out analysis was completed
   with 1,000 permutations as planned; the secondary leave-one-clip-out analysis was rerun separately
   with 200 permutations (p resolution 0.005) and is reported in the repository only.
 * Added after the pre-specified results were seen (exploratory): adjustment of the recurrence

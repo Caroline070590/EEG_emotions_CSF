@@ -272,12 +272,12 @@ def save_all(out):
 if __name__ == "__main__":
     # usage: 01_trial_features.py                 -> all trials, then save
     #        01_trial_features.py N               -> timing test on the first N trials
-    #        01_trial_features.py --chunk I K     -> chunk I of K (Slurm array), saved to cache/chunks/
+    #        01_trial_features.py --chunk I K     -> chunk I of K (parallel chunks), saved to cache/chunks/
     #        01_trial_features.py --merge K       -> merge K chunks and save
     import os, pickle
     mm_path = CACHE / "eeg_30s.npy"
     n = np.load(mm_path, mmap_mode="r").shape[0]
-    n_jobs = int(os.environ.get("SLURM_CPUS_PER_TASK", 12))
+    n_jobs = int(os.environ.get("N_JOBS", 12))
     args = sys.argv[1:]
     if args[:1] == ["--merge"]:
         K = int(args[1]); out = []
