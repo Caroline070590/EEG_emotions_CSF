@@ -57,7 +57,8 @@ affective conditions) and its independent replication in SEED-VII (20 participan
 │   ├── ANALYSIS_PLAN.md      plan written before the data were analyzed, with a log of every later addition
 │   └── run_all.sh
 ├── faced_1s_exploratory/     exploratory final-second analyses and behavioral analyses (Sections 3.3–3.5,
-│                             Appendices D–K; Figs. 4–6, S9–S29)
+│                             Appendices D–K; Figs. 4–6, S9–S29); tables/ holds the full 1-s topology
+│                             (144) and synchronization (48; Table S1) contrast tables
 ├── multiplex_gnn/            complementary recurrence-multiplex graph network, GPU (Appendix B), with the
 │                             observed and permutation scores and the randomized-graph control
 ├── demo/                     one-minute demonstration on simulated data

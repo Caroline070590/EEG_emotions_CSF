@@ -18,7 +18,7 @@ src/part6_advanced/         NBS, centrality, simplices, rich club, split-half an
 src/stimulus_aware/         stimulus deletion, bootstrap, retrieval and held-out decoding
 src/behavioral/             behavioral validation and brain-behavior analyses (Figs. S27-S29)
 derived/                    per-trial scalar synchronization used by the behavioral and split-half analyses
-figures/, tables/           outputs of the regenerated analyses
+figures/, tables/           outputs, including the full 1-s topology (144) and synchronization (48) contrast tables
 ```
 
 ## Running
