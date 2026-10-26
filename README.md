@@ -23,9 +23,28 @@ The exploratory FACED GNN development used full-FACED calibration. The retained 
 
 Original-file hashes and superseded source versions of the earlier release are retained in `revision_2026-10-25/provenance/`.
 
+## Main figures
+
+The three main figures of the article (one-second FACED analysis; 123 participants, 28 videos). The PDFs in [`figures/`](figures/) are identical to the manuscript figures; the PNGs are previews.
+
+**Figure 1. Global topology and representation complementarity across affective video conditions.** Emotion-by-metric topology fingerprints for Spearman channel networks, Markov-transition-field (MTF) and quantile-graph (QG) networks, change in small-world coefficient relative to neutral, and condition-wise topology summaries.
+
+![Figure 1](figures/Fig1_topology.png)
+
+**Figure 2. Synchronization fingerprints and condition-specific synchronization–topology coupling.** Condition-by-synchronization fingerprint and pooled coupling from participant-clustered models (a–c), and condition-specific coupling slopes (d–g).
+
+![Figure 2a–c](figures/Fig2a_synchronization_overview.png)
+![Figure 2d–g](figures/Fig2b_synchronization_condition_slopes.png)
+
+**Figure 3. Multiscale EEG network organization across affective video conditions.** Network-based-statistic components and hub changes (a–f), regional nodal strength, wPLI and coupling (g), and clique and simplicial-complex summaries (h–j).
+
+![Figure 3a–f](figures/Fig3a_multiscale_networks.png)
+![Figure 3g–j](figures/Fig3b_regional_networks.png)
+
 ## Repository structure
 
 ```
+figures/                     Main Figs. 1–3 as in the manuscript (PDF) with PNG previews
 faced_1s_exploratory/        Main one-second FACED analyses (main Figs. 1–3) and retained sensitivity analyses
 faced/                       Supplementary FACED 30-s validation, including held-video decoding
 seed_vii/                    Supplementary SEED-VII analyses; separate within-dataset fitting
