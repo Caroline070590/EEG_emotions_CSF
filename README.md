@@ -149,7 +149,7 @@ Numbering below follows the restored one-second main-paper structure. Historical
 | S20 | `faced_1s_exploratory/src/part4_regional/run_part4_mtf_only_fancy_v2.py` |
 | S21–S22 | `faced_1s_exploratory/src/part5_enrichment/run_network_enrichment.py`, `src/part6_advanced/run_richclub.py`, `run_richclub_mtf_q30.py` |
 | S23: participant averaging | `faced_1s_exploratory/src/part6_advanced/run_participant_averaging_sensitivity.py`; reconstructed generator, not exact historical provenance |
-| S24: headline LOPO | Exact generator remains unrecovered; historical figure only |
+| S24: leave-one-participant-out stability | `faced_1s_exploratory/lopo_stability_S24/` (original July outputs verified; recomputed at q = 30 with Greenhouse–Geisser correction) |
 | S25: contrast split halves | `faced_1s_exploratory/src/part6_advanced/run_contrast_splithalf.py` |
 | S26: one-second stimulus sensitivity | `faced_1s_exploratory/src/stimulus_aware/stimulus_aware_validation_pipeline.py` |
 | S27–S29: behavioral validation, modeling, RSA | `revision_2026-10-25/corrections/analyses/behavioral/`; corrected J4 prediction and retained association/RSA provenance |
@@ -160,7 +160,7 @@ Numbering below follows the restored one-second main-paper structure. Historical
 | Table S3: all-seed matched EEGNet | `revision_2026-10-25/sources/matched_eegnet/`; `results/seed_stability/` |
 | Table S4: preprocessing sensitivity | `revision_2026-10-25/sources/eegnet_preprocessing_diagnostic/`; `results/preprocessing_diagnostic/` |
 
-The recovered behavioral-RSA filename `Supplementary_Figure_S24_behavioral_neural_RSA` refers to current S29. It is unrelated to current S24's missing headline-LOPO generator.
+The recovered behavioral-RSA filename `Supplementary_Figure_S24_behavioral_neural_RSA` refers to current S29. It is unrelated to current S24 (leave-one-participant-out stability).
 
 The latest prediction pipelines retain all seeds (20261024, 11, 29) and all planned models. Primary EEGNet trial scores average three nonoverlapping 10-s probabilities or use one 30-s input, so both primary designs use the complete 30 seconds. The post-result nine-fit preprocessing diagnostic is a sensitivity analysis, not a published-benchmark replication or a new selected baseline. See `revision_2026-10-25/README.md` for exact scope and rerunning reports.
 

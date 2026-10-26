@@ -37,5 +37,5 @@ python part6_advanced/run_contrast_splithalf.py ../derived/trial_scalar_synchron
 The behavioral analyses need the FACED behavioral ratings; `src/behavioral/inputs/NEMAR_SOURCE.md` describes
 the source files and their checksums.
 
-Figure S24 (leave-one-participant-out stability) has no recovered generator. Figures S9, S19 and S25 were
+Figure S24 (leave-one-participant-out stability) is generated in `lopo_stability_S24/`, which also verifies the earlier, unrecovered July 2026 generator from its saved outputs. Figures S9, S19 and S25 were
 regenerated with documented procedures.

@@ -23,7 +23,7 @@ The later released scaffold instead described and attempted a 1,107 participantâ
 | Regional coupling, main Fig. 3 | 3,444 matched trials per region; within-participant standardized nodal strength on synchronization | Positive within-sensor-group association |
 | Regional split halves, S19 | Same trial-level slope, re-estimated in 300 complementary participant partitions | Direction preserved in both halves for all 30 region-by-measure pairs; not independent replications |
 | Participant averaging, S23 | 1,107 participantâ€“emotion cells; omnibus emotion tests | Sensitivity of emotion effects to averaging; not a coupling-slope sensitivity |
-| Headline LOPO, S24 | Historical omnibus emotion-effect figure; exact generator unrecovered | Historical figure only; not independently certified here |
+| Headline LOPO, S24 | Omnibus emotion-effect stability; original generator unrecovered | Recomputed with the current synchronization table in `faced_1s_exploratory/lopo_stability_S24/` (global wPLI values unchanged) |
 | Synchronization split halves, S25 | Nine condition-versus-neutral contrasts | Directional stability of contrasts, not of global coupling |
 | Thirty-second coupling nulls | Separate long-window data and model | Supplementary validity analysis; not evidence that the one-second figure used 1,107 MixedLM observations |
 
