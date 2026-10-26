@@ -1,0 +1,426 @@
+{
+  "review_date": "2026-10-25",
+  "scope": "Independent read-only review of all three Reviewer 6 comments and their subrequests; abstract/introduction/discussion/conclusion coherence; supporting saved numerical outputs.",
+  "manuscript_sha256": "e8c282492795d412be63f7fa3460587eda8d4c68ee81b19e3dde46422fd0f470",
+  "response_sha256": "f77d6ce9a58cd2fb78534e8b821059b5c522a00ee8f178125882ba0e4619adef",
+  "reviewer_comments_preserved": {
+    "baseline": "/home/carolinealves/Documents/Emotions-eeg/REVIEW_READY_CSF_2026-10-25/response/previous/response_original_REV2.tex",
+    "all_24_text_identical_ignoring_tex_comments_and_whitespace": true,
+    "r6_byte_for_byte": true,
+    "r6_comments": 3
+  },
+  "interpretation": "Addressed means the request is answered with evidence or an explicit scope restriction; partial means a substantive limitation remains. It is not a prediction of acceptance.",
+  "comments": [
+    {
+      "id": "R6.1",
+      "topic": "Methodological novelty, simulation/experimental validation, and modest pooled-corrected topology effects",
+      "comment_lines": [
+        395,
+        403
+      ],
+      "comment_sha256": "d8a319d55d9da4cc622087adb4178ba5bf881cfb271f6ab6442f6c4d774b6c4c",
+      "status": "partial",
+      "subrequests": [
+        {
+          "request": "Demonstrate a fundamentally new methodology rather than combining established construction, synchronization, representation and persistence methods.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Introduction:164-176",
+            "Discussion:599-603,611",
+            "Conclusion:623"
+          ],
+          "response_evidence": [
+            "405",
+            "409-415"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/gnn_simulation_gain.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/gnn_graph_priors.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/matched_eegnet/paired_augmentation_comparisons.csv"
+          ],
+          "residual_gap": "The revision identifies a controlled comparative contribution, not a new estimator or established novel architecture. That reframing is scientifically defensible but does not satisfy a demand for fundamental methodological novelty by itself."
+        },
+        {
+          "request": "Explain the theoretical or methodological advance relevant to EEG emotion analysis.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Introduction:164-176",
+            "Discussion:601-611",
+            "Appendix B:827,831-849"
+          ],
+          "response_evidence": [
+            "405-415"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/coupling_null_models.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/quantile_density_sweep.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/gnn_simulation_gain.csv"
+          ],
+          "residual_gap": "The specific advance is separating representation semantics, shared-signal associations and generalization targets in a reproducible comparison. No theorem, uniquely nonlinear neural mechanism or general fusion advantage is established. No new such claim should be invented."
+        },
+        {
+          "request": "Supply convincing simulation validation.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Appendix A, Signal structure:729",
+            "Appendix B, Simulation-based model selection:845-847",
+            "Appendix B, Figure S7:981"
+          ],
+          "response_evidence": [
+            "407",
+            "409-411"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/coupling_null_models.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/gnn_simulation_gain.csv"
+          ],
+          "residual_gap": "Simulations and phase surrogates exist and their role is stated. Decoder simulations are calibrated to full FACED data and examine selected noise structures; they do not independently validate the original one-second findings or physiological specificity. One surrogate per trial is a descriptive reference, not a repeated-dataset null distribution."
+        },
+        {
+          "request": "Supply experimental or independent-data validation.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Appendix C:989-1006",
+            "Discussion:605,611"
+          ],
+          "response_evidence": [
+            "413",
+            "453"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/tables/all_contrasts.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/tables/contrasts_source_nested.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/tables/decoding_unseen_sources.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/corrections/analyses/seed_session/results/SESSION_CONTROL_SUMMARY.json"
+          ],
+          "residual_gap": "Independent cohort/laboratory assessment is supplied, but is neither a new controlled experiment nor successful replication of scalar-topology contrasts. The models are trained separately in each dataset, not transferred without retraining. Table S1 should say independent assessment consistently."
+        },
+        {
+          "request": "Resolve the specific finding that no scalar topology contrast survives pooled correction across 144 tests.",
+          "status": "addressed",
+          "manuscript_evidence": [
+            "Abstract:53",
+            "Results 3.1:493-503",
+            "Discussion:601",
+            "Appendix A:766"
+          ],
+          "response_evidence": [
+            "407",
+            "415"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/tables/topology_contrasts_1s.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/all_contrasts.csv"
+          ],
+          "residual_gap": "No numerical resolution is claimed: the original pooled null result is preserved, with the single within-representation QG finding clearly distinguished. This corrects interpretation rather than converting an unconfirmed contrast into a supported marker."
+        },
+        {
+          "request": "Support claims of emotion-dependent network reorganization in view of weak scalar effects.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Results 3.3:565-577",
+            "Figure 3 captions:583-592",
+            "Discussion:599-609",
+            "Conclusion:623"
+          ],
+          "response_evidence": [
+            "407",
+            "415",
+            "425",
+            "455"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/tables/topology_contrasts_1s.csv"
+          ],
+          "residual_gap": "Distributed participant-level subnetworks and descriptive centroid summaries support representation-specific organization of the sampled affective video conditions. They do not establish stimulus-general emotion-specific network reorganization. Current main text explicitly distinguishes those scopes."
+        }
+      ]
+    },
+    {
+      "id": "R6.2",
+      "topic": "Correlational interpretation, emotion-specific mechanisms, and dependence on mathematical representations",
+      "comment_lines": [
+        418,
+        421
+      ],
+      "comment_sha256": "fdecb92a4d930d1d432ca0edbd84c21fbac144b689a138795f5606b9c5653275",
+      "status": "partial",
+      "subrequests": [
+        {
+          "request": "Recognize that synchronization differences and synchronization-topology relations are correlational.",
+          "status": "addressed",
+          "manuscript_evidence": [
+            "Introduction:166",
+            "Results 3.2:522-532",
+            "Discussion:605-607",
+            "Appendix K.2:1468-1478"
+          ],
+          "response_evidence": [
+            "423-425"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/coupling_null_models.csv"
+          ],
+          "residual_gap": "The paper now uses association/covariation and does not assert causality. This is a correct scope restriction, not an identification of mechanism."
+        },
+        {
+          "request": "Establish whether the effects are robust emotion-specific neural mechanisms.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Discussion:605-617",
+            "Appendix C:1000-1004",
+            "Appendix B:843"
+          ],
+          "response_evidence": [
+            "423-425"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/all_contrasts.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/emg_checks.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/tables/recurrence_delta_adjustment.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/corrections/analyses/seed_session/results/SESSION_CONTROL_SUMMARY.json"
+          ],
+          "residual_gap": "Mechanisms remain unestablished. Category labels remain coupled to audiovisual/narrative content, and the temporal/EMG/session controls do not isolate subjective emotion. The response appropriately declines to infer such mechanisms; no extra analysis is represented as proof."
+        },
+        {
+          "request": "Separate characteristics of selected mathematical representations from neurophysiological interpretation.",
+          "status": "addressed",
+          "manuscript_evidence": [
+            "Introduction:164-166",
+            "Discussion:601,607-609",
+            "Appendix A:681-685,729,774-776"
+          ],
+          "response_evidence": [
+            "423-425"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/quantile_density_sweep.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/coupling_null_models.csv"
+          ],
+          "residual_gap": "Node semantics, fixed graph construction, shared signal structure, and pairwise-derived homology are distinguished. Calling a transformation nonlinear does not itself test nonlinear generating dynamics; no such successful test is claimed in the conclusions."
+        },
+        {
+          "request": "Validate robustness of the reported main synchronization-topology associations.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Methods 2.6:460-477",
+            "Discussion:607",
+            "Appendix A:729,776"
+          ],
+          "response_evidence": [
+            "423"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/coupling_null_models.csv"
+          ],
+          "residual_gap": "The added surrogate and non-overlapping-window controls concern 30-s/15-s mixed-model estimates; the main findings concern one-second clustered-OLS estimates. The response now explicitly acknowledges that these controls inform interpretation but do not directly validate one-second physiological specificity."
+        }
+      ]
+    },
+    {
+      "id": "R6.3",
+      "topic": "Baselines, statistical controls, robustness, independent validation, reproducibility and comparative contribution",
+      "comment_lines": [
+        428,
+        433
+      ],
+      "comment_sha256": "9abe408b1e06b53eb47dfd451bb1787c621fdcb3466e27271fc72a905c746227",
+      "status": "partial",
+      "subrequests": [
+        {
+          "request": "Add relevant comparative baselines.",
+          "status": "addressed",
+          "manuscript_evidence": [
+            "Appendix B:831-859,883-891",
+            "Tables S2-S4:861-965"
+          ],
+          "response_evidence": [
+            "435-450"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/gnn_real_data.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/gnn_graph_priors.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/gnn_biology_masked_synchronization.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/gnn_faced/performance.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/gnn_seed7/performance.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/matched_eegnet/performance.csv"
+          ],
+          "residual_gap": "Linear, MLP, no-graph/random/biological graph and matched EEGNet/auxiliary-shuffle baselines exist. Participant-held-out identical-input comparisons use inherited neural training settings; they are not exhaustively optimized comparisons of every literature model."
+        },
+        {
+          "request": "Add statistical controls.",
+          "status": "addressed",
+          "manuscript_evidence": [
+            "Appendix A:689-729,736",
+            "Appendix B:853,857,887",
+            "Appendix C:991-1002"
+          ],
+          "response_evidence": [
+            "435-441",
+            "446-450",
+            "453"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/all_contrasts.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/decoding_null_distributions.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/gnn_faced/permutation_run_scores.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/gnn_seed7/permutation_run_scores.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/corrections/analyses/seed_session/results/SESSION_CONTROL_SUMMARY.json"
+          ],
+          "residual_gap": "Multiplicity, stimulus-aware inference, model-specific full-refit nulls, graph controls and a session-conditional null are supplied. The matched EEGNet tests condition on fitted models and familiar stimuli; nominal data-informed held-video GNN comparisons remain exploratory."
+        },
+        {
+          "request": "Add robustness analyses.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Appendix A:681-685,729-754,774-778",
+            "Appendix B:891,933",
+            "Appendix D:1017-1040"
+          ],
+          "response_evidence": [
+            "423",
+            "435",
+            "448-450"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/quantile_density_sweep.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/emg_checks.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/tables/density_sweep_profile_correlations.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/preprocessing_diagnostic/INDEPENDENT_VERIFICATION.json"
+          ],
+          "residual_gap": "Settings, density, window, seed, EMG-proxy and preprocessing checks are substantial. Most new construction/physiology controls concern 30-s data; augmented EEGNet was not rerun under the improved diagnostic recipe. A universal robustness claim remains unsupported and is not made."
+        },
+        {
+          "request": "Add independent validation.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Appendix C:989-1006",
+            "Appendix B:857,889-891"
+          ],
+          "response_evidence": [
+            "441",
+            "453-455"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/tables/contrasts_source_nested.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/tables/recurrence_delta_adjustment.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/gnn_seed7/performance.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/corrections/analyses/seed_session/results/SESSION_CONTROL_SUMMARY.json"
+          ],
+          "residual_gap": "Independent data are analyzed, but scalar effects are unconfirmed and recording/session structure remains material. SEED recurrence is a separate temporal finding; it is not replication of the original one-second topology effects. Only synchronization plus power received the added session-preserving held-source null."
+        },
+        {
+          "request": "Demonstrate reproducibility of the reported findings.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Code availability:625-627",
+            "Appendix B:845,853,887,933"
+          ],
+          "response_evidence": [
+            "457"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/RELEASE_MANIFEST_SHA256.json",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/matched_eegnet/INDEPENDENT_VERIFICATION.json",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/provenance/critical_review/MAIN_NUMERICAL_AUDIT.json",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/provenance/critical_review/figure1/RELEASE_FIGURE1_SMOKE.json"
+          ],
+          "residual_gap": "The new release includes substantial scripts, configurations, retained outputs and independent checks. S24 historical generator is unavailable and a physics-informed variant is summary-only, as disclosed. The SEED subdirectory README retains a stale main-Results reference and does not distinguish initial versus strictly nested source summary counts; proposed documentation edits below close this small remaining provenance gap."
+        },
+        {
+          "request": "Demonstrate meaningful outperformance of existing EEG network-analysis approaches.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Appendix B:847-859,889-891,933",
+            "Discussion:611"
+          ],
+          "response_evidence": [
+            "437-455"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/gnn_graph_priors.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/gnn_biology_masked_synchronization.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/gnn_faced/paired_model_differences.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/gnn_seed7/paired_model_differences.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/results/matched_eegnet/paired_augmentation_comparisons.csv"
+          ],
+          "residual_gap": "No general superiority is established. LDA is strongest observed in FACED identical-input participant tests; graph priors do not establish benefit; EEGNet augmentation gains are window-, seed- and preprocessing-dependent. Non-significant differences do not establish equivalence. The paper and response correctly present a comparative evaluation rather than a best-performing method."
+        },
+        {
+          "request": "Resolve the overall concern that methodological innovation and empirical support do not sustain the original main claims.",
+          "status": "partial",
+          "manuscript_evidence": [
+            "Abstract:53",
+            "Introduction:170-176",
+            "Discussion:599-617",
+            "Conclusion:623"
+          ],
+          "response_evidence": [
+            "405",
+            "415",
+            "425",
+            "455"
+          ],
+          "analysis_evidence": [
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/tables/topology_contrasts_1s.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/coupling_null_models.csv",
+            "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/gnn_real_data.csv"
+          ],
+          "residual_gap": "The original main text is retained with narrower condition-specific descriptive claims and controls in the supplement. The scientific case is more transparent, but prose and added model count cannot ensure that the reviewer accepts its novelty. This is a remaining scientific/editorial judgment, not an unaddressed comment or a reason to invent new results."
+        }
+      ]
+    }
+  ],
+  "proposed_edits": [
+    {
+      "file": "/home/carolinealves/Documents/Emotions-eeg/REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex",
+      "line": 717,
+      "old": "SEED-VII 30-s: topology and wPLI/oAEC & 168 & BH once & P and clips; P and sources & Replication \\\\",
+      "new": "SEED-VII 30-s: topology and wPLI/oAEC & 168 & BH once & P and clips; P and sources & Independent assessment \\\\",
+      "reason": "Align the analysis-status label with Appendix C and the response; independent data do not imply successful replication of the original one-second or scalar-topology findings."
+    },
+    {
+      "file": "/home/carolinealves/Documents/Emotions-eeg/REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex",
+      "line": 718,
+      "old": "SEED-VII 30-s: recurrence & 36 & BH once & P and clips & Replication \\\\",
+      "new": "SEED-VII 30-s: recurrence & 36 & BH once & P and clips & Independent assessment \\\\",
+      "reason": "Align the analysis-status label with Appendix C and the response; independent data do not imply successful replication of the original one-second or scalar-topology findings."
+    },
+    {
+      "file": "/home/carolinealves/Documents/Emotions-eeg/REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex",
+      "line": 719,
+      "old": "SEED-VII 30-s: decoding & 5 feature sets & clip and source-block permutation nulls & sources held out & Replication \\\\",
+      "new": "SEED-VII 30-s: decoding & 5 feature sets & clip and source-block permutation nulls & sources held out & Independent assessment \\\\",
+      "reason": "Align the analysis-status label with Appendix C and the response; independent data do not imply successful replication of the original one-second or scalar-topology findings."
+    },
+    {
+      "file": "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/README.md",
+      "line": 1,
+      "old": "# Independent replication in SEED-VII\n\nSection 3.2 and Appendix C of the manuscript (Fig. S8). The main FACED analyses are repeated on SEED-VII\n(20 participants; 80 clips: 12 per non-neutral emotion and 8 neutral) with the same feature code, following",
+      "new": "# Independent assessment in SEED-VII\n\nAppendix C of the manuscript (Fig. S8) assesses the supplementary 30-s FACED analyses in SEED-VII\n(20 participants; 80 clips: 12 per non-neutral emotion and 8 neutral) using the same feature code, following",
+      "reason": "Remove the obsolete main-Results 3.2 location and make the independent-data scope consistent with the restored one-second main study."
+    },
+    {
+      "file": "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/README.md",
+      "line": 23,
+      "old": "## Running\n",
+      "new": "The source-random columns in `summary.csv` and `comparison_with_faced_summary.csv` retain the initial source-grouping analysis from step 3. They report 23 corrected recurrence contrasts. The manuscript uses the later, strictly nested analysis from step 4 (`contrasts_source_nested.csv`): it excludes the four clips from the two programs represented in two conditions, gives 52 source programs equal weight, and yields 22 corrected recurrence contrasts. The clip-random result remains 23. These are different analysis specifications, not interchangeable summaries.\n\n## Running\n",
+      "reason": "Preserve historical outputs while identifying the exact nested-source result cited in the manuscript; prevent a reviewer from mistaking the 23-versus-22 counts for a numerical error."
+    }
+  ],
+  "numerical_spot_checks": {
+    "nested_source_recurrence_corrected": 22,
+    "nested_source_primary_corrected": 0,
+    "surrogate_profile_correlation": 0.9548895335479334,
+    "counts_are_original_table_summaries_not_raw_data_refits": true
+  },
+  "strongest_supported_contribution": "A controlled comparison of complementary sensor-space and amplitude-state EEG representations that separates descriptive condition differences, shared-signal synchronization-topology associations, and prediction under explicit participant/stimulus generalization targets.",
+  "whole_paper_coherence": {
+    "main_1s_then_30s_supplement": "consistent",
+    "abstract_and_conclusion": "consistent with exploratory video-condition scope and modest scalar topology evidence",
+    "nonlinear_interpretation": "Nonlinear transformations and recurrence descriptors are used; no identified nonlinear generator or emotion-specific neural mechanism is demonstrated.",
+    "independent_dataset": "Independent assessment is appropriate. Change Table S1 status and stale release README; do not call separate model fits cross-dataset transfer.",
+    "comparative_performance": "No general architectural superiority or equivalence; conditional EEGNet gains and linear baselines are reported with material limitations.",
+    "new_analyses_required_for_proposed_edits": false
+  }
+}

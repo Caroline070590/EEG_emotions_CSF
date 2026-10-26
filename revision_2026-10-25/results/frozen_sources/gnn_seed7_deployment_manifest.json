@@ -1,0 +1,31 @@
+{
+  "source_sha256": {
+    "ANALYSIS_PLAN.txt": "a697bef7b20359657a65c62ec1a9b877caa5a2542a65eae13890d72d59da690d",
+    "README.txt": "8398383bb734763f4a79010ec06ac7982863d7fdc7b8719e8052957eede69646",
+    "batch.py": "1d81bc6f56595ca506ef850cdaca87aa67f0842e442f7059231b822538fa756d",
+    "cluster.py": "44edaa19d31b8986f8378f12ec270001abaa35b36c374b2cb4d9ffc4e40e2ccc",
+    "cluster.slurm": "629df145d80993ec7daf431fd592c21e6bb05890466aa341b2d08a88ec2fb774",
+    "data.py": "063111fb08d00157a789af4d91b9c59367f17eb59d0fe2b7f45c4ee86ce9cc53",
+    "linear.py": "ddad78ef22d44af58ae9d86a3c82dc8781b996c90055c2a4fb77b0bb75c6278e",
+    "report.py": "a085b814b0dba72d5e2a0d8467f374253fba3d9f58b456ab3f5bc2404c7e68a0",
+    "run.py": "15855d087b69178fe3b40ce519c65e7c089d87730caeb2080cb9b1c9d95e5f2d",
+    "session_control.py": "9e21a9547005ff126557b295056a533f8c892cdaf14caf2806fab056a4f733ba",
+    "submit_cluster.py": "be33113c202acea0c446b0baa79f75d7cd8ba913633f118577d54ec9bd6263c8",
+    "test_data.py": "8ea1a79421062f7c1ab963f7dca706c0650a987315a1454bdeb3763d62a62fea",
+    "test_linear.py": "944e6bdc054fca8f59609ff1917b89f3011a0fc911084b98626368be029942de",
+    "test_models.py": "0404eb53d16565e67460639e3429c37c2f2c4ddadcf888607d581183587a335b",
+    "test_report.py": "2fee3a6137cc35ce1dd265f6f46c993e25754e429c705b6c0bf0b4889f978d58",
+    "test_runner.py": "62b04a4130112132876bbb8801938b6009bd6dcae1ec66f0bd67adc7f6de8670",
+    "test_session_control.py": "68552d92cc81f63083147f440852472c4b2ae7eae44b06aff6d5712dbb60005c",
+    "vendor/sdgnn.py": "48cd7607c41a4f70b66dadfd3bc1b0080c5a6df6c8cddbe65d2ecb6556c7a9ea",
+    "vendor/sdgnn_faced_reference.py": "056cad7777309868000da8ec00da6288e196b1164deac06e5ff317f4d7ce0bde"
+  },
+  "input_sha256": {
+    "clips.csv": "724b751d5c3db2c3a542f55217aa34f33215b8d0a906b332d13046b19719f244",
+    "features_arrays.npz": "eba3e0a5d35d63a067774349311586b81aba5ea1266e3a90a49b2c91e94bdad8",
+    "features_scalar.csv": "73530af38d068d8fdecdc9f503a9562c66405f969f764ca36e7997e0b40926d2",
+    "meta.csv": "fc891088af453c5a54e07212732cb3928583b6be1664c3d522e427bb082d6386",
+    "recurrence_features.npz": "a6704291ec9d1a72f3c2ad5f3d895cc4e48555b5a7083ddace3f120bcadcf692"
+  },
+  "purpose": "SEED-VII fixed participant holdout protocol, 304 tasks, independent within-dataset training; no FACED weight transfer."
+}

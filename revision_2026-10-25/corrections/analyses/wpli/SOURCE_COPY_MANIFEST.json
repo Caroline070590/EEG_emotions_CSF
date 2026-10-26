@@ -1,0 +1,490 @@
+{
+  "files": [
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/validate_inputs.py",
+      "copy": "corrected_pipeline/src/validate_inputs.py",
+      "original_sha256": "63e7ddf20844ee47a7b435288599a3406bcb767ee688db90bdf20b6d28f1dcba",
+      "corrected_sha256": "63e7ddf20844ee47a7b435288599a3406bcb767ee688db90bdf20b6d28f1dcba",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/run_all.py",
+      "copy": "corrected_pipeline/src/run_all.py",
+      "original_sha256": "bbf00867a26159c5008fcbf12848e846c844a50689c7a787d5885b4f08fa87ed",
+      "corrected_sha256": "bbf00867a26159c5008fcbf12848e846c844a50689c7a787d5885b4f08fa87ed",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/topology.py",
+      "copy": "corrected_pipeline/src/lib/topology.py",
+      "original_sha256": "243ac4058869ea2e4a4498215eb621b2db742048aefbf484f4852776121d4fa0",
+      "corrected_sha256": "243ac4058869ea2e4a4498215eb621b2db742048aefbf484f4852776121d4fa0",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/representations.py",
+      "copy": "corrected_pipeline/src/lib/representations.py",
+      "original_sha256": "073b80e9237433d460e3e29d94a941d77cc9915992836e01cea21999b2708d75",
+      "corrected_sha256": "073b80e9237433d460e3e29d94a941d77cc9915992836e01cea21999b2708d75",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/synchrony.py",
+      "copy": "corrected_pipeline/src/lib/synchrony.py",
+      "original_sha256": "0d8e61236916a7b5dc9a46417d7b06dff036c4209878d8173287ed4bcd9545c7",
+      "corrected_sha256": "19697d93477dff24add65bbbb86a792259ffb478c827ceb89e7961775ac35d4b",
+      "changed": true
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/stats.py",
+      "copy": "corrected_pipeline/src/lib/stats.py",
+      "original_sha256": "5b9399b8e277462387180ab96ffde9cb18e1615fe6f0ad3095b46d7e42948ff3",
+      "corrected_sha256": "a862ed95c5a15d003101a83ba1aa05b987052558c769f166f11e36475a53e0d0",
+      "changed": true
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/regions.py",
+      "copy": "corrected_pipeline/src/lib/regions.py",
+      "original_sha256": "d998ab7fec0f296d2cf4892292755025792ed53e38622a49929ef0892749b795",
+      "corrected_sha256": "d998ab7fec0f296d2cf4892292755025792ed53e38622a49929ef0892749b795",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/embedding.py",
+      "copy": "corrected_pipeline/src/lib/embedding.py",
+      "original_sha256": "a49ad0f53c1bc810cf75a7fdbbbd27ad7ec0fe84c1578e76208dabee2916c857",
+      "corrected_sha256": "a49ad0f53c1bc810cf75a7fdbbbd27ad7ec0fe84c1578e76208dabee2916c857",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/layout.py",
+      "copy": "corrected_pipeline/src/lib/layout.py",
+      "original_sha256": "980b793d1a8622ab2a90d34bc22a7b9fb30604342634b1be3dccee920afec10c",
+      "corrected_sha256": "980b793d1a8622ab2a90d34bc22a7b9fb30604342634b1be3dccee920afec10c",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/synchrony_regions.py",
+      "copy": "corrected_pipeline/src/lib/synchrony_regions.py",
+      "original_sha256": "86131d14e51301a129b2df75b9cf63c450df8bbb7bd4005502b16728a80ce594",
+      "corrected_sha256": "86131d14e51301a129b2df75b9cf63c450df8bbb7bd4005502b16728a80ce594",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/chord.py",
+      "copy": "corrected_pipeline/src/lib/chord.py",
+      "original_sha256": "fc7cf008aee3e8c89b37063d12df3645ba43330002870723df04b70e45b4f701",
+      "corrected_sha256": "fc7cf008aee3e8c89b37063d12df3645ba43330002870723df04b70e45b4f701",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/config.py",
+      "copy": "corrected_pipeline/src/lib/config.py",
+      "original_sha256": "a2f2bcab0f59557b3e37200bcfafb23644bae253537f4932c3b3e94ebfd90b0d",
+      "corrected_sha256": "a2f2bcab0f59557b3e37200bcfafb23644bae253537f4932c3b3e94ebfd90b0d",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/metrics.py",
+      "copy": "corrected_pipeline/src/lib/metrics.py",
+      "original_sha256": "5f5415022b484a8a54be4deac550ab79e81af040f4d83822f73a9157998c4494",
+      "corrected_sha256": "5f5415022b484a8a54be4deac550ab79e81af040f4d83822f73a9157998c4494",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/regions_q30.py",
+      "copy": "corrected_pipeline/src/lib/regions_q30.py",
+      "original_sha256": "7a19675b23da023a466323f8e45917bff7821195f0f11636ead24fd37d1f8cb0",
+      "corrected_sha256": "7a19675b23da023a466323f8e45917bff7821195f0f11636ead24fd37d1f8cb0",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/synchrony_bands.py",
+      "copy": "corrected_pipeline/src/lib/synchrony_bands.py",
+      "original_sha256": "01ccbbe3a92842c05cf169bd3b73f1817d45f9079f2706b6f7a6af5c0a4ed563",
+      "corrected_sha256": "01ccbbe3a92842c05cf169bd3b73f1817d45f9079f2706b6f7a6af5c0a4ed563",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/lib/__init__.py",
+      "copy": "corrected_pipeline/src/lib/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "corrected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/behavioral/behavioral_grounding.py",
+      "copy": "corrected_pipeline/src/behavioral/behavioral_grounding.py",
+      "original_sha256": "d5186b68343aa60c72c6a30dfd81f70a03dbb47a7c7fed2bf09c1a63097b287c",
+      "corrected_sha256": "d5186b68343aa60c72c6a30dfd81f70a03dbb47a7c7fed2bf09c1a63097b287c",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part5_enrichment/run_embedding_enrichment.py",
+      "copy": "corrected_pipeline/src/part5_enrichment/run_embedding_enrichment.py",
+      "original_sha256": "09dfbd4869271d4c30318331a89a4c2743707eb433e5dcd2317df17799d13679",
+      "corrected_sha256": "09dfbd4869271d4c30318331a89a4c2743707eb433e5dcd2317df17799d13679",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part5_enrichment/run_embedding_enrichment_q30.py",
+      "copy": "corrected_pipeline/src/part5_enrichment/run_embedding_enrichment_q30.py",
+      "original_sha256": "a2af3e38fbfabe521a229f8b5fb86fd386f7bb516fdb43ad9e7e87161eb13c41",
+      "corrected_sha256": "a2af3e38fbfabe521a229f8b5fb86fd386f7bb516fdb43ad9e7e87161eb13c41",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part5_enrichment/run_network_enrichment.py",
+      "copy": "corrected_pipeline/src/part5_enrichment/run_network_enrichment.py",
+      "original_sha256": "a9a6082be1382de2195cdb89b1cea396ac7aaadb6148ed29734ec4e03160d23e",
+      "corrected_sha256": "a9a6082be1382de2195cdb89b1cea396ac7aaadb6148ed29734ec4e03160d23e",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/stimulus_aware/stimulus_aware_validation_pipeline.py",
+      "copy": "corrected_pipeline/src/stimulus_aware/stimulus_aware_validation_pipeline.py",
+      "original_sha256": "33ce43ad9ecfc1281fb66ed23267bcae6f2193806ae43d222e9acab9c01605ca",
+      "corrected_sha256": "33ce43ad9ecfc1281fb66ed23267bcae6f2193806ae43d222e9acab9c01605ca",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/panel_D_emotion_multigraph.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/panel_D_emotion_multigraph.py",
+      "original_sha256": "f848bec7ed596ffde0edeea42b6f2dbc1c4f3bce6fbf566f7bd50416fa5c1466",
+      "corrected_sha256": "f848bec7ed596ffde0edeea42b6f2dbc1c4f3bce6fbf566f7bd50416fa5c1466",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/run_umap.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/run_umap.py",
+      "original_sha256": "9626e09127ee60401bc05c11b517f44dac2dfacd37935d998f943f6f02ddea49",
+      "corrected_sha256": "9626e09127ee60401bc05c11b517f44dac2dfacd37935d998f943f6f02ddea49",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/compute_features.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/compute_features.py",
+      "original_sha256": "20287a3015bf63c448cdb42c95495b29743ae4e2a9842ead47064a65eec73de0",
+      "corrected_sha256": "20287a3015bf63c448cdb42c95495b29743ae4e2a9842ead47064a65eec73de0",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/panel_F_topology_signature.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/panel_F_topology_signature.py",
+      "original_sha256": "78be9dcb3ffdd41863f3405615bfc4f41ad12c239b74222e3f680170344a118f",
+      "corrected_sha256": "78be9dcb3ffdd41863f3405615bfc4f41ad12c239b74222e3f680170344a118f",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/panel_B_valence_centroids.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/panel_B_valence_centroids.py",
+      "original_sha256": "64dee419433a579b44e4774c87540dbe2f47c1bb59f7c2138d33ec08690a8812",
+      "corrected_sha256": "64dee419433a579b44e4774c87540dbe2f47c1bb59f7c2138d33ec08690a8812",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/_panels.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/_panels.py",
+      "original_sha256": "a0908bf588b0c5be2f86ca306bf6c02de63e08de7264cad088fc69bf246ac816",
+      "corrected_sha256": "a0908bf588b0c5be2f86ca306bf6c02de63e08de7264cad088fc69bf246ac816",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/representations_q30.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/representations_q30.py",
+      "original_sha256": "6ca37f80005fe23ef042efb9ec364edb79eb0c9c0c4b695cc0c8500ce69138d6",
+      "corrected_sha256": "6ca37f80005fe23ef042efb9ec364edb79eb0c9c0c4b695cc0c8500ce69138d6",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/panel_D_emotion_chord.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/panel_D_emotion_chord.py",
+      "original_sha256": "5ac581c2fa6e7324f3789ac5f36abed7bb796e9a6b90555ea0be22ee35663435",
+      "corrected_sha256": "5ac581c2fa6e7324f3789ac5f36abed7bb796e9a6b90555ea0be22ee35663435",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/panel_A_umap_emotion.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/panel_A_umap_emotion.py",
+      "original_sha256": "c599d05549a9c914efaea820392bbe2426c99cd0f2694efbc06bc724c16c58d3",
+      "corrected_sha256": "c599d05549a9c914efaea820392bbe2426c99cd0f2694efbc06bc724c16c58d3",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/run_umap_q30.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/run_umap_q30.py",
+      "original_sha256": "bd0752377c107bbdd68500aff7ca21a6b6744b77562962f6e31a3083f684272b",
+      "corrected_sha256": "bd0752377c107bbdd68500aff7ca21a6b6744b77562962f6e31a3083f684272b",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/panel_C_rsa_matrix.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/panel_C_rsa_matrix.py",
+      "original_sha256": "4d95245da874ae19a4acb291c3d2027e71d17e176eec7c260ccb0d2f839716ac",
+      "corrected_sha256": "4d95245da874ae19a4acb291c3d2027e71d17e176eec7c260ccb0d2f839716ac",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/panel_E_higherorder_bars.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/panel_E_higherorder_bars.py",
+      "original_sha256": "a4b54428e93203fa830cad324507b6383895c31acdb386cd1bf22406d418ae05",
+      "corrected_sha256": "a4b54428e93203fa830cad324507b6383895c31acdb386cd1bf22406d418ae05",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part3_embedding_topology/run_part3.py",
+      "copy": "corrected_pipeline/src/part3_embedding_topology/run_part3.py",
+      "original_sha256": "23206d634cfe12570d77949c08dacc6cd0dbede940becb598097375b17347c42",
+      "corrected_sha256": "23206d634cfe12570d77949c08dacc6cd0dbede940becb598097375b17347c42",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part1_topology/run_fingerprint_splithalf_final.py",
+      "copy": "corrected_pipeline/src/part1_topology/run_fingerprint_splithalf_final.py",
+      "original_sha256": "e9d9fe1da5f4614e8c412c5bc4b95469f56c2f8a8c9cc7688a643392e0bf70d4",
+      "corrected_sha256": "e9d9fe1da5f4614e8c412c5bc4b95469f56c2f8a8c9cc7688a643392e0bf70d4",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part1_topology/run_part1.py",
+      "copy": "corrected_pipeline/src/part1_topology/run_part1.py",
+      "original_sha256": "736dad1d0a8f5d0d777694cde08b64ef7d396f64920ec8b7422db90dd14ad704",
+      "corrected_sha256": "736dad1d0a8f5d0d777694cde08b64ef7d396f64920ec8b7422db90dd14ad704",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part1_topology/run_pairwise.py",
+      "copy": "corrected_pipeline/src/part1_topology/run_pairwise.py",
+      "original_sha256": "eb206903e52eca30e10a865a4bf652c9ef2182e0f35c511a75968c3a562aa12c",
+      "corrected_sha256": "eb206903e52eca30e10a865a4bf652c9ef2182e0f35c511a75968c3a562aa12c",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part1_topology/compute_metrics.py",
+      "copy": "corrected_pipeline/src/part1_topology/compute_metrics.py",
+      "original_sha256": "73dc21403e122ac208997ea7df46100746208d44b6c87a112c68cefc3c8208e6",
+      "corrected_sha256": "73dc21403e122ac208997ea7df46100746208d44b6c87a112c68cefc3c8208e6",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part1_topology/run_chords_supp_q30.py",
+      "copy": "corrected_pipeline/src/part1_topology/run_chords_supp_q30.py",
+      "original_sha256": "1066d9f60e8284403bca091c2884e60f286a45c681a648a50b560084a8754849",
+      "corrected_sha256": "1066d9f60e8284403bca091c2884e60f286a45c681a648a50b560084a8754849",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part1_topology/run_bootstrap_effects.py",
+      "copy": "corrected_pipeline/src/part1_topology/run_bootstrap_effects.py",
+      "original_sha256": "8e27fbc59bf6bb253a342f3ad21840e04868c129f2ad1b6665997469f0e8f7ba",
+      "corrected_sha256": "8e27fbc59bf6bb253a342f3ad21840e04868c129f2ad1b6665997469f0e8f7ba",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part1_topology/compute_metrics_q30.py",
+      "copy": "corrected_pipeline/src/part1_topology/compute_metrics_q30.py",
+      "original_sha256": "5e94bbf78750807e450e11b895c7a53f14d2df8f1754f6a7727ee368f1d6f5a8",
+      "corrected_sha256": "5e94bbf78750807e450e11b895c7a53f14d2df8f1754f6a7727ee368f1d6f5a8",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part1_topology/run_part1_q30.py",
+      "copy": "corrected_pipeline/src/part1_topology/run_part1_q30.py",
+      "original_sha256": "26c84233c8946ba90e4f36702f70900aeceae023a6be34ff2c8c4c4967102fd5",
+      "corrected_sha256": "26c84233c8946ba90e4f36702f70900aeceae023a6be34ff2c8c4c4967102fd5",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part1_topology/make_fdr_tables_q30.py",
+      "copy": "corrected_pipeline/src/part1_topology/make_fdr_tables_q30.py",
+      "original_sha256": "a7a587e55bccaea156fec864957de8824299e4d33f14f9bf78414b9f0bf96f05",
+      "corrected_sha256": "a7a587e55bccaea156fec864957de8824299e4d33f14f9bf78414b9f0bf96f05",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part4_regional/run_part4.py",
+      "copy": "corrected_pipeline/src/part4_regional/run_part4.py",
+      "original_sha256": "56c3c9c811195108373386a6bf2f5fc7337cb2b67522e62f18b1e4b58d70c1b4",
+      "corrected_sha256": "56c3c9c811195108373386a6bf2f5fc7337cb2b67522e62f18b1e4b58d70c1b4",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part4_regional/run_fig4_panel_f_combined.py",
+      "copy": "corrected_pipeline/src/part4_regional/run_fig4_panel_f_combined.py",
+      "original_sha256": "14e3bb06a423d52815fe5d0da296efe3d7bfd1b38d36be6c9583e3fc90b55e07",
+      "corrected_sha256": "14e3bb06a423d52815fe5d0da296efe3d7bfd1b38d36be6c9583e3fc90b55e07",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part4_regional/run_figure4_full_composite.py",
+      "copy": "corrected_pipeline/src/part4_regional/run_figure4_full_composite.py",
+      "original_sha256": "cc593248e2df415f04ebd3945410501fdaf43c8b6f33594227f60b6808c2a6d6",
+      "corrected_sha256": "cc593248e2df415f04ebd3945410501fdaf43c8b6f33594227f60b6808c2a6d6",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part4_regional/run_part4_mtf_only_fancy_v2.py",
+      "copy": "corrected_pipeline/src/part4_regional/run_part4_mtf_only_fancy_v2.py",
+      "original_sha256": "5f84a2c7e036cf2a5d23e68132a166559b9775e8e26bea78dcca15f528b4cb08",
+      "corrected_sha256": "5f84a2c7e036cf2a5d23e68132a166559b9775e8e26bea78dcca15f528b4cb08",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part4_regional/run_part4_q30.py",
+      "copy": "corrected_pipeline/src/part4_regional/run_part4_q30.py",
+      "original_sha256": "cd8fa65a1ed0181d93e81b3e99949c22eda2bb9f375cbbc33f333d798abd034c",
+      "corrected_sha256": "cd8fa65a1ed0181d93e81b3e99949c22eda2bb9f375cbbc33f333d798abd034c",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part4_regional/run_fig4_panel_f_spearman.py",
+      "copy": "corrected_pipeline/src/part4_regional/run_fig4_panel_f_spearman.py",
+      "original_sha256": "4de326c54eb368524a20c46a3aeb7ea68db2a5091ba9dde6f5c9f5b752f2d173",
+      "corrected_sha256": "4de326c54eb368524a20c46a3aeb7ea68db2a5091ba9dde6f5c9f5b752f2d173",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part2_synchrony/run_band_robustness.py",
+      "copy": "corrected_pipeline/src/part2_synchrony/run_band_robustness.py",
+      "original_sha256": "6e1b9a12861750c4e9d84b00626ff0067977f92f5376cb35ae66c07d92ccf69a",
+      "corrected_sha256": "6e1b9a12861750c4e9d84b00626ff0067977f92f5376cb35ae66c07d92ccf69a",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part2_synchrony/run_part2.py",
+      "copy": "corrected_pipeline/src/part2_synchrony/run_part2.py",
+      "original_sha256": "13b47081e557b977cd400172d65ee581346369e1013cfe169ce897043c14f95c",
+      "corrected_sha256": "8e4179ed2313a42409d27598621748457dea309930d4e63877dcdd1e6cbd6243",
+      "changed": true
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part2_synchrony/run_region_synchrony_coupling.py",
+      "copy": "corrected_pipeline/src/part2_synchrony/run_region_synchrony_coupling.py",
+      "original_sha256": "0c38ddbc1453f519b5ced3ce52f0ddb3e95747e4256b09af335bfdee472166c8",
+      "corrected_sha256": "0c38ddbc1453f519b5ced3ce52f0ddb3e95747e4256b09af335bfdee472166c8",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_contrast_splithalf.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_contrast_splithalf.py",
+      "original_sha256": "29dd691e4d9bcd905302f078412c785522cf80a9eaccbf2316b9fc77bfe1ed7d",
+      "corrected_sha256": "29dd691e4d9bcd905302f078412c785522cf80a9eaccbf2316b9fc77bfe1ed7d",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_density_sweep_q30.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_density_sweep_q30.py",
+      "original_sha256": "daf6683837b0afeb207e12999ca4e222217d6bb14015866cb14d264868be0455",
+      "corrected_sha256": "daf6683837b0afeb207e12999ca4e222217d6bb14015866cb14d264868be0455",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_sample_size.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_sample_size.py",
+      "original_sha256": "e2ff299f98c2fa61764686eac56fef442c1185d72ad4161ebc2d9086fa180a1d",
+      "corrected_sha256": "e2ff299f98c2fa61764686eac56fef442c1185d72ad4161ebc2d9086fa180a1d",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_richclub.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_richclub.py",
+      "original_sha256": "14699b8628c6fe4bcdf10e9c49fbebe2edb13bfc8e4318952ff910ac74cb96b9",
+      "corrected_sha256": "14699b8628c6fe4bcdf10e9c49fbebe2edb13bfc8e4318952ff910ac74cb96b9",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_figure4_combined.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_figure4_combined.py",
+      "original_sha256": "28fff6f8595c3e7179108569512ea2be16a62c68784e46ae300057676f6cbd09",
+      "corrected_sha256": "28fff6f8595c3e7179108569512ea2be16a62c68784e46ae300057676f6cbd09",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_region_coupling_splithalf.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_region_coupling_splithalf.py",
+      "original_sha256": "d2848ac90eb84da225feaef60fe734bc7f3856dc258490ab11454888e2759999",
+      "corrected_sha256": "d2848ac90eb84da225feaef60fe734bc7f3856dc258490ab11454888e2759999",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_nbs_threshold_sensitivity.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_nbs_threshold_sensitivity.py",
+      "original_sha256": "98a0ee462ce1f49ca49aa129eabf29589d42bed36cdb7fa21ecb2b6094d38af9",
+      "corrected_sha256": "98a0ee462ce1f49ca49aa129eabf29589d42bed36cdb7fa21ecb2b6094d38af9",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_richclub_mtf_q30.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_richclub_mtf_q30.py",
+      "original_sha256": "f2b1d6a11d5a83f5471aaab6997ca4d63ca9713713272e8a0aa46898908b8ae2",
+      "corrected_sha256": "f2b1d6a11d5a83f5471aaab6997ca4d63ca9713713272e8a0aa46898908b8ae2",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_centrality_topo.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_centrality_topo.py",
+      "original_sha256": "c1db9a4411f47baf28ab2b00d27b0de69b29b608c5a823a65334dde839b13de4",
+      "corrected_sha256": "c1db9a4411f47baf28ab2b00d27b0de69b29b608c5a823a65334dde839b13de4",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_figure4_spatial.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_figure4_spatial.py",
+      "original_sha256": "75412728516ce4939b8a049024127c399ddd1eecfa581ef51710af64ce4454e1",
+      "corrected_sha256": "75412728516ce4939b8a049024127c399ddd1eecfa581ef51710af64ce4454e1",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_nbs.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_nbs.py",
+      "original_sha256": "b710f0ce5fdcde5e70259da37d710598841d6d653e0a838f9f5e11224e5db77c",
+      "corrected_sha256": "b710f0ce5fdcde5e70259da37d710598841d6d653e0a838f9f5e11224e5db77c",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_gudhi_simplices.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_gudhi_simplices.py",
+      "original_sha256": "b0c5b83a44d77013b68913fda7068231ecff6ee627e2dd5c699124045468d781",
+      "corrected_sha256": "b0c5b83a44d77013b68913fda7068231ecff6ee627e2dd5c699124045468d781",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_crossrep.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_crossrep.py",
+      "original_sha256": "65f8187fa9f5b580a3c926cd4c88efd10563d6d8c14b5f461debfc73d74fb08f",
+      "corrected_sha256": "65f8187fa9f5b580a3c926cd4c88efd10563d6d8c14b5f461debfc73d74fb08f",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_splithalf_q30_consolidated.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_splithalf_q30_consolidated.py",
+      "original_sha256": "5a9a40dfac9a112410b12bb5e8065f9aff54ca68a3e7990aeb4df894323ea115",
+      "corrected_sha256": "5a9a40dfac9a112410b12bb5e8065f9aff54ca68a3e7990aeb4df894323ea115",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_participant_averaging_sensitivity.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_participant_averaging_sensitivity.py",
+      "original_sha256": "f0b25cebaef2598a5e662787041e3ee3f53537af6f372bbaca1159c386959003",
+      "corrected_sha256": "f0b25cebaef2598a5e662787041e3ee3f53537af6f372bbaca1159c386959003",
+      "changed": false
+    },
+    {
+      "source": "EEG_emotions_CSF_release/faced_1s_exploratory/src/part6_advanced/run_splithalf.py",
+      "copy": "corrected_pipeline/src/part6_advanced/run_splithalf.py",
+      "original_sha256": "62c6cbdba91a5dbf84e1feb84637636e81f0fcf03c1ee58ab9ca504be6440d81",
+      "corrected_sha256": "62c6cbdba91a5dbf84e1feb84637636e81f0fcf03c1ee58ab9ca504be6440d81",
+      "changed": false
+    }
+  ],
+  "changes": [
+    "Standard wPLI retains analytic amplitudes; PLV remains unit-phase based.",
+    "Global synchronization cache reuse now requires matching estimator/source/CSV metadata; historical untagged caches are recomputed.",
+    "Restore verified historical Figure 2 trial-level participant-clustered OLS, with an explicit estimator name; unrelated released statistics remain unchanged."
+  ],
+  "historical_coupling_sources": {
+    "emotion_eeg_paper_updated-FINAL/emotion_eeg_paper_fixed/part2_synchrony/run_part2.py": "71d946ea4ad683a277af69b4b415529cdc8edc14b1c499387d644e19737fefc3",
+    "emotion_eeg_paper_updated-FINAL/emotion_eeg_paper_fixed/lib/stats.py": "07e04bc71558f52df7837af82f8c6c1754cafaa37d3f24d67731803f0953f561"
+  },
+  "originals_unchanged": true
+}

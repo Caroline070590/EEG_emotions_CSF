@@ -1,0 +1,43 @@
+Participant generalization and feature-group ranking — 24 October 2026
+
+Exploratory extension requested after inspection of the existing video-held-out results.
+This is not a preregistered or independent confirmation of the existing architectures.
+
+Data: existing FACED 30-s trial-level feature cache, 123 participants x 28 videos.
+Five fixed participant-disjoint folds; every participant contributes held-out
+predictions exactly once. The same 28 videos occur in training and test participants.
+This is five-fold participant holdout, not leave-one-participant-out or joint holdout.
+
+Models: existing hybrid GNN with conditional video adversary, existing summary-first
+GNN without adversary, and shrinkage LDA. All receive the same 5,520 scalar inputs:
+channel-wise power and recurrence measures, band-specific wPLI/oAEC, signed Spearman
+edges, and joint recurrence. MTF/QG state graphs and graph-summary topology metrics
+are not inputs. Hyperparameters/40 epochs are inherited and fixed; no feature
+selection or model choice will use held-out performance.
+
+Preprocessing: load raw cached features, fit every scalar mean/standard deviation
+on training participants only, apply to held-out participants; do not normalize
+using the held-out participant's distribution. Training-constant features are zeroed.
+This differs from the transductive within-participant scaling in the earlier
+video-held-out evaluation, so changes in accuracy cannot be attributed to the split alone.
+
+Primary training seed20261024; neural seeds11 and29 are sensitivity runs, reported
+separately. LDA is deterministic. Balanced accuracy, participant-bootstrap95% intervals,
+confusion matrices, and paired participant-bootstrap model differences will be reported.
+
+Null: 99 permutations of the video-to-condition assignment, identical across all
+participants and models, preserving the video counts of the nine categories. Refit
+all training folds for each permutation using the primary seed. Familiar videos can
+support above11.11% performance even with shuffled labels. Inferential p-values are
+reported only after all99 runs per model; Holm adjustment across the three models.
+
+Ranking: fixed fitted models, held-out participants only. Shuffle whole input blocks
+across videos within each held-out participant, with an identical video reordering
+across held-out participants. Twenty-two atomic feature types plus four broader
+families, 30 shuffles each. Perturb the inputs to both graph and global-summary
+branches. Report drop in balanced accuracy, participant-bootstrap intervals and
+fold/rank stability. Negative estimates are retained. These measure model reliance
+under perturbation, not causal mechanisms or unique information among correlated inputs.
+
+No new result enters the manuscript until output checks are complete. Cluster access
+currently rejects the existing SSH key; observed evaluations and rankings can run locally.

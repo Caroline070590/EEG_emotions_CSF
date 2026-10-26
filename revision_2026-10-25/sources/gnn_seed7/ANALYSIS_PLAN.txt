@@ -1,0 +1,50 @@
+SEED-VII multi-view GNN extension — 24 October 2026
+
+Exploratory extension requested after the FACED models and the earlier SEED-VII
+scalar-feature analyses were inspected. This is a new dataset-specific evaluation
+of the fixed modelling methodology; it is not a preregistered confirmation or
+transfer of fitted FACED network weights to SEED-VII.
+
+Data: the existing SEED-VII final-30-s cache, 20 participants x 80 clips, the same
+30 channels, resampled from 200 to 250 Hz during the existing cache preparation.
+Seven conditions: anger, disgust, fear, sadness, neutral, happiness, surprise.
+No raw EEG modification or new feature tuning. Use all 5,520 scalar inputs:
+five channel power bands, five channel recurrence measures, five wPLI and five
+oAEC edge views, signed Spearman edges and joint recurrence edges.
+
+Five participant-disjoint folds, fixed seed 20261024. Each participant is tested
+once; every training fold contains all 80 clips and all four recording sessions.
+Fit scalar means and standard deviations using training participants only.
+The scope is new participants viewing familiar clips in familiar sessions.
+
+Models: inherited hybrid GNN with conditional clip adversary (lambda=1),
+summary-first GNN without adversary, and input-matched shrinkage LDA. The neural
+architecture is unchanged except seven class outputs and 80 clip-adversary outputs.
+Fixed inherited hyperparameters and 40 epochs. Primary training seed 20261024;
+seeds 11 and 29 are separate neural sensitivity runs, not selected or ensembled.
+
+Null: 99 global permutations of labels across the 56 source-by-condition blocks,
+shared across participants and models, with complete refitting of all five folds.
+Clips within a source-by-condition block stay together; block-class counts remain
+fixed, while clip-class counts may change. Two sources have clips in two conditions
+and therefore contribute two independently permutable blocks. This null does not
+condition on session-by-condition counts. Retain all results. Report permutation
+p-values only after all 99 runs, with Holm adjustment over the three EEG models.
+
+Recording-session diagnostic: condition frequencies differ by session. Predict
+condition from session identity alone using training-fold counts and the decision
+maximizing training balanced accuracy. Report its score and paired participant
+comparisons with the EEG models. This diagnostic is not a session-conditional null.
+
+Feature rankings: all 22 atomic feature types and four broader families, using
+30 held-out input-block shuffles per group. A shared clip reordering is applied
+within each held-out participant. Perturb both graph and direct-summary branches.
+Report balanced-accuracy drops, fold-rank stability and pointwise participant-
+bootstrap intervals (2,000 draws). These quantify fitted-model reliance; they do
+not establish unique or causal physiological contributions. Intervals condition
+on the fitted models and the familiar clip/session design.
+
+Report accuracy, model-specific null distributions, confusion matrices, matched
+linear comparisons, seed sensitivity and rankings. The theoretical seven-class
+chance level is 1/7, but familiar clip/session structure can support higher null
+scores. New results enter manuscript prose only after verification.

@@ -1,0 +1,5 @@
+{
+  "recipe": "window_filtered_zscore",
+  "seed": 11,
+  "selected_epoch": 3
+}

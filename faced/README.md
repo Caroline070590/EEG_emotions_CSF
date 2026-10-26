@@ -1,6 +1,6 @@
 # FACED: analyses of the released 30-s epochs
 
-Sections 2 and 3.1 and Appendices A–B of the manuscript (Figs. 1–3, S1–S7).
+Supplementary Appendices A–B of the manuscript (Figs. S1–S7 and S30–S32). The main manuscript figures 1–3 use the original one-second analyses in `faced_1s_exploratory/`. Script and output filenames retain their historical numbering; the table below gives the current manuscript figure numbers.
 
 ## Pipeline (`src/`)
 
@@ -10,8 +10,8 @@ Sections 2 and 3.1 and Appendices A–B of the manuscript (Figs. 1–3, S1–S7)
 | 1 | `01_trial_features.py` | synchronization (5 bands), Spearman / MTF / QG networks and topology, band power, persistence |
 | 2 | `02_recurrence_features.py` | recurrence quantification (DET, LAM, L_mean, ENTR, TT) and joint-recurrence synchronization |
 | 3 | `03_stimulus_aware_contrasts.py` | `tables/all_contrasts.csv`, `tables/omnibus_tests.csv` |
-| | `fig1_fig2_synchronization_and_stimulus.py` | Figs. 1–2 |
-| | `fig3_decoding_unseen_videos.py` | Fig. 3, `tables/decoding_unseen_videos.csv` |
+| | `fig1_fig2_synchronization_and_stimulus.py` | Figs. S31 (synchronization) and S30 (participants/stimuli) |
+| | `fig3_decoding_unseen_videos.py` | Fig. S32, `tables/decoding_unseen_videos.csv` |
 | | `figS1_quantile_density_sweep.py` | Fig. S1 |
 | | `figS2_coupling_null_models.py` | Fig. S2 (phase-randomized surrogates, independent halves) |
 | | `figS3_emg_checks.py` | Fig. S3 |

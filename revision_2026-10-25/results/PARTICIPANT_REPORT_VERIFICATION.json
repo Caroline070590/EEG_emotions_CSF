@@ -1,0 +1,121 @@
+{
+  "slurm": {
+    "counts": {
+      "46183642|COMPLETED|0:0": 1,
+      "46183643|COMPLETED|0:0": 304,
+      "46183644|COMPLETED|0:0": 1,
+      "46183776|COMPLETED|0:0": 1,
+      "46183777|COMPLETED|0:0": 304,
+      "46183778|COMPLETED|0:0": 1
+    },
+    "noncompleted": []
+  },
+  "projects": {
+    "participant_prediction_2026-10-24": {
+      "verified_input_files": 615,
+      "recomputed_run_accuracies": 304,
+      "holm_status": "complete",
+      "primary_results": [
+        {
+          "model": "hybrid_gnn",
+          "balanced_accuracy_percent": 15.898825654923215,
+          "null_mean_percent": 14.596583115101636,
+          "gain_pp": 1.3022425398215798,
+          "p_raw": 0.11,
+          "p_holm": 0.22,
+          "ci_low_percent": 14.679125263474853,
+          "ci_high_percent": 17.223727792833483
+        },
+        {
+          "model": "sfgnn",
+          "balanced_accuracy_percent": 18.699186991869922,
+          "null_mean_percent": 17.72649713029117,
+          "gain_pp": 0.9726898615787516,
+          "p_raw": 0.23,
+          "p_holm": 0.23,
+          "ci_low_percent": 17.38162451068955,
+          "ci_high_percent": 20.001505570611265
+        },
+        {
+          "model": "lda_full",
+          "balanced_accuracy_percent": 22.32008431195423,
+          "null_mean_percent": 19.64891309968094,
+          "gain_pp": 2.671171212273288,
+          "p_raw": 0.04,
+          "p_holm": 0.12,
+          "ci_low_percent": 20.738670581150252,
+          "ci_high_percent": 23.788203854260768
+        }
+      ],
+      "report_file_sha256": "361bce2a20e3280d0625c75c52b890b12890b8eeaee8854198497248f7f779e4"
+    },
+    "seed7_gnn_2026-10-24": {
+      "verified_input_files": 617,
+      "recomputed_run_accuracies": 304,
+      "holm_status": "complete",
+      "primary_results": [
+        {
+          "model": "hybrid_gnn",
+          "balanced_accuracy_percent": 20.95238095238095,
+          "null_mean_percent": 16.285401296735895,
+          "gain_pp": 4.666979655645054,
+          "p_raw": 0.01,
+          "p_holm": 0.03,
+          "ci_low_percent": 18.422619047619047,
+          "ci_high_percent": 23.51264880952381
+        },
+        {
+          "model": "sfgnn",
+          "balanced_accuracy_percent": 23.69047619047619,
+          "null_mean_percent": 17.487253147856304,
+          "gain_pp": 6.203223042619885,
+          "p_raw": 0.01,
+          "p_holm": 0.03,
+          "ci_low_percent": 20.95238095238095,
+          "ci_high_percent": 26.726190476190474
+        },
+        {
+          "model": "lda_full",
+          "balanced_accuracy_percent": 23.511904761904763,
+          "null_mean_percent": 16.78356103177906,
+          "gain_pp": 6.728343730125708,
+          "p_raw": 0.01,
+          "p_holm": 0.03,
+          "ci_low_percent": 21.13095238095238,
+          "ci_high_percent": 26.041666666666664
+        }
+      ],
+      "report_file_sha256": "a600e170da1489065459397cc77128dcbe5f01410eed03e48d4d2d65bcc127e1",
+      "session_control_balanced_accuracy_percent": 23.809523809523807,
+      "session_control_comparisons": [
+        {
+          "ci_high_pp": -0.29687500000000344,
+          "ci_low_pp": -5.386904761904764,
+          "control": "session_only",
+          "difference_pp": -2.857142857142856,
+          "eeg_model": "hybrid_gnn",
+          "n_subjects": 20,
+          "n_trials": 1600
+        },
+        {
+          "ci_high_pp": 2.9166666666666665,
+          "ci_low_pp": -2.8571428571428577,
+          "control": "session_only",
+          "difference_pp": -0.1190476190476202,
+          "eeg_model": "sfgnn",
+          "n_subjects": 20,
+          "n_trials": 1600
+        },
+        {
+          "ci_high_pp": 2.232142857142858,
+          "ci_low_pp": -2.6785714285714275,
+          "control": "session_only",
+          "difference_pp": -0.29761904761904856,
+          "eeg_model": "lda_full",
+          "n_subjects": 20,
+          "n_trials": 1600
+        }
+      ]
+    }
+  }
+}

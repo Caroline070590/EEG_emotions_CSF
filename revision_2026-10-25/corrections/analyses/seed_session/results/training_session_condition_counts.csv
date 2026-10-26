@@ -1,0 +1,217 @@
+fold,held_source,session,n_test,n_training,n_tied_majorities,train_anger,train_disgust,train_fear,train_sadness,train_neutral,train_happiness,train_surprise
+0,1408 phontom horror,1,0,400,5,80,80,0,80,80,80,0
+0,1408 phontom horror,2,0,400,5,80,0,80,80,80,0,80
+0,1408 phontom horror,3,0,400,5,80,80,80,0,0,80,80
+0,1408 phontom horror,4,20,380,4,0,80,60,80,0,80,80
+1,20 once again,1,0,400,5,80,80,0,80,80,80,0
+1,20 once again,2,0,400,5,80,0,80,80,80,0,80
+1,20 once again,3,0,400,5,80,80,80,0,0,80,80
+1,20 once again,4,20,380,4,0,80,80,80,0,60,80
+2,a boa constrictor is,1,0,400,5,80,80,0,80,80,80,0
+2,a boa constrictor is,2,0,400,5,80,0,80,80,80,0,80
+2,a boa constrictor is,3,0,400,5,80,80,80,0,0,80,80
+2,a boa constrictor is,4,20,380,4,0,60,80,80,0,80,80
+3,a documentary about sea,1,0,400,5,80,80,0,80,80,80,0
+3,a documentary about sea,2,0,400,5,80,0,80,80,80,0,80
+3,a documentary about sea,3,20,380,4,80,60,80,0,0,80,80
+3,a documentary about sea,4,0,400,5,0,80,80,80,0,80,80
+4,a hand full of,1,20,380,4,80,60,0,80,80,80,0
+4,a hand full of,2,0,400,5,80,0,80,80,80,0,80
+4,a hand full of,3,0,400,5,80,80,80,0,0,80,80
+4,a hand full of,4,0,400,5,0,80,80,80,0,80,80
+5,a man is eating,1,20,380,4,80,60,0,80,80,80,0
+5,a man is eating,2,0,400,5,80,0,80,80,80,0,80
+5,a man is eating,3,0,400,5,80,80,80,0,0,80,80
+5,a man is eating,4,0,400,5,0,80,80,80,0,80,80
+6,a woman is disemboweled,1,0,400,5,80,80,0,80,80,80,0
+6,a woman is disemboweled,2,0,400,5,80,0,80,80,80,0,80
+6,a woman is disemboweled,3,0,400,5,80,80,80,0,0,80,80
+6,a woman is disemboweled,4,20,380,4,0,60,80,80,0,80,80
+7,a woman is vomiting,1,0,400,5,80,80,0,80,80,80,0
+7,a woman is vomiting,2,0,400,5,80,0,80,80,80,0,80
+7,a woman is vomiting,3,0,400,5,80,80,80,0,0,80,80
+7,a woman is vomiting,4,40,360,4,0,40,80,80,0,80,80
+8,aftershock,1,20,380,4,80,80,0,60,80,80,0
+8,aftershock,2,20,380,4,80,0,80,60,80,0,80
+8,aftershock,3,0,400,5,80,80,80,0,0,80,80
+8,aftershock,4,0,400,5,0,80,80,80,0,80,80
+9,annabelle,1,0,400,5,80,80,0,80,80,80,0
+9,annabelle,2,0,400,5,80,0,80,80,80,0,80
+9,annabelle,3,0,400,5,80,80,80,0,0,80,80
+9,annabelle,4,20,380,4,0,80,60,80,0,80,80
+10,black keys,1,0,400,5,80,80,0,80,80,80,0
+10,black keys,2,20,380,4,80,0,80,60,80,0,80
+10,black keys,3,0,400,5,80,80,80,0,0,80,80
+10,black keys,4,0,400,5,0,80,80,80,0,80,80
+11,braindead,1,20,380,4,80,60,0,80,80,80,0
+11,braindead,2,0,400,5,80,0,80,80,80,0,80
+11,braindead,3,20,380,4,80,60,80,0,0,80,80
+11,braindead,4,0,400,5,0,80,80,80,0,80,80
+12,bunshinsaba ii,1,0,400,5,80,80,0,80,80,80,0
+12,bunshinsaba ii,2,0,400,5,80,0,80,80,80,0,80
+12,bunshinsaba ii,3,20,380,4,80,80,60,0,0,80,80
+12,bunshinsaba ii,4,0,400,5,0,80,80,80,0,80,80
+13,bunshinsaba iii,1,0,400,5,80,80,0,80,80,80,0
+13,bunshinsaba iii,2,20,380,4,80,0,60,80,80,0,80
+13,bunshinsaba iii,3,0,400,5,80,80,80,0,0,80,80
+13,bunshinsaba iii,4,20,380,4,0,80,60,80,0,80,80
+14,dearest,1,0,400,5,80,80,0,80,80,80,0
+14,dearest,2,20,380,4,80,0,80,60,80,0,80
+14,dearest,3,0,400,5,80,80,80,0,0,80,80
+14,dearest,4,20,380,4,0,80,80,60,0,80,80
+15,dog abuse,1,20,380,4,60,80,0,80,80,80,0
+15,dog abuse,2,0,400,5,80,0,80,80,80,0,80
+15,dog abuse,3,0,400,5,80,80,80,0,0,80,80
+15,dog abuse,4,0,400,5,0,80,80,80,0,80,80
+16,don t blink shin,1,0,400,5,80,80,0,80,80,80,0
+16,don t blink shin,2,0,400,5,80,0,80,80,80,0,80
+16,don t blink shin,3,20,380,4,80,80,80,0,0,80,60
+16,don t blink shin,4,0,400,5,0,80,80,80,0,80,80
+17,eating clips from man,1,20,380,4,80,60,0,80,80,80,0
+17,eating clips from man,2,0,400,5,80,0,80,80,80,0,80
+17,eating clips from man,3,20,380,4,80,60,80,0,0,80,80
+17,eating clips from man,4,0,400,5,0,80,80,80,0,80,80
+18,eric chien 2018 fism,1,0,400,5,80,80,0,80,80,80,0
+18,eric chien 2018 fism,2,0,400,5,80,0,80,80,80,0,80
+18,eric chien 2018 fism,3,20,380,4,80,80,80,0,0,80,60
+18,eric chien 2018 fism,4,0,400,5,0,80,80,80,0,80,80
+19,eric chien imagination coins,1,0,400,5,80,80,0,80,80,80,0
+19,eric chien imagination coins,2,0,400,5,80,0,80,80,80,0,80
+19,eric chien imagination coins,3,0,400,5,80,80,80,0,0,80,80
+19,eric chien imagination coins,4,20,380,4,0,80,80,80,0,80,60
+20,family violence,1,0,400,5,80,80,0,80,80,80,0
+20,family violence,2,0,400,5,80,0,80,80,80,0,80
+20,family violence,3,20,380,4,60,80,80,0,0,80,80
+20,family violence,4,0,400,5,0,80,80,80,0,80,80
+21,fantastic museum,1,0,400,5,80,80,0,80,80,80,0
+21,fantastic museum,2,20,380,4,60,0,80,80,80,0,80
+21,fantastic museum,3,0,400,5,80,80,80,0,0,80,80
+21,fantastic museum,4,0,400,5,0,80,80,80,0,80,80
+22,foster father,1,20,380,4,80,80,0,60,80,80,0
+22,foster father,2,0,400,5,80,0,80,80,80,0,80
+22,foster father,3,0,400,5,80,80,80,0,0,80,80
+22,foster father,4,20,380,4,0,80,80,60,0,80,80
+23,goodbye jinhua station,1,0,400,5,80,80,0,80,80,80,0
+23,goodbye jinhua station,2,0,400,5,80,0,80,80,80,0,80
+23,goodbye jinhua station,3,0,400,5,80,80,80,0,0,80,80
+23,goodbye jinhua station,4,20,380,4,0,80,80,80,0,60,80
+24,hardware conflict,1,0,400,5,80,80,0,80,80,80,0
+24,hardware conflict,2,20,380,4,80,0,80,80,60,0,80
+24,hardware conflict,3,0,400,5,80,80,80,0,0,80,80
+24,hardware conflict,4,0,400,5,0,80,80,80,0,80,80
+25,hear me,1,0,400,5,80,80,0,80,80,80,0
+25,hear me,2,0,400,5,80,0,80,80,80,0,80
+25,hear me,3,0,400,5,80,80,80,0,0,80,80
+25,hear me,4,20,380,4,0,80,80,80,0,60,80
+26,home sweet home,1,0,400,5,80,80,0,80,80,80,0
+26,home sweet home,2,0,400,5,80,0,80,80,80,0,80
+26,home sweet home,3,20,380,4,80,80,80,0,0,60,80
+26,home sweet home,4,0,400,5,0,80,80,80,0,80,80
+27,how to make your,1,0,400,5,80,80,0,80,80,80,0
+27,how to make your,2,0,400,5,80,0,80,80,80,0,80
+27,how to make your,3,20,380,4,80,60,80,0,0,80,80
+27,how to make your,4,0,400,5,0,80,80,80,0,80,80
+28,hsue shen tsien,1,20,380,4,80,80,0,80,80,60,0
+28,hsue shen tsien,2,0,400,5,80,0,80,80,80,0,80
+28,hsue shen tsien,3,0,400,5,80,80,80,0,0,80,80
+28,hsue shen tsien,4,0,400,5,0,80,80,80,0,80,80
+29,hungry ghost ritual,1,0,400,5,80,80,0,80,80,80,0
+29,hungry ghost ritual,2,40,360,4,80,0,40,80,80,0,80
+29,hungry ghost ritual,3,20,380,4,80,80,60,0,0,80,80
+29,hungry ghost ritual,4,20,380,4,0,80,60,80,0,80,80
+30,ide interface repair,1,20,380,4,80,80,0,80,60,80,0
+30,ide interface repair,2,0,400,5,80,0,80,80,80,0,80
+30,ide interface repair,3,0,400,5,80,80,80,0,0,80,80
+30,ide interface repair,4,0,400,5,0,80,80,80,0,80,80
+31,introduction of ibm ilm300,1,0,400,5,80,80,0,80,80,80,0
+31,introduction of ibm ilm300,2,20,380,4,80,0,80,80,60,0,80
+31,introduction of ibm ilm300,3,0,400,5,80,80,80,0,0,80,80
+31,introduction of ibm ilm300,4,0,400,5,0,80,80,80,0,80,80
+32,little daddy,1,0,400,5,80,80,0,80,80,80,0
+32,little daddy,2,20,380,4,80,0,80,60,80,0,80
+32,little daddy,3,0,400,5,80,80,80,0,0,80,80
+32,little daddy,4,0,400,5,0,80,80,80,0,80,80
+33,magic show,1,0,400,5,80,80,0,80,80,80,0
+33,magic show,2,60,340,4,80,0,80,80,80,0,20
+33,magic show,3,40,360,4,80,80,80,0,0,80,40
+33,magic show,4,40,360,4,0,80,80,80,0,80,40
+34,meet miss anxiety,1,0,400,5,80,80,0,80,80,80,0
+34,meet miss anxiety,2,0,400,5,80,0,80,80,80,0,80
+34,meet miss anxiety,3,20,380,4,80,80,80,0,0,60,80
+34,meet miss anxiety,4,0,400,5,0,80,80,80,0,80,80
+35,mother abuses daughter,1,20,380,4,60,80,0,80,80,80,0
+35,mother abuses daughter,2,0,400,5,80,0,80,80,80,0,80
+35,mother abuses daughter,3,0,400,5,80,80,80,0,0,80,80
+35,mother abuses daughter,4,0,400,5,0,80,80,80,0,80,80
+36,ode to joy,1,0,400,5,80,80,0,80,80,80,0
+36,ode to joy,2,0,400,5,80,0,80,80,80,0,80
+36,ode to joy,3,20,380,4,60,80,80,0,0,80,80
+36,ode to joy,4,0,400,5,0,80,80,80,0,80,80
+37,pet abuse,1,20,380,4,60,80,0,80,80,80,0
+37,pet abuse,2,20,380,4,60,0,80,80,80,0,80
+37,pet abuse,3,0,400,5,80,80,80,0,0,80,80
+37,pet abuse,4,0,400,5,0,80,80,80,0,80,80
+38,riot of hong kong,1,20,380,4,60,80,0,80,80,80,0
+38,riot of hong kong,2,0,400,5,80,0,80,80,80,0,80
+38,riot of hong kong,3,0,400,5,80,80,80,0,0,80,80
+38,riot of hong kong,4,0,400,5,0,80,80,80,0,80,80
+39,rob b hood,1,20,380,4,80,80,0,80,80,60,0
+39,rob b hood,2,0,400,5,80,0,80,80,80,0,80
+39,rob b hood,3,20,380,4,80,80,80,0,0,60,80
+39,rob b hood,4,0,400,5,0,80,80,80,0,80,80
+40,school bullying,1,0,400,5,80,80,0,80,80,80,0
+40,school bullying,2,20,380,4,60,0,80,80,80,0,80
+40,school bullying,3,20,380,4,60,80,80,0,0,80,80
+40,school bullying,4,0,400,5,0,80,80,80,0,80,80
+41,shin lim magician baffles,1,0,400,5,80,80,0,80,80,80,0
+41,shin lim magician baffles,2,20,380,4,80,0,80,80,80,0,60
+41,shin lim magician baffles,3,0,400,5,80,80,80,0,0,80,80
+41,shin lim magician baffles,4,0,400,5,0,80,80,80,0,80,80
+42,shin lim s epic,1,0,400,5,80,80,0,80,80,80,0
+42,shin lim s epic,2,0,400,5,80,0,80,80,80,0,80
+42,shin lim s epic,3,0,400,5,80,80,80,0,0,80,80
+42,shin lim s epic,4,20,380,4,0,80,80,80,0,80,60
+43,so young,1,0,400,5,80,80,0,80,80,80,0
+43,so young,2,0,400,5,80,0,80,80,80,0,80
+43,so young,3,0,400,5,80,80,80,0,0,80,80
+43,so young,4,20,380,4,0,80,80,60,0,80,80
+44,tangshan barbecue restaurant beating,1,0,400,5,80,80,0,80,80,80,0
+44,tangshan barbecue restaurant beating,2,0,400,5,80,0,80,80,80,0,80
+44,tangshan barbecue restaurant beating,3,20,380,4,60,80,80,0,0,80,80
+44,tangshan barbecue restaurant beating,4,0,400,5,0,80,80,80,0,80,80
+45,the child s eye,1,0,400,5,80,80,0,80,80,80,0
+45,the child s eye,2,20,380,4,80,0,60,80,80,0,80
+45,the child s eye,3,20,380,4,80,80,60,0,0,80,80
+45,the child s eye,4,0,400,5,0,80,80,80,0,80,80
+46,the eye x,1,0,400,5,80,80,0,80,80,80,0
+46,the eye x,2,0,400,5,80,0,80,80,80,0,80
+46,the eye x,3,20,380,4,80,80,60,0,0,80,80
+46,the eye x,4,0,400,5,0,80,80,80,0,80,80
+47,the stolen years,1,20,380,4,80,80,0,80,80,60,0
+47,the stolen years,2,0,400,5,80,0,80,80,80,0,80
+47,the stolen years,3,0,400,5,80,80,80,0,0,80,80
+47,the stolen years,4,0,400,5,0,80,80,80,0,80,80
+48,the story of xing,1,0,400,5,80,80,0,80,80,80,0
+48,the story of xing,2,20,380,4,60,0,80,80,80,0,80
+48,the story of xing,3,0,400,5,80,80,80,0,0,80,80
+48,the story of xing,4,0,400,5,0,80,80,80,0,80,80
+49,under the hawthorn tree,1,20,380,4,80,80,0,60,80,80,0
+49,under the hawthorn tree,2,0,400,5,80,0,80,80,80,0,80
+49,under the hawthorn tree,3,0,400,5,80,80,80,0,0,80,80
+49,under the hawthorn tree,4,20,380,4,0,80,80,80,0,60,80
+50,very happy,1,0,400,5,80,80,0,80,80,80,0
+50,very happy,2,0,400,5,80,0,80,80,80,0,80
+50,very happy,3,0,400,5,80,80,80,0,0,80,80
+50,very happy,4,20,380,4,0,80,80,60,0,80,80
+51,world heritage in china,1,60,340,4,80,80,0,80,20,80,0
+51,world heritage in china,2,40,360,4,80,0,80,80,40,0,80
+51,world heritage in china,3,0,400,5,80,80,80,0,0,80,80
+51,world heritage in china,4,0,400,5,0,80,80,80,0,80,80
+52,you are my life,1,20,380,4,80,80,0,60,80,80,0
+52,you are my life,2,0,400,5,80,0,80,80,80,0,80
+52,you are my life,3,20,380,4,80,80,80,0,0,60,80
+52,you are my life,4,0,400,5,0,80,80,80,0,80,80
+53,you are the apple,1,20,380,4,80,80,0,80,80,60,0
+53,you are the apple,2,0,400,5,80,0,80,80,80,0,80
+53,you are the apple,3,0,400,5,80,80,80,0,0,80,80
+53,you are the apple,4,0,400,5,0,80,80,80,0,80,80

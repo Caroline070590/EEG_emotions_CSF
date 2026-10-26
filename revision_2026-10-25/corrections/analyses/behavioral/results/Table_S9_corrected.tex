@@ -1,0 +1,57 @@
+\begin{table}[!htbp]
+\centering
+\caption{\textbf{Leave-one-video-out prediction with training-only outcome scaling.} Panels A and B show mean RMSE across 28 held-video folds in original outcome units and training-fold standard-deviation units, respectively. Panel C compares rating-only and combined models against the assigned-label model using original-unit fold errors. Tests are paired two-sided Wilcoxon comparisons across held videos, with BH correction across the 12 comparisons; negative differences favor the first model named.}
+\label{tab:s9-loov}
+\scriptsize
+\textbf{Panel A. Mean held-video RMSE in original units}\\[3pt]
+\begin{tabular}{lrrrr}
+\toprule
+Metric & Participant only & Assigned label & Ratings & Combined \\
+\midrule
+PLV & 0.0569 & 0.0572 & 0.0572 & 0.0573 \\
+PLI & 0.0383 & 0.0385 & 0.0383 & 0.0385 \\
+wPLI & 0.0643 & 0.0646 & 0.0644 & 0.0647 \\
+AEC & 0.0835 & 0.0837 & 0.0837 & 0.0838 \\
+MaxXC & 0.0521 & 0.0523 & 0.0523 & 0.0525 \\
+Lag (ms) & 24.151 & 24.252 & 24.142 & 24.254 \\
+\bottomrule
+\end{tabular}\par
+\vspace{7pt}
+\textbf{Panel B. Mean held-video RMSE in training-SD units}\\[3pt]
+\begin{tabular}{lrrrr}
+\toprule
+Metric & Participant only & Assigned label & Ratings & Combined \\
+\midrule
+PLV & 1.124 & 1.132 & 1.123 & 1.132 \\
+PLI & 1.128 & 1.133 & 1.128 & 1.133 \\
+wPLI & 1.100 & 1.106 & 1.100 & 1.106 \\
+AEC & 1.120 & 1.125 & 1.121 & 1.125 \\
+MaxXC & 1.118 & 1.124 & 1.117 & 1.123 \\
+Lag & 1.084 & 1.088 & 1.084 & 1.088 \\
+\bottomrule
+\end{tabular}\par
+\vspace{7pt}
+\textbf{Panel C. Paired comparisons in original units}\\[3pt]
+\begin{tabular}{llrrrr}
+\toprule
+Metric & Comparison & Mean difference & Median difference & $p$ & BH--FDR $q$ \\
+\midrule
+PLV & rating $-$ label & 0.000018 & 0.000139 & 0.695 & 0.884 \\
+PLV & combined $-$ label & 0.000148 & 0.000129 & 0.070 & 0.611 \\
+PLI & rating $-$ label & -0.000179 & -0.000116 & 0.245 & 0.611 \\
+PLI & combined $-$ label & 0.000015 & 0.000008 & 0.451 & 0.761 \\
+wPLI & rating $-$ label & -0.000270 & -0.000136 & 0.316 & 0.632 \\
+wPLI & combined $-$ label & 0.000019 & 0.000033 & 0.508 & 0.761 \\
+AEC & rating $-$ label & 0.000013 & -0.000280 & 0.884 & 0.884 \\
+AEC & combined $-$ label & 0.000135 & 0.000180 & 0.255 & 0.611 \\
+MaxXC & rating $-$ label & 0.000017 & 0.000080 & 0.867 & 0.884 \\
+MaxXC & combined $-$ label & 0.000144 & 0.000093 & 0.186 & 0.611 \\
+Lag & rating $-$ label & -0.1101 & -0.0565 & 0.218 & 0.611 \\
+Lag & combined $-$ label & 0.0019 & -0.0032 & 0.779 & 0.884 \\
+\bottomrule
+\end{tabular}\par
+\vspace{3pt}
+\begin{minipage}{0.96\linewidth}
+\footnotesize Predictions were transformed back to original units for Panels A and C; Lag is in milliseconds and the other outcomes are dimensionless. Outcome means and population SDs were fitted separately for each participant using 27 training videos. One participant had constant Lag; a scale of one original unit was used in its 28 folds, without dropping observations. No comparison survived BH correction using training-SD errors either (all $q\geq0.179$). Correcting jointly across both scales (24 tests) also yielded no significant comparison. These exploratory fold comparisons use overlapping training sets.
+\end{minipage}
+\end{table}

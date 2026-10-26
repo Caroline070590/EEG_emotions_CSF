@@ -1,0 +1,58 @@
+{
+  "status": "completed",
+  "analysis": "Appendix J.4 training-only outcome scaling correction",
+  "input": "/home/carolinealves/Documents/Emotions-eeg/CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/inputs/behavioral_EEG_merged_validated.csv",
+  "input_sha256": "232a7511fdd69b71e55f307d4706800d581909837bf8d2b7a29855a5f9aa73ca",
+  "synchronization_override": null,
+  "synchronization_override_sha256": null,
+  "code_sha256": "5d5735b628ca5b02d96abdca96a48c75f99d0ed011ec767a98c457062e3bda3b",
+  "original_code_sha256": "d5186b68343aa60c72c6a30dfd81f70a03dbb47a7c7fed2bf09c1a63097b287c",
+  "n_rows": 3444,
+  "n_participants": 123,
+  "n_videos": 28,
+  "n_folds": 28,
+  "models": [
+    "subject_only",
+    "label",
+    "rating",
+    "combined"
+  ],
+  "metrics": [
+    "PLV",
+    "PLI",
+    "wPLI",
+    "AEC",
+    "MaxXC",
+    "Lag"
+  ],
+  "training_rows_per_fold": 3321,
+  "test_rows_per_fold": 123,
+  "outcome_standardization": "Per participant and outcome, mean and population SD from 27 training videos only; held-out target not used during fitting",
+  "constant_scale_rule": "Training SD <=16*machine_epsilon*max(1,abs(training_mean)) replaced by one original outcome unit; no observations dropped",
+  "n_zero_training_sd_participant_outcome_folds": 28,
+  "zero_scale_subject_metrics": [
+    {
+      "subject_id": 23,
+      "metric": "Lag"
+    }
+  ],
+  "comparison_scope": "Original-unit errors are the principal comparison. Training-standardized errors are sensitivity results. Same 12 paired-video comparisons per scale; BH-12 within scale and BH-24 across both supplied. These exploratory fold comparisons condition on the fixed familiar participants and overlapping training sets.",
+  "legacy_global_scaling_reproduction_max_abs_rmse_error": 6.661338147750939e-16,
+  "legacy_global_scaling_outputs_are_validation_only": true,
+  "association_panels": "Reused unchanged historical Table S7/S7b outputs; prediction panel is newly generated with explicit metric order. No within-video association model was refitted.",
+  "runtime_seconds": 65.86132884025574,
+  "python": "3.9.7",
+  "public_release": "Local correction only; nothing uploaded or published",
+  "result_sha256": {
+    "Supplementary_Figure_S23_behavioral_EEG_models_corrected.pdf": "b3348f591be0f171694f0e4754713c35792c6823ffa626c0e9cd7b7e71860440",
+    "Supplementary_Figure_S23_behavioral_EEG_models_corrected.png": "695b5fb21c0ada76e9cf07b29996676f6aad76ad6e682056e459746fd12c27e0",
+    "Table_S9_corrected_comparisons.csv": "3619567ef1d1f44a1783ddf9ed2f2e3c0bd8bad8ed7a2a118b6cea6ad3ba0f4e",
+    "Table_S9_corrected_fold_errors.csv": "668a39d715a876c8843859049c07594ed0c6397d860d66fde86f7bd7c4ab2974",
+    "Table_S9_corrected_summary.csv": "f9d1b804c25bccea8777811581b24b460d79625deba2487a9e2483763a3a750d",
+    "behavioral_prediction_original_units.pdf": "7d4a0a8c8fbec42b731caa2a848ad85c86d57fd3b2b5d811a2c80262b31486bc",
+    "behavioral_prediction_original_units.png": "5a761d65bb22ee2c4254341758ad60342198602a8e02a4125cc31d4bf04a0e80",
+    "out_of_fold_predictions.npz": "f9a9a4d6fbc702a8156156f9ddb045727954d5a9a86439dd2e3c431a4355c838",
+    "outcome_scaling_correction_delta.csv": "4a5196a63b7d5c0a9263cc3b2fafe9548a83324628ec4203c025e17934951b4a",
+    "training_fold_outcome_scalers.csv": "a71533bf5f7f15c20d77c27dd1b5f8172288b915f12ea25548f2b959b9431bfb"
+  }
+}

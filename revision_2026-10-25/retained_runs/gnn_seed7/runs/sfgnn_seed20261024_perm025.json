@@ -1,0 +1,168 @@
+{
+  "balanced_accuracy": 0.1612950739736454,
+  "config_sha256": "f53d255d88292d756112e0eb7d41592f2ff9f9b906aa1704ffdcd92b5a543d7f",
+  "fold_metrics": [
+    {
+      "balanced_accuracy": 0.15385864135864136,
+      "fold": 0,
+      "seconds": 12.91,
+      "test_n": 320,
+      "test_subjects": [
+        3,
+        8,
+        13,
+        16
+      ],
+      "train_n": 1280,
+      "train_subjects": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "balanced_accuracy": 0.13261589600875318,
+      "fold": 1,
+      "seconds": 7.81,
+      "test_n": 320,
+      "test_subjects": [
+        1,
+        2,
+        11,
+        17
+      ],
+      "train_n": 1280,
+      "train_subjects": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "balanced_accuracy": 0.16646448789305932,
+      "fold": 2,
+      "seconds": 7.77,
+      "test_n": 320,
+      "test_subjects": [
+        6,
+        12,
+        14,
+        18
+      ],
+      "train_n": 1280,
+      "train_subjects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        15,
+        16,
+        17,
+        19,
+        20
+      ]
+    },
+    {
+      "balanced_accuracy": 0.16790501165501165,
+      "fold": 3,
+      "seconds": 7.53,
+      "test_n": 320,
+      "test_subjects": [
+        5,
+        7,
+        10,
+        15
+      ],
+      "train_n": 1280,
+      "train_subjects": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "balanced_accuracy": 0.18563133295276152,
+      "fold": 4,
+      "seconds": 7.4,
+      "test_n": 320,
+      "test_subjects": [
+        4,
+        9,
+        19,
+        20
+      ],
+      "train_n": 1280,
+      "train_subjects": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "importance_path": null,
+  "model": "sfgnn",
+  "n_features": 5520,
+  "perm": 25,
+  "predictions_path": "predictions/sfgnn_seed20261024_perm025.npz",
+  "seconds": 43.79,
+  "seed": 20261024
+}

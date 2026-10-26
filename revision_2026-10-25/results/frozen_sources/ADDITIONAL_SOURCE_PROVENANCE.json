@@ -1,0 +1,31 @@
+{
+  "eegnet_preprocessing_diagnostic": {
+    "origin": "Byte-identical copy of the retained original deployment source archive.",
+    "archive": "eegnet_preprocessing_diagnostic_source.tar.gz",
+    "archive_sha256": "1a832b2c13089d0ee6b4d5e5ca791b0d7c7faaf12affe7378b6966146fec3e2d",
+    "verified_source_members": 11,
+    "source_manifest_sha256": "297875bb6047358f1379c7d1d5f9179647caaab54861a3a2deb90616ebc51013",
+    "config_sha256_file": "7bc16380a58999c096315297ae6e2d3bcb3df41ae0fd2d71030dae1b008a1240",
+    "verification_sha256": "88cbdb71b0c530151a8fec6b7aafbbbe4b3b3d0ad120a3743c339179dd2b28d1"
+  },
+  "gnn_faced": {
+    "origin": "New deterministic archive assembled from local files matching every original deployment source hash; not an original archive-byte identity claim.",
+    "archive": "gnn_faced_source_reconstructed.tar.gz",
+    "archive_sha256": "8fa17118d6b423a63c0976304f57516c06de938a064d3d9983e770ce60d90de7",
+    "verified_source_members": 13,
+    "source_manifest_sha256": "ab11242233b137fb9b49dff5c34e37cbeb96c03351c49fa4fb0d3cb3a7f59c83",
+    "config_sha256_file": "6d8ca6a6bb4d6b4093fa73d1a5c7f6d567ff1b71e3f1c4000fd503a9dc679901",
+    "config_sha256_canonical": "aa55b39b4a30b1be86f2d14e3e189282a7b80e665e29b93b663b6ef111b77b6f",
+    "completed_runs_with_matching_config": 304
+  },
+  "gnn_seed7": {
+    "origin": "New deterministic archive assembled from local files matching every original deployment source hash; not an original archive-byte identity claim.",
+    "archive": "gnn_seed7_source_reconstructed.tar.gz",
+    "archive_sha256": "380079a525fc676c40115daba2bc7ffef466a45f0c7fa3da93b1dbcd564e318d",
+    "verified_source_members": 19,
+    "source_manifest_sha256": "024011682bb6309e45518b19fa14d92ec509e9e25e3f53c4edac84875a447226",
+    "config_sha256_file": "d9366ff9b71f8ec1e48c0fb76885574060d3107ea759274d6707101f3f4fef72",
+    "config_sha256_canonical": "f53d255d88292d756112e0eb7d41592f2ff9f9b906aa1704ffdcd92b5a543d7f",
+    "completed_runs_with_matching_config": 304
+  }
+}

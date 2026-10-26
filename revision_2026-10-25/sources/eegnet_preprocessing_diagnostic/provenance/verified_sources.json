@@ -1,0 +1,103 @@
+{
+  "BIOT": {
+    "commit": "d138e32634e52ae9fa6ec98ac9c4087b14ca869a",
+    "conclusion": "No public EEGNet/FACED source found in this tracked snapshot; no BIOT architecture or optimizer settings attributed to the reported EEGNet baseline",
+    "eegnet_or_faced_matches": {},
+    "license": "MIT; Copyright (c) 2023 Chaoqi Yang",
+    "repository": "https://github.com/ycq091044/BIOT",
+    "searched_text_files": [
+      "LICENSE",
+      "README.md",
+      "datasets/CHB-MIT/process1.py",
+      "datasets/CHB-MIT/process2.py",
+      "datasets/SHHS/process.py",
+      "datasets/TUAB/process.py",
+      "datasets/TUEV/process.py",
+      "model/__init__.py",
+      "model/biot.py",
+      "model/cnn_transformer.py",
+      "model/contrawr.py",
+      "model/ffcl.py",
+      "model/sparcnet.py",
+      "model/st_transformer.py",
+      "requirements.txt",
+      "run_binary_supervised.py",
+      "run_example.py",
+      "run_multiclass_supervised.py",
+      "run_supervised_pretrain.py",
+      "run_unsupervised_pretrain.py",
+      "utils.py"
+    ],
+    "tracked_files": [
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "__pycache__/model_bak.cpython-39.pyc",
+      "__pycache__/utils.cpython-39.pyc",
+      "datasets/CHB-MIT/process1.py",
+      "datasets/CHB-MIT/process2.py",
+      "datasets/SHHS/process.py",
+      "datasets/TUAB/process.py",
+      "datasets/TUEV/process.py",
+      "fig/bst.jpg",
+      "fig/sentence.jpg",
+      "model/__init__.py",
+      "model/__pycache__/__init__.cpython-39.pyc",
+      "model/__pycache__/biot.cpython-39.pyc",
+      "model/__pycache__/cnn_transformer.cpython-39.pyc",
+      "model/__pycache__/contrawr.cpython-39.pyc",
+      "model/__pycache__/sparcnet.cpython-39.pyc",
+      "model/__pycache__/st_transformer.cpython-39.pyc",
+      "model/biot.py",
+      "model/cnn_transformer.py",
+      "model/contrawr.py",
+      "model/ffcl.py",
+      "model/sparcnet.py",
+      "model/st_transformer.py",
+      "pretrained-models/EEG-PREST-16-channels.ckpt",
+      "pretrained-models/EEG-SHHS+PREST-18-channels.ckpt",
+      "pretrained-models/EEG-six-datasets-18-channels.ckpt",
+      "requirements.txt",
+      "run_binary_supervised.py",
+      "run_example.py",
+      "run_multiclass_supervised.py",
+      "run_supervised_pretrain.py",
+      "run_unsupervised_pretrain.py",
+      "utils.py"
+    ]
+  },
+  "CBraMod": {
+    "commit": "b9e961003214326972c567eff390e75b0287e32a",
+    "limit": "These released preprocessing choices do not document the missing EEGNet training recipe",
+    "relevant_files": [
+      "preprocessing/preprocessing_faced.py",
+      "datasets/faced_dataset.py"
+    ],
+    "repository": "https://github.com/wjq-learning/CBraMod",
+    "verified_choices": [
+      "80 training / 20 validation / 23 test participants in sorted file order",
+      "32 original channels",
+      "full-trial Fourier resample to 6000 samples",
+      "three ten-second windows",
+      "data/100 scaling"
+    ]
+  },
+  "checked_utc_date": "2026-10-24",
+  "inputs": {
+    "available_cache": "revision_2026-10/cache/eeg_30s.npy",
+    "original_32_channel_pickles_found": false,
+    "physical_amplitude_units_independently_verified": false,
+    "remote_metadata_csv_path_verified": "/home/users/l/lourenca/EEG_emotion_revision_2026-10/cache/features_scalar.csv",
+    "remote_raw_path_verified": "/home/users/l/lourenca/EEG_emotion_revision_2026-10/cache/eeg_30s.npy",
+    "shape": [
+      3444,
+      30,
+      7500
+    ],
+    "source_loader": "TorchEEG FACEDDataset defaults to num_channel=30, removes A1/A2"
+  },
+  "local_snapshot": {
+    "original": "matched_eegnet_2026-10-24/models.py",
+    "sha256": "6c5a9ecfffc9ba7aa80a71c1ae61d56e37113114a1414220b38f187153b3abae"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "recipe": "trial_fourier_zscore",
+  "seed": 11,
+  "selected_epoch": 5
+}

@@ -1,0 +1,433 @@
+{
+  "reviewer": "Reviewer 3",
+  "source_manuscript": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex",
+  "source_response": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex",
+  "source_sha256": {
+    "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex": "e8c282492795d412be63f7fa3460587eda8d4c68ee81b19e3dde46422fd0f470",
+    "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex": "f77d6ce9a58cd2fb78534e8b821059b5c522a00ee8f178125882ba0e4619adef"
+  },
+  "scope": "Independent finite evidence audit; no new model fitting and no source/manuscript edits in this audit stage.",
+  "comments": [
+    {
+      "id": "R3.1",
+      "topic": "One-second window and scope",
+      "subrequests": [
+        {
+          "request": "Use longer windows for synchronization and topology.",
+          "status": "addressed",
+          "manuscript_evidence": "Appendix A, thirty-second estimates and network construction; REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:670–685; Fig. S31",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:288",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/01_trial_features.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/all_contrasts.csv"
+          ],
+          "residual_gap": "Full 30-s estimates exist, but are complementary analyses rather than a direct replication of every 1-s displayed effect."
+        },
+        {
+          "request": "Limit conclusions from one-second signals to short-segment descriptors.",
+          "status": "addressed",
+          "manuscript_evidence": "Abstract REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:53; Methods 2.1/2.4 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:191,297–300,368; Discussion REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:600,604,618; Conclusion REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:623",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:288",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/tables/synchronization_contrasts_1s.csv"
+          ],
+          "residual_gap": "This addresses the reviewer’s alternative framing request; it does not establish reliable physiological phase estimates in one second."
+        }
+      ]
+    },
+    {
+      "id": "R3.2",
+      "topic": "Signed correlations and edge interpretation",
+      "subrequests": [
+        {
+          "request": "Do not interpret increased absolute correlation as increased positive coupling.",
+          "status": "addressed",
+          "manuscript_evidence": "Methods 2.6 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:479; Fig. S15 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1221; Discussion REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:610",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:296",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/src/part6_advanced/run_nbs.py"
+          ],
+          "residual_gap": "None identified within the stated scope."
+        },
+        {
+          "request": "Analyze signed correlations or phase-based alternatives.",
+          "status": "addressed",
+          "manuscript_evidence": "Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:671–677,681,734,780; Fig. S4 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:810",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:296",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/figS4_signed_nbs.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/signed_nbs.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/01_trial_features.py"
+          ],
+          "residual_gap": "Signed analyses use 30-s windows; original 1-s NBS remains an absolute-dependence analysis. Signed NBS treats only participants as random. Independently checked 15/16 components significant at |t|=3."
+        }
+      ]
+    },
+    {
+      "id": "R3.3",
+      "topic": "Quantile resolution and density robustness",
+      "subrequests": [
+        {
+          "request": "Test a range of quantile resolutions q.",
+          "status": "partial",
+          "manuscript_evidence": "Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:681–683,774; Fig. S1 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:786; Methods 2.2 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:250–253",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:304",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/quantile_density_sweep.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/figS1_quantile_density_sweep.py"
+          ],
+          "residual_gap": "q=10,20,25,30,35,40 tested on 30-s data only. No matched 1-s q sweep; therefore robustness of the main 1-s q=30 profiles remains untested."
+        },
+        {
+          "request": "Test a range of densities and report whether main patterns survive.",
+          "status": "addressed",
+          "manuscript_evidence": "Appendix D REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1019–1021; Fig. S9; Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:774",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:304",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/tables/density_sweep_profile_correlations.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/src/part6_advanced/run_density_sweep_q30.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/quantile_density_sweep.csv"
+          ],
+          "residual_gap": "Both window analyses show construction dependence, which is now disclosed; this is not positive evidence of threshold invariance."
+        },
+        {
+          "request": "Avoid treating q=30 as a data-validated or common physiological measurement scale.",
+          "status": "addressed",
+          "manuscript_evidence": "Methods 2.2 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:250–253; Discussion REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:602",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:304",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/01_trial_features.py"
+          ],
+          "residual_gap": "Node-count matching is retained as a construction choice, not an optimized physiological scale."
+        }
+      ]
+    },
+    {
+      "id": "R3.4",
+      "topic": "Multiplicity and complete adjusted results",
+      "subrequests": [
+        {
+          "request": "Define a single primary test family.",
+          "status": "partial",
+          "manuscript_evidence": "Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:689,709–721; Methods 2.6 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:455",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:312",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/03_stimulus_aware_contrasts.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/all_contrasts.csv"
+          ],
+          "residual_gap": "The 224-test family is implemented for supplementary 30-s validation. Main 1-s analyses retain original separate exploratory families; they were not retrospectively converted into one primary family."
+        },
+        {
+          "request": "Establish that the family was defined before analysis.",
+          "status": "author_confirmation",
+          "manuscript_evidence": "Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:689; prespecified-family wording",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:312",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/03_stimulus_aware_contrasts.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/ANALYSIS_PLAN.md"
+          ],
+          "residual_gap": "FACED source declares the 224 family, but no independently dated FACED statistical plan was found in the delivered archive. Source comments alone do not establish temporal precedence. Authors should confirm retained provenance or use wording that does not claim verified prespecification. SEED-VII has a separate dated plan."
+        },
+        {
+          "request": "Report all adjusted values together and explain all families.",
+          "status": "addressed",
+          "manuscript_evidence": "Table S1 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:709–721; Appendix F REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1081–1092 and S9 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1130–1145",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:312",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/tables/topology_contrasts_1s.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/tables/synchronization_contrasts_1s.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/all_contrasts.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/tables/all_contrasts.csv"
+          ],
+          "residual_gap": "Scalar adjusted results are centralized in four named CSVs, not one combined table. Independently recomputed BH adjustments agree numerically. Public-repository wording in R3.11 and S9 should be aligned to the actual accompanying archive."
+        }
+      ]
+    },
+    {
+      "id": "R3.5",
+      "topic": "Weak topology evidence and main claims",
+      "subrequests": [
+        {
+          "request": "Explicitly state lack of pooled-corrected scalar topology effects.",
+          "status": "addressed",
+          "manuscript_evidence": "Abstract REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:53; Results 3.1; Appendix F REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1081–1090",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:320",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/tables/topology_contrasts_1s.csv"
+          ],
+          "residual_gap": "144 main 1-s contrasts: one within-QG survivor, no pooled survivor. Independent table check confirms."
+        },
+        {
+          "request": "Rewrite Discussion and conclusions to avoid established emotion-specific topology markers.",
+          "status": "addressed",
+          "manuscript_evidence": "Discussion REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:602,606,610; Conclusion REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:623",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:320",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/all_contrasts.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/tables/all_contrasts.csv"
+          ],
+          "residual_gap": "Topology remains a descriptive main topic despite limited inferential support; whether that contribution is sufficient is an editorial judgment, not an editing defect."
+        }
+      ]
+    },
+    {
+      "id": "R3.6",
+      "topic": "Broadband Hilbert interpretation",
+      "subrequests": [
+        {
+          "request": "Make frequency-specific analyses primary.",
+          "status": "partial",
+          "manuscript_evidence": "Methods 2.4 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:297–300,368; Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:671–677,689; Table S1 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:709,720",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:328",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/01_trial_features.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/all_contrasts.csv"
+          ],
+          "residual_gap": "Frequency-specific wPLI/oAEC are primary within the 30-s supplementary validation. The main manuscript still centers exploratory 1-s broadband descriptors, so the reviewer’s requested main-analysis hierarchy is only partly met."
+        },
+        {
+          "request": "Avoid phase-coupling claims based on broadband signals.",
+          "status": "addressed",
+          "manuscript_evidence": "Methods 2.4 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:297–300,368; Discussion REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:604; Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:677",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:328–330",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/src/lib/synchrony.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/corrections/analyses/wpli/GLOBAL_FIGURE_VALIDATION.json"
+          ],
+          "residual_gap": "The estimator remains defined mathematically, but physiological specificity is explicitly limited. Supplied provenance records distinguish standard amplitude-weighted wPLI from a stale routine; this audit did not rerun all raw EEG."
+        }
+      ]
+    },
+    {
+      "id": "R3.7",
+      "topic": "Stimulus random effects",
+      "subrequests": [
+        {
+          "request": "Account for nested stimuli through stimulus-random effects or stimulus-level inference.",
+          "status": "partial",
+          "manuscript_evidence": "Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:691–696; Table S1 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:709–721; Appendix I.3 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1417–1421",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:338",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/lib_rev.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/03_stimulus_aware_contrasts.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/src/stimulus_aware/stimulus_aware_validation_pipeline.py"
+          ],
+          "residual_gap": "30-s scalar contrasts use conservative min F′; main 1-s coefficients/NBS/coupling remain participant-only. One-second stimulus sensitivity is provided separately and no exact stimulus-level contrast is significant."
+        },
+        {
+          "request": "Avoid inflated emotion-generalization claims from participant-only evidence.",
+          "status": "addressed",
+          "manuscript_evidence": "Discussion REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:606,610; Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:691–696",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:338–340",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/all_contrasts.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/tables/all_contrasts.csv"
+          ],
+          "residual_gap": "Independently recomputed min F′, denominator df and p-values agree with stored results. FACED 79/224 versus 0/224; SEED 18/168 versus 0/168. Both inferential scope and small stimulus set remain substantive limitations."
+        }
+      ]
+    },
+    {
+      "id": "R3.8",
+      "topic": "Stimulus versus emotion categories",
+      "subrequests": [
+        {
+          "request": "State that main findings may reflect stimulus properties.",
+          "status": "addressed",
+          "manuscript_evidence": "Title/abstract REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:53; Discussion REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:606,618; Appendix I.3 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1417–1421",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:348–350",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/src/stimulus_aware/stimulus_aware_validation_pipeline.py"
+          ],
+          "residual_gap": "Visual/auditory/narrative content remains confounded with category; new prediction tests do not isolate emotional mechanisms."
+        },
+        {
+          "request": "Interpret weak stimulus-aware tests and near-chance decoding honestly.",
+          "status": "addressed",
+          "manuscript_evidence": "Appendix I.3 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1419–1421; Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:768; Discussion REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:606,612",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:348–350",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/decoding_unseen_videos.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/tables/decoding_unseen_sources.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/tables/all_contrasts.csv"
+          ],
+          "residual_gap": "Independent dataset supports specific multivariate and recurrence findings, not replication of individual scalar topology contrasts."
+        }
+      ]
+    },
+    {
+      "id": "R3.9",
+      "topic": "Formal decoding evidence and effect size",
+      "subrequests": [
+        {
+          "request": "Qualify or remove the original ~11% one-second classification claim.",
+          "status": "addressed",
+          "manuscript_evidence": "Appendix I.3 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1421",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:360",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/src/stimulus_aware/stimulus_aware_validation_pipeline.py"
+          ],
+          "residual_gap": "Original Spearman/MTF classification has no model-specific stimulus-label permutation. Claim is qualified; MTF retrieval p=0.028 is correctly not substituted as a classification null."
+        },
+        {
+          "request": "Provide a formal stimulus-aware null for claimed above-baseline prediction.",
+          "status": "addressed",
+          "manuscript_evidence": "Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:737,768; Fig. S32 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1615",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:358,362–366",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/fig3_decoding_unseen_videos.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/decoding_null_distributions.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/decoding_unseen_videos.csv"
+          ],
+          "residual_gap": "Recomputed all four plus-one p-values from 1000 stored null scores. Synchronization+power p=0.000999; other three sets not significant. Four per-set tests are unadjusted but sync+power remains below .05 even under simple Bonferroni; this audit does not introduce a new corrected result."
+        },
+        {
+          "request": "Give clear effect size and uncertainty without replacing accuracy by relative gain.",
+          "status": "addressed",
+          "manuscript_evidence": "Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:768; Fig. S32 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1615",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:364",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/decoding_unseen_videos.csv"
+          ],
+          "residual_gap": "13.663% accuracy, 6.427% null mean and 7.236 percentage-point gain independently agree; video-bootstrap interval is conditional on retained fitted predictions."
+        },
+        {
+          "request": "Distinguish held-out units and preprocessing scope.",
+          "status": "addressed",
+          "manuscript_evidence": "Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:737,750; Appendix B REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:831, participant-held-out and EEGNet sections",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:362,366–368",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/fig3_decoding_unseen_videos.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/sensitivity_normalization.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/revision_2026-10-25/sources/gnn_faced/config_frozen.json"
+          ],
+          "residual_gap": "Original 30-s LOVO normalization is transductive; training-only sensitivity has no new permutation test. GNN development used full-FACED-calibrated simulations. Participant-held-out tests retain familiar stimuli. These limitations are disclosed, not cured."
+        }
+      ]
+    },
+    {
+      "id": "R3.10",
+      "topic": "Persistent-homology metric validity and comparisons",
+      "subrequests": [
+        {
+          "request": "Prove metric properties or replace the filtration.",
+          "status": "addressed",
+          "manuscript_evidence": "Methods 2.5 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:438; Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:740–746; Fig. S5 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:818",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:376",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/01_trial_features.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/figS5_persistent_homology.py"
+          ],
+          "residual_gap": "The sign-quotient pseudometric triangle proof is valid. Signed Euclidean distance is separately justified. Metric guarantee is explicitly not extended to transition matrices. Shipped figure labels and generator docstring still contradict this correct explanation and require the listed repair."
+        },
+        {
+          "request": "Specify how homology summaries are compared across conditions.",
+          "status": "addressed",
+          "manuscript_evidence": "Methods 2.5/2.6 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:410–440,447–455; Appendix A REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:685,689; Fig. S5",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:378",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/03_stimulus_aware_contrasts.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/tables/all_contrasts.csv"
+          ],
+          "residual_gap": "Main participant–condition summaries and supplementary trial-based features have different analysis units, now explicitly specified. The broader exploratory family has 392 planned/376 estimable tests; finite checks confirm no corrected participant-and-video persistence contrast."
+        }
+      ]
+    },
+    {
+      "id": "R3.11",
+      "topic": "Technical editing, references and nominal figure symbols",
+      "subrequests": [
+        {
+          "request": "Remove duplicate synchronization paragraph and repeated symbol definitions.",
+          "status": "addressed",
+          "manuscript_evidence": "Methods 2.4 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:290–368; symbols REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:78–106",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:387",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/src/lib/synchrony.py"
+          ],
+          "residual_gap": "No duplicated paragraph or duplicate symbol row found; q versus q_FDR distinguished."
+        },
+        {
+          "request": "Complete references and eliminate unresolved citations.",
+          "status": "addressed",
+          "manuscript_evidence": "Bibliography source manuscript/cas-refs.bib; bibliography command REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:654",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:387",
+          "analysis_evidence": [],
+          "residual_gap": "Local structural check: 145 BibTeX entries, no duplicate keys, no missing cited keys; checked FACED/SEED-VII/persistence entries have DOI/journal metadata. This is not a full external factual verification of every bibliography entry."
+        },
+        {
+          "request": "Make nominal/unadjusted markers unmistakable.",
+          "status": "addressed",
+          "manuscript_evidence": "Figs. 1–3 captions; Fig. S11 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1105–1108; S12 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1119–1122; Table S9 REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1130",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:387",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/tables/topology_contrasts_1s.csv",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/tables/synchronization_contrasts_1s.csv"
+          ],
+          "residual_gap": "Nominal markers remain on figures but are identified in captions. Reader confusion remains possible if panels circulate without captions."
+        },
+        {
+          "request": "Complete a consistent technical edit across manuscript, response and reproducibility materials.",
+          "status": "partial",
+          "manuscript_evidence": "Code availability REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:627; S9 caption REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex:1130; Fig. S5 asset",
+          "response_evidence": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex:387",
+          "analysis_evidence": [
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/README.md",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/figS5_persistent_homology.py",
+            "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/lib_rev.py"
+          ],
+          "residual_gap": "Three concrete archive inconsistencies remain: stale 30-s-main mapping, invalid-metric docstring/figure terminology, exact-quasi-F wording. Also use accompanying-archive wording consistently for corrected tables; see proposed edits."
+        }
+      ]
+    }
+  ],
+  "proposed_edits": [
+    {
+      "file": "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/figS5_persistent_homology.py",
+      "line": 3,
+      "old": "D = sqrt(2(1 - rho)) on SIGNED Spearman correlations is the Euclidean distance between\nrank-standardised channel time series, hence a true metric. The submitted construction,\nsqrt(2(1 - |rho|)), is only a symmetric dissimilarity; we quantify how often it violates the\ntriangle inequality. (A Vietoris-Rips filtration is well defined for any symmetric\ndissimilarity, but stability guarantees are stated for metric spaces.)",
+      "new": "D = sqrt(2(1 - rho)) is Euclidean distance between standardized rank series.\nThe absolute-correlation construction sqrt(2(1 - |rho|)) is the sign-quotient\npseudometric min(||u-v||, ||u+v||), which also satisfies the triangle inequality.\nBoth distances therefore admit metric filtrations; the numerical triangle-ratio\ncheck illustrates the proof rather than testing whether only one construction is valid.",
+      "reason": "Contradicts valid quotient-pseudometric proof in manuscript and R3.10."
+    },
+    {
+      "file": "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/figS5_persistent_homology.py",
+      "line": 92,
+      "old": "ax.set_xlabel(\"$d_z$, submitted distance\"); ax.set_ylabel(\"$d_z$, metric distance\")",
+      "new": "ax.set_xlabel(\"$d_z$, absolute-correlation distance\"); ax.set_ylabel(\"$d_z$, signed-correlation distance\")",
+      "reason": "Current shipped S5 vector-PDF labels falsely distinguish an unspecified submitted distance from a metric one. Update the actual displayed figure as well as source; preserve numerical arrays."
+    },
+    {
+      "file": "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/README.md",
+      "line": 3,
+      "old": "Sections 2 and 3.1 and Appendices A–B of the manuscript (Figs. 1–3, S1–S7).",
+      "new": "Supplementary Appendices A–B of the manuscript (Figs. S1–S7 and S30–S32). The main manuscript figures 1–3 use the original one-second analyses in `faced_1s_exploratory/`.",
+      "reason": "Nested documentation still describes obsolete 30-s-main layout. Also map script outputs for old Figs.1–3 to current S31/S30/S32; filenames may remain unchanged."
+    },
+    {
+      "file": "CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced/src/lib_rev.py",
+      "line": 5,
+      "old": "the exact quasi-F logic of Clark (1973), min F':",
+      "new": "the conservative min F' lower-bound approach of Clark (1973):",
+      "reason": "min F′ is not the exact quasi-F ratio; manuscript appropriately states conservative bound."
+    },
+    {
+      "file": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/response/response.tex",
+      "line": 387,
+      "old": "Adjusted scalar contrast values are provided in the public code repository, with the output and figure-generation limitations specified under Code availability.",
+      "new": "Adjusted scalar contrast values are provided in the accompanying reproducibility archive at the paths listed in point 4, with the output and figure-generation limitations specified under Code availability.",
+      "reason": "Corrected archive is locally available; current public snapshot should not be represented as the corrected release."
+    },
+    {
+      "file": "REVIEW_READY_CSF_2026-10-25_CRITICAL_REVIEW/manuscript/main.tex",
+      "line": 1130,
+      "old": "Full uncorrected tables for all topology and synchronization contrasts are provided in the public code repository (see Code availability).",
+      "new": "Complete nominal and adjusted values for all topology and synchronization contrasts are provided in the accompanying reproducibility archive (see Code availability).",
+      "reason": "Matches reviewer request for complete adjusted results and actual archive rather than older remote snapshot."
+    }
+  ],
+  "verification_artifacts": [
+    "R3_ORIGINAL_COMMENT_CHECK.json",
+    "R3_FINITE_NUMERICAL_CHECKS.json"
+  ],
+  "overall": "All 11 original comments retained literally. Most requested clarification is implemented. One-second quantile robustness, frequency-specific primacy in the main narrative, and stimulus-level primacy in main coefficients remain partial; they must not be represented as completed by longer-window supplementary controls. FACED family timing requires documentary confirmation. Concrete delivery inconsistencies are repairable without changing scientific results."
+}

@@ -2,7 +2,7 @@
 
 Primary inference treats BOTH participants and video stimuli as random factors.
 FACED is fully balanced (123 participants x 28 videos, videos nested in emotion), so we use
-the exact quasi-F logic of Clark (1973), min F':
+the conservative min F' lower-bound approach of Clark (1973):
   F1 (by participant): paired test on participant x emotion means, df1 = 122
   F2 (by video):       video means (averaged over participants); error = between-video
                        variance within emotion, pooled over the 9 emotions, df2 = 28 - 9 = 19

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "verified_original_report_files": 71,
+  "runs": {
+    "gnn_faced": {
+      "runs": 304,
+      "original_prediction_hashes_checked": 0,
+      "max_score_reconstruction_error": 0.0,
+      "config_sha256": "aa55b39b4a30b1be86f2d14e3e189282a7b80e665e29b93b663b6ef111b77b6f"
+    },
+    "gnn_seed7": {
+      "runs": 304,
+      "original_prediction_hashes_checked": 0,
+      "max_score_reconstruction_error": 0.0,
+      "config_sha256": "f53d255d88292d756112e0eb7d41592f2ff9f9b906aa1704ffdcd92b5a543d7f"
+    },
+    "matched_eegnet": {
+      "runs": 300,
+      "original_prediction_hashes_checked": 300,
+      "max_score_reconstruction_error": 0.0,
+      "config_sha256": "ee0e609a3ae982faf508dd652411a0a83df1df2b1c322891b54bdf5135fd383c"
+    }
+  },
+  "correction_files_checked": 118,
+  "scope": "Stored predictions/configurations and available original artifact hashes verified; this is not a retraining check. GNN run records do not contain historical NPZ checksums; their current packaged bytes are covered by the final archive manifest."
+}

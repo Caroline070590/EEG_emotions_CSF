@@ -1,0 +1,23 @@
+{
+  "source_sha256": {
+    "ANALYSIS_PLAN.txt": "c786e9d46da7013a0ce564a0500b83f9b66c7c7d995602abcb6b45fae3183c3d",
+    "batch.py": "40fdce926daaec37a646250edb59e05c5a992b30fb6d7a820fbfa50f20c91cb8",
+    "cluster.py": "d3b104c9ef3cbbe4dbe43306c97978069fab17a3a696ce93b7dfdfab0a462adf",
+    "cluster.slurm": "0fcb2c1146e79b033e1104141972964f07161ed3ab51970d9ff2e9ce1f5e3e82",
+    "data.py": "313af7cd1ebced5c7da851ee4eb476c17bb7c6937667bd2f1f0ba5a8267fa0cf",
+    "linear.py": "ddad78ef22d44af58ae9d86a3c82dc8781b996c90055c2a4fb77b0bb75c6278e",
+    "report.py": "f68549d2360d5617bbc8425d553aa1c453687fda8da2eed7882fa1cb77beb15d",
+    "run.py": "1b17b33363da2854084cc892fb96ce5371e1e667b20a94c4454bd6574a4f463f",
+    "submit_cluster.py": "4035d6619f90da704270fe8f64fcacf2b3c972698343709d438eae165c18ce62",
+    "test_data.py": "3b94375a10358b194c4167201642fc4223689b98614955ffe4c1593a157fc8e9",
+    "test_linear.py": "944e6bdc054fca8f59609ff1917b89f3011a0fc911084b98626368be029942de",
+    "test_runner.py": "8e0760f4e34497be57c907901eaa817b8bfc38fd8ac315b4eaeda6e5b62fd197",
+    "vendor/sdgnn.py": "056cad7777309868000da8ec00da6288e196b1164deac06e5ff317f4d7ce0bde"
+  },
+  "input_sha256": {
+    "features_arrays.npz": "687301ffeaf0a410e74f894340ec33f471ef8468e98008ccb31c35cec4f8eede",
+    "features_scalar.csv": "d5654cc8d69aa0ad928cb91b1ef6a9feab41d2a7413b1ebeb27532582d529c3d",
+    "recurrence_features.npz": "40f13edb2e4037a7d62bf69261f11d2b749c91e1db14e662969016c15f7d335f"
+  },
+  "purpose": "Fixed participant holdout protocol, 304 tasks; independent cluster rerun of all observed, null, and sensitivity evaluations."
+}

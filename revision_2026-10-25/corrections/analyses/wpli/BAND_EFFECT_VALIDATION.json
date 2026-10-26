@@ -1,0 +1,9 @@
+{
+  "cache_sha256": "a5b90d2a03f6accad5d970ac2029964df13b87fbd3a5259574d79095d0d6baf0",
+  "table_sha256": "f8ab31a7154a55deb4606fe68156ff14d512617d04dee347c96d3a633b447743",
+  "n_effects": 336,
+  "maximum_effect_difference": 9.71445146547012e-17,
+  "broadband_vs_delta_excluded_correlation": 0.620893859957387,
+  "matches_reported_0_62": true,
+  "scope": "All 336 standardized effects recomputed from cache. Cache raw wPLI was sampled for 63 trials in seven bands, not every narrow-band trial; omnibus p values were not independently refit here."
+}

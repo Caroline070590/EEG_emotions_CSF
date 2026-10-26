@@ -1,0 +1,30 @@
+Scientific result (for the supplement; the original one-second main remains the focus)
+
+SEED-VII sessions each contained five of the seven conditions, so holding out source programs does not by itself eliminate session-associated information. Under the same 54 source-held-out folds, a session-only reference assigning equal probability to conditions present in the training observations of the test session had 20.0% expected balanced accuracy. Synchronization and power achieved 29.5% observed balanced accuracy.
+
+An additional sensitivity analysis preserved session-by-condition composition by permuting condition labels among 47 single-condition source programs in eight strata with identical four-session clip-count profiles. All excerpts from each program remained together; seven programs comprising 24 clips remained fixed because their profiles were unique or they contained two conditions. The feature normalization, classifier and 54 source-held-out folds were unchanged. Across 1,000 refits, the null mean was 13.2%, its 95th percentile was 16.6%, and none of the null scores reached the observed 29.5% (Monte Carlo p = 0.001). This result supports condition-associated information under the stated session-conditional exchangeability assumptions, without isolating emotion from other stimulus properties. The sensitivity applies to synchronization plus power; the original signed-edge and recurrence decoding nulls did not preserve session composition.
+
+Optional methods/control detail, to retain in supplementary documentation
+
+A training-session frequency-majority classifier obtained 0% balanced accuracy, including when maxima were tied uniformly. Withholding a source reduced the frequency of its condition in the corresponding training sessions, so this poor reference score cannot be interpreted as removal of session confounding. Sampling from the training-session frequencies yielded 14.3% expected balanced accuracy, and an inverse-training-class-frequency session rule yielded 17.1% when ties were averaged. The uniform training-support reference (20.0%) was therefore reported as an explicit stochastic benchmark alongside the restricted permutation sensitivity. These are analytically expected accuracies of stated probability rules, not deterministic EEG classification scores; no 23.81% participant-held-out score was subtracted from the source-held-out result.
+
+Brief main-text qualification, only if needed where supplement is summarized
+
+Supplementary source-held-out prediction in SEED-VII remained above a permutation baseline that preserved session-specific condition counts, within the stated source-exchangeability constraints (Appendix C).
+
+Reviewer-response proposal
+
+We now account for the association between session and condition in the held-source analysis, as well as in participant-held-out comparisons. Under the original 54 source-held-out folds, synchronization and power reached 29.5% balanced accuracy. A new conditional null kept related excerpts together and preserved every session-by-condition count by exchanging labels among source programs with the same session-count profile. The observed score exceeded all 1,000 refitted null scores (mean 13.2%, p = 0.001). A training-only session-support reference had 20.0% expected balanced accuracy. Appendix C describes the 47 exchangeable sources and seven fixed sources, the alternative session-only reference rules, and the remaining stimulus-content limitation. This sensitivity concerns synchronization plus power and does not retroactively validate the other feature sets against a session-preserving null.
+
+Exact numbers and scope
+
+Observed balanced accuracy: 0.29523809523809524.
+Conditional permutation null mean: 0.1317657738095238.
+Conditional permutation 95th percentile: 0.16550595238095236.
+Observed minus conditional-null mean: 0.16347232142857143.
+Null exceedances: 0 of 1,000; plus-one p: 1/1001 = 0.000999000999000999.
+Exchangeable source programs: 47, in eight strata; exchangeable clips: 56.
+Fixed source programs: seven, containing 24 clips (five unique-profile programs plus two mixed-condition programs).
+The analysis was added after the consistency audit. It is one additional model-specific sensitivity; no multiplicity-adjusted or confirmatory-primary claim is made.
+The original all-clip, label-free within-participant normalization was retained. This is the same transductive preprocessing already disclosed for the original classifier, not a new validation of strictly inductive normalization.
+The observed model is shrinkage LDA, not a GNN.

@@ -1,0 +1,13 @@
+{
+  "README.md": "57d1a387772259dda62d8767dd657b8723b5520ae77ecb79be458c0cd2c6e06e",
+  "cluster.slurm": "20b4d54526ee201b76725cd60f300df9628cf5d3a1d26b1b23e8cfa5b8d25061",
+  "model_snapshot.py": "6c5a9ecfffc9ba7aa80a71c1ae61d56e37113114a1414220b38f187153b3abae",
+  "prepare.py": "ade459aa865ade62a2426d40775ffeb6243e8b71912a42b40723c967acbb6603",
+  "protocol.py": "032a971e42e85577f3531fb15e7d7ea65f2cc1ad01e996e5dc37a06a19d2fe44",
+  "provenance/BIOT_LICENSE.txt": "65e06960663f5af0a31b0d5ac60c7502861c3ef1c5d41eb9dd1918a94f26eec1",
+  "provenance/verified_sources.json": "44f1343faae08984a9c3e928fa511c2ece7ed4ad52da403e3a81fffdbaaf4aed",
+  "report.py": "a24c90cce916a8ea2012c794c965d3a346f7a4764f92ce62924a223198963cab",
+  "run.py": "5d59fc846ef39e8f7027e0bfde9e7fe637b31564784bd63ff147fc0af1a849bd",
+  "submit_cluster.py": "4b8cda35b2cb5950d1757bdee9cc026d7176bd6f875383d97588e2954edfd880",
+  "test_audit.py": "eb18e2ceb5a417e64ff5cae2e2008e5ecc55c33f7b4781d189610d8e451c2590"
+}

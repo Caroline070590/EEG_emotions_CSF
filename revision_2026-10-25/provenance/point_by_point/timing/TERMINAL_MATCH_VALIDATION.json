@@ -1,0 +1,89 @@
+{
+  "status": "pass",
+  "check_type": "Fresh independent verification on 2026-10-25; does not claim recovery of the historical40-trial sample.",
+  "generated_utc": "2026-10-25T21:49:37.567030+00:00",
+  "seed": 20261025,
+  "sampling": "random.Random(seed).sample of indices into manifest sorted by numeric subject_id, numeric trial_id, csv_file; sampled indices sorted for reporting",
+  "manifest_path": "EEG-data-raw-multiscale/metadata/manifest_full_trial.csv",
+  "manifest_sha256": "24ef2cfdee0a17126ba64f6e0c00cfe41fe098b87bcd5a0dda0cadb68a2a7c61",
+  "manifest_trials": 3444,
+  "sampled_trials": 40,
+  "sampled_participants": 38,
+  "sampled_conditions": {
+    "amusement": 6,
+    "sadness": 2,
+    "neutral": 6,
+    "tenderness": 6,
+    "disgust": 7,
+    "inspiration": 3,
+    "anger": 4,
+    "joy": 4,
+    "fear": 2
+  },
+  "matched_trials": 40,
+  "total_eeg_values_compared": 300000,
+  "unequal_decimal_values": 0,
+  "unequal_text_values": 0,
+  "comparison_precision": "Exact Decimal numeric equality on every exported CSV digit; no float32/float64 conversion, no tolerance.",
+  "channels": [
+    "FP1",
+    "FP2",
+    "FZ",
+    "F3",
+    "F4",
+    "F7",
+    "F8",
+    "FC1",
+    "FC2",
+    "FC5",
+    "FC6",
+    "CZ",
+    "C3",
+    "C4",
+    "T7",
+    "T8",
+    "CP1",
+    "CP2",
+    "CP5",
+    "CP6",
+    "PZ",
+    "P3",
+    "P4",
+    "P7",
+    "P8",
+    "PO3",
+    "PO4",
+    "OZ",
+    "O1",
+    "O2"
+  ],
+  "match_location": {
+    "zero_based_full_epoch_indices": [
+      7250,
+      7499
+    ],
+    "one_based_samples": [
+      7251,
+      7500
+    ],
+    "fs_hz": 250,
+    "interval_seconds": [
+      29,
+      30
+    ],
+    "one_second_local_indices": [
+      0,
+      249
+    ]
+  },
+  "metadata_notes": [
+    "One-second files have local time_index0\u2013249; full files have time_index0\u20137499. Position is established by sample values, not by assuming equal index columns.",
+    "sample_index describes different exported segmentation units in the two trees and is recorded, not used as a pairing key.",
+    "Pairs are resolved by participant, trial and emotion identifiers; the30 scalp columns are checked in explicit fixed order.",
+    "Full files contain extra clip/window/valence/time_sec metadata columns. These are not EEG channels.",
+    "All result files omit raw EEG values."
+  ],
+  "trial_results_csv": "TRIAL_LEVEL_TERMINAL_MATCH.csv",
+  "trial_results_sha256": "795fa8c9ef4bbf380e333d03d3a051bae395a30cce093d0bbfcb6653994112b7",
+  "script_sha256": "524f07501d809f5c61719a74b969eed411b3627a9d12362ce529915389b87a34"
+}

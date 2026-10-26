@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "original_path": "/home/carolinealves/Documents/Emotions-eeg/CONSISTENCY_CORRECTIONS_CSF_2026-10-25/release_candidate/faced_1s_exploratory/src/part1_topology/run_part1.py",
+      "original_sha256": "736dad1d0a8f5d0d777694cde08b64ef7d396f64920ec8b7422db90dd14ad704",
+      "proposed_path": "src/part1_topology/run_part1.py",
+      "proposed_sha256": "f445f9a24f712f7dc0f20c90fa00c57e169db829cee5926babc635e69b9ebd8f"
+    },
+    {
+      "original_path": "/home/carolinealves/Documents/Emotions-eeg/CONSISTENCY_CORRECTIONS_CSF_2026-10-25/release_candidate/faced_1s_exploratory/src/part1_topology/run_part1_q30.py",
+      "original_sha256": "26c84233c8946ba90e4f36702f70900aeceae023a6be34ff2c8c4c4967102fd5",
+      "proposed_path": "src/part1_topology/run_part1_q30.py",
+      "proposed_sha256": "21a20e4b115f6438f7cb9681d0a7e69806df704ed084c0c309e7e121cd1f5f37"
+    }
+  ],
+  "historical_helper_source": "/home/carolinealves/Documents/Emotions-eeg/emotion_eeg_paper_updated-FINAL/emotion_eeg_paper_fixed/part1_topology/run_part1.py",
+  "historical_helper_sha256": "99c279ecb68b05ff8bbe5bbbe7a29d177bd3d8fbff677cec7dcfdb7ca6de2295",
+  "smoke_input_source": "/home/carolinealves/Documents/Emotions-eeg/EEG_emotion_FACED_revision_code/original_1s_analysis/code/cache/density_sweep_q30_trial_metrics.csv",
+  "smoke_input_sha256": "009e084707beae8603df5665ad0019dd3be310317d0384266a8f34f84675b720",
+  "scientific_change": "None: recover the exact historical bar/bootstrap helper and accept current q=30 filenames only after checking q.",
+  "production_files_changed": false
+}

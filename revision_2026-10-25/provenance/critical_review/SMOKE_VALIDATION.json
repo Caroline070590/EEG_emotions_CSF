@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "original_import_failure": "ImportError: cannot import name 'metric_bars' from 'part1_topology.run_part1' (/home/carolinealves/Documents/Emotions-eeg/CONSISTENCY_CORRECTIONS_CSF_2026-10-25/release_candidate/faced_1s_exploratory/src/part1_topology/run_part1.py)",
+  "helpers_recovered_from_historical_source": true,
+  "q13_input_rejected": true,
+  "fingerprint_checks": {
+    "spearman": {
+      "rows": 3444,
+      "finite_metric_counts": {
+        "sigma_small_world": 3441,
+        "gamma_C_over_Crand": 3441,
+        "lambda_L_over_Lrand": 3441,
+        "transitivity": 3444,
+        "char_path_len_gcc": 3444,
+        "global_efficiency": 3444
+      },
+      "exact_fingerprint_cells": 54,
+      "total_cells": 54,
+      "max_rgb_difference": 0
+    },
+    "mtf_q30": {
+      "rows": 3444,
+      "finite_metric_counts": {
+        "sigma_small_world": 3444,
+        "gamma_C_over_Crand": 3444,
+        "lambda_L_over_Lrand": 3444,
+        "transitivity": 3444,
+        "char_path_len_gcc": 3444,
+        "global_efficiency": 3444
+      },
+      "exact_fingerprint_cells": 54,
+      "total_cells": 54,
+      "max_rgb_difference": 0
+    },
+    "qg_q30": {
+      "rows": 3444,
+      "finite_metric_counts": {
+        "sigma_small_world": 3444,
+        "gamma_C_over_Crand": 3444,
+        "lambda_L_over_Lrand": 3444,
+        "transitivity": 3444,
+        "char_path_len_gcc": 3444,
+        "global_efficiency": 3444
+      },
+      "exact_fingerprint_cells": 54,
+      "total_cells": 54,
+      "max_rgb_difference": 0
+    }
+  },
+  "bootstrap_mean_and_intervals_verified": true,
+  "generated_pdf_sha256": "365a725cf066c535bd47b1b751dc945f458d305c76bf8eeb91504ea22a01540b",
+  "limitation": "This validates the isolated repair and displayed numerical fingerprints. It does not replace the manuscript PDF, rerun raw topology, or assert archival PDF-byte identity."
+}

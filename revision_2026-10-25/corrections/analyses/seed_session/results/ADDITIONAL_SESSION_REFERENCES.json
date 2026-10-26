@@ -1,0 +1,8 @@
+{
+  "post_audit_exploratory_reference_checks": true,
+  "session_one_hot_shrinkage_lda_balanced_accuracy": 0.0,
+  "inverse_training_class_frequency_weighted_session_first_tie_balanced_accuracy": 0.16071428571428573,
+  "inverse_training_class_frequency_weighted_session_tie_averaged_expected_balanced_accuracy": 0.17142857142857143,
+  "class_balanced_rule": "Argmax of session-by-condition training count divided by total condition training count; ties averaged uniformly.",
+  "scope": "Same 54 source-held-out folds, training labels only; no EEG features; no p-values or superiority claims. These do not replace the restricted session/source null."
+}

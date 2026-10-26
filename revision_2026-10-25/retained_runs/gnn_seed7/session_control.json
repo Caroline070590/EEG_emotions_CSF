@@ -1,0 +1,448 @@
+{
+  "bootstrap_scope": "Participant resampling conditional on this fixed session/clip design; identical participant labels yield degenerate control-score intervals",
+  "config_sha256": "f53d255d88292d756112e0eb7d41592f2ff9f9b906aa1704ffdcd92b5a543d7f",
+  "dataset": "SEED-VII",
+  "definition": "Train-fold balanced-accuracy-optimal prediction from session identity alone; deterministic class-order ties; no EEG input",
+  "generalization": "Unseen participants viewing familiar clips in familiar sessions",
+  "null_scope": "Same 99 source-by-condition label permutations as the EEG models; block-class counts preserved, session-class counts not preserved",
+  "observed": {
+    "balanced_accuracy": 0.23809523809523808,
+    "ci_high": 0.23809523809523808,
+    "ci_low": 0.23809523809523808,
+    "n_subjects": 20,
+    "n_trials": 1600
+  },
+  "paired_eeg_minus_control": [
+    {
+      "ci_high_pp": -0.29687500000000344,
+      "ci_low_pp": -5.386904761904764,
+      "control": "session_only",
+      "difference_pp": -2.857142857142856,
+      "eeg_model": "hybrid_gnn",
+      "n_subjects": 20,
+      "n_trials": 1600
+    },
+    {
+      "ci_high_pp": 2.9166666666666665,
+      "ci_low_pp": -2.8571428571428577,
+      "control": "session_only",
+      "difference_pp": -0.1190476190476202,
+      "eeg_model": "sfgnn",
+      "n_subjects": 20,
+      "n_trials": 1600
+    },
+    {
+      "ci_high_pp": 2.232142857142858,
+      "ci_low_pp": -2.6785714285714275,
+      "control": "session_only",
+      "difference_pp": -0.29761904761904856,
+      "eeg_model": "lda_full",
+      "n_subjects": 20,
+      "n_trials": 1600
+    }
+  ],
+  "scope": "Diagnostic for the condition imbalance across familiar recording sessions; not a conditional permutation test or evidence of emotion-specific information",
+  "scores": [
+    {
+      "balanced_accuracy_percent": 23.809523809523807,
+      "permutation": 0
+    },
+    {
+      "balanced_accuracy_percent": 29.206349206349202,
+      "permutation": 1
+    },
+    {
+      "balanced_accuracy_percent": 31.894158473105843,
+      "permutation": 2
+    },
+    {
+      "balanced_accuracy_percent": 25.408163265306122,
+      "permutation": 3
+    },
+    {
+      "balanced_accuracy_percent": 28.33943833943834,
+      "permutation": 4
+    },
+    {
+      "balanced_accuracy_percent": 26.423200859291086,
+      "permutation": 5
+    },
+    {
+      "balanced_accuracy_percent": 31.83673469387755,
+      "permutation": 6
+    },
+    {
+      "balanced_accuracy_percent": 27.26190476190476,
+      "permutation": 7
+    },
+    {
+      "balanced_accuracy_percent": 24.334733893557424,
+      "permutation": 8
+    },
+    {
+      "balanced_accuracy_percent": 26.423200859291086,
+      "permutation": 9
+    },
+    {
+      "balanced_accuracy_percent": 25.274725274725274,
+      "permutation": 10
+    },
+    {
+      "balanced_accuracy_percent": 25.170068027210885,
+      "permutation": 11
+    },
+    {
+      "balanced_accuracy_percent": 24.586466165413533,
+      "permutation": 12
+    },
+    {
+      "balanced_accuracy_percent": 24.081632653061224,
+      "permutation": 13
+    },
+    {
+      "balanced_accuracy_percent": 29.19937205651491,
+      "permutation": 14
+    },
+    {
+      "balanced_accuracy_percent": 26.0727367870225,
+      "permutation": 15
+    },
+    {
+      "balanced_accuracy_percent": 27.643784786641927,
+      "permutation": 16
+    },
+    {
+      "balanced_accuracy_percent": 22.87981859410431,
+      "permutation": 17
+    },
+    {
+      "balanced_accuracy_percent": 24.308390022675734,
+      "permutation": 18
+    },
+    {
+      "balanced_accuracy_percent": 23.693113609079994,
+      "permutation": 19
+    },
+    {
+      "balanced_accuracy_percent": 28.00453514739229,
+      "permutation": 20
+    },
+    {
+      "balanced_accuracy_percent": 23.766233766233764,
+      "permutation": 21
+    },
+    {
+      "balanced_accuracy_percent": 24.707792207792206,
+      "permutation": 22
+    },
+    {
+      "balanced_accuracy_percent": 29.823747680890538,
+      "permutation": 23
+    },
+    {
+      "balanced_accuracy_percent": 22.61904761904762,
+      "permutation": 24
+    },
+    {
+      "balanced_accuracy_percent": 23.86577708006279,
+      "permutation": 25
+    },
+    {
+      "balanced_accuracy_percent": 25.170068027210885,
+      "permutation": 26
+    },
+    {
+      "balanced_accuracy_percent": 27.857142857142858,
+      "permutation": 27
+    },
+    {
+      "balanced_accuracy_percent": 25.5952380952381,
+      "permutation": 28
+    },
+    {
+      "balanced_accuracy_percent": 23.566058002148228,
+      "permutation": 29
+    },
+    {
+      "balanced_accuracy_percent": 28.40909090909091,
+      "permutation": 30
+    },
+    {
+      "balanced_accuracy_percent": 28.214285714285715,
+      "permutation": 31
+    },
+    {
+      "balanced_accuracy_percent": 23.092145949288806,
+      "permutation": 32
+    },
+    {
+      "balanced_accuracy_percent": 21.165501165501162,
+      "permutation": 33
+    },
+    {
+      "balanced_accuracy_percent": 23.333333333333332,
+      "permutation": 34
+    },
+    {
+      "balanced_accuracy_percent": 27.07792207792208,
+      "permutation": 35
+    },
+    {
+      "balanced_accuracy_percent": 28.57142857142857,
+      "permutation": 36
+    },
+    {
+      "balanced_accuracy_percent": 22.3886827458256,
+      "permutation": 37
+    },
+    {
+      "balanced_accuracy_percent": 24.92364778079064,
+      "permutation": 38
+    },
+    {
+      "balanced_accuracy_percent": 24.931972789115648,
+      "permutation": 39
+    },
+    {
+      "balanced_accuracy_percent": 26.517926517926515,
+      "permutation": 40
+    },
+    {
+      "balanced_accuracy_percent": 26.831501831501832,
+      "permutation": 41
+    },
+    {
+      "balanced_accuracy_percent": 24.761904761904763,
+      "permutation": 42
+    },
+    {
+      "balanced_accuracy_percent": 25.280112044817926,
+      "permutation": 43
+    },
+    {
+      "balanced_accuracy_percent": 26.360544217687078,
+      "permutation": 44
+    },
+    {
+      "balanced_accuracy_percent": 21.369701726844585,
+      "permutation": 45
+    },
+    {
+      "balanced_accuracy_percent": 26.85979655019903,
+      "permutation": 46
+    },
+    {
+      "balanced_accuracy_percent": 25.460184073629456,
+      "permutation": 47
+    },
+    {
+      "balanced_accuracy_percent": 28.35557299843014,
+      "permutation": 48
+    },
+    {
+      "balanced_accuracy_percent": 23.38217338217338,
+      "permutation": 49
+    },
+    {
+      "balanced_accuracy_percent": 23.091956080677885,
+      "permutation": 50
+    },
+    {
+      "balanced_accuracy_percent": 24.906015037593985,
+      "permutation": 51
+    },
+    {
+      "balanced_accuracy_percent": 22.972582972582973,
+      "permutation": 52
+    },
+    {
+      "balanced_accuracy_percent": 32.80803230383063,
+      "permutation": 53
+    },
+    {
+      "balanced_accuracy_percent": 29.004329004329005,
+      "permutation": 54
+    },
+    {
+      "balanced_accuracy_percent": 26.49350649350649,
+      "permutation": 55
+    },
+    {
+      "balanced_accuracy_percent": 28.851703851703853,
+      "permutation": 56
+    },
+    {
+      "balanced_accuracy_percent": 23.593073593073594,
+      "permutation": 57
+    },
+    {
+      "balanced_accuracy_percent": 27.92207792207792,
+      "permutation": 58
+    },
+    {
+      "balanced_accuracy_percent": 23.419367747098843,
+      "permutation": 59
+    },
+    {
+      "balanced_accuracy_percent": 23.015873015873016,
+      "permutation": 60
+    },
+    {
+      "balanced_accuracy_percent": 26.49350649350649,
+      "permutation": 61
+    },
+    {
+      "balanced_accuracy_percent": 26.42857142857143,
+      "permutation": 62
+    },
+    {
+      "balanced_accuracy_percent": 25.949288806431664,
+      "permutation": 63
+    },
+    {
+      "balanced_accuracy_percent": 27.55102040816326,
+      "permutation": 64
+    },
+    {
+      "balanced_accuracy_percent": 25.736961451247165,
+      "permutation": 65
+    },
+    {
+      "balanced_accuracy_percent": 23.79201680672269,
+      "permutation": 66
+    },
+    {
+      "balanced_accuracy_percent": 21.165501165501162,
+      "permutation": 67
+    },
+    {
+      "balanced_accuracy_percent": 27.67857142857143,
+      "permutation": 68
+    },
+    {
+      "balanced_accuracy_percent": 28.57142857142857,
+      "permutation": 69
+    },
+    {
+      "balanced_accuracy_percent": 27.310924369747898,
+      "permutation": 70
+    },
+    {
+      "balanced_accuracy_percent": 22.025117739403456,
+      "permutation": 71
+    },
+    {
+      "balanced_accuracy_percent": 26.722689075630253,
+      "permutation": 72
+    },
+    {
+      "balanced_accuracy_percent": 27.252747252747252,
+      "permutation": 73
+    },
+    {
+      "balanced_accuracy_percent": 24.50937950937951,
+      "permutation": 74
+    },
+    {
+      "balanced_accuracy_percent": 28.87969173683459,
+      "permutation": 75
+    },
+    {
+      "balanced_accuracy_percent": 23.12925170068027,
+      "permutation": 76
+    },
+    {
+      "balanced_accuracy_percent": 22.972582972582973,
+      "permutation": 77
+    },
+    {
+      "balanced_accuracy_percent": 22.857142857142858,
+      "permutation": 78
+    },
+    {
+      "balanced_accuracy_percent": 23.57142857142857,
+      "permutation": 79
+    },
+    {
+      "balanced_accuracy_percent": 25.20098948670377,
+      "permutation": 80
+    },
+    {
+      "balanced_accuracy_percent": 23.35164835164835,
+      "permutation": 81
+    },
+    {
+      "balanced_accuracy_percent": 24.285714285714285,
+      "permutation": 82
+    },
+    {
+      "balanced_accuracy_percent": 25.238095238095237,
+      "permutation": 83
+    },
+    {
+      "balanced_accuracy_percent": 23.989403453689167,
+      "permutation": 84
+    },
+    {
+      "balanced_accuracy_percent": 22.653061224489797,
+      "permutation": 85
+    },
+    {
+      "balanced_accuracy_percent": 24.412492269635127,
+      "permutation": 86
+    },
+    {
+      "balanced_accuracy_percent": 26.53061224489796,
+      "permutation": 87
+    },
+    {
+      "balanced_accuracy_percent": 25.232862375719517,
+      "permutation": 88
+    },
+    {
+      "balanced_accuracy_percent": 32.02741702741703,
+      "permutation": 89
+    },
+    {
+      "balanced_accuracy_percent": 24.981203007518797,
+      "permutation": 90
+    },
+    {
+      "balanced_accuracy_percent": 27.2498090145149,
+      "permutation": 91
+    },
+    {
+      "balanced_accuracy_percent": 23.431372549019606,
+      "permutation": 92
+    },
+    {
+      "balanced_accuracy_percent": 23.222016079158934,
+      "permutation": 93
+    },
+    {
+      "balanced_accuracy_percent": 25.652761104441772,
+      "permutation": 94
+    },
+    {
+      "balanced_accuracy_percent": 23.846153846153847,
+      "permutation": 95
+    },
+    {
+      "balanced_accuracy_percent": 24.690785405071118,
+      "permutation": 96
+    },
+    {
+      "balanced_accuracy_percent": 27.551020408163268,
+      "permutation": 97
+    },
+    {
+      "balanced_accuracy_percent": 24.917542774685632,
+      "permutation": 98
+    },
+    {
+      "balanced_accuracy_percent": 24.744897959183675,
+      "permutation": 99
+    }
+  ],
+  "source_sha256": "9e21a9547005ff126557b295056a533f8c892cdaf14caf2806fab056a4f733ba"
+}

@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-25",
+  "status": "passed",
+  "scope": "Finite closure of the21point-by-point text edits,2bibliography edits and82-subrequest report. No new experiments or manuscript edits; independent prior timing check is retained.",
+  "source_hashes": {
+    "manuscript/main.tex": "4a7f824b81d4bbb26659d085fbea12cfeafa724b6836306c9dd28d49b201d99c",
+    "manuscript/cas-refs.bib": "9fd0bef53ca9359b4eb724b6a1c7addff4f8d15348b650e4a79e7c74523a6adc",
+    "response/response.tex": "c030d1ae5c5c5abebd5b1c733810365d77bd5a5c8a6835da00c69c3d49c0e5cd"
+  },
+  "coverage_sha256_at_review": "1a12eaa2d92ab95f7c2b6b9e51a4db028eb8543e66fda4bbc386f7178a7c1702",
+  "ledger_validation": {
+    "21_text_replacements_reconstruct_current_sources_exactly": true,
+    "2_bib_records_reconstruct_current_bibliography_exactly": true,
+    "abstract_unchanged": true,
+    "original24reviewer_comments_unchanged": true,
+    "evidence": "audit/CLOSURE_LEDGER_CHECK.json"
+  },
+  "bibliography_scope": "Two title-spacing corrections and publisher-verifiedDOIs from the prior bibliography audit. No other bibliography records changed; this closure rechecked exact records and hashes, not a new external bibliography search.",
+  "coverage": {
+    "comments": 24,
+    "subrequests": 82,
+    "addressed": 58,
+    "partial": 24,
+    "all_report_source_hashes_current": true,
+    "addressed_reclassifications": [
+      {
+        "id": "R1.2.2",
+        "classification": "addressed",
+        "decision": "supported",
+        "current_evidence": [
+          "manuscript/main.tex:260,265–269",
+          "response/response.tex:123"
+        ],
+        "reason": "Node count/nominal density wording matches the specified tie/nonzero-edge rules; no identical physiological scale is claimed."
+      },
+      {
+        "id": "R1.5.3",
+        "classification": "addressed",
+        "decision": "supported",
+        "current_evidence": [
+          "manuscript/main.tex:1435–1436,1512",
+          "response/response.tex:186"
+        ],
+        "reason": "Both flagged supplementary caption and heading now use affective-video-condition wording. This corrects scope language without removing stimulus confounding."
+      },
+      {
+        "id": "R1.6.2",
+        "classification": "addressed",
+        "decision": "supported",
+        "current_evidence": [
+          "manuscript/main.tex:618",
+          "response/response.tex:206"
+        ],
+        "reason": "Added mechanism-specific description explicitly identifies common muscle fluctuations, AEC/MaxXC/channel correlations and possible common contribution. It implements the reviewer-permitted caveat alternative."
+      },
+      {
+        "id": "R1.6.3",
+        "classification": "addressed",
+        "decision": "supported",
+        "current_evidence": [
+          "manuscript/main.tex:786",
+          "response/response.tex:203–206"
+        ],
+        "reason": "No detected difference and highly correlated profiles accurately replace equality/equivalence claims; no absence of EMG is asserted."
+      },
+      {
+        "id": "R3.11.4",
+        "classification": "addressed",
+        "decision": "supported",
+        "current_evidence": [
+          "manuscript/main.tex:631,1138",
+          "response/response.tex:387",
+          "release_candidate/faced/README.md:3",
+          "release_candidate/seed_vii/README.md:3,23",
+          "release_candidate/faced/src/lib_rev.py:5",
+          "release_candidate/faced/src/figS5_persistent_homology.py:1–7"
+        ],
+        "reason": "Source documentation and actual figure-axis generator use corrected metric/figure mappings and conservative min-F terminology; contrast availability directs to accompanying archive. Two bibliography records were corrected. This is bounded technical closure, not complete raw-data reproducibility."
+      }
+    ],
+    "R3.4.2": {
+      "status": "partial",
+      "decision": "supported",
+      "reason": "All three unsupported timing assertions for the FACED224-test family were removed. The implemented224-test joint correction remains, but no advance-specified status is claimed. Removing unsupported timing wording does not establish preregistration."
+    },
+    "residual_scientific_limits_preserved": "All24partial entries remain partial, including matched1-s quantile/EMG/surrogate controls, main frequency-specific hierarchy, participant/stimulus scope, breadth, methodological novelty, matched-baseline dependence, and incomplete historical reproducibility. Counts are coverage classifications, not acceptance probabilities or a percentage of scientific validity."
+  },
+  "author_declarations": "Competing-interest statement is inserted on the parent-confirmed author response. Funder-role question remains pending outside this scientific closure; no funder-role assertion was inferred.",
+  "new_manuscript_defects_found": [],
+  "finite_report_corrections_confirmed": [
+    {
+      "id": "R6.3.5",
+      "problem": "remaining_scope still describes the SEED README mapping/count explanation as pending, although final_action and current README show it fixed.",
+      "recommended_resolution": "Delete obsolete pending-documentation sentence; retain the unavailableS24generator and summary-only variant as the basis for partial status.",
+      "status": "resolved in regenerated coverage report"
+    },
+    {
+      "id": "coverage_line_references",
+      "problem": "Some semicolon-separated or trailing numeric locations retain baseline offsets. Examples: R1.5.3 K.7 says1504 rather than1512; R1.4.1 FigureS2 says795 rather than803.",
+      "recommended_resolution": "Remap every retained baseline location or use exact current source labels; do not change scientific statuses.",
+      "status": "resolved in regenerated coverage report"
+    },
+    {
+      "id": "coverage_analysis_paths",
+      "problem": "R3.11.4 references old CRITICAL_REVIEW release README/S5/lib_rev files although corrected versions are in POINT_BY_POINT release.",
+      "recommended_resolution": "Use current candidate or final packaged reproducibility paths for changed-document evidence; historical numerical evidence may be identified as a frozen baseline if intended.",
+      "status": "resolved in regenerated coverage report"
+    }
+  ],
+  "final_closure_scope": "Verified only the three requested report corrections after regeneration. Prior substantive closure findings and source hashes remain unchanged; no additional review or manuscript edits."
+}

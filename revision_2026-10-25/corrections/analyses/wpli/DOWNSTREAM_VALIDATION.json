@@ -1,0 +1,42 @@
+{
+  "status": "dependent numerical comparisons complete",
+  "global48": {
+    "beta": 5.400128551591443e-05,
+    "p_nominal": 0.00013671800472414564,
+    "q_fdr": 0.0002450670420986456
+  },
+  "global48_fdr_discoveries": 9,
+  "global48_fdr_discovery_set_unchanged": true,
+  "regional30_pooled": {
+    "pooled_beta": 2.0206001455358447e-09,
+    "pooled_p": 2.586703456955564e-14
+  },
+  "regional30_split_half": {
+    "full_beta": 6.251665851664256e-13,
+    "half_beta_sd": 1.9618334734516907e-13,
+    "half_beta_2.5pct": 1.2406742300186124e-12,
+    "half_beta_97.5pct": 2.3669954885008337e-13,
+    "directional_replication_pct": 0.0
+  },
+  "figure5g": {
+    "nodal_strength_range": 0.0,
+    "mean_wpli": 0.0,
+    "coupling_beta": 0.0,
+    "coupling_p": 2.586703456955564e-14
+  },
+  "wpli8_bootstrap_vs_neutral": {
+    "d": 6.8013270189404285e-09,
+    "ci_lo": 2.4749336191565163e-08,
+    "ci_hi": 2.5168915077089515e-08
+  },
+  "wpli36_pairwise": {
+    "d": 1.0439261271394384e-08,
+    "ci_lo": 1.764057165447308e-08,
+    "ci_hi": 4.010976167867497e-08
+  },
+  "script_sha256": "c2ecd339396d4f466ae3626dceb7eca2ac34a25383bf2a809ff1b31a703367f0",
+  "limitations": [
+    "Global coupling Figure4 panels b-g still require independent generator/output linkage; this table certifies regional coupling, not every global MixedLM coefficient.",
+    "The historical LOPO generator remains unrecovered; no full rerun is claimed."
+  ]
+}

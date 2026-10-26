@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-10-25T20:55:26.847687+00:00",
+  "status": "frozen local accompanying reproducibility candidate; no remote publication",
+  "original_release_files_unchanged": 434,
+  "checks": [
+    "all908 stored scores independently reproduced",
+    "300 matched prediction checksums and300 curve checksums validated against original run records",
+    "all908 configuration hashes verified",
+    "71 frozen report files verified",
+    "118 final correction source/result files copied byte-identically",
+    "three portable wPLI/coupling regression tests passed",
+    "behavioral corrected28-fold independent validation passed after relocation"
+  ],
+  "scope": "No raw EEG or prepared signal arrays; historical source and explicit provenance gaps retained."
+}

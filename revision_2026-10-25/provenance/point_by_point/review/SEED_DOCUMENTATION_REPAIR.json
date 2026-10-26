@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-25",
+  "changed_file": "/home/carolinealves/Documents/Emotions-eeg/POINT_BY_POINT_CSF_2026-10-25/release_candidate/seed_vii/README.md",
+  "before_sha256": "66b8bf81b95b2398cccd21c70b522b3c20bbf14c322fa2122905b97785a2fc15",
+  "after_sha256": "1466622848d31cbd8edbfb83e33d28cc80dea0f92ab90db824eba660b7f9f3f9",
+  "changes": [
+    {
+      "file": "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/README.md",
+      "line": 1,
+      "old": "# Independent replication in SEED-VII\n\nSection 3.2 and Appendix C of the manuscript (Fig. S8). The main FACED analyses are repeated on SEED-VII\n(20 participants; 80 clips: 12 per non-neutral emotion and 8 neutral) with the same feature code, following",
+      "new": "# Independent assessment in SEED-VII\n\nAppendix C of the manuscript (Fig. S8) assesses the supplementary 30-s FACED analyses in SEED-VII\n(20 participants; 80 clips: 12 per non-neutral emotion and 8 neutral) using the same feature code, following",
+      "reason": "Remove the obsolete main-Results 3.2 location and make the independent-data scope consistent with the restored one-second main study."
+    },
+    {
+      "file": "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/seed_vii/README.md",
+      "line": 23,
+      "old": "## Running\n",
+      "new": "The source-random columns in `summary.csv` and `comparison_with_faced_summary.csv` retain the initial source-grouping analysis from step 3. They report 23 corrected recurrence contrasts. The manuscript uses the later, strictly nested analysis from step 4 (`contrasts_source_nested.csv`): it excludes the four clips from the two programs represented in two conditions, gives 52 source programs equal weight, and yields 22 corrected recurrence contrasts. The clip-random result remains 23. These are different analysis specifications, not interchangeable summaries.\n\n## Running\n",
+      "reason": "Preserve historical outputs while identifying the exact nested-source result cited in the manuscript; prevent a reviewer from mistaking the 23-versus-22 counts for a numerical error."
+    }
+  ],
+  "basis": [
+    "Current manuscript main.tex:989-1004 describes Appendix C independent assessment and strictly nested source sensitivity.",
+    "seed_vii/src/03_stimulus_aware_contrasts.py:33-53 generates initial source summaries; summary.csv and comparison_with_faced_summary.csv retain 23 recurrence positives.",
+    "seed_vii/src/04_source_nested_contrasts.py:1-4 specifies exclusion of four clips spanning conditions and equal weighting of 52 programs.",
+    "seed_vii/tables/contrasts_source_nested.csv:204 rows; 0 of 168 primary and 22 of 36 recurrence q_minF<0.05."
+  ],
+  "csv_artifacts_unchanged": true,
+  "csv_sha256": {
+    "tables/decoding_source_block_null.csv": "866a60d1547e3ed4b895f0859a876368be69b9c4a03058d197f370b05a4c9370",
+    "tables/recurrence_delta_adjustment.csv": "55e0ed4a587a6a4e32e92350dfc6edf794f021b7db20c45ca26aa8fbb5379e94",
+    "tables/decoding_null_distributions.csv": "791cbbe58c73766e02cff2eff52b437a4b583e5f1d981fd2b0ed73e89e1a7add",
+    "tables/omnibus_tests.csv": "34a6193e49511ce1f31826c6c4f93a6f8aecd2e56339c9b16db65fa214e0dd0c",
+    "tables/decoding_unseen_sources.csv": "ff281d7033886d33f20dc649b25b35937b2e7b9f667aa44b48b5dbfc2706f00c",
+    "tables/normalization_sensitivity.csv": "0b4c1bd10dd80fdc2a413cb895c3153c3984c86521e0a17450f79bd5e8eebe2d",
+    "tables/decoding_leave_one_clip_out.csv": "5f46121d50b05f6b9c07b66b346315656cf7054f713a174df48d9847322c8e4e",
+    "tables/comparison_with_faced_summary.csv": "0753f0a56f65e84daeab9844fd3a9626b519e126c40a01a80d1f049a48506801",
+    "tables/comparison_with_faced_decoding.csv": "5ca9c045e81e272c58102e533b8b9997f53c5571856d2365e9d86d8d00d21445",
+    "tables/comparison_with_faced_effect_sizes.csv": "121be37b5ece940987bd2b5037d761a55d98e01f20797b13c3041cad1aabbe9f",
+    "tables/all_contrasts.csv": "438aa8451d368c5294fee25b5393a26a49e0b6f94845b78c7d2f156c4c400569",
+    "tables/summary.csv": "7c43ac98fcfe9a76d65e3e93c8cbba18d3e830382e1e9dd9578bf23b8e1643c3",
+    "tables/contrasts_source_nested.csv": "b3086fbfbec77227f8cd992a7046725dd77c1aae96f77770b9f5b583d8143c20"
+  },
+  "prior_delivery_unchanged": true
+}

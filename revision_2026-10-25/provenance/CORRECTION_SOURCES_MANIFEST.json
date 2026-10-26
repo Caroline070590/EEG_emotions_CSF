@@ -1,0 +1,592 @@
+[
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/build_integration.py",
+    "copy": "corrections/analyses/behavioral/build_integration.py",
+    "sha256": "e4c4f41376a236e286a4213d378dc0110260ec883145b95b4166eaa93f132419"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/test_prediction.py",
+    "copy": "corrections/analyses/behavioral/test_prediction.py",
+    "sha256": "e00d5d5ea7be7c3e5ff94c7bea43774bc3387dd3f5833a892638faeba6fa448b"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/verify_saved_outputs.py",
+    "copy": "corrections/analyses/behavioral/verify_saved_outputs.py",
+    "sha256": "a5bab63386f0af09e87ef3f89a1eb76700e98273365f0ce0734ed5a4755d2e8e"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/README.txt",
+    "copy": "corrections/analyses/behavioral/README.txt",
+    "sha256": "c88893246c1bdf3e6596fe86d50f69ac5d5efc5ca9750822c7376d4f559abf58"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/correct_prediction.py",
+    "copy": "corrections/analyses/behavioral/correct_prediction.py",
+    "sha256": "5d5735b628ca5b02d96abdca96a48c75f99d0ed011ec767a98c457062e3bda3b"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/inputs/behavioral_EEG_merged_validated.csv",
+    "copy": "corrections/analyses/behavioral/inputs/behavioral_EEG_merged_validated.csv",
+    "sha256": "232a7511fdd69b71e55f307d4706800d581909837bf8d2b7a29855a5f9aa73ca"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/inputs/association_primary_unchanged.csv",
+    "copy": "corrections/analyses/behavioral/inputs/association_primary_unchanged.csv",
+    "sha256": "366bd9dc9cce708371f1397a80d2a701ff6d44426dadacec9edf5e6542ac9ce0"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/inputs/association_sensitivity_unchanged.csv",
+    "copy": "corrections/analyses/behavioral/inputs/association_sensitivity_unchanged.csv",
+    "sha256": "0d9028e0b3ae88ae9adcaa5ef7fbf27d7a704747596b18f4b20a9e4958c261cf"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Table_S9_corrected.tex",
+    "copy": "corrections/analyses/behavioral/results/Table_S9_corrected.tex",
+    "sha256": "31ebf8e468aebd3b2fc1562e2688bb2f35db8807d03422e93dc6db5c435c0ef6"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Table_S9_corrected_fold_errors.csv",
+    "copy": "corrections/analyses/behavioral/results/Table_S9_corrected_fold_errors.csv",
+    "sha256": "668a39d715a876c8843859049c07594ed0c6397d860d66fde86f7bd7c4ab2974"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/behavioral_prediction_original_units.pdf",
+    "copy": "corrections/analyses/behavioral/results/behavioral_prediction_original_units.pdf",
+    "sha256": "7d4a0a8c8fbec42b731caa2a848ad85c86d57fd3b2b5d811a2c80262b31486bc"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Supplementary_Figure_S23_behavioral_EEG_models_corrected.pdf",
+    "copy": "corrections/analyses/behavioral/results/Supplementary_Figure_S23_behavioral_EEG_models_corrected.pdf",
+    "sha256": "b3348f591be0f171694f0e4754713c35792c6823ffa626c0e9cd7b7e71860440"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Table_S9_preview.tex",
+    "copy": "corrections/analyses/behavioral/results/Table_S9_preview.tex",
+    "sha256": "c0cf03216a82bb64973b5d97346e233516c9b82eba02f78a4a7946249868f11e"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/behavioral_prediction_original_units.png",
+    "copy": "corrections/analyses/behavioral/results/behavioral_prediction_original_units.png",
+    "sha256": "5a761d65bb22ee2c4254341758ad60342198602a8e02a4125cc31d4bf04a0e80"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Table_S9_corrected_comparisons.csv",
+    "copy": "corrections/analyses/behavioral/results/Table_S9_corrected_comparisons.csv",
+    "sha256": "3619567ef1d1f44a1783ddf9ed2f2e3c0bd8bad8ed7a2a118b6cea6ad3ba0f4e"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Supplementary_Figure_S23_behavioral_EEG_models_corrected.png",
+    "copy": "corrections/analyses/behavioral/results/Supplementary_Figure_S23_behavioral_EEG_models_corrected.png",
+    "sha256": "695b5fb21c0ada76e9cf07b29996676f6aad76ad6e682056e459746fd12c27e0"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Behavioral_models_corrected_caption.tex",
+    "copy": "corrections/analyses/behavioral/results/Behavioral_models_corrected_caption.tex",
+    "sha256": "d9052c9b33b9305a82cca4bb7120bae75b5cb65e1f5e97922a761a4f2e1339f9"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Table_S9_preview.pdf",
+    "copy": "corrections/analyses/behavioral/results/Table_S9_preview.pdf",
+    "sha256": "f746e793ea9d8e8a3a6f8b29775d2b7839313030f8c8363586284bd44a6e0a5b"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Appendix_J4_prediction_replacement.tex",
+    "copy": "corrections/analyses/behavioral/results/Appendix_J4_prediction_replacement.tex",
+    "sha256": "060682edc36de2d47caab8f2e218e84074ad1fc545e9d874a4f9ead1f0e87051"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Table_S9_preview.aux",
+    "copy": "corrections/analyses/behavioral/results/Table_S9_preview.aux",
+    "sha256": "74ee5e6f3e44a2bb77dec3c6653125e35997d984819d77e9e1d1f52fb8055aa7"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Table_S9_corrected_summary.csv",
+    "copy": "corrections/analyses/behavioral/results/Table_S9_corrected_summary.csv",
+    "sha256": "f9d1b804c25bccea8777811581b24b460d79625deba2487a9e2483763a3a750d"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Table_S9_preview.png",
+    "copy": "corrections/analyses/behavioral/results/Table_S9_preview.png",
+    "sha256": "abbd13b0bc68dfdf755361ead64376d93eb5499999ca7a5f1c18bde61567e812"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/Response_behavioral_correction.txt",
+    "copy": "corrections/analyses/behavioral/results/Response_behavioral_correction.txt",
+    "sha256": "1084ef50b53013774754a25de9c921e2857a09ed0e933710d04a8c6273297a0d"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/outcome_scaling_correction_delta.csv",
+    "copy": "corrections/analyses/behavioral/results/outcome_scaling_correction_delta.csv",
+    "sha256": "4a5196a63b7d5c0a9263cc3b2fafe9548a83324628ec4203c025e17934951b4a"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/analysis_manifest.json",
+    "copy": "corrections/analyses/behavioral/results/analysis_manifest.json",
+    "sha256": "77de252d3ee4b64d0f2c54a73fe7b1734a4c92b7c2e1a844b4890442049116a3"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/out_of_fold_predictions.npz",
+    "copy": "corrections/analyses/behavioral/results/out_of_fold_predictions.npz",
+    "sha256": "f9a9a4d6fbc702a8156156f9ddb045727954d5a9a86439dd2e3c431a4355c838"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/training_fold_outcome_scalers.csv",
+    "copy": "corrections/analyses/behavioral/results/training_fold_outcome_scalers.csv",
+    "sha256": "a71533bf5f7f15c20d77c27dd1b5f8172288b915f12ea25548f2b959b9431bfb"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/results/INDEPENDENT_VALIDATION.json",
+    "copy": "corrections/analyses/behavioral/results/INDEPENDENT_VALIDATION.json",
+    "sha256": "708d36058dac6ca0426a3d6f2ede52095c439d47f965e86291e212072132c616"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/provenance/legacy_manuscript_folds.csv",
+    "copy": "corrections/analyses/behavioral/provenance/legacy_manuscript_folds.csv",
+    "sha256": "85b45d0d61d028837e958993fde822c23a46ba1ce9885277b07b5ac7fe6877b7"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/provenance/original_behavioral_grounding_appendix.py",
+    "copy": "corrections/analyses/behavioral/provenance/original_behavioral_grounding_appendix.py",
+    "sha256": "d5186b68343aa60c72c6a30dfd81f70a03dbb47a7c7fed2bf09c1a63097b287c"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/provenance/legacy_verification_folds.csv",
+    "copy": "corrections/analyses/behavioral/provenance/legacy_verification_folds.csv",
+    "sha256": "d9738e49a78c9f27f9115d636b654adaefe0b96e2196f30c1d79945a8bf24bcc"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/behavioral/provenance/INPUT_VALIDATION.json",
+    "copy": "corrections/analyses/behavioral/provenance/INPUT_VALIDATION.json",
+    "sha256": "c4119060d209dc543191e2d4507633a3a1befca5b83757146b2a0cd2e6587b58"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/render_nbs.py",
+    "copy": "corrections/analyses/figure4_s15/render_nbs.py",
+    "sha256": "8d45a83d4bf99fc61a808cff8a3c038b81278208a11350dc63f27e9731e33d1a"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/render_synchrony.py",
+    "copy": "corrections/analyses/figure4_s15/render_synchrony.py",
+    "sha256": "675afa7403e01c89f72a376d908080dd688f7be09563923fc13f603d8503fe95"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/inputs/synchronization_contrasts.csv",
+    "copy": "corrections/analyses/figure4_s15/inputs/synchronization_contrasts.csv",
+    "sha256": "d449ff552f8573b72ff88a0b252d1493d449b96eca8d0b2ba0317d4c78ac0a4e"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/inputs/agg_spearman.npy",
+    "copy": "corrections/analyses/figure4_s15/inputs/agg_spearman.npy",
+    "sha256": "974fefbb30ac885beee589a3fd13f2c65b474edc56691679b4d12875a646a311"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/inputs/coupling_magnitude.csv",
+    "copy": "corrections/analyses/figure4_s15/inputs/coupling_magnitude.csv",
+    "sha256": "0ef2f15bd42cc8a7b51f8c6ae520a441ae8de2cefdfe4143f0f008b6086b9de1"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/inputs/trial_synchrony_metrics.csv",
+    "copy": "corrections/analyses/figure4_s15/inputs/trial_synchrony_metrics.csv",
+    "sha256": "56f03b9d2d0a8dfc004e5386bbd7db6f012a49f36f9d6adebd5a6b34021f89ce"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/inputs/nbs_spearman_vs_neutral.csv",
+    "copy": "corrections/analyses/figure4_s15/inputs/nbs_spearman_vs_neutral.csv",
+    "sha256": "ca6d7b6c8dbab19f810956dfda196888d51f30545e8572fa98d6c7295edf1dc3"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/inputs/coupling_interactions.csv",
+    "copy": "corrections/analyses/figure4_s15/inputs/coupling_interactions.csv",
+    "sha256": "b52e54d82ce1f1b914d9f035539cbc169e4ac1f1bf340c0f12049c0e0c0834f6"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/inputs/coupling_pooled.csv",
+    "copy": "corrections/analyses/figure4_s15/inputs/coupling_pooled.csv",
+    "sha256": "277262ec84ef0ece3639b1a0acfff08914a95941100e310fef17ec9bdfab1650"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/inputs/agg_meta_spearman.csv",
+    "copy": "corrections/analyses/figure4_s15/inputs/agg_meta_spearman.csv",
+    "sha256": "713c822952bbac7f0eae662d3d4e5ee0f6d063afe79b7f457b06cb4a320db90c"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/inputs/coupling_condition_slopes.csv",
+    "copy": "corrections/analyses/figure4_s15/inputs/coupling_condition_slopes.csv",
+    "sha256": "b580504d82768863101ad5d69d867efa8d86d114aa33bb438916df348275ae2c"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/provenance/HISTORICAL_GLOBAL_FIGURE_VALIDATION.json",
+    "copy": "corrections/analyses/figure4_s15/provenance/HISTORICAL_GLOBAL_FIGURE_VALIDATION.json",
+    "sha256": "246a5a3171cf5b5a663f8fb0a44f772aba723b38f58068cd5bf7812917d5f1b4"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/provenance/run_nbs_original.py",
+    "copy": "corrections/analyses/figure4_s15/provenance/run_nbs_original.py",
+    "sha256": "b710f0ce5fdcde5e70259da37d710598841d6d653e0a838f9f5e11224e5db77c"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/provenance/run_part2_original.py",
+    "copy": "corrections/analyses/figure4_s15/provenance/run_part2_original.py",
+    "sha256": "71d946ea4ad683a277af69b4b415529cdc8edc14b1c499387d644e19737fefc3"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/provenance/stats_original.py",
+    "copy": "corrections/analyses/figure4_s15/provenance/stats_original.py",
+    "sha256": "07e04bc71558f52df7837af82f8c6c1754cafaa37d3f24d67731803f0953f561"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/provenance/layout_original.py",
+    "copy": "corrections/analyses/figure4_s15/provenance/layout_original.py",
+    "sha256": "980b793d1a8622ab2a90d34bc22a7b9fb30604342634b1be3dccee920afec10c"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/NBS_displayed_statistics.csv",
+    "copy": "corrections/analyses/figure4_s15/outputs/NBS_displayed_statistics.csv",
+    "sha256": "7af431a74f9a60501a60f0809c19f37eb11de20c96a9e320978638e279fefeac"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/Figure_Part2_synchrony_overview_readable.png",
+    "copy": "corrections/analyses/figure4_s15/outputs/Figure_Part2_synchrony_overview_readable.png",
+    "sha256": "23366835bf8084c72411955bae6c04f6362972320d8678599a8365dcd3e250bc"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/synchrony_plotted_values.npz",
+    "copy": "corrections/analyses/figure4_s15/outputs/synchrony_plotted_values.npz",
+    "sha256": "28776fdfa1fa456079f6059e78431230dfd3b0ade791299cdd0bee7be6c6a454"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/Figure_Part2_synchrony_condition_slopes_readable.png",
+    "copy": "corrections/analyses/figure4_s15/outputs/Figure_Part2_synchrony_condition_slopes_readable.png",
+    "sha256": "230ed0c0918d1415888d8e27fae90861d08316643ca507f9560f86c15fb6cc44"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/NBS_caption_replacement.txt",
+    "copy": "corrections/analyses/figure4_s15/outputs/NBS_caption_replacement.txt",
+    "sha256": "8ee8cc6f92792292ee6badfbe818e0a2afa8f661ddf099bbf0be82627a6b123b"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/SYNCHRONY_FIGURE_VALIDATION.json",
+    "copy": "corrections/analyses/figure4_s15/outputs/SYNCHRONY_FIGURE_VALIDATION.json",
+    "sha256": "5a36db4d702d9f5a8c47ebaa983b56912b7fd2580a7f40f22afda4a971cf593c"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/NBS_plotted_edges.csv",
+    "copy": "corrections/analyses/figure4_s15/outputs/NBS_plotted_edges.csv",
+    "sha256": "0a8e5bda3d407335602ebabca1738904d014e31f062be43a9ba30d6d82865c40"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/Figure_D1_NBSSubnetworks_readable.png",
+    "copy": "corrections/analyses/figure4_s15/outputs/Figure_D1_NBSSubnetworks_readable.png",
+    "sha256": "056ba084d9acee70edfb0c71fff8ff96c128895dfda3c7100a64dc1292178576"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/Figure_Part2_synchrony_overview_readable.pdf",
+    "copy": "corrections/analyses/figure4_s15/outputs/Figure_Part2_synchrony_overview_readable.pdf",
+    "sha256": "80afcb3721bd8d0976f7a35e9104edd9c657504196e1aa17b35ec2d36c5edeb6"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/Figure_D1_NBSSubnetworks_readable.pdf",
+    "copy": "corrections/analyses/figure4_s15/outputs/Figure_D1_NBSSubnetworks_readable.pdf",
+    "sha256": "75eeb0c29d93327cffe02ba3f10e19a8d1a14a8a371278459d79474b95985505"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/Figure_Part2_synchrony_condition_slopes_readable.pdf",
+    "copy": "corrections/analyses/figure4_s15/outputs/Figure_Part2_synchrony_condition_slopes_readable.pdf",
+    "sha256": "c87122691f5f4606f9cdb1addc5347a490eb98749e1639cf9f86f55718208850"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/NBS_VALIDATION.json",
+    "copy": "corrections/analyses/figure4_s15/outputs/NBS_VALIDATION.json",
+    "sha256": "01b43f509cd0b09b57b623f82d84e5d07c62fff5ebb6adc07492aa0a3f5150c9"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figure4_s15/outputs/Synchrony_layout_integration.txt",
+    "copy": "corrections/analyses/figure4_s15/outputs/Synchrony_layout_integration.txt",
+    "sha256": "a4971386da0518d7f0cb61f24dab4a7c7ae42828fb28725d1b5ae93fa5fa6ca0"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/Figure5_preview.png",
+    "copy": "corrections/analyses/figures/Figure5_preview.png",
+    "sha256": "29f38df78e4057db2b7f9fe2b7e1561862172e041654a7f189229628aaf63a3b"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/topology.py",
+    "copy": "corrections/analyses/figures/lib/topology.py",
+    "sha256": "243ac4058869ea2e4a4498215eb621b2db742048aefbf484f4852776121d4fa0"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/representations.py",
+    "copy": "corrections/analyses/figures/lib/representations.py",
+    "sha256": "073b80e9237433d460e3e29d94a941d77cc9915992836e01cea21999b2708d75"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/synchrony.py",
+    "copy": "corrections/analyses/figures/lib/synchrony.py",
+    "sha256": "0d8e61236916a7b5dc9a46417d7b06dff036c4209878d8173287ed4bcd9545c7"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/stats.py",
+    "copy": "corrections/analyses/figures/lib/stats.py",
+    "sha256": "5b9399b8e277462387180ab96ffde9cb18e1615fe6f0ad3095b46d7e42948ff3"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/regions.py",
+    "copy": "corrections/analyses/figures/lib/regions.py",
+    "sha256": "d998ab7fec0f296d2cf4892292755025792ed53e38622a49929ef0892749b795"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/embedding.py",
+    "copy": "corrections/analyses/figures/lib/embedding.py",
+    "sha256": "a49ad0f53c1bc810cf75a7fdbbbd27ad7ec0fe84c1578e76208dabee2916c857"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/layout.py",
+    "copy": "corrections/analyses/figures/lib/layout.py",
+    "sha256": "980b793d1a8622ab2a90d34bc22a7b9fb30604342634b1be3dccee920afec10c"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/synchrony_regions.py",
+    "copy": "corrections/analyses/figures/lib/synchrony_regions.py",
+    "sha256": "86131d14e51301a129b2df75b9cf63c450df8bbb7bd4005502b16728a80ce594"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/chord.py",
+    "copy": "corrections/analyses/figures/lib/chord.py",
+    "sha256": "fc7cf008aee3e8c89b37063d12df3645ba43330002870723df04b70e45b4f701"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/config.py",
+    "copy": "corrections/analyses/figures/lib/config.py",
+    "sha256": "a2f2bcab0f59557b3e37200bcfafb23644bae253537f4932c3b3e94ebfd90b0d"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/metrics.py",
+    "copy": "corrections/analyses/figures/lib/metrics.py",
+    "sha256": "5f5415022b484a8a54be4deac550ab79e81af040f4d83822f73a9157998c4494"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/regions_q30.py",
+    "copy": "corrections/analyses/figures/lib/regions_q30.py",
+    "sha256": "7a19675b23da023a466323f8e45917bff7821195f0f11636ead24fd37d1f8cb0"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/synchrony_bands.py",
+    "copy": "corrections/analyses/figures/lib/synchrony_bands.py",
+    "sha256": "01ccbbe3a92842c05cf169bd3b73f1817d45f9079f2706b6f7a6af5c0a4ed563"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/lib/__init__.py",
+    "copy": "corrections/analyses/figures/lib/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/supplementary_tables/Table_fig4_panel_f_combined.csv",
+    "copy": "corrections/analyses/figures/supplementary_tables/Table_fig4_panel_f_combined.csv",
+    "sha256": "4e1fb3e943d683eb8871a3374b16cc3b9dfd81b5afd890506df93abddd1c47ea"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/cache/agg_spearman.npy",
+    "copy": "corrections/analyses/figures/cache/agg_spearman.npy",
+    "sha256": "974fefbb30ac885beee589a3fd13f2c65b474edc56691679b4d12875a646a311"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/cache/nbs_spearman_vs_neutral.csv",
+    "copy": "corrections/analyses/figures/cache/nbs_spearman_vs_neutral.csv",
+    "sha256": "ca6d7b6c8dbab19f810956dfda196888d51f30545e8572fa98d6c7295edf1dc3"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/cache/agg_meta_spearman.csv",
+    "copy": "corrections/analyses/figures/cache/agg_meta_spearman.csv",
+    "sha256": "713c822952bbac7f0eae662d3d4e5ee0f6d063afe79b7f457b06cb4a320db90c"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/figures/part4/Figure5_corrected.png",
+    "copy": "corrections/analyses/figures/figures/part4/Figure5_corrected.png",
+    "sha256": "47578330c8a656939f812c6673c3fa65968f5311fe4e4832bb81b887851cfd68"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/figures/part4/Figure5_af_corrected.pdf",
+    "copy": "corrections/analyses/figures/figures/part4/Figure5_af_corrected.pdf",
+    "sha256": "cea6cac800ae663f411eb661b0855bbd165bee3cc0bfdb98cd8dac84d0c4644d"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/figures/part4/Figure5_af_corrected.png",
+    "copy": "corrections/analyses/figures/figures/part4/Figure5_af_corrected.png",
+    "sha256": "9258e394f48b49bb65eb168268e86ac5e63f6c1a31ed68529305f319038b8ed1"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/figures/part4/Figure5_gj_corrected.pdf",
+    "copy": "corrections/analyses/figures/figures/part4/Figure5_gj_corrected.pdf",
+    "sha256": "dec0bead3637ac01930b9d8c3e91115511514919d8c5df78b96c78a6ce4881fd"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/figures/part4/Figure5_corrected.pdf",
+    "copy": "corrections/analyses/figures/figures/part4/Figure5_corrected.pdf",
+    "sha256": "f6393d77d0ec0a764907f9cdd11708d38f6b8a7f17703490fadea1fd9fa168b6"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/figures/part4/Figure5_gj_corrected.png",
+    "copy": "corrections/analyses/figures/figures/part4/Figure5_gj_corrected.png",
+    "sha256": "bf39cf1e4d3136492ecb8e0803d301e6311f55964f3acdaeead04c75d161db7e"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/figures/part4_regional/run_figure5_corrected.py",
+    "copy": "corrections/analyses/figures/part4_regional/run_figure5_corrected.py",
+    "sha256": "739d0dcc399438661a308f67b5b6dbd976ecdf680dffcc0eb3afccb598252220"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/manuscript/Figures/Figure_D1_NBSSubnetworks.pdf",
+    "copy": "corrections/manuscript/Figures/Figure_D1_NBSSubnetworks.pdf",
+    "sha256": "bf7a19e73704163acdd318d9dd840ade23064d8a4ed24b7d9bff16acdb91870c"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/refit_snapshot.py",
+    "copy": "corrections/analyses/seed_session/refit_snapshot.py",
+    "sha256": "4875f81f43135d2062977c3e9214de67430c613c98ae04a826b19642735ce2ad"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/run_session_control.py",
+    "copy": "corrections/analyses/seed_session/run_session_control.py",
+    "sha256": "5960027fab28c9a27ccb9ff1e138dca66e32699d57d877357a073da5b04322ea"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/SOURCE_RESULTS_SHA256.json",
+    "copy": "corrections/analyses/seed_session/SOURCE_RESULTS_SHA256.json",
+    "sha256": "3b5bdd54e32c868434924d4d9682e865015f301e1e9395dab0c1ef8b575f3849"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/resume_session_control.py",
+    "copy": "corrections/analyses/seed_session/resume_session_control.py",
+    "sha256": "aaa8acf7ff204abecce0d2188da8c8b8f8efd1024c97925155b2edb05b59cea2"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/verify_session_control.py",
+    "copy": "corrections/analyses/seed_session/verify_session_control.py",
+    "sha256": "d3830c418ffb5880207d5ea3463220557a5b2dabcf239920b8ff04a6044476fb"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/INDEPENDENT_VERIFICATION.json",
+    "copy": "corrections/analyses/seed_session/INDEPENDENT_VERIFICATION.json",
+    "sha256": "d223bad5dfea65c0f8966e9ef96d7edcde6163bce13e9ef1352660926cf91ea8"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/SNAPSHOT_REFIT_VERIFICATION.json",
+    "copy": "corrections/analyses/seed_session/SNAPSHOT_REFIT_VERIFICATION.json",
+    "sha256": "a9c46d1079c9da8f74b0fb6eb6e2f45c2529788e0c6ac4eb1b80974c51ff94ce"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/REPRODUCTION.txt",
+    "copy": "corrections/analyses/seed_session/REPRODUCTION.txt",
+    "sha256": "0030ed2c504adfda3dff50f845cbf6d1c047617544ba019a7ccffe677f8174a2"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/session_support_reference.py",
+    "copy": "corrections/analyses/seed_session/session_support_reference.py",
+    "sha256": "51fc0ad47c16ea6b7ba4586f148cf230f773dafdfd0c5c374597521db8648bcc"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/additional_session_references.py",
+    "copy": "corrections/analyses/seed_session/additional_session_references.py",
+    "sha256": "c44d461459071280c21fe99c581ca9acdeaa92fae8ea9ebecbd40c79b10b09e8"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/SUGGESTED_TEXT.txt",
+    "copy": "corrections/analyses/seed_session/SUGGESTED_TEXT.txt",
+    "sha256": "1d24c4a1a415d3167076b5abd025e620d9676bbe4516d04cd30a5e4db1358422"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/clips.csv",
+    "copy": "corrections/analyses/seed_session/results/clips.csv",
+    "sha256": "f616eb4d6334b30bbe3a0f9843d62166af9181a0749d79a7b41a572ace578cb9"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/restricted_null_balanced_accuracy.csv",
+    "copy": "corrections/analyses/seed_session/results/restricted_null_balanced_accuracy.csv",
+    "sha256": "140a9322c636ce4e0a9e2b3e7c9e89cf57e3d83f736333227bfbef483f6f8252"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/source_exchangeability.csv",
+    "copy": "corrections/analyses/seed_session/results/source_exchangeability.csv",
+    "sha256": "d8ce5a2de311d085072e138cc8e9c32aa38e0b517f5b5e969d5d00440516fbfa"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/aligned_session_support_reference.csv",
+    "copy": "corrections/analyses/seed_session/results/aligned_session_support_reference.csv",
+    "sha256": "4d920632d1a2a5eae20c2576cab2b4d4bd9506119ee90cd349328ff306b3d079"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/session_support_paired_scores.csv",
+    "copy": "corrections/analyses/seed_session/results/session_support_paired_scores.csv",
+    "sha256": "be7358f0a71b9644032b00ff3f17eecb781e964aa1c76f0659ffa28927c2ad4f"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/SESSION_SUPPORT_REFERENCE.json",
+    "copy": "corrections/analyses/seed_session/results/SESSION_SUPPORT_REFERENCE.json",
+    "sha256": "5c5ffcb2da21471163c036201fee49f2947fa8633e293ba388bf520fbcf665cf"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/SESSION_CONTROL_SUMMARY.json",
+    "copy": "corrections/analyses/seed_session/results/SESSION_CONTROL_SUMMARY.json",
+    "sha256": "c1cc84f2b051a282d4a5a4b8acd16f1d8e4bb3e2d4132b57db71c27adf03f0bd"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/restricted_permutation_clip_labels.npy",
+    "copy": "corrections/analyses/seed_session/results/restricted_permutation_clip_labels.npy",
+    "sha256": "7aa81406791e984d79de8c61c03eaae7c483375a03c9a0c48ddd3df53d6b42c6"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/RESUME_PROVENANCE.json",
+    "copy": "corrections/analyses/seed_session/results/RESUME_PROVENANCE.json",
+    "sha256": "03a3928fb954d28b3772aaa2e97075f43fffa596db6125e9825de85c7fbeb9ad"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/primary_feature_snapshot.npz",
+    "copy": "corrections/analyses/seed_session/results/primary_feature_snapshot.npz",
+    "sha256": "8b054ac8fe15f0204043697800436c57e8d21c3b8f546ffea3a39d93c42902b6"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/source_folds.csv",
+    "copy": "corrections/analyses/seed_session/results/source_folds.csv",
+    "sha256": "3583da1f965b050b6435ef0688e555b98381143bc6a2ac56355e6454ecda9592"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/aligned_out_of_fold_predictions.csv",
+    "copy": "corrections/analyses/seed_session/results/aligned_out_of_fold_predictions.csv",
+    "sha256": "0bde72e73c8f4d0c6cbcce37607e0fde7b75d6c88843e9fc909718dce34e7bc7"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/ADDITIONAL_SESSION_REFERENCES.json",
+    "copy": "corrections/analyses/seed_session/results/ADDITIONAL_SESSION_REFERENCES.json",
+    "sha256": "99292179c1f28aca26383b617168a1ed1201189499fb4eb062a78a57dba9c1ff"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/training_session_condition_counts.csv",
+    "copy": "corrections/analyses/seed_session/results/training_session_condition_counts.csv",
+    "sha256": "125fa901576915c1c2fa1811f2549e82c69385b849047f5182ef4541284dc57e"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/additional_aligned_session_references.csv",
+    "copy": "corrections/analyses/seed_session/results/additional_aligned_session_references.csv",
+    "sha256": "73bbf8922783b87e4293e02a15626253ada6d7b8ad25f26a38c858816e5091df"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/restricted_null_balanced_accuracy_progress.npy",
+    "copy": "corrections/analyses/seed_session/results/restricted_null_balanced_accuracy_progress.npy",
+    "sha256": "fabbd7822a9f70474d4b9c0a4162813d08f4b450811b444a231b58b33fcc1aa0"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/permutation_strata.csv",
+    "copy": "corrections/analyses/seed_session/results/permutation_strata.csv",
+    "sha256": "34e5bc63ade91d3d5e1f2b62004e64fd81115a84cc2753c97309b841cc2794b2"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/restricted_null_balanced_accuracy.npy",
+    "copy": "corrections/analyses/seed_session/results/restricted_null_balanced_accuracy.npy",
+    "sha256": "fabbd7822a9f70474d4b9c0a4162813d08f4b450811b444a231b58b33fcc1aa0"
+  },
+  {
+    "source": "CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/seed_session/results/participant_paired_scores.csv",
+    "copy": "corrections/analyses/seed_session/results/participant_paired_scores.csv",
+    "sha256": "d5b1666bce6d54ff48a6cfefcce79978a41569c249a5e4230ed93e2dc9a0e531"
+  }
+]

@@ -1,0 +1,439 @@
+{
+  "class_names": [
+    "anger",
+    "disgust",
+    "fear",
+    "sadness",
+    "neutral",
+    "amusement",
+    "inspiration",
+    "joy",
+    "tenderness"
+  ],
+  "data_manifest": {
+    "channels": [
+      "FP1",
+      "FP2",
+      "FZ",
+      "F3",
+      "F4",
+      "F7",
+      "F8",
+      "FC1",
+      "FC2",
+      "FC5",
+      "FC6",
+      "CZ",
+      "C3",
+      "C4",
+      "T7",
+      "T8",
+      "CP1",
+      "CP2",
+      "CP5",
+      "CP6",
+      "PZ",
+      "P3",
+      "P4",
+      "P7",
+      "P8",
+      "PO3",
+      "PO4",
+      "OZ",
+      "O1",
+      "O2"
+    ],
+    "class_trial_counts": [
+      369,
+      369,
+      369,
+      369,
+      492,
+      369,
+      369,
+      369,
+      369
+    ],
+    "edge_shape": [
+      3444,
+      12,
+      435
+    ],
+    "emotions": [
+      "anger",
+      "disgust",
+      "fear",
+      "sadness",
+      "neutral",
+      "amusement",
+      "inspiration",
+      "joy",
+      "tenderness"
+    ],
+    "inputs": {
+      "features_arrays.npz": {
+        "bytes": 147580917,
+        "path": "/home/users/l/lourenca/EEG_emotion_revision_2026-10/cache/features_arrays.npz",
+        "sha256": "687301ffeaf0a410e74f894340ec33f471ef8468e98008ccb31c35cec4f8eede"
+      },
+      "features_scalar.csv": {
+        "bytes": 33927401,
+        "path": "/home/users/l/lourenca/EEG_emotion_revision_2026-10/cache/features_scalar.csv",
+        "sha256": "d5654cc8d69aa0ad928cb91b1ef6a9feab41d2a7413b1ebeb27532582d529c3d"
+      },
+      "recurrence_features.npz": {
+        "bytes": 5354471,
+        "path": "/home/users/l/lourenca/EEG_emotion_revision_2026-10/cache/recurrence_features.npz",
+        "sha256": "40f13edb2e4037a7d62bf69261f11d2b749c91e1db14e662969016c15f7d335f"
+      }
+    },
+    "n_participants": 123,
+    "n_trials": 3444,
+    "n_unique_features": 5520,
+    "n_videos": 28,
+    "node_names": [
+      "logpower_delta",
+      "logpower_theta",
+      "logpower_alpha",
+      "logpower_beta",
+      "logpower_gamma",
+      "rqa_DET",
+      "rqa_LAM",
+      "rqa_Lmean",
+      "rqa_ENTR",
+      "rqa_TT"
+    ],
+    "node_shape": [
+      3444,
+      30,
+      10
+    ],
+    "participant_display_ids": [
+      1,
+      123
+    ],
+    "participant_internal_ids": [
+      0,
+      122
+    ],
+    "preprocessing": "Raw cached features; scaling is fitted separately on training participants only",
+    "video_to_class": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      6,
+      6,
+      6,
+      7,
+      7,
+      7,
+      8,
+      8,
+      8
+    ],
+    "view_names": [
+      "wpli_delta",
+      "wpli_theta",
+      "wpli_alpha",
+      "wpli_beta",
+      "wpli_gamma",
+      "oaec_delta",
+      "oaec_theta",
+      "oaec_alpha",
+      "oaec_beta",
+      "oaec_gamma",
+      "rho_signed",
+      "joint_recurrence"
+    ]
+  },
+  "epochs": 40,
+  "expected_permutations": 99,
+  "feature_count": 5520,
+  "fold_seed": 20261024,
+  "groups": [
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "logpower_delta",
+      "node_indices": [
+        0
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "logpower_theta",
+      "node_indices": [
+        1
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "logpower_alpha",
+      "node_indices": [
+        2
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "logpower_beta",
+      "node_indices": [
+        3
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "logpower_gamma",
+      "node_indices": [
+        4
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "rqa_DET",
+      "node_indices": [
+        5
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "rqa_LAM",
+      "node_indices": [
+        6
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "rqa_Lmean",
+      "node_indices": [
+        7
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "rqa_ENTR",
+      "node_indices": [
+        8
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "rqa_TT",
+      "node_indices": [
+        9
+      ]
+    },
+    {
+      "edge_indices": [
+        0
+      ],
+      "kind": "atomic",
+      "name": "wpli_delta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        1
+      ],
+      "kind": "atomic",
+      "name": "wpli_theta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        2
+      ],
+      "kind": "atomic",
+      "name": "wpli_alpha",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        3
+      ],
+      "kind": "atomic",
+      "name": "wpli_beta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        4
+      ],
+      "kind": "atomic",
+      "name": "wpli_gamma",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        5
+      ],
+      "kind": "atomic",
+      "name": "oaec_delta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        6
+      ],
+      "kind": "atomic",
+      "name": "oaec_theta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        7
+      ],
+      "kind": "atomic",
+      "name": "oaec_alpha",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        8
+      ],
+      "kind": "atomic",
+      "name": "oaec_beta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        9
+      ],
+      "kind": "atomic",
+      "name": "oaec_gamma",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        10
+      ],
+      "kind": "atomic",
+      "name": "rho_signed",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        11
+      ],
+      "kind": "atomic",
+      "name": "joint_recurrence",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [],
+      "kind": "family",
+      "name": "power_all",
+      "node_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "family",
+      "name": "rqa_all",
+      "node_indices": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "kind": "family",
+      "name": "wpli_all",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "kind": "family",
+      "name": "oaec_all",
+      "node_indices": []
+    }
+  ],
+  "importance": "Whole input-block permutations across videos within each held-out participant; identical video reordering across held-out participants",
+  "importance_repeats": 30,
+  "model_names": [
+    "hybrid_gnn",
+    "sfgnn",
+    "lda_full"
+  ],
+  "n_folds": 5,
+  "null": "Global permutation of the video-to-condition map shared by every participant; full refitting; preserves video counts by condition",
+  "null_seed_offset": 10000,
+  "primary_seed": 20261024,
+  "protocol": "Five-fold participant-held-out evaluation; familiar videos in all folds",
+  "selection": "Fixed inherited architectures and hyperparameters; no outcome-based feature selection or tuning; exploratory extension",
+  "sensitivity_seeds": [
+    11,
+    29
+  ],
+  "software": {
+    "numpy": "2.4.6",
+    "python": "3.11.17",
+    "torch": "2.8.0+cpu"
+  },
+  "source_sha256": {
+    "data.py": "313af7cd1ebced5c7da851ee4eb476c17bb7c6937667bd2f1f0ba5a8267fa0cf",
+    "linear.py": "ddad78ef22d44af58ae9d86a3c82dc8781b996c90055c2a4fb77b0bb75c6278e",
+    "run.py": "1b17b33363da2854084cc892fb96ce5371e1e667b20a94c4454bd6574a4f463f",
+    "vendor/sdgnn.py": "056cad7777309868000da8ec00da6288e196b1164deac06e5ff317f4d7ce0bde"
+  },
+  "standardization": "Per scalar feature, training participants only; constant training features set to zero",
+  "training": {
+    "hybrid_gnn": {
+      "architecture": "hybrid",
+      "lambda_video_adversary": 1.0
+    },
+    "lda_full": {
+      "estimator": "sklearn lsqr/auto equivalent",
+      "implementation": "float64 exact sample-space covariance solve",
+      "shrinkage": "auto"
+    },
+    "sfgnn": {
+      "architecture": "sfgnn",
+      "lambda_video_adversary": 0.0
+    }
+  }
+}

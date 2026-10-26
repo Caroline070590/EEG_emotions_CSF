@@ -1,0 +1,7 @@
+{
+  "checkpoint_entries_retained": 240,
+  "remaining_entries": 760,
+  "fixed_label_maps_sha256": "7aa81406791e984d79de8c61c03eaae7c483375a03c9a0c48ddd3df53d6b42c6",
+  "resume_script_sha256": "aaa8acf7ff204abecce0d2188da8c8b8f8efd1024c97925155b2edb05b59cea2",
+  "initial_checkpoint_sha256": "d5a3de64b44c1b088dfe79146ec2afa03166e119a943525faf4161d5a60a8e69"
+}

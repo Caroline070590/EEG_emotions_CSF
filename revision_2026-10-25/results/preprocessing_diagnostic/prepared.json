@@ -1,0 +1,13 @@
+{
+  "artifact_sha256": {
+    "trial_fourier.npy": "2f2bf1924344707eb420019ff1fc03782f8b23f0c11362f6faf7e60c392f78fc",
+    "window_filtered_zscore.npy": "c285567610f0d790843e6b7ba94cb848e1475791d16f407456024dd8c7378aba"
+  },
+  "config_sha256": "7bc16380a58999c096315297ae6e2d3bcb3df41ae0fd2d71030dae1b008a1240",
+  "dtype": "float32",
+  "shape": [
+    10332,
+    30,
+    2000
+  ]
+}

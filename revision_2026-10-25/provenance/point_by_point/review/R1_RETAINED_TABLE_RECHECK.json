@@ -1,0 +1,81 @@
+{
+  "one_second_topology": {
+    "n": 144,
+    "within_q05": [
+      {
+        "representation": "QG (q=30)",
+        "metric": "Efficiency",
+        "emotion": "sadness",
+        "beta": "-0.2307",
+        "p_nominal": "0.0006",
+        "q_fdr_within_representation": "0.0273",
+        "q_fdr_global": "0.082",
+        "nominal": "***",
+        "fdr_within_rep": "*"
+      }
+    ],
+    "global_q05": 0
+  },
+  "one_second_sync": {
+    "n": 48,
+    "q05": 9
+  },
+  "faced_30s": {
+    "n": 224,
+    "participant_q05": 79,
+    "minF_q05": 0,
+    "min_q": 0.10665465101563366,
+    "topology_nominal": 4
+  },
+  "coupling": {
+    "n": 36,
+    "observed_surrogate_r": 0.9548895335479337,
+    "surrogate_observed_median_ratio": 1.0120842997425734,
+    "same_independent_sign": 32,
+    "independent_same_median_ratio": 0.5279495996596808
+  },
+  "emg": {
+    "n": 256,
+    "analyses": [
+      "30-45 Hz power",
+      "oaec_alpha",
+      "oaec_beta",
+      "oaec_delta",
+      "oaec_gamma",
+      "oaec_theta",
+      "wpli_alpha",
+      "wpli_beta",
+      "wpli_delta",
+      "wpli_gamma",
+      "wpli_theta"
+    ],
+    "power_min_p": 0.07581400729327833,
+    "adjust_r": 0.9725790857620504
+  },
+  "seed": {
+    "primary_n": 168,
+    "participant_q05": 18,
+    "minF_q05": 0,
+    "recurrence_n": 36,
+    "recurrence_q05": 23
+  },
+  "behavioral": {
+    "VA_q_min": 0.12750565827278418,
+    "target_q_columns": [
+      "emotion",
+      "rating",
+      "metric",
+      "beta",
+      "se_cluster_subject",
+      "ci_low",
+      "ci_high",
+      "t",
+      "p",
+      "n_observations",
+      "n_subjects",
+      "n_videos",
+      "design_rank",
+      "q_BH_48"
+    ]
+  }
+}

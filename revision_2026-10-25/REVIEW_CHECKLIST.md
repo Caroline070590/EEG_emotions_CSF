@@ -1,0 +1,16 @@
+# Reproducibility checklist
+
+- Original public-release files remain unchanged. Their full pre-staging hashes are in `provenance/ORIGINAL_LOCAL_RELEASE_SHA256.json`; superseded wPLI/coupling sources and READMEs are preserved separately.
+- Corrected global synchronization source uses amplitude-weighted analytic-cross-spectrum wPLI. A version/source/output-hash cache guard rejects untagged or tampered caches; changed raw inputs still require forced recomputation.
+- All 3,444 retained global and behavioral/stimulus-aware wPLI rows were independently checked. All 240 displayed global coupling coefficients were recovered from the actual trial-level clustered-OLS generator. No 1,107-row MixedLM provenance is claimed for the main coupling figure.
+- Regional coefficients and 300 complementary participant splits reproduce; all 336 band effects reproduce. Only 63 raw trials across seven bands were checked for narrow-band estimator lineage. Omnibus p values and every historical generator were not all rerun.
+- All 908 prediction fit records and OOF prediction files are bundled: 304 FACED GNN/LDA, 304 SEED-VII GNN/LDA, and 300 matched EEGNet folds. Configurations, source manifests, seeds, participant folds, and matched-run selection details are retained.
+- Primary random seed is 20261024; 11 and 29 are sensitivity seeds. The three participant-GNN/LDA models each have 99 primary-seed full-refit label permutations. Matched EEGNet has five models × two datasets × two window designs × three seeds × five participant folds.
+- Frozen source archives are retained, with extracted readable versions. GNN reconstructed-archive provenance is explicit. Prediction-only report reconstruction does not require the withheld raw EEG or omitted training checkpoints.
+- Corrected behavioral J4 inputs, fitting code, fold scales, predictions, original/training-SD errors, and multiplicity-adjusted comparisons are included. Historical full-package prediction outputs are superseded for J4; historical association/RSA coefficients remain separately identified.
+- New SEED session-conditional source null retains all 1,000 maps/scores and all 54 folds. Forty-seven source labels are exchangeable within eight session-count strata; seven sources remain fixed. Participant-held-out session controls and this source-held-out sensitivity are not interchangeable.
+- Corrected figure renderers and their derived graph/metric inputs are included. Current main numbering is 1–3; supplementary S30/S31/S32 contain participant/video inference, 30-s synchronization, and 30-s decoding. Old filenames retain historical numbering.
+- Current S24's headline-LOPO generator remains unrecovered. Historical behavioral S24 is current S29 and has a different recovered generator. Participant-averaging S23 is a reconstructed generator and is not a global-coupling sensitivity check.
+- Raw EEG, prepared signal arrays, Git history, Python/build caches, credentials, and remote-publication actions are excluded. Derived graph matrices and feature snapshots are intentionally included for reproducibility.
+
+This checklist documents a staged accompanying archive. It does not certify every earlier result, create independent preregistration, or indicate that the existing remote public repository has been updated.

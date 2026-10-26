@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "post_audit_sensitivity": true,
+  "description": "Uniform draws among the conditions observed in the test session's training data, using the same 54 source-held-out folds.",
+  "training_supported_conditions_per_session_in_every_fold": 5,
+  "expected_balanced_accuracy": 0.2,
+  "lda_balanced_accuracy": 0.2952380952380952,
+  "paired_difference": 0.09523809523809522,
+  "paired_difference_descriptive_participant_bootstrap_95": [
+    0.06874999999999999,
+    0.12470238095238093
+  ],
+  "interpretation": "Analytically expected accuracy of a stochastic session-only reference, not observed deterministic classification accuracy. Participant interval conditions on fitted OOF predictions and sampled sources; not a model-refitting or stimulus-generalization interval.",
+  "null_scope": "Restricted session/source-label permutation results are reported separately and are needed to assess session-conditional label association."
+}

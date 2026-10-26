@@ -1,7 +1,7 @@
-# Independent replication in SEED-VII
+# Independent assessment in SEED-VII
 
-Section 3.2 and Appendix C of the manuscript (Fig. S8). The main FACED analyses are repeated on SEED-VII
-(20 participants; 80 clips: 12 per non-neutral emotion and 8 neutral) with the same feature code, following
+Appendix C of the manuscript (Fig. S8) assesses the supplementary 30-s FACED analyses in SEED-VII
+(20 participants; 80 clips: 12 per non-neutral emotion and 8 neutral) using the same feature code, following
 [`ANALYSIS_PLAN.md`](ANALYSIS_PLAN.md), which was written before the data were analyzed and logs every later
 addition.
 
@@ -19,6 +19,8 @@ addition.
 | 7 | `07_normalization_sensitivity.py` | `normalization_sensitivity.csv` |
 | 8 | `08_recurrence_delta_adjustment.py` | `recurrence_delta_adjustment.csv` (exploratory) |
 | | `figS8_compare_with_faced.py` | Fig. S8, `comparison_with_faced_*.csv`, `REPLICATION_REPORT.md` |
+
+The source-random columns in `summary.csv` and `comparison_with_faced_summary.csv` retain the initial source-grouping analysis from step 3. They report 23 corrected recurrence contrasts. The manuscript uses the later, strictly nested analysis from step 4 (`contrasts_source_nested.csv`): it excludes the four clips from the two programs represented in two conditions, gives 52 source programs equal weight, and yields 22 corrected recurrence contrasts. The clip-random result remains 23. These are different analysis specifications, not interchangeable summaries.
 
 ## Running
 

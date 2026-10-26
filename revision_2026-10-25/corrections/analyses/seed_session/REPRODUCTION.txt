@@ -1,0 +1,91 @@
+SEED-VII session/source control sensitivity
+
+Purpose
+Reassess the previously reported 29.5% source-held-out synchronization-plus-power
+LDA result while retaining recording-session condition composition. This is a
+post-audit sensitivity analysis of that feature set only. It does not repeat or
+replace the participant-held-out GNN/EEGNet comparisons, and it does not validate
+the other held-source feature sets against this new conditional null.
+
+Inputs and exact original reproduction
+The read-only feature caches are seed7_replication/cache/features_scalar.csv and
+features_arrays.npz; their hashes are in results/SESSION_CONTROL_SUMMARY.json.
+There are 1,600 rows, 20 participants, 80 clips, 54 source programs, and 160 input
+features (10 band-specific wPLI/oAEC summaries and 150 channel-by-band log powers).
+The original all-clip, label-free within-participant normalization is retained,
+followed by a training-only pooled StandardScaler and shrinkage LDA in each fold.
+All excerpts of the test source are excluded from fitting. The original observed
+score is reproduced to 1e-14; exact trial-aligned predictions are saved.
+
+Session-only references
+All references use the identical 54 folds and training observations only.
+1. Empirical session-majority classification has 0% balanced accuracy, also
+   after averaging over tied maxima. Holding out a source reduces its condition
+   count within the training session, so the test condition never wins this
+   frequency-majority rule. This poor score does not show absence of session
+   confounding.
+2. Sampling conditions using empirical training-session frequencies has 14.2923%
+   expected balanced accuracy. This is an analytic expectation, not the observed
+   classification accuracy of a deterministic model.
+3. Sampling uniformly among conditions present in that session's training data
+   has 20.0% expected balanced accuracy; five conditions remain present in every
+   relevant fold/session. This reference captures the session-specific support
+   without exploiting arbitrary majority tie-breaking or count depletion.
+Two further diagnostic reference checks are retained in
+ADDITIONAL_SESSION_REFERENCES.json: fitting the same shrinkage LDA using one-hot
+session indicators gives 0%, and a session-frequency rule inversely weighted by
+training class frequencies gives 17.1429% expected balanced accuracy when maxima
+are tied uniformly (16.0714% with the stated deterministic first-tie rule).
+These are alternative session-only prediction rules, not additional EEG models
+or formal significance tests.
+Participant bootstrap intervals for differences are descriptive, conditional on
+the already fitted predictions and sampled source programs. They do not include
+model refitting or stimulus sampling. The 23.81% control from participant-held-out
+evaluation is not reused or subtracted here.
+
+Restricted null
+Single-condition source labels are exchanged only among sources with identical
+vectors of clip counts in sessions 1-4. All excerpts of each source remain
+together. This exchanges 47 sources (56 clips) in 8 strata. Five sources have
+unique session profiles and two sources contain two conditions; these seven
+sources (24 clips) remain fixed. Each of the 1,000 draws exactly preserves every
+session-by-condition clip count, total class counts, and related-source excerpts.
+There are 13,175,020,438,272,000,000 possible distinct label allocations.
+All 54 original folds and all observations are retained. The original LDA is
+refitted for each label assignment, with identical feature preprocessing.
+The plus-one Monte Carlo p-value is
+  (1 + number of null scores greater than or equal to the observed score) / 1001.
+The null concerns conditional source-label exchangeability within these strata;
+the fixed sources narrow its scope. It does not isolate emotion from stimulus
+properties or remove every possible recording-design confound. No multiplicity
+adjustment is claimed for this additional model-specific sensitivity.
+
+Execution
+run_session_control.py generated all 1,000 label maps before model refitting.
+A user interruption terminated its execution after 240 saved scores.
+resume_session_control.py retained those entries and fitted only missing maps;
+results/RESUME_PROVENANCE.json records the unchanged maps and checkpoint hashes.
+No permutation count, score threshold, or label map was changed after inspection.
+session_support_reference.py adds the explicitly defined uniform-support control.
+
+Verification and portable reproduction
+python verify_session_control.py
+  Checks trial identity/order, frequencies, all session/source invariances,
+  unique allocations, scores/p-value arithmetic, and original input/source hashes.
+python refit_snapshot.py
+  Independently regenerates normalization from the raw FEATURE matrix, reproduces
+  every original observed prediction, and refits saved null assignments 0, 1, 999.
+python refit_snapshot.py --all
+  Reproduces all saved null scores. This can take tens of minutes locally.
+The compressed feature snapshot contains derived features, not raw EEG time
+series. It allows these model checks without the external EEG cache.
+
+Principal files
+results/SESSION_CONTROL_SUMMARY.json: exact observed/control/null results.
+results/SESSION_SUPPORT_REFERENCE.json: uniform-support stochastic reference.
+results/aligned_out_of_fold_predictions.csv: all trial-aligned predictions.
+results/source_folds.csv: exact source exclusions and sample counts.
+results/permutation_strata.csv and source_exchangeability.csv: restricted design.
+results/restricted_permutation_clip_labels.npy: all 1,000 fixed label assignments.
+results/restricted_null_balanced_accuracy.csv: all final null scores.
+INDEPENDENT_VERIFICATION.json and SNAPSHOT_REFIT_VERIFICATION.json: validation.

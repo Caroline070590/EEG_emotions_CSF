@@ -1,0 +1,220 @@
+{
+  "config_sha256": "7bc16380a58999c096315297ae6e2d3bcb3df41ae0fd2d71030dae1b008a1240",
+  "n_fits": 9,
+  "original_run_artifacts": 54,
+  "paired_differences": [
+    {
+      "difference": 0.030730005367686518,
+      "high": 0.04736983360171765,
+      "low": 0.01341921631776704,
+      "recipe": "trial_fourier_div100",
+      "reference": "window_filtered_zscore",
+      "seed": 20261024
+    },
+    {
+      "difference": 0.06964573268921094,
+      "high": 0.09125067096081586,
+      "low": 0.0460245571658615,
+      "recipe": "trial_fourier_zscore",
+      "reference": "window_filtered_zscore",
+      "seed": 20261024
+    },
+    {
+      "difference": 0.038915727321524415,
+      "high": 0.0550221417069243,
+      "low": 0.02280595813204509,
+      "recipe": "trial_fourier_zscore",
+      "reference": "trial_fourier_div100",
+      "seed": 20261024
+    },
+    {
+      "difference": -0.0034889962426194383,
+      "high": 0.016780730005367662,
+      "low": -0.022812667740203976,
+      "recipe": "trial_fourier_div100",
+      "reference": "window_filtered_zscore",
+      "seed": 11
+    },
+    {
+      "difference": 0.0680354267310789,
+      "high": 0.09312936124530329,
+      "low": 0.044280059044551776,
+      "recipe": "trial_fourier_zscore",
+      "reference": "window_filtered_zscore",
+      "seed": 11
+    },
+    {
+      "difference": 0.07152442297369832,
+      "high": 0.08762748255501876,
+      "low": 0.05434782608695652,
+      "recipe": "trial_fourier_zscore",
+      "reference": "trial_fourier_div100",
+      "seed": 11
+    },
+    {
+      "difference": -0.0077831454643048845,
+      "high": 0.007246376811594194,
+      "low": -0.024828904991948474,
+      "recipe": "trial_fourier_div100",
+      "reference": "window_filtered_zscore",
+      "seed": 29
+    },
+    {
+      "difference": 0.09219001610305956,
+      "high": 0.11339237788513148,
+      "low": 0.0721886741814278,
+      "recipe": "trial_fourier_zscore",
+      "reference": "window_filtered_zscore",
+      "seed": 29
+    },
+    {
+      "difference": 0.09997316156736445,
+      "high": 0.12533883521202355,
+      "low": 0.0747450348899624,
+      "recipe": "trial_fourier_zscore",
+      "reference": "trial_fourier_div100",
+      "seed": 29
+    }
+  ],
+  "remote_artifacts": 68,
+  "results": [
+    {
+      "participant_bootstrap_high": 0.1936527106816961,
+      "participant_bootstrap_low": 0.1598228663446055,
+      "predicted_classes": 9,
+      "recipe": "window_filtered_zscore",
+      "seed": 20261024,
+      "selected_epoch": 2,
+      "selection_epochs": 22,
+      "trial_balanced_accuracy": 0.20450885668276972,
+      "trial_bootstrap_high": 0.22544283413848631,
+      "trial_bootstrap_low": 0.18518518518518515,
+      "validation_balanced_accuracy": 0.20663580246913582,
+      "window_accuracy": 0.17080745341614906,
+      "window_balanced_accuracy": 0.1769994632313473
+    },
+    {
+      "participant_bootstrap_high": 0.21256374127750943,
+      "participant_bootstrap_low": 0.17015230810520662,
+      "predicted_classes": 9,
+      "recipe": "window_filtered_zscore",
+      "seed": 11,
+      "selected_epoch": 3,
+      "selection_epochs": 23,
+      "trial_balanced_accuracy": 0.20450885668276975,
+      "trial_bootstrap_high": 0.2334943639291465,
+      "trial_bootstrap_low": 0.17391304347826086,
+      "validation_balanced_accuracy": 0.19907407407407407,
+      "window_accuracy": 0.18581780538302278,
+      "window_balanced_accuracy": 0.19216317767042404
+    },
+    {
+      "participant_bootstrap_high": 0.19525295222758987,
+      "participant_bootstrap_low": 0.16196994095544823,
+      "predicted_classes": 7,
+      "recipe": "window_filtered_zscore",
+      "seed": 29,
+      "selected_epoch": 25,
+      "selection_epochs": 45,
+      "trial_balanced_accuracy": 0.1996779388083736,
+      "trial_bootstrap_high": 0.23027375201288242,
+      "trial_bootstrap_low": 0.1706924315619968,
+      "validation_balanced_accuracy": 0.20293209876543208,
+      "window_accuracy": 0.17184265010351968,
+      "window_balanced_accuracy": 0.17807300053676867
+    },
+    {
+      "participant_bootstrap_high": 0.2200751476113795,
+      "participant_bootstrap_low": 0.19538378958668814,
+      "predicted_classes": 5,
+      "recipe": "trial_fourier_div100",
+      "seed": 20261024,
+      "selected_epoch": 18,
+      "selection_epochs": 38,
+      "trial_balanced_accuracy": 0.24154589371980675,
+      "trial_bootstrap_high": 0.2609098228663445,
+      "trial_bootstrap_low": 0.22061191626409016,
+      "validation_balanced_accuracy": 0.20925925925925926,
+      "window_accuracy": 0.20031055900621117,
+      "window_balanced_accuracy": 0.20772946859903382
+    },
+    {
+      "participant_bootstrap_high": 0.20719605475040256,
+      "participant_bootstrap_low": 0.1709608158883521,
+      "predicted_classes": 8,
+      "recipe": "trial_fourier_div100",
+      "seed": 11,
+      "selected_epoch": 1,
+      "selection_epochs": 21,
+      "trial_balanced_accuracy": 0.22987117552334946,
+      "trial_bootstrap_high": 0.2556360708534622,
+      "trial_bootstrap_low": 0.20410628019323676,
+      "validation_balanced_accuracy": 0.20787037037037037,
+      "window_accuracy": 0.18374741200828157,
+      "window_balanced_accuracy": 0.18867418142780462
+    },
+    {
+      "participant_bootstrap_high": 0.18465177133655394,
+      "participant_bootstrap_low": 0.15726986044015026,
+      "predicted_classes": 9,
+      "recipe": "trial_fourier_div100",
+      "seed": 29,
+      "selected_epoch": 1,
+      "selection_epochs": 21,
+      "trial_balanced_accuracy": 0.1570048309178744,
+      "trial_bootstrap_high": 0.17150764895330106,
+      "trial_bootstrap_low": 0.142914653784219,
+      "validation_balanced_accuracy": 0.17191358024691358,
+      "window_accuracy": 0.16614906832298137,
+      "window_balanced_accuracy": 0.17028985507246377
+    },
+    {
+      "participant_bootstrap_high": 0.26583803005904455,
+      "participant_bootstrap_low": 0.2283950617283951,
+      "predicted_classes": 8,
+      "recipe": "trial_fourier_zscore",
+      "seed": 20261024,
+      "selected_epoch": 18,
+      "selection_epochs": 38,
+      "trial_balanced_accuracy": 0.3140096618357488,
+      "trial_bootstrap_high": 0.3510466988727858,
+      "trial_bootstrap_low": 0.2769726247987117,
+      "validation_balanced_accuracy": 0.26219135802469135,
+      "window_accuracy": 0.23809523809523808,
+      "window_balanced_accuracy": 0.24664519592055825
+    },
+    {
+      "participant_bootstrap_high": 0.28140767579173376,
+      "participant_bootstrap_low": 0.23979804079441758,
+      "predicted_classes": 9,
+      "recipe": "trial_fourier_zscore",
+      "seed": 11,
+      "selected_epoch": 5,
+      "selection_epochs": 25,
+      "trial_balanced_accuracy": 0.33937198067632857,
+      "trial_bootstrap_high": 0.3736010466988727,
+      "trial_bootstrap_low": 0.30877616747181963,
+      "validation_balanced_accuracy": 0.28101851851851856,
+      "window_accuracy": 0.2531055900621118,
+      "window_balanced_accuracy": 0.26019860440150294
+    },
+    {
+      "participant_bootstrap_high": 0.29388083735909815,
+      "participant_bootstrap_low": 0.2469135802469136,
+      "predicted_classes": 9,
+      "recipe": "trial_fourier_zscore",
+      "seed": 29,
+      "selected_epoch": 34,
+      "selection_epochs": 54,
+      "trial_balanced_accuracy": 0.32809983896940426,
+      "trial_bootstrap_high": 0.36876006441223824,
+      "trial_bootstrap_low": 0.288244766505636,
+      "validation_balanced_accuracy": 0.2722222222222222,
+      "window_accuracy": 0.2619047619047619,
+      "window_balanced_accuracy": 0.27026301663982827
+    }
+  ],
+  "scope": "Post-result descriptive processing audit; familiar videos, reused participants, no test-based recipe selection. Bootstrap intervals are conditional on fitted models.",
+  "unverified": "Prepared EEG arrays were intentionally not transferred; their content hashes are retained in prepared.json. No independent raw-to-prepared recomputation is claimed.",
+  "verified": true
+}

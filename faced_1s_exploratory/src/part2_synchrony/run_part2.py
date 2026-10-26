@@ -3,7 +3,7 @@ run_part2.py — Figure 2: EEG synchronization and synchrony-topology coupling.
 a  synchrony fingerprint (emotion x metric, column z; per-cell vs-neutral stars)
 b  pooled synchrony-topology coupling (distinct colormap)
 c  coupling strength per emotion (mean |beta| over all topology x synchrony pairs)
-d-g emotion-specific coupling per topology metric (interaction-LMM per-emotion slopes)
+d-g emotion-specific coupling per topology metric (participant-clustered OLS interaction slopes)
 No baked-in figure title (goes in the manuscript caption).
 """
 import sys; from pathlib import Path
@@ -15,7 +15,7 @@ import statsmodels.formula.api as smf
 warnings.filterwarnings("ignore")
 from lib.config import (CACHE, FIG_DIR, EMOS, EMO_COLORS, set_nature_style, save, W2,
                         panel_letter, nice_heatmap, slim_colorbar)
-from lib.stats import clustered_ols_emotion_contrasts, emotion_slope_lmm
+from lib.stats import lmm_emotion_contrasts, emotion_slope_clustered_ols
 from lib.synchrony import SYNC_COLS
 
 SLAB = {"plv":"PLV","pli":"PLI","wpli":"wPLI","amp_env_corr":"AEC",
@@ -32,66 +32,28 @@ def _pooled_beta(d,t,s):
     dd=d[[t,s,"subject"]].dropna()
     if dd[s].std()<1e-9: return np.nan,np.nan
     try:
-        m=smf.mixedlm(f"{t} ~ {s}",dd,groups=dd["subject"]).fit(reml=False,method="lbfgs")
+        m=smf.ols(f"{t} ~ {s}",dd).fit(cov_type="cluster", cov_kwds={"groups": dd["subject"]})
         return float(m.params[s]),float(m.pvalues[s])
     except Exception: return np.nan,np.nan
-
-def _participant_emotion_merge(sync, topo):
-    """Aggregate both inputs independently and merge one-to-one.
-
-    The coupling panels use participant--emotion cells, not trial rows.  This
-    prevents a many-to-many cross-product when an emotion contains multiple
-    videos for the same participant.
-    """
-    keys = ["subject", "emotion"]
-    for name, frame, cols in (
-        ("synchrony", sync, SYNC_COLS),
-        ("topology", topo, TOPO),
-    ):
-        missing = [c for c in keys + list(cols) if c not in frame.columns]
-        if missing:
-            raise ValueError(f"{name} input is missing columns: {missing}")
-
-    sync_cell = sync.groupby(keys, as_index=False)[SYNC_COLS].mean()
-    topo_cell = topo.groupby(keys, as_index=False)[TOPO].mean()
-    merged = sync_cell.merge(
-        topo_cell,
-        on=keys,
-        how="outer",
-        validate="one_to_one",
-        indicator=True,
-    )
-    unmatched = merged["_merge"] != "both"
-    if unmatched.any():
-        counts = merged.loc[unmatched, "_merge"].value_counts().to_dict()
-        raise ValueError(f"Unmatched participant--emotion cells: {counts}")
-
-    qc = pd.DataFrame([{
-        "synchrony_input_rows": len(sync),
-        "topology_input_rows": len(topo),
-        "synchrony_cells": len(sync_cell),
-        "topology_cells": len(topo_cell),
-        "matched_cells": len(merged),
-        "participants": merged["subject"].nunique(),
-        "emotions": merged["emotion"].nunique(),
-        "observational_unit": "participant-emotion",
-    }])
-    qc.to_csv(CACHE / "coupling_merge_qc.csv", index=False)
-    return merged.drop(columns="_merge")
 
 def main():
     set_nature_style()
     fs=CACHE/"trial_synchrony_metrics.csv"; ft=CACHE/"trial_metrics_spearman.csv"
     if not (fs.exists() and ft.exists()): print("  [skip] need synchrony + spearman CSVs"); return
     sync=pd.read_csv(fs); topo=pd.read_csv(ft)
-    df=_zw(_participant_emotion_merge(sync, topo), TOPO+SYNC_COLS)
+    # Merge at the trial level.  Merging only by subject+emotion creates a
+    # Cartesian product across repeated trials and inflates the coupling table.
+    df = pd.merge(sync, topo, on=["subject", "emotion", "trial"],
+                  how="inner", validate="one_to_one")
+    df = _zw(df, TOPO + SYNC_COLS)
+    df.to_csv(CACHE / "trial_sync_topology_merged_spearman.csv", index=False)
 
     # ---- precompute emotion-specific coupling (slopes + significance) ----
     Be_all={}; Pe_all={}; inter_all={}
     for t in TOPO:
         Be=np.full((len(EMOS),len(SYNC_COLS)),np.nan); Pe=np.full_like(Be,np.nan); inter=[""]*len(SYNC_COLS)
         for j,s in enumerate(SYNC_COLS):
-            slopes,pir=emotion_slope_lmm(df,t+"_z",s+"_z",ref="neutral")
+            slopes,pir=emotion_slope_clustered_ols(df,t+"_z",s+"_z",ref="neutral")
             for ei,e in enumerate(EMOS): Be[ei,j],Pe[ei,j]=slopes[e]
             if np.isfinite(pir) and pir<0.05: inter[j]="†"
         Be_all[t]=Be; Pe_all[t]=Pe; inter_all[t]=inter
@@ -113,7 +75,7 @@ def main():
     im=nice_heatmap(axA,z.values,EMOS,[SLAB[c] for c in SYNC_COLS],cmap="magma",
                     vmin=-2,vmax=2,aspect="auto",fontsize=6.0)
     for j,c in enumerate(SYNC_COLS):
-        pmap=clustered_ols_emotion_contrasts(sync,c,ref="neutral")
+        pmap=lmm_emotion_contrasts(sync,c,ref="neutral")
         for i,e in enumerate(EMOS):
             st=stars(pmap.get(e,np.nan)) if e!="neutral" else ""
             if st: axA.text(j,i,st,ha="center",va="center",fontsize=5,

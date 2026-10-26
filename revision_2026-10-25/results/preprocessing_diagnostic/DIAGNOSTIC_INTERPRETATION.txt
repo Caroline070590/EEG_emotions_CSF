@@ -1,0 +1,99 @@
+FACED EEGNet preprocessing audit — interpretation for author review
+Verified 25 October 2026
+
+Main finding
+The 10-s EEGNet baseline is sensitive to preprocessing. With the same architecture,
+training rules, participant split and random seeds, full-trial Fourier resampling
+followed by training-only normalization (C) produced higher window and trial
+balanced accuracy than the original independent-window pipeline (A) in all three
+seeds. These results support a concrete preprocessing sensitivity explanation for
+part of the weak baseline; they do not recover the published EEGNet recipe or
+explain the complete difference from its reported 40.90% score.
+
+Prespecified recipes
+A: process each 10-s window independently, polyphase resample 250 to 200 Hz,
+   apply an additional 1–45 Hz filter, then use training-only channel z-scores.
+B: Fourier resample each complete 30-s trial to 200 Hz, split into three 10-s
+   windows, add no further filter, and divide amplitudes by 100.
+C: use the identical prepared signal as B, with training-only channel z-scores.
+All recipes use the same 30 channels and EEGNet-8,2 architecture, Adam settings,
+weighted loss and validation-based checkpoint selection. No validation refit was
+performed. Training/validation/test participants are fixed at 80/20/23.
+
+All nine fits (balanced accuracy, percent)
+Recipe  Seed       Window test  Trial test*  Validation window  Selected epoch
+A       20261024       17.70       20.45            20.66                2
+A       11             19.22       20.45            19.91                3
+A       29             17.81       19.97            20.29               25
+B       20261024       20.77       24.15            20.93               18
+B       11             18.87       22.99            20.79                1
+B       29             17.03       15.70            17.19                1
+C       20261024       24.66       31.40            26.22               18
+C       11             26.02       33.94            28.10                5
+C       29             27.03       32.81            27.22               34
+*Trial predictions average the probabilities of the three 10-s windows; these
+are not results from a separate model receiving a single 30-s input.
+
+Paired window-accuracy differences (percentage points, 95% participant-bootstrap
+intervals; the same 23 test participants are paired within each seed)
+Seed       B minus A                C minus A                C minus B
+20261024   +3.07 [ +1.34, +4.74]     +6.96 [ +4.60, +9.13]     +3.89 [ +2.28, +5.50]
+11         -0.35 [ -2.28, +1.68]     +6.80 [ +4.43, +9.31]     +7.15 [ +5.43, +8.76]
+29         -0.78 [ -2.48, +0.72]     +9.22 [ +7.22,+11.34]    +10.00 [ +7.47,+12.53]
+
+What the contrasts establish
+C versus B isolates amplitude normalization within the full-trial Fourier
+pipeline. Its positive differences across all seeds support the contribution of
+training-based normalization under that pipeline. A versus C holds normalization
+fixed but changes the additional filter, resampling method and temporal processing
+boundary together. Their separate contributions have not been identified. B
+versus A gives mixed results, so the full-trial-resampling-plus-/100 recipe did
+not consistently improve on A. C also has higher validation accuracy
+than A and B in each seed; the observed pattern is not confined to test scores.
+
+Scope and interpretation
+The audit was designed after examining earlier results, and its participants and
+videos have appeared in previous experiments. All nine diagnostic fits were then
+specified together and retained, with checkpoint selection confined to validation
+participants and one final test pass per fit. No recipe was selected or relabeled
+as a reproduction of a published result. The exact published EEGNet training
+recipe is unavailable in the inspected repositories, and original 32-channel
+FACED files were not available for this audit.
+
+Full-trial Fourier resampling is nonlocal within the 30-s trial. The nominal 10-s
+model inputs therefore have different temporal preprocessing context across
+recipes. All windows from a participant remain in the same split, but this audit
+does not hold a strictly 10-s information boundary constant. It also changes the
+participant protocol from the original five-fold matched experiment, so the
+within-audit paired contrasts are the appropriate comparisons.
+
+Intervals are descriptive, conditional on each fitted model, and do not include
+training uncertainty or multiplicity adjustment. No permutation test or new-video
+generalization claim is made. The figure's dotted 11.1% line is the nominal
+nine-class reference, not an empirical permutation null.
+
+Implication for the paper
+Retain the original matched experiment and describe its feature increments as
+established under the shared preprocessing protocol. The audit shows that its
+10-s raw-EEG baseline does not characterize the full achievable performance of
+EEGNet. Augmented models were not retrained under recipe C, so this audit does
+not determine whether their increments persist under that preprocessing. It also
+does not replace the paper's separate unseen-video GNN evaluation.
+
+If the manuscript includes the matched EEGNet comparisons, disclose this material
+sensitivity briefly in that section and report all nine fits in the supplement.
+Suggested sentence: "EEGNet performance was sensitive to temporal preprocessing
+in a separate FACED analysis; the reported feature increments are established
+under the common preprocessing protocol used for the matched comparisons."
+The supplement can quantify C–A as 6.8–9.2 percentage points and state the bundled
+processing changes and exploratory scope. An author-only note is sufficient only
+if these new matched EEGNet comparisons are not included or used to support a
+claim in the submitted paper.
+
+Evidence files
+independent_scores.csv; independent_paired_differences.csv;
+INDEPENDENT_VERIFICATION.json; audit_diagnostic_comparison.pdf/.png.
+All nine fits, 54 original run artifacts and 68 retrieved files were verified.
+The independent check reproduced prediction metadata, window/trial accuracies,
+validation selection and paired intervals. Prepared EEG arrays were not copied;
+their recorded hashes were retained without an independent preprocessing rerun.

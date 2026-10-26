@@ -1,0 +1,55 @@
+fold,held_source,held_videos,n_train,n_test
+0,1408 phontom horror,[72],1580,20
+1,20 once again,[75],1580,20
+2,a boa constrictor is,[60],1580,20
+3,a documentary about sea,[42],1580,20
+4,a hand full of,[17],1580,20
+5,a man is eating,[2],1580,20
+6,a woman is disemboweled,[69],1580,20
+7,a woman is vomiting,"[70, 79]",1560,40
+8,aftershock,"[3, 21]",1560,40
+9,annabelle,[67],1580,20
+10,black keys,[31],1580,20
+11,braindead,"[7, 57]",1560,40
+12,bunshinsaba ii,[56],1580,20
+13,bunshinsaba iii,"[32, 77]",1560,40
+14,dearest,"[38, 61]",1560,40
+15,dog abuse,[5],1580,20
+16,don t blink shin,[41],1580,20
+17,eating clips from man,"[12, 52]",1560,40
+18,eric chien 2018 fism,[58],1580,20
+19,eric chien imagination coins,[76],1580,20
+20,family violence,[44],1580,20
+21,fantastic museum,[29],1580,20
+22,foster father,"[13, 68]",1560,40
+23,goodbye jinhua station,[64],1580,20
+24,hardware conflict,[36],1580,20
+25,hear me,[65],1580,20
+26,home sweet home,[59],1580,20
+27,how to make your,[47],1580,20
+28,hsue shen tsien,[19],1580,20
+29,hungry ghost ritual,"[22, 37, 46, 62]",1520,80
+30,ide interface repair,[8],1580,20
+31,introduction of ibm ilm300,[33],1580,20
+32,little daddy,[28],1580,20
+33,magic show,"[24, 34, 35, 48, 51, 66, 73]",1460,140
+34,meet miss anxiety,[49],1580,20
+35,mother abuses daughter,[4],1580,20
+36,ode to joy,[45],1580,20
+37,pet abuse,"[14, 39]",1560,40
+38,riot of hong kong,[15],1580,20
+39,rob b hood,"[0, 40]",1560,40
+40,school bullying,"[20, 54]",1560,40
+41,shin lim magician baffles,[25],1580,20
+42,shin lim s epic,[63],1580,20
+43,so young,[71],1580,20
+44,tangshan barbecue restaurant beating,[55],1580,20
+45,the child s eye,"[27, 43]",1560,40
+46,the eye x,[53],1580,20
+47,the stolen years,[10],1580,20
+48,the story of xing,[30],1580,20
+49,under the hawthorn tree,"[6, 74]",1560,40
+50,very happy,[78],1580,20
+51,world heritage in china,"[1, 11, 18, 23, 26]",1500,100
+52,you are my life,"[16, 50]",1560,40
+53,you are the apple,[9],1580,20

@@ -1,0 +1,15 @@
+{
+  "note": "The failed diagnostic ran before replacement of the isolated source copy. These preserved pre-repair sources match its recorded hashes; do not mistake its path for the current corrected implementation.",
+  "files": [
+    {
+      "original_recorded_path": "corrected_pipeline/src/part2_synchrony/run_part2.py",
+      "preserved_failed_scaffold_source": "revision_2026-10-25/provenance/original_release_source/faced_1s_exploratory/src/part2_synchrony/run_part2.py",
+      "sha256": "13b47081e557b977cd400172d65ee581346369e1013cfe169ce897043c14f95c"
+    },
+    {
+      "original_recorded_path": "corrected_pipeline/src/lib/stats.py",
+      "preserved_failed_scaffold_source": "revision_2026-10-25/provenance/original_release_source/faced_1s_exploratory/src/lib/stats.py",
+      "sha256": "5b9399b8e277462387180ab96ffde9cb18e1615fe6f0ad3095b46d7e42948ff3"
+    }
+  ]
+}

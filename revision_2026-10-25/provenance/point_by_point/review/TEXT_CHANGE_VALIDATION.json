@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source_changes_this_pass": 21,
+  "cumulative_targeted_changes": 86,
+  "full_change_ledger_reconstructs_sources": true,
+  "unchanged_reviewer_comments": 24,
+  "abstract_unchanged_this_pass": true,
+  "retained_numerical_artifacts_unchanged": 1100,
+  "previous_critical_delivery_files_unchanged": 178,
+  "source_hashes": {
+    "manuscript/main.tex": "4a7f824b81d4bbb26659d085fbea12cfeafa724b6836306c9dd28d49b201d99c",
+    "response/response.tex": "c030d1ae5c5c5abebd5b1c733810365d77bd5a5c8a6835da00c69c3d49c0e5cd"
+  },
+  "bibliography_sha256": "9fd0bef53ca9359b4eb724b6a1c7addff4f8d15348b650e4a79e7c74523a6adc"
+}

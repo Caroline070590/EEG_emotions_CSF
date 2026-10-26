@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "scope": "Same retained 1-s Spearman NBS results; display and typography only. No permutations or inferential fits were rerun.",
+  "source_sha256": "8d45a83d4bf99fc61a808cff8a3c038b81278208a11350dc63f27e9731e33d1a",
+  "original_pdf_sha256": "bf7a19e73704163acdd318d9dd840ade23064d8a4ed24b7d9bff16acdb91870c",
+  "input_sha256": {
+    "agg_meta_spearman.csv": "713c822952bbac7f0eae662d3d4e5ee0f6d063afe79b7f457b06cb4a320db90c",
+    "agg_spearman.npy": "974fefbb30ac885beee589a3fd13f2c65b474edc56691679b4d12875a646a311",
+    "nbs_spearman_vs_neutral.csv": "ca6d7b6c8dbab19f810956dfda196888d51f30545e8572fa98d6c7295edf1dc3"
+  },
+  "original_layout_sha256": "980b793d1a8622ab2a90d34bc22a7b9fb30604342634b1be3dccee920afec10c",
+  "all_eight_component_edge_counts_match_original_PDF_and_cached_statistics": true,
+  "all_plotted_edges_reconstructed_from_saved_participant_condition_edge_averages": true,
+  "saved_BH_q_values_independently_recalculated": true,
+  "original_probability_values_unchanged": true,
+  "small_pq_label_counts": {
+    "p<0.001": 4,
+    "q<0.001": 4
+  },
+  "significance_marker": "Asterisk denotes the saved BH q<0.05 across eight condition comparisons; p is component-level permutation FWE p.",
+  "pdf_sha256": "75eeb0c29d93327cffe02ba3f10e19a8d1a14a8a371278459d79474b95985505",
+  "png_sha256": "056ba084d9acee70edfb0c71fff8ff96c128895dfda3c7100a64dc1292178576",
+  "values": [
+    {
+      "emotion": "anger",
+      "n_edges": 63,
+      "p": 0.0001999600079984,
+      "q": 0.0003999200159968,
+      "displayed_p": "p<0.001",
+      "displayed_q": "q<0.001"
+    },
+    {
+      "emotion": "disgust",
+      "n_edges": 86,
+      "p": 0.0001999600079984,
+      "q": 0.0003999200159968,
+      "displayed_p": "p<0.001",
+      "displayed_q": "q<0.001"
+    },
+    {
+      "emotion": "fear",
+      "n_edges": 66,
+      "p": 0.0001999600079984,
+      "q": 0.0003999200159968,
+      "displayed_p": "p<0.001",
+      "displayed_q": "q<0.001"
+    },
+    {
+      "emotion": "sadness",
+      "n_edges": 118,
+      "p": 0.0001999600079984,
+      "q": 0.0003999200159968,
+      "displayed_p": "p<0.001",
+      "displayed_q": "q<0.001"
+    },
+    {
+      "emotion": "amusement",
+      "n_edges": 5,
+      "p": 0.0491901619676064,
+      "q": 0.0491901619676064,
+      "displayed_p": "p=0.049",
+      "displayed_q": "q=0.049"
+    },
+    {
+      "emotion": "inspiration",
+      "n_edges": 7,
+      "p": 0.0221955608878224,
+      "q": 0.0274230868112091,
+      "displayed_p": "p=0.022",
+      "displayed_q": "q=0.027"
+    },
+    {
+      "emotion": "joy",
+      "n_edges": 17,
+      "p": 0.0017996400719856,
+      "q": 0.0028794241151769,
+      "displayed_p": "p=0.002",
+      "displayed_q": "q=0.003"
+    },
+    {
+      "emotion": "tenderness",
+      "n_edges": 7,
+      "p": 0.023995200959808,
+      "q": 0.0274230868112091,
+      "displayed_p": "p=0.024",
+      "displayed_q": "q=0.027"
+    }
+  ],
+  "visual_review": {
+    "inspected": "Figure_D1_NBSSubnetworks_readable.png",
+    "passed": true,
+    "findings": "All nine head plots, edge-count labels, p/q labels, and direction legend readable without clipping or overlap."
+  }
+}

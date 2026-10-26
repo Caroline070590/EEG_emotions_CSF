@@ -37,7 +37,17 @@ METHODS_Q30 = {"spearman": "Spearman", "mtf_q30": "MTF (q=30)", "qg_q30": "QG (q
 
 def _load(tag):
     f = CACHE / f"trial_metrics_{tag}.csv"
-    return pd.read_csv(f) if f.exists() else None
+    # The current fixed-q pipeline uses unsuffixed filenames. Historical q=13
+    # files must never be accepted as the node-matched q=30 input.
+    if not f.exists() and tag in {"mtf_q30", "qg_q30"}:
+        f = CACHE / f"trial_metrics_{tag.removesuffix('_q30')}.csv"
+    if not f.exists():
+        return None
+    data = pd.read_csv(f)
+    if tag in {"mtf_q30", "qg_q30"}:
+        if "q" not in data or not data["q"].eq(30).all():
+            raise ValueError(f"{f} must contain verified q=30 metrics")
+    return data
 
 
 def main():

@@ -1,9 +1,10 @@
 # Exploratory analyses of the final 1-s segments (FACED)
 
-These analyses use the final second of each released FACED epoch (one 250-sample segment per
-participant × video; 3,444 segments). They are the analyses of the original submission and are reported in
-the revised manuscript as exploratory (Sections 3.3–3.5, Appendices D–K), with participants as the only
-random factor. The primary analyses use the complete 30-s epochs (`../faced/`).
+These analyses use the final second of each released FACED epoch (one 250-sample segment per participant × video; 3,444 segments). They preserve the original main-paper network description and remain exploratory. The complete 30-s epochs are analyzed separately as supplementary validation in `../faced/`.
+
+Main Figure 2 uses one-to-one trial matching and within-participant standardization, followed by participant-clustered OLS for pooled and emotion-resolved synchronization–topology associations. It does not use the later 1,107-row MixedLM scaffold. Regional coupling uses trial-level within-participant standardized nodal strength on synchronization. See `../revision_2026-10-25/corrections/analyses/wpli/PROVENANCE_AND_SCOPE.md` for estimator, input, figure and sensitivity provenance.
+
+The global wPLI source now retains amplitudes in the analytic cross-spectrum and requires matching estimator/source/output cache metadata. All retained global wPLI values were already standard wPLI; all 3,444 rows were independently verified from the raw input. Existing raw or signal caches are not distributed. The cache guard does not verify changed raw input files, so use `force=True` after replacing raw inputs.
 
 ## Layout
 

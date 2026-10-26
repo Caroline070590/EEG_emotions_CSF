@@ -1,0 +1,27 @@
+{
+  "original_files_preserved": 434,
+  "original_release_unchanged": true,
+  "verified_report_files": 71,
+  "retained_run_counts": {
+    "gnn_faced": {
+      "runs": 304,
+      "predictions": 304
+    },
+    "gnn_seed7": {
+      "runs": 304,
+      "predictions": 304
+    },
+    "matched_eegnet": {
+      "runs": 300,
+      "predictions": 300
+    }
+  },
+  "source_archives_extracted_without_links": {
+    "gnn_faced": "gnn_faced_source_reconstructed.tar.gz",
+    "gnn_seed7": "gnn_seed7_source_reconstructed.tar.gz",
+    "matched_eegnet": "matched_eegnet_source.tar.gz",
+    "eegnet_preprocessing_diagnostic": "eegnet_preprocessing_diagnostic_source.tar.gz"
+  },
+  "raw_eeg_included": false,
+  "status": "Local staging only; behavioral J4, SEED session-held-source and figure reconstruction corrections now included."
+}

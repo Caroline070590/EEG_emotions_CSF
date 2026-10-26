@@ -11,58 +11,34 @@ Code accompanying
 > EEG network organization across affective video conditions: complementary nonlinear representations,
 > topological summaries, and synchronization–topology coupling. *Chaos, Solitons & Fractals* (under review).
 
-<p align="center"><img src="docs/overview.png" width="100%" alt="Analysis pipeline and headline results"></p>
-
 ## Overview
 
-Naturalistic affective EEG studies present each emotion through a small set of video clips, so effects that
-are consistent across participants can still be specific to the clips. This repository implements a
-stimulus-aware analysis of EEG network organization in the FACED dataset (123 participants, 28 videos, nine
-affective conditions) and its independent replication in SEED-VII (20 participants, 80 clips):
+The point-by-point review adds documented terminal-segment verification, corrected persistence-figure labels, and reconciled archive instructions. Reviewer coverage and source-change provenance are recorded in `revision_2026-10-25/provenance/point_by_point/`. Numerical outcomes are unchanged.
 
-* **Representations**: band-specific synchronization (weighted phase-lag index, orthogonalized
-  amplitude-envelope correlation), topology of three complementary network representations (Spearman channel
-  networks, Markov-transition-field and quantile-graph state-transition networks), persistent homology and
-  recurrence quantification.
-* **Inference**: emotion-versus-neutral contrasts with participants **and** stimuli as crossed random factors
-  (min F′), in one pre-declared family of 224 tests with false-discovery-rate control.
-* **Generalization**: decoding of the condition of unseen stimuli against stimulus-structured permutation
-  nulls, with linear classifiers and pre-registered graph neural networks.
-* **Validity**: surrogate and independent-segment null models, quantile and density sweeps, muscle-artifact
-  checks, signed networks, metric persistence filtrations.
+This repository accompanies the one-second FACED network analysis and its supplementary validation. The main study compares Spearman channel networks, Markov-transition-field and quantile-graph representations, their topological summaries, and synchronization–topology associations. The retained main figures use one 250-sample segment per participant and video (123 participants, 28 videos). The supplementary 30-s analyses examine duration, participant and stimulus dependence, prediction, and alternative EEG descriptions.
 
-## Key results
+The supplementary prediction pipelines ask distinct questions: held-stimulus analyses test generalization across clips; participant-held-out analyses test familiar clips in new participants. Matched EEGNet augmentations compare the incremental predictive utility of connectivity and recurrence summaries. Feature-group perturbations of a fitted GNN measure model reliance, rather than incremental information over synchronization. Neither analysis directly validates the Spearman/MTF/QG scalar topology claims.
 
-| | |
-|:--:|:--:|
-| <img src="faced/figures/Fig2_participants_and_videos_random.png" width="100%"> | <img src="faced/figures/Fig3_decoding_unseen_videos.png" width="100%"> |
-| **Fig. 2** · 79 of 224 contrasts survive correction when videos are treated as fixed, none when videos are random. | **Fig. 3** · Band-specific synchronization and power decode the condition of unseen videos above a stimulus-structured null (13.7% vs 6.4%, *p* = 0.001). |
+The exploratory FACED GNN development used full-FACED calibration. The retained planning documents and conditional label permutations do not make it an independently preregistered or confirmatory architecture test. The input-matched LDA and GNNs have different fitting procedures, so their comparison does not isolate architecture alone. In SEED-VII, sessions and conditions are associated; participant-held-out prediction and source-held-out analyses must retain their respective session limitations.
 
-<p align="center"><img src="seed_vii/figures/FigS8_seed7_replication.png" width="95%"></p>
-<p align="center"><b>Fig. S8</b> · Independent replication in SEED-VII: no contrast survives with stimuli random (18 of 168 with stimuli fixed), and synchronization and power again decode unseen stimuli (29.5% vs 12.3%).</p>
+Original-file hashes and superseded source versions of the earlier release are retained in `revision_2026-10-25/provenance/`.
 
 ## Repository structure
 
 ```
-├── faced/                    FACED, released 30-s epochs (Sections 2–3.1, Appendices A–B)
-│   ├── src/                  pipeline: 00_load_epochs → 01/02 features → 03 contrasts → fig*/sensitivity_*
-│   │   └── gnn/              graph neural networks (training, run configurations, Fig. S7)
-│   ├── figures/              Figs. 1–3, S1–S7
-│   ├── tables/               every test and model summary (all_contrasts.csv lists all 616 FACED tests) and
-│   │                         the decoding permutation null distributions
-│   ├── results/gnn/          every graph-network run, including all permutations
-│   └── preregistration/      model-selection rule and its amendments
-├── seed_vii/                 independent replication in SEED-VII (Section 3.2, Appendix C; Fig. S8)
-│   ├── src/  figures/  tables/
-│   ├── ANALYSIS_PLAN.md      plan written before the data were analyzed, with a log of every later addition
-│   └── run_all.sh
-├── faced_1s_exploratory/     exploratory final-second analyses and behavioral analyses (Sections 3.3–3.5,
-│                             Appendices D–K; Figs. 4–6, S9–S29); tables/ holds the full 1-s topology
-│                             (144) and synchronization (48; Table S1) contrast tables
-├── multiplex_gnn/            complementary recurrence-multiplex graph network, GPU (Appendix B), with the
-│                             observed and permutation scores and the randomized-graph control
-├── demo/                     one-minute demonstration on simulated data
-└── docs/                     overview figure
+faced_1s_exploratory/        Main one-second FACED analyses (main Figs. 1–3) and retained sensitivity analyses
+faced/                       Supplementary FACED 30-s validation, including held-video decoding
+seed_vii/                    Supplementary SEED-VII analyses; separate within-dataset fitting
+multiplex_gnn/               Earlier recurrence-multiplex analyses and graph controls
+revision_2026-10-25/
+  sources/                   Readable frozen sources for participant GNN/LDA, matched EEGNet, preprocessing diagnostic
+  results/                   Verified Tables S2–S4 outputs, all-seed comparisons, source archives and configs
+  retained_runs/             All 908 run records and OOF predictions: 304 FACED + 304 SEED-VII + 300 EEGNet folds
+  corrections/               Corrected wPLI/behavior/session analyses, figure reconstruction and derived inputs
+  provenance/               Original-release hashes, superseded files, staging and scope checks
+  REVIEW_CHECKLIST.md        Completed checks and explicit remaining integration/provenance gaps
+demo/                        Simulated-data demonstration
+docs/                        Historical overview asset (not the current figure-number map)
 ```
 
 ## System requirements
@@ -72,14 +48,14 @@ affective conditions) and its independent replication in SEED-VII (20 participan
   scipy, pandas, scikit-learn, statsmodels, torch, matplotlib, mne, joblib, networkx, gudhi). The 1-s
   analyses use [`faced_1s_exploratory/requirements.txt`](faced_1s_exploratory/requirements.txt).
 * **Hardware**: a standard computer runs the demo and the statistics. The full feature extraction is
-  CPU-intensive (FACED: about 30 CPU-hours; SEED-VII: about 3 hours on 12 cores). Only the complementary
-  multiplex network requires a GPU.
+  CPU-intensive (FACED: about 30 CPU-hours; SEED-VII: about 3 hours on 12 cores). The matched EEGNet and complementary
+  multiplex-network training use GPUs; their recorded environments and configurations accompany the frozen sources.
 
 ## Installation
 
+Clone this repository (or extract the accompanying reproducibility archive) and run the following from its root.
+
 ```bash
-git clone https://github.com/Caroline070590/EEG_emotions_CSF.git
-cd EEG_emotions_CSF
 conda env create -f environment.yml && conda activate eeg-emotions-csf   # or: pip install -r requirements.txt
 ```
 
@@ -133,34 +109,41 @@ of one run), then
 
 **3. FACED, final 1-s segments**: see [`faced_1s_exploratory/README.md`](faced_1s_exploratory/README.md).
 
-## Figures
+## Figures and supplementary tables
 
-| Figure | Script |
+Numbering below follows the restored one-second main-paper structure. Historical filenames retain old numbers and are not reliable identifiers of the current manuscript location.
+
+| Current item | Generator or retained source |
 |---|---|
-| 1, 2 | `faced/src/fig1_fig2_synchronization_and_stimulus.py` |
-| 3 | `faced/src/fig3_decoding_unseen_videos.py` |
-| 4 | `faced_1s_exploratory/src/part1_topology/run_part1_q30.py` |
-| 5 | `faced_1s_exploratory/src/part2_synchrony/run_part2.py` |
-| 6 | `faced_1s_exploratory/src/part4_regional/run_figure4_full_composite.py` |
+| Main 1: topology | `faced_1s_exploratory/src/part1_topology/run_part1_q30.py` |
+| Main 2: synchronization and coupling | `revision_2026-10-25/corrections/analyses/figure4_s15/render_synchrony.py`; coefficients from verified 3,444-trial participant-clustered OLS |
+| Main 3: multiscale and regional network organization | `revision_2026-10-25/corrections/analyses/figures/part4_regional/run_figure5_corrected.py` |
 | S1–S6 | `faced/src/figS1_quantile_density_sweep.py` … `figS6_recurrence_statistics.py` |
 | S7 | `faced/src/gnn/figS7_gnn_models.py` |
 | S8 | `seed_vii/src/figS8_compare_with_faced.py` |
 | S9 | `faced_1s_exploratory/src/part6_advanced/run_density_sweep_q30.py` |
 | S10 | `faced_1s_exploratory/src/part1_topology/run_chords_supp_q30.py` |
-| S11, S12 | `faced_1s_exploratory/src/part1_topology/run_bootstrap_effects.py`, `run_pairwise.py` |
-| S13 | `faced_1s_exploratory/src/part3_embedding_topology/run_umap_q30.py` |
-| S14 | `faced_1s_exploratory/src/part6_advanced/run_splithalf_q30_consolidated.py` |
-| S15–S17 | `faced_1s_exploratory/src/part6_advanced/run_nbs.py`, `run_centrality_topo.py` |
-| S18 | `faced_1s_exploratory/src/part6_advanced/run_nbs_threshold_sensitivity.py` |
+| S11–S12 | `faced_1s_exploratory/src/part1_topology/run_bootstrap_effects.py`, `run_pairwise.py` |
+| S13–S14 | `faced_1s_exploratory/src/part3_embedding_topology/run_umap_q30.py`, `src/part6_advanced/run_splithalf_q30_consolidated.py` |
+| S15–S18 | `faced_1s_exploratory/src/part6_advanced/run_nbs.py`, `run_centrality_topo.py`, `run_nbs_threshold_sensitivity.py` |
 | S19 | `faced_1s_exploratory/src/part6_advanced/run_region_coupling_splithalf.py` |
 | S20 | `faced_1s_exploratory/src/part4_regional/run_part4_mtf_only_fancy_v2.py` |
-| S21 | `faced_1s_exploratory/src/part5_enrichment/run_network_enrichment.py` |
-| S22 | `faced_1s_exploratory/src/part6_advanced/run_richclub.py`, `run_richclub_mtf_q30.py` |
-| S23 | `faced_1s_exploratory/src/part6_advanced/run_participant_averaging_sensitivity.py` |
-| S24 | generator not recovered (leave-one-participant-out stability) |
-| S25 | `faced_1s_exploratory/src/part6_advanced/run_contrast_splithalf.py` |
-| S26 | `faced_1s_exploratory/src/stimulus_aware/stimulus_aware_validation_pipeline.py` |
-| S27–S29 | `faced_1s_exploratory/src/behavioral/behavioral_grounding.py` |
+| S21–S22 | `faced_1s_exploratory/src/part5_enrichment/run_network_enrichment.py`, `src/part6_advanced/run_richclub.py`, `run_richclub_mtf_q30.py` |
+| S23: participant averaging | `faced_1s_exploratory/src/part6_advanced/run_participant_averaging_sensitivity.py`; reconstructed generator, not exact historical provenance |
+| S24: headline LOPO | Exact generator remains unrecovered; historical figure only |
+| S25: contrast split halves | `faced_1s_exploratory/src/part6_advanced/run_contrast_splithalf.py` |
+| S26: one-second stimulus sensitivity | `faced_1s_exploratory/src/stimulus_aware/stimulus_aware_validation_pipeline.py` |
+| S27–S29: behavioral validation, modeling, RSA | `revision_2026-10-25/corrections/analyses/behavioral/`; corrected J4 prediction and retained association/RSA provenance |
+| S30: participant versus video inference | `faced/src/fig1_fig2_synchronization_and_stimulus.py` (historical Fig2 asset) |
+| S31: 30-s synchronization | Same generator (historical Fig1 asset) |
+| S32: 30-s held-video decoding | `faced/src/fig3_decoding_unseen_videos.py` |
+| Table S2: input-matched participant prediction | `revision_2026-10-25/sources/gnn_faced/` and `gnn_seed7/` |
+| Table S3: all-seed matched EEGNet | `revision_2026-10-25/sources/matched_eegnet/`; `results/seed_stability/` |
+| Table S4: preprocessing sensitivity | `revision_2026-10-25/sources/eegnet_preprocessing_diagnostic/`; `results/preprocessing_diagnostic/` |
+
+The recovered behavioral-RSA filename `Supplementary_Figure_S24_behavioral_neural_RSA` refers to current S29. It is unrelated to current S24's missing headline-LOPO generator.
+
+The latest prediction pipelines retain all seeds (20261024, 11, 29) and all planned models. Primary EEGNet trial scores average three nonoverlapping 10-s probabilities or use one 30-s input, so both primary designs use the complete 30 seconds. The post-result nine-fit preprocessing diagnostic is a sensitivity analysis, not a published-benchmark replication or a new selected baseline. See `revision_2026-10-25/README.md` for exact scope and rerunning reports.
 
 ## Data availability
 

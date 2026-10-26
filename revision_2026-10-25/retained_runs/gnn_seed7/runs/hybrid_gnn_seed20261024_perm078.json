@@ -1,0 +1,168 @@
+{
+  "balanced_accuracy": 0.16033424908424906,
+  "config_sha256": "f53d255d88292d756112e0eb7d41592f2ff9f9b906aa1704ffdcd92b5a543d7f",
+  "fold_metrics": [
+    {
+      "balanced_accuracy": 0.15176282051282053,
+      "fold": 0,
+      "seconds": 12.47,
+      "test_n": 320,
+      "test_subjects": [
+        3,
+        8,
+        13,
+        16
+      ],
+      "train_n": 1280,
+      "train_subjects": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "balanced_accuracy": 0.16662087912087914,
+      "fold": 1,
+      "seconds": 7.66,
+      "test_n": 320,
+      "test_subjects": [
+        1,
+        2,
+        11,
+        17
+      ],
+      "train_n": 1280,
+      "train_subjects": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "balanced_accuracy": 0.1389423076923077,
+      "fold": 2,
+      "seconds": 7.79,
+      "test_n": 320,
+      "test_subjects": [
+        6,
+        12,
+        14,
+        18
+      ],
+      "train_n": 1280,
+      "train_subjects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        15,
+        16,
+        17,
+        19,
+        20
+      ]
+    },
+    {
+      "balanced_accuracy": 0.17570970695970695,
+      "fold": 3,
+      "seconds": 7.91,
+      "test_n": 320,
+      "test_subjects": [
+        5,
+        7,
+        10,
+        15
+      ],
+      "train_n": 1280,
+      "train_subjects": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "balanced_accuracy": 0.16863553113553115,
+      "fold": 4,
+      "seconds": 8.7,
+      "test_n": 320,
+      "test_subjects": [
+        4,
+        9,
+        19,
+        20
+      ],
+      "train_n": 1280,
+      "train_subjects": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "importance_path": null,
+  "model": "hybrid_gnn",
+  "n_features": 5520,
+  "perm": 78,
+  "predictions_path": "predictions/hybrid_gnn_seed20261024_perm078.npz",
+  "seconds": 44.94,
+  "seed": 20261024
+}

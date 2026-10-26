@@ -109,52 +109,64 @@ def clustered_ols_emotion_contrasts(df, ycol, ref="neutral"):
 lmm_emotion_contrasts = clustered_ols_emotion_contrasts
 
 
-def emotion_slope_lmm(df, ycol, xcol, ref="neutral"):
-    """Per-emotion coupling slope of ycol on xcol from ONE interaction model:
-        ycol ~ xcol * C(emotion) + (1|subject)
-    Returns (slopes, interaction_p) where slopes[emotion] = (beta, p) for the
-    full slope (main + interaction) via linear-combination t-tests, and
-    interaction_p is the LRT for the xcol:emotion interaction (does coupling
-    vary by emotion). This is the repeated-measures-correct way to get
-    emotion-specific coupling without fitting separate per-emotion models.
+def emotion_slope_clustered_ols(df, ycol, xcol, ref="neutral"):
+    """Fast emotion-specific y~x slopes for Figure 2 annotations.
+
+    Inputs are already subject-z-scored in ``run_part2.py``.  We fit one compact
+    interaction model with cluster-robust subject standard errors, then extract
+    each emotion slope as a linear combination of the main x effect and the
+    corresponding interaction coefficient.  This avoids repeated unstable
+    MixedLM fits while retaining subject-cluster robust inference.
     """
     import statsmodels.formula.api as smf
-    from scipy.stats import chi2
+    from scipy.stats import norm
     d = df[[ycol, xcol, "emotion", "subject"]].dropna().copy()
+    d = d.replace([np.inf, -np.inf], np.nan).dropna()
     cats = [ref] + [e for e in EMOS if e != ref]
     d["emotion"] = pd.Categorical(d["emotion"], categories=cats)
     try:
-        full = smf.mixedlm(f"{ycol} ~ {xcol} * C(emotion)", d, groups=d["subject"]).fit(
-            reml=False, method="lbfgs")
+        m = smf.ols(f"{ycol} ~ {xcol} * C(emotion)", d).fit(
+            cov_type="cluster", cov_kwds={"groups": d["subject"]})
     except Exception:
         return {e: (np.nan, np.nan) for e in EMOS}, np.nan
-    from scipy.stats import norm
-    fe = full.fe_params; names = list(fe.index); b = fe.values
-    try:
-        cov = full.cov_params().loc[names, names].values
-    except Exception:
-        return {e: (np.nan, np.nan) for e in EMOS}, np.nan
+
+    names = list(m.params.index)
+    b = m.params.values
+    cov = m.cov_params().loc[names, names].values
     def idx(nm): return names.index(nm) if nm in names else None
     slopes = {}
     ix = idx(xcol)
     for e in EMOS:
-        if ix is None: slopes[e] = (np.nan, np.nan); continue
+        if ix is None:
+            slopes[e] = (np.nan, np.nan)
+            continue
         c = np.zeros(len(names)); c[ix] = 1.0
         if e != ref:
-            it = idx(f"{xcol}:C(emotion)[T.{e}]")
-            if it is not None: c[it] = 1.0
-        est = float(c @ b); se = float(np.sqrt(max(c @ cov @ c, 1e-18)))
+            poss = [f"{xcol}:C(emotion)[T.{e}]", f"C(emotion)[T.{e}]:{xcol}"]
+            it = next((idx(nm) for nm in poss if idx(nm) is not None), None)
+            if it is not None:
+                c[it] = 1.0
+        est = float(c @ b)
+        se = float(np.sqrt(max(c @ cov @ c, 1e-18)))
         p = float(2 * norm.sf(abs(est / se))) if se > 0 else np.nan
         slopes[e] = (est, p)
-    # interaction LRT
-    try:
-        red = smf.mixedlm(f"{ycol} ~ {xcol} + C(emotion)", d, groups=d["subject"]).fit(
-            reml=False, method="lbfgs")
-        lr = 2 * (full.llf - red.llf)
-        pir = float(chi2.sf(lr, len(EMOS) - 1)) if (lr > 0 and np.isfinite(lr)) else np.nan
-    except Exception:
-        pir = np.nan
-    return slopes, pir
+
+    inter_terms = [i for i,nm in enumerate(names) if (f":{xcol}" in nm or f"{xcol}:" in nm) and "C(emotion)" in nm]
+    if inter_terms:
+        R = np.zeros((len(inter_terms), len(names)))
+        for r, i in enumerate(inter_terms):
+            R[r, i] = 1.0
+        try:
+            interaction_p = float(m.wald_test(R, scalar=True).pvalue)
+        except Exception:
+            interaction_p = np.nan
+    else:
+        interaction_p = np.nan
+    return slopes, interaction_p
+
+
+# Historical name retained for importing modules; this estimator is OLS.
+emotion_slope_lmm = emotion_slope_clustered_ols
 
 
 def boot_vs_neutral(df, col, emo, ref="neutral", n_boot=2000, seed=0):

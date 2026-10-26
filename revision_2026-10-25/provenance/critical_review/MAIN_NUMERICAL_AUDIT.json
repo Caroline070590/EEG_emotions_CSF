@@ -1,0 +1,248 @@
+{
+  "manuscript_sha256": "d9b1be214468189e97fe1fca40849f6792642e7ff6b0327b37c55d3809abc6ee",
+  "topology_input_sha256": "009e084707beae8603df5665ad0019dd3be310317d0384266a8f34f84675b720",
+  "topology_tests": 144,
+  "maximum_differences_from_rounded_published_table": {
+    "beta": 4.7966019079519195e-05,
+    "p_nominal": 4.908532431269208e-05,
+    "q_fdr_within_representation": 4.7033258381290466e-05,
+    "q_fdr_global": 4.2991667362934916e-05
+  },
+  "within_representation_survivors": [
+    {
+      "representation": "QG",
+      "metric": "Efficiency",
+      "emotion": "sadness",
+      "n_rows": 3444,
+      "beta": -0.2306678564461442,
+      "p_nominal": 0.0005694613293179621,
+      "q_fdr_within_representation": 0.02733414380726218,
+      "q_fdr_global": 0.08200243142178654
+    }
+  ],
+  "global_survivors": 0,
+  "sigma_missing_observations": [
+    {
+      "subject": 35,
+      "emotion": "fear",
+      "trial": "trial_008"
+    },
+    {
+      "subject": 81,
+      "emotion": "sadness",
+      "trial": "trial_011"
+    },
+    {
+      "subject": 92,
+      "emotion": "neutral",
+      "trial": "trial_016"
+    }
+  ],
+  "coupling_rows_sigma": 3441,
+  "coupling_rows_other": 3444,
+  "clique_counts": [
+    {
+      "emotion": "anger",
+      "max_dimension": 3,
+      "counts": {
+        "0": 30,
+        "1": 44,
+        "2": 16,
+        "3": 1
+      },
+      "displayed_chi": 1,
+      "full_chi": 1,
+      "displayed_load": 17,
+      "full_load": 17
+    },
+    {
+      "emotion": "disgust",
+      "max_dimension": 4,
+      "counts": {
+        "0": 30,
+        "1": 44,
+        "2": 22,
+        "3": 6,
+        "4": 1
+      },
+      "displayed_chi": 3,
+      "full_chi": 3,
+      "displayed_load": 29,
+      "full_load": 29
+    },
+    {
+      "emotion": "fear",
+      "max_dimension": 4,
+      "counts": {
+        "0": 30,
+        "1": 44,
+        "2": 21,
+        "3": 6,
+        "4": 1
+      },
+      "displayed_chi": 2,
+      "full_chi": 2,
+      "displayed_load": 28,
+      "full_load": 28
+    },
+    {
+      "emotion": "sadness",
+      "max_dimension": 2,
+      "counts": {
+        "0": 30,
+        "1": 44,
+        "2": 9
+      },
+      "displayed_chi": -5,
+      "full_chi": -5,
+      "displayed_load": 9,
+      "full_load": 9
+    },
+    {
+      "emotion": "neutral",
+      "max_dimension": 3,
+      "counts": {
+        "0": 30,
+        "1": 44,
+        "2": 14,
+        "3": 1
+      },
+      "displayed_chi": -1,
+      "full_chi": -1,
+      "displayed_load": 15,
+      "full_load": 15
+    },
+    {
+      "emotion": "amusement",
+      "max_dimension": 3,
+      "counts": {
+        "0": 30,
+        "1": 44,
+        "2": 13,
+        "3": 1
+      },
+      "displayed_chi": -2,
+      "full_chi": -2,
+      "displayed_load": 14,
+      "full_load": 14
+    },
+    {
+      "emotion": "inspiration",
+      "max_dimension": 3,
+      "counts": {
+        "0": 30,
+        "1": 44,
+        "2": 15,
+        "3": 1
+      },
+      "displayed_chi": 0,
+      "full_chi": 0,
+      "displayed_load": 16,
+      "full_load": 16
+    },
+    {
+      "emotion": "joy",
+      "max_dimension": 3,
+      "counts": {
+        "0": 30,
+        "1": 44,
+        "2": 15,
+        "3": 1
+      },
+      "displayed_chi": 0,
+      "full_chi": 0,
+      "displayed_load": 16,
+      "full_load": 16
+    },
+    {
+      "emotion": "tenderness",
+      "max_dimension": 3,
+      "counts": {
+        "0": 30,
+        "1": 44,
+        "2": 15,
+        "3": 1
+      },
+      "displayed_chi": 0,
+      "full_chi": 0,
+      "displayed_load": 16,
+      "full_load": 16
+    }
+  ],
+  "centroid_display_values_unchanged_by_dimension_correction": true,
+  "nbs_selected_component_counts": [
+    {
+      "emotion": "anger",
+      "total_suprathreshold_edges": 63,
+      "component_extents": [
+        63
+      ],
+      "displayed_extent": 63
+    },
+    {
+      "emotion": "disgust",
+      "total_suprathreshold_edges": 86,
+      "component_extents": [
+        86
+      ],
+      "displayed_extent": 86
+    },
+    {
+      "emotion": "fear",
+      "total_suprathreshold_edges": 66,
+      "component_extents": [
+        66
+      ],
+      "displayed_extent": 66
+    },
+    {
+      "emotion": "sadness",
+      "total_suprathreshold_edges": 118,
+      "component_extents": [
+        118
+      ],
+      "displayed_extent": 118
+    },
+    {
+      "emotion": "amusement",
+      "total_suprathreshold_edges": 7,
+      "component_extents": [
+        5,
+        1,
+        1
+      ],
+      "displayed_extent": 5
+    },
+    {
+      "emotion": "inspiration",
+      "total_suprathreshold_edges": 10,
+      "component_extents": [
+        7,
+        1,
+        1,
+        1
+      ],
+      "displayed_extent": 7
+    },
+    {
+      "emotion": "joy",
+      "total_suprathreshold_edges": 18,
+      "component_extents": [
+        17,
+        1
+      ],
+      "displayed_extent": 17
+    },
+    {
+      "emotion": "tenderness",
+      "total_suprathreshold_edges": 15,
+      "component_extents": [
+        7,
+        7,
+        1
+      ],
+      "displayed_extent": 7
+    }
+  ],
+  "scope": "Read-only audit: no manuscript, production code, or frozen delivery modified."
+}

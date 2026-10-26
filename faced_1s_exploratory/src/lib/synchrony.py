@@ -3,7 +3,8 @@ synchrony.py — Part 2 EEG synchronization metrics (vectorised, parallelised).
 
 Per trial, on a 1-45 Hz band-pass + Hilbert analytic signal, compute the mean
 (over channel pairs) of:
-  PLV, PLI, wPLI            (phase synchrony, vectorised via complex phases)
+  PLV, PLI                  (phase-difference descriptors)
+  wPLI                      (amplitude-weighted analytic cross-spectrum)
   amp_env_corr             (amplitude-envelope correlation)
   max_cross_corr, lag_ms   (temporal coupling)
 Coherence / mutual information are available but OFF by default (slow); enable
@@ -11,6 +12,8 @@ with heavy=True.
 """
 from pathlib import Path
 import time
+import hashlib
+import json
 import numpy as np
 import pandas as pd
 from joblib import Parallel, delayed
@@ -20,6 +23,7 @@ from lib.config import CH, EMOS, VAL, CACHE
 from lib.representations import load_raw_trial_csv, parse_subject_trial, _list_trials
 
 FS = 250
+ESTIMATOR_VERSION = "analytic_cross_spectrum_wpli_v1"
 SYNC_COLS = ["plv","pli","wpli","amp_env_corr","max_cross_corr","lag_ms"]
 
 def _bandpass(X, low=1.0, high=45.0, order=4, fs=FS):
@@ -42,7 +46,7 @@ def synchrony_one(path):
     plv = np.abs(S)[iu]
     # PLI / wPLI from imaginary part of cross-spectrum per sample
     # build pairwise imaginary mean via einsum (T x n x n is big; loop pairs in chunks)
-    Im = np.imag(z[:, :, None] * np.conj(z)[:, None, :])   # T x n x n
+    Im = np.imag(A[:, :, None] * np.conj(A)[:, None, :])   # T x n x n; amplitude weights retained
     pli = np.abs(np.mean(np.sign(Im), axis=0))[iu]
     denom = np.mean(np.abs(Im), axis=0); num = np.abs(np.mean(Im, axis=0))
     wpli = np.divide(num, denom, out=np.zeros_like(num), where=denom > 0)[iu]
@@ -69,11 +73,26 @@ def _one_with_emo(path, emo):
 
 def compute_synchrony(n_jobs=-1, force=False):
     f = CACHE / "trial_synchrony_metrics.csv"
+    metadata = CACHE / "trial_synchrony_metrics.metadata.json"
+    source_sha = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     if f.exists() and not force:
-        print("[synchrony] cached"); return pd.read_csv(f)
+        try:
+            info = json.loads(metadata.read_text())
+            valid = (info.get("estimator_version") == ESTIMATOR_VERSION
+                     and info.get("source_sha256") == source_sha
+                     and info.get("csv_sha256") == hashlib.sha256(f.read_bytes()).hexdigest())
+        except (OSError, ValueError):
+            valid = False
+        if valid:
+            print("[synchrony] verified amplitude-weighted cache"); return pd.read_csv(f)
+        print("[synchrony] recomputing cache without matching estimator provenance")
     items = _list_trials(); t0 = time.time()
     out = Parallel(n_jobs=n_jobs, verbose=5)(delayed(_one_with_emo)(p, emo) for p, _, emo in items)
     df = pd.DataFrame([r for r in out if r is not None])
     df.to_csv(f, index=False)
+    metadata.write_text(json.dumps({"estimator_version": ESTIMATOR_VERSION,
+                                   "source_sha256": source_sha,
+                                   "csv_sha256": hashlib.sha256(f.read_bytes()).hexdigest(),
+                                   "n_trials": len(df)}, indent=2) + "\n")
     print(f"[synchrony] {len(df)} trials in {time.time()-t0:.1f}s")
     return df

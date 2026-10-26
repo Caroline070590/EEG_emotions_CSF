@@ -19,6 +19,9 @@ from lib.stats import clustered_ols_emotion_contrasts
 from lib.chord import chord_diagram
 
 METHODS = {"spearman": "Spearman", "mtf": "MTF", "qg": "QG"}
+SP_METRICS = ["sigma_small_world", "transitivity", "char_path_len_gcc"]
+RNG = np.random.default_rng(0)
+
 def stars(p): return "***" if p<1e-3 else "**" if p<1e-2 else "*" if p<.05 else ""
 def _load(tag):
     f = CACHE / f"trial_metrics_{tag}.csv"; return pd.read_csv(f) if f.exists() else None
@@ -40,6 +43,33 @@ def draw_heatmap(ax, df, title, show_y):
             if st: ax.text(j, i, st, ha="center", va="center", fontsize=5,
                            color="white" if z.values[i, j] < 0.7 else "#111111")
     return im, z
+
+def metric_bars(ax, df, metric):
+    subj = df.groupby(["subject","emotion"])[metric].mean().reset_index()
+    means=[]; los=[]; his=[]
+    for e in EMOS:
+        v = subj[subj.emotion==e][metric].values.astype(float); v = v[~np.isnan(v)]
+        m = float(v.mean()) if len(v) else np.nan; means.append(m)
+        if len(v):
+            bs = [np.mean(RNG.choice(v, len(v), replace=True)) for _ in range(1200)]
+            los.append(m-np.percentile(bs,2.5)); his.append(np.percentile(bs,97.5)-m)
+        else: los.append(0); his.append(0)
+    x = np.arange(len(EMOS))
+    ax.bar(x, means, color=[EMO_COLORS[e] for e in EMOS], edgecolor="k", linewidth=0.3,
+           yerr=[los,his], error_kw=dict(elinewidth=0.5, capsize=1.2, capthick=0.5))
+    # zoom y-axis to the CI range (with padding) so emotion differences are visible
+    lo_edge = np.nanmin([m-l for m,l in zip(means,los)])
+    hi_edge = np.nanmax([m+h for m,h in zip(means,his)])
+    span = hi_edge - lo_edge if hi_edge > lo_edge else max(abs(hi_edge),1)*0.1
+    ax.set_ylim(lo_edge - 0.25*span, hi_edge + 0.45*span)
+    pmap = clustered_ols_emotion_contrasts(df, metric, ref="neutral")
+    for i, e in enumerate(EMOS):
+        if e == "neutral" or np.isnan(means[i]): continue
+        st = stars(pmap.get(e, np.nan))
+        if st: ax.text(i, means[i]+his[i], st, ha="center", va="bottom", fontsize=4.6)
+    ax.set_xticks([]); ax.set_title(METRIC_LABELS[metric], pad=4, fontsize=7)
+    ax.tick_params(axis="y", labelsize=5)
+    for sp in ["top","right"]: ax.spines[sp].set_visible(False)
 
 def chord(ax, S, title=None):
     S = np.clip(S, 0, None); np.fill_diagonal(S, 0)

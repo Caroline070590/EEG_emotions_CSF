@@ -1,0 +1,125 @@
+{
+  "status": "raw comparisons completed",
+  "n_raw_trials": 3444,
+  "n_regional_rows": 17220,
+  "band_sample_trials": 63,
+  "band_sample_estimates": 441,
+  "band_cache_sha256": "a5b90d2a03f6accad5d970ac2029964df13b87fbd3a5259574d79095d0d6baf0",
+  "band_max_abs_error": 7.402077988216682e-06,
+  "cache_checks": {
+    "retained_global": {
+      "path": "emotion_eeg_paper_updated-FINAL/emotion_eeg_paper_fixed/cache/trial_synchrony_metrics.csv",
+      "sha256": "56f03b9d2d0a8dfc004e5386bbd7db6f012a49f36f9d6adebd5a6b34021f89ce",
+      "standard_ba": {
+        "n": 3444,
+        "max_absolute_error": 6.101685628978615e-08,
+        "mean_absolute_error": 2.4580321407624943e-10,
+        "matches_at_1e-6": true
+      },
+      "standard_sos": {
+        "n": 3444,
+        "max_absolute_error": 5.681200665463848e-08,
+        "mean_absolute_error": 1.6283258182419842e-10,
+        "matches_at_1e-6": true
+      },
+      "phase_only": {
+        "n": 3444,
+        "max_absolute_error": 0.28916487467705,
+        "mean_absolute_error": 0.08266579365342938,
+        "matches_at_1e-6": false
+      }
+    },
+    "historical_phase_only": {
+      "path": "emotions-test4/emotion_eeg_paper/cache/trial_synchrony_metrics.csv",
+      "sha256": "f6483dc528da77c46f76825af1eb8c21001f6d9b85eef2cf6941016694317090",
+      "standard_ba": {
+        "n": 3444,
+        "max_absolute_error": 0.28916487467126023,
+        "mean_absolute_error": 0.0826657937797356,
+        "matches_at_1e-6": false
+      },
+      "standard_sos": {
+        "n": 3444,
+        "max_absolute_error": 0.2891648745850792,
+        "mean_absolute_error": 0.0826657937404994,
+        "matches_at_1e-6": false
+      },
+      "phase_only": {
+        "n": 3444,
+        "max_absolute_error": 5.1182014404460574e-08,
+        "mean_absolute_error": 1.6423132368058462e-10,
+        "matches_at_1e-6": true
+      }
+    },
+    "released_derived": {
+      "path": "EEG_emotions_CSF_release/faced_1s_exploratory/derived/trial_scalar_synchronization.csv",
+      "sha256": "1373c829cba8935748b17de79ae6d16d2ad317a3446e58b7138ebf86b3c96266",
+      "standard_ba": {
+        "n": 3444,
+        "max_absolute_error": 7.928717718486133e-08,
+        "mean_absolute_error": 6.930120720137239e-09,
+        "matches_at_1e-6": true
+      },
+      "standard_sos": {
+        "n": 3444,
+        "max_absolute_error": 4.674094833401199e-08,
+        "mean_absolute_error": 6.8204640990361145e-09,
+        "matches_at_1e-6": true
+      },
+      "phase_only": {
+        "n": 3444,
+        "max_absolute_error": 0.28916487573735805,
+        "mean_absolute_error": 0.08266579342172944,
+        "matches_at_1e-6": false
+      }
+    },
+    "behavioral_verified": {
+      "path": "EEG_emotion_final_code_organized_2026-09-04/appendix_g/verification_rerun_2026-09-04/trial_scalar_synchronization.csv",
+      "sha256": "1373c829cba8935748b17de79ae6d16d2ad317a3446e58b7138ebf86b3c96266",
+      "standard_ba": {
+        "n": 3444,
+        "max_absolute_error": 7.928717718486133e-08,
+        "mean_absolute_error": 6.930120720137239e-09,
+        "matches_at_1e-6": true
+      },
+      "standard_sos": {
+        "n": 3444,
+        "max_absolute_error": 4.674094833401199e-08,
+        "mean_absolute_error": 6.8204640990361145e-09,
+        "matches_at_1e-6": true
+      },
+      "phase_only": {
+        "n": 3444,
+        "max_absolute_error": 0.28916487573735805,
+        "mean_absolute_error": 0.08266579342172944,
+        "matches_at_1e-6": false
+      }
+    },
+    "stimulus_aware": {
+      "path": "Stimulus_aware_FACED_S21_package/results/trial_scalar_synchronization.csv",
+      "sha256": "1373c829cba8935748b17de79ae6d16d2ad317a3446e58b7138ebf86b3c96266",
+      "standard_ba": {
+        "n": 3444,
+        "max_absolute_error": 7.928717718486133e-08,
+        "mean_absolute_error": 6.930120720137239e-09,
+        "matches_at_1e-6": true
+      },
+      "standard_sos": {
+        "n": 3444,
+        "max_absolute_error": 4.674094833401199e-08,
+        "mean_absolute_error": 6.8204640990361145e-09,
+        "matches_at_1e-6": true
+      },
+      "phase_only": {
+        "n": 3444,
+        "max_absolute_error": 0.28916487573735805,
+        "mean_absolute_error": 0.08266579342172944,
+        "matches_at_1e-6": false
+      }
+    }
+  },
+  "elapsed_seconds": 115.29029703140259,
+  "script_sha256": "013c572756a213de8188f8a9387a721d9cb9fca6a4ce3e24c38183905476b58a",
+  "raw_manifest_sha256": "910b19464ff667d1f671501a61b1aa762d3a1bd807f259892c700a5a2a5e6242",
+  "scope": "Full broadband wPLI raw recomputation; band cache sampled across 63 trials and seven bands; regional estimates regenerated for downstream verification. Does not certify all figure generators."
+}

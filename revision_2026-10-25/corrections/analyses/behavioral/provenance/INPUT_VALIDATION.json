@@ -1,0 +1,23 @@
+{
+  "status": "validated",
+  "source_root": "/home/carolinealves/Documents/Emotions-eeg/EEG_emotion_final_code_organized_2026-09-04/appendix_g",
+  "input_sha256": "232a7511fdd69b71e55f307d4706800d581909837bf8d2b7a29855a5f9aa73ca",
+  "original_source_sha256": "d5186b68343aa60c72c6a30dfd81f70a03dbb47a7c7fed2bf09c1a63097b287c",
+  "official_events_json": "/home/carolinealves/Documents/Emotions-eeg/EEG_emotion_final_code_organized_2026-09-04/appendix_g/reconstructed_inputs/FACED_official_events_v1.1.3.json",
+  "official_events_sha256": "f5552d286b702338865659148fe76f88e0bd031e369b80bb197daa215bb6176a",
+  "raw_synchronization_csv": "/home/carolinealves/Documents/Emotions-eeg/EEG_emotion_final_code_organized_2026-09-04/appendix_g/verification_rerun_2026-09-04/trial_scalar_synchronization.csv",
+  "raw_synchronization_sha256": "1373c829cba8935748b17de79ae6d16d2ad317a3446e58b7138ebf86b3c96266",
+  "n_subjects": 123,
+  "subject_ids": "0 through 122",
+  "n_videos": 28,
+  "video_ids": "1 through 28",
+  "n_rows": 3444,
+  "max_rating_difference_from_official_events": 4.440892098500626e-16,
+  "max_raw_outcome_difference_between_merged_and_scalar_tables": 0.0,
+  "source_estimator": "All 3444 raw EEG trials independently verify amplitude-weighted wPLI for this behavioral cache; no outcome values were replaced.",
+  "historical_boundary": "Input is the September4 verification rerun, not claimed byte-identical to the earlier manuscript-linked behavioral output. Legacy verification fold reproduction and manuscript-table deltas are supplied separately.",
+  "modified_inputs": false,
+  "wpli_lineage_validation": "/home/carolinealves/Documents/Emotions-eeg/CONSISTENCY_CORRECTIONS_CSF_2026-10-25/analyses/wpli/RAW_LINEAGE_VALIDATION.json",
+  "wpli_lineage_validation_sha256": "d5fb7f438e1963707c6bcc0c6ca74ba880495ed0e9dbd2e4fb1b890c3593cbe0",
+  "wpli_max_absolute_difference_vs_independent_raw_recomputation": 4.674094833401199e-08
+}

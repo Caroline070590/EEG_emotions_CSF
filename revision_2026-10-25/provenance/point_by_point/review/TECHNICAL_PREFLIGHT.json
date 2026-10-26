@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-25",
+  "status": "passed_source_preflight_after_targeted_corrections",
+  "scope": "Finite source-level technical preflight of active manuscript, included behavioral appendix, response and cited bibliography. This is not a new scientific raw-data audit or an exhaustive external reference verification. Compilation and visual validation are separate root checks.",
+  "source_sha256": {
+    "manuscript/main.tex": "4a7f824b81d4bbb26659d085fbea12cfeafa724b6836306c9dd28d49b201d99c",
+    "manuscript/Figures/Appendix_behavioral_grounding.tex": "f60bed0544cede2dd10fec46974d4f8f826595c284e1279f429e46ef5704735c",
+    "response/response.tex": "c030d1ae5c5c5abebd5b1c733810365d77bd5a5c8a6835da00c69c3d49c0e5cd",
+    "manuscript/cas-refs.bib": "9fd0bef53ca9359b4eb724b6a1c7addff4f8d15348b650e4a79e7c74523a6adc"
+  },
+  "bibliography": {
+    "database_entries": 145,
+    "cited_entries": 84,
+    "missing_keys": [],
+    "duplicate_keys": [],
+    "missing_required_metadata": [],
+    "duplicate_cited_doi_or_title": {
+      "doi": [],
+      "title": []
+    },
+    "cited_entries_without_electronic_identifier": [
+      {
+        "key": "Ganin2016DomainAdversarial",
+        "venue": "Journal of Machine Learning Research",
+        "year": "2016",
+        "volume": "17",
+        "pages": "1--35",
+        "assessment": "Identifiable by venue/year and page range; missing electronic identifier is not treated as an incomplete record."
+      },
+      {
+        "key": "Krueger2021REx",
+        "venue": "Proceedings of the 38th International Conference on Machine Learning",
+        "year": "2021",
+        "volume": "139",
+        "pages": "5815--5826",
+        "assessment": "Identifiable by venue/year and page range; missing electronic identifier is not treated as an incomplete record."
+      },
+      {
+        "key": "Wang2015ImagingTimeSeries",
+        "venue": "Proceedings of the Twenty-Fourth International Joint Conference on Artificial Intelligence",
+        "year": "2015",
+        "volume": null,
+        "pages": "3939--3945",
+        "assessment": "Identifiable by venue/year and page range; missing electronic identifier is not treated as an incomplete record."
+      },
+      {
+        "key": "bedrosian1963product",
+        "venue": "Proceedings of the IEEE",
+        "year": "1963",
+        "volume": "51",
+        "pages": "868--869",
+        "assessment": "Identifiable by venue/year and page range; missing electronic identifier is not treated as an incomplete record."
+      },
+      {
+        "key": "boashash1992estimating",
+        "venue": "Proceedings of the IEEE",
+        "year": "1992",
+        "volume": "80",
+        "pages": "520--538",
+        "assessment": "Identifiable by venue/year and page range; missing electronic identifier is not treated as an incomplete record."
+      },
+      {
+        "key": "chavez2006towards",
+        "venue": "Journal of Neuroscience methods",
+        "year": "2006",
+        "volume": "154",
+        "pages": "149--160",
+        "assessment": "Identifiable by venue/year and page range; missing electronic identifier is not treated as an incomplete record."
+      },
+      {
+        "key": "maria2014gudhi",
+        "venue": "International congress on mathematical software",
+        "year": "2014",
+        "volume": null,
+        "pages": "167--174",
+        "assessment": "Identifiable by venue/year and page range; missing electronic identifier is not treated as an incomplete record."
+      },
+      {
+        "key": "riedel2018dissociable",
+        "venue": "Human brain mapping",
+        "year": "2018",
+        "volume": "39",
+        "pages": "2514--2531",
+        "assessment": "Identifiable by venue/year and page range; missing electronic identifier is not treated as an incomplete record."
+      }
+    ],
+    "external_checks_limited_to_two_title_spacing_repairs": [
+      {
+        "key": "touroutoglou2015intrinsic",
+        "line": 1028,
+        "old_title": "Intrinsic connectivity in the human brain does not reveal networks for ‘basic’emotions",
+        "new_title": "Intrinsic connectivity in the human brain does not reveal networks for ‘basic’ emotions",
+        "doi_added": "10.1093/scan/nsv013",
+        "old_full_record": "@article{touroutoglou2015intrinsic,\n  title={Intrinsic connectivity in the human brain does not reveal networks for ‘basic’emotions},\n  author={Touroutoglou, Alexandra and Lindquist, Kristen A and Dickerson, Bradford C and Barrett, Lisa Feldman},\n  journal={Social cognitive and affective neuroscience},\n  volume={10},\n  number={9},\n  pages={1257--1265},\n  year={2015},\n  publisher={Oxford University Press}\n}",
+        "new_full_record": "@article{touroutoglou2015intrinsic,\n  title={Intrinsic connectivity in the human brain does not reveal networks for ‘basic’ emotions},\n  author={Touroutoglou, Alexandra and Lindquist, Kristen A and Dickerson, Bradford C and Barrett, Lisa Feldman},\n  journal={Social cognitive and affective neuroscience},\n  volume={10},\n  number={9},\n  pages={1257--1265},\n  year={2015},\n  doi={10.1093/scan/nsv013},\n  publisher={Oxford University Press}\n}",
+        "authoritative_source_url": "https://academic.oup.com/scan/article/10/9/1257/1675553",
+        "old_record_sha256": "503e7945726fe6c72fdb9359cbd1830d49776a9ba8f9eb3d30ce9dc8620ebded",
+        "new_record_sha256": "f424bdfc944addd3f3e95fab92d0d99696861aa96d8908bea7be2ed8fb4c5012"
+      },
+      {
+        "key": "maris2007nonparametric",
+        "line": 1061,
+        "old_title": "Nonparametric statistical testing of EEG-and MEG-data",
+        "new_title": "Nonparametric statistical testing of EEG- and MEG-data",
+        "doi_added": "10.1016/j.jneumeth.2007.03.024",
+        "old_full_record": "@article{maris2007nonparametric,\n  title={Nonparametric statistical testing of EEG-and MEG-data},\n  author={Maris, Eric and Oostenveld, Robert},\n  journal={Journal of neuroscience methods},\n  volume={164},\n  number={1},\n  pages={177--190},\n  year={2007},\n  publisher={Elsevier}\n}",
+        "new_full_record": "@article{maris2007nonparametric,\n  title={Nonparametric statistical testing of EEG- and MEG-data},\n  author={Maris, Eric and Oostenveld, Robert},\n  journal={Journal of neuroscience methods},\n  volume={164},\n  number={1},\n  pages={177--190},\n  year={2007},\n  doi={10.1016/j.jneumeth.2007.03.024},\n  publisher={Elsevier}\n}",
+        "authoritative_source_url": "https://www.sciencedirect.com/science/article/pii/S0165027007001707",
+        "old_record_sha256": "71d04fc66b1f699a4cabda3f572fd8ea3a772347dc70d1742bb2b611da48c203",
+        "new_record_sha256": "f671aa41434ab5298e4e3dbf0ad08e4cd719fe49715c7ebd133c777275e23952"
+      }
+    ],
+    "other_publication_metadata_externally_revalidated_this_pass": false
+  },
+  "internal_references": {
+    "labels": 84,
+    "references": 149,
+    "duplicate_labels": [],
+    "unresolved_labels": [],
+    "graphic_inclusions": 36,
+    "missing_graphics": [],
+    "included_tex": [
+      "Figures/Appendix_behavioral_grounding"
+    ],
+    "missing_included_tex": [],
+    "response_numbered_cross_references": "Most response locations are manually written; reviewer-specific coverage audits, rather than this automatic label test, assess their meaning."
+  },
+  "metadata": {
+    "title_matches": true,
+    "title": "EEG network organization across affective video conditions: complementary nonlinear representations, topological summaries, and synchronization--topology coupling",
+    "journal_matches": true,
+    "journal": "Chaos, Solitons \\& Fractals",
+    "authors_match": true,
+    "authors": [
+      "Caroline L. Alves",
+      "Amirali Kalbasi",
+      "Luigi F. Saccaro",
+      "Njiva Andrianarivelo",
+      "Alessandra Panzeri",
+      "Camilla Bellone"
+    ],
+    "credit_initials_match": true,
+    "credit": {
+      "CLA": "Caroline L. Alves",
+      "AK": "Amirali Kalbasi",
+      "LFS": "Luigi F. Saccaro",
+      "NA": "Njiva Andrianarivelo",
+      "AP": "Alessandra Panzeri",
+      "CB": "Camilla Bellone"
+    },
+    "abstract_word_count_approximate": 229,
+    "word_count_scope": "Counts hyphenated words as one and inline q=30 as one formula token."
+  },
+  "declarations": {
+    "data_availability_present": true,
+    "code_availability_present": true,
+    "generative_ai_declaration_present": true,
+    "credit_present": true,
+    "funding_acknowledgement_present": true,
+    "competing_interests": "Author confirmation reported by parent; explicit no-competing-interests declaration now present. Not independently verified by this technical audit.",
+    "no_unfilled_placeholders": true,
+    "placeholder_hits": [],
+    "historical_code_limitations": "Missing historical S24 generator and summary-only physics-informed variant are stated, not disguised as fully reproducible."
+  },
+  "arithmetic_and_unit_spot_checks": {
+    "FACED_trials": "123 participants x 28 videos = 3444 observations",
+    "main_segment": "250 samples / 250 Hz = 1 s",
+    "supplement_epoch": "7500 samples / 250 Hz = 30 s",
+    "SEED_trials": "20 participants x 80 clips = 1600 observations",
+    "unique_channel_pairs": "30 x 29 / 2 = 435",
+    "connectivity_inputs": "11 edge views x 435 = 4785",
+    "recurrence_inputs": "5 channel descriptors x 30 + 435 = 585",
+    "combined_auxiliary_inputs": "4785 + 585 = 5370",
+    "same_total_EEG_per_trial": "3 x 10 s and 1 x 30 s both supply 30 s per prediction",
+    "lag_units": "1000/fs converts sample lag to milliseconds",
+    "status": "No new arithmetic or unit contradiction found in these finite checks."
+  },
+  "resolved_findings": [
+    {
+      "location": "manuscript/main.tex:187",
+      "issue": "Claim of identical preprocessing/segmentation across all analyses contradicted explicit differing windows and EEGNet processing.",
+      "resolution": "The same provider-preprocessed FACED recordings supplied the main and supplementary analyses; analysis-specific windowing and additional preprocessing are specified below.",
+      "edited_by": "parent"
+    },
+    {
+      "location": "manuscript/cas-refs.bib, touroutoglou2015intrinsic",
+      "issue": "Missing space between quoted basic and emotions; no DOI.",
+      "resolution": "Title spacing repaired; publisher-confirmed DOI 10.1093/scan/nsv013 added."
+    },
+    {
+      "location": "manuscript/cas-refs.bib, maris2007nonparametric",
+      "issue": "Missing space in EEG-and; no DOI.",
+      "resolution": "Changed to EEG- and; publisher-confirmed DOI 10.1016/j.jneumeth.2007.03.024 added."
+    }
+  ],
+  "remaining_concrete_defects_in_scope": [],
+  "not_claimed": "This preflight does not independently verify authorship/contribution/funding truth, dataset permissions or every bibliographic metadata record; it does not guarantee scientific acceptance."
+}

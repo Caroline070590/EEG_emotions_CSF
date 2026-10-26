@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "original_out_of_fold_predictions_reproduced_exactly": true,
+  "participant_normalization_reproduced_from_raw_features": true,
+  "restricted_assignments_refitted": [
+    0,
+    1,
+    999
+  ],
+  "scores": [
+    {
+      "permutation": -1,
+      "balanced_accuracy": 0.29523809523809524,
+      "expected": 0.29523809523809524
+    },
+    {
+      "permutation": 0,
+      "balanced_accuracy": 0.10476190476190476,
+      "expected": 0.10476190476190476
+    },
+    {
+      "permutation": 1,
+      "balanced_accuracy": 0.11398809523809524,
+      "expected": 0.11398809523809524
+    },
+    {
+      "permutation": 999,
+      "balanced_accuracy": 0.15565476190476193,
+      "expected": 0.15565476190476193
+    }
+  ],
+  "source_sha256": "4875f81f43135d2062977c3e9214de67430c613c98ae04a826b19642735ce2ad"
+}

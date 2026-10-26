@@ -1,0 +1,115 @@
+{
+  "status": "validated_label_only_repair",
+  "scope": "Vector PDF overlay replaces only two axis labels. No scientific data, histogram, persistence feature, correlation or statistical estimate was recomputed. Original plotted panels are preserved as a PDF object.",
+  "original_input": {
+    "path": "POINT_BY_POINT_CSF_2026-10-25/release_candidate/revision_2026-10-25/provenance/point_by_point/s5/original_S5.pdf",
+    "sha256": "0aa080bb9da05ccc121ba9152394505a00d6232f02e6578e98de48a976f12e49"
+  },
+  "overlay_source": {
+    "path": "POINT_BY_POINT_CSF_2026-10-25/release_candidate/revision_2026-10-25/provenance/point_by_point/s5/label_overlay.tex",
+    "sha256": "dfe296fc6098860b0c42c8004a5c9707bf2415fed3ce54c39aaa6c7e059904e3"
+  },
+  "label_rectangles_pdf_points_from_top_left": [
+    [
+      319,
+      28,
+      333,
+      151
+    ],
+    [
+      333,
+      170,
+      444,
+      184
+    ]
+  ],
+  "pixel_checks": [
+    {
+      "dpi": 300,
+      "shape": [
+        819,
+        1854,
+        3
+      ],
+      "changed_pixels": 8387,
+      "outside_label_rectangles_changed_pixels": 0,
+      "outside_label_rectangles_equal": true
+    },
+    {
+      "dpi": 600,
+      "shape": [
+        1637,
+        3708,
+        3
+      ],
+      "changed_pixels": 27519,
+      "outside_label_rectangles_changed_pixels": 0,
+      "outside_label_rectangles_equal": true
+    }
+  ],
+  "numeric_computation_AST_unchanged": true,
+  "all_contrasts_sha256_unchanged": "f1f6241425f1dc1d29652ec7cbebebbd43f3da0c39c09bdd3e29709f2135b8d0",
+  "source_documentation_changes": [
+    {
+      "path": "/home/carolinealves/Documents/Emotions-eeg/POINT_BY_POINT_CSF_2026-10-25/release_candidate/faced/src/figS5_persistent_homology.py",
+      "before_sha256": "3637974fa4c332254b811582fe9d4fdead2bc248805d9947e64cc7c36042a5da",
+      "after_sha256": "adf54544deb892b4e20ce744b3a8f114ac4cea116c2c6a66acde561afda8fc22",
+      "old": "D = sqrt(2(1 - rho)) on SIGNED Spearman correlations is the Euclidean distance between\nrank-standardised channel time series, hence a true metric. The submitted construction,\nsqrt(2(1 - |rho|)), is only a symmetric dissimilarity; we quantify how often it violates the\ntriangle inequality. (A Vietoris-Rips filtration is well defined for any symmetric\ndissimilarity, but stability guarantees are stated for metric spaces.)",
+      "new": "D = sqrt(2(1 - rho)) is Euclidean distance between standardized rank series.\nThe absolute-correlation construction sqrt(2(1 - |rho|)) is the sign-quotient\npseudometric min(||u-v||, ||u+v||), which also satisfies the triangle inequality.\nBoth distances therefore admit metric filtrations; the numerical triangle-ratio\ncheck illustrates the proof rather than testing whether only one construction is valid."
+    },
+    {
+      "path": "/home/carolinealves/Documents/Emotions-eeg/POINT_BY_POINT_CSF_2026-10-25/release_candidate/faced/src/figS5_persistent_homology.py",
+      "before_sha256": "adf54544deb892b4e20ce744b3a8f114ac4cea116c2c6a66acde561afda8fc22",
+      "after_sha256": "cb4ddb04120beef54bea96196295f16f2f83911fdcc413fa3c8cf5817115ba1c",
+      "old": "ax.set_xlabel(\"$d_z$, submitted distance\"); ax.set_ylabel(\"$d_z$, metric distance\")",
+      "new": "ax.set_xlabel(\"$d_z$, absolute-correlation distance\"); ax.set_ylabel(\"$d_z$, signed-correlation distance\")"
+    },
+    {
+      "path": "/home/carolinealves/Documents/Emotions-eeg/POINT_BY_POINT_CSF_2026-10-25/release_candidate/faced/src/lib_rev.py",
+      "before_sha256": "9778ad10b7d8fdb1e2413cfab167f15677539f761cbc811aa72e8616af148dde",
+      "after_sha256": "f735c9fb89c209ef7b71e27614619d529e6d56eff245b5df3f76c6f97cd1e39c",
+      "old": "the exact quasi-F logic of Clark (1973), min F':",
+      "new": "the conservative min F' lower-bound approach of Clark (1973):"
+    },
+    {
+      "path": "/home/carolinealves/Documents/Emotions-eeg/POINT_BY_POINT_CSF_2026-10-25/release_candidate/faced/README.md",
+      "before_sha256": "2f3c2f0ed52712137c174818b723e8f7f87d0440f7af6906f7919f589d791aa8",
+      "after_sha256": "13b3bf131fb8705dcb29f29defcbbd9952537bd3f1b6b6cf60c91698feb75eba",
+      "old": "Sections 2 and 3.1 and Appendices A\u2013B of the manuscript (Figs. 1\u20133, S1\u2013S7).",
+      "new": "Supplementary Appendices A\u2013B of the manuscript (Figs. S1\u2013S7 and S30\u2013S32). The main manuscript figures 1\u20133 use the original one-second analyses in `faced_1s_exploratory/`. Script and output filenames retain their historical numbering; the table below gives the current manuscript figure numbers."
+    },
+    {
+      "path": "/home/carolinealves/Documents/Emotions-eeg/POINT_BY_POINT_CSF_2026-10-25/release_candidate/faced/README.md",
+      "before_sha256": "13b3bf131fb8705dcb29f29defcbbd9952537bd3f1b6b6cf60c91698feb75eba",
+      "after_sha256": "1ffbdcfc6b599dfc16c41ddb8dea41a295dc55fa652a64c138e93d6eb0abd7fb",
+      "old": "| | `fig1_fig2_synchronization_and_stimulus.py` | Figs. 1\u20132 |",
+      "new": "| | `fig1_fig2_synchronization_and_stimulus.py` | Figs. S31 (synchronization) and S30 (participants/stimuli) |"
+    },
+    {
+      "path": "/home/carolinealves/Documents/Emotions-eeg/POINT_BY_POINT_CSF_2026-10-25/release_candidate/faced/README.md",
+      "before_sha256": "1ffbdcfc6b599dfc16c41ddb8dea41a295dc55fa652a64c138e93d6eb0abd7fb",
+      "after_sha256": "511e277de35d022d6975023148acff10ca492af51e36944492400ded994345be",
+      "old": "| | `fig3_decoding_unseen_videos.py` | Fig. 3, `tables/decoding_unseen_videos.csv` |",
+      "new": "| | `fig3_decoding_unseen_videos.py` | Fig. S32, `tables/decoding_unseen_videos.csv` |"
+    }
+  ],
+  "updated_assets": [
+    {
+      "path": "POINT_BY_POINT_CSF_2026-10-25/release_candidate/faced/figures/FigS5_persistent_homology.pdf",
+      "before_sha256": "0aa080bb9da05ccc121ba9152394505a00d6232f02e6578e98de48a976f12e49",
+      "after_sha256": "c23b81313ae1db0302d67c76def4a55e5bbb7a81c6952e9ec09cf1173819b7af"
+    },
+    {
+      "path": "POINT_BY_POINT_CSF_2026-10-25/manuscript/Figures/Rev2_FigR7_persistent_homology_metric.pdf",
+      "before_sha256": "0aa080bb9da05ccc121ba9152394505a00d6232f02e6578e98de48a976f12e49",
+      "after_sha256": "c23b81313ae1db0302d67c76def4a55e5bbb7a81c6952e9ec09cf1173819b7af"
+    },
+    {
+      "path": "POINT_BY_POINT_CSF_2026-10-25/release_candidate/faced/figures/FigS5_persistent_homology.png",
+      "before_sha256": "6af69ead84e0f1833d364fb5631dcadb1a06a24cf0bc90e31ece54a1f879daa0",
+      "after_sha256": "face2db20df0d97d23a07fe7e0de3e84304ddeaa06ec36f1d1a6878d8be99a8b"
+    }
+  ],
+  "visual_review": "Final 300-dpi rendering inspected: both labels fit, do not cover ticks, data or neighboring panels.",
+  "limitation": "The original histogram cache was unavailable. This is a retained-panel label correction, not numerical figure regeneration. Invisible original labels remain in the imported PDF under white vector patches and may be extracted by text-only tools."
+}

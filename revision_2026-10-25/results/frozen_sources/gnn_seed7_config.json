@@ -1,0 +1,838 @@
+{
+  "class_names": [
+    "anger",
+    "disgust",
+    "fear",
+    "sadness",
+    "neutral",
+    "happiness",
+    "surprise"
+  ],
+  "data_manifest": {
+    "block_class_counts": [
+      10,
+      9,
+      7,
+      9,
+      4,
+      11,
+      6
+    ],
+    "block_labels": [
+      2,
+      5,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      2,
+      3,
+      1,
+      2,
+      2,
+      3,
+      0,
+      6,
+      1,
+      6,
+      6,
+      0,
+      0,
+      3,
+      5,
+      4,
+      5,
+      5,
+      1,
+      5,
+      2,
+      4,
+      4,
+      3,
+      6,
+      5,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      6,
+      6,
+      3,
+      0,
+      2,
+      2,
+      5,
+      0,
+      5,
+      3,
+      3,
+      4,
+      5,
+      3,
+      5
+    ],
+    "block_names": [
+      "1408 phontom horror|fear",
+      "20 once again|happiness",
+      "a boa constrictor is|disgust",
+      "a documentary about sea|disgust",
+      "a hand full of|disgust",
+      "a man is eating|disgust",
+      "a woman is disemboweled|disgust",
+      "a woman is vomiting|disgust",
+      "aftershock|sadness",
+      "annabelle|fear",
+      "black keys|sadness",
+      "braindead|disgust",
+      "bunshinsaba iii|fear",
+      "bunshinsaba ii|fear",
+      "dearest|sadness",
+      "dog abuse|anger",
+      "don t blink shin|surprise",
+      "eating clips from man|disgust",
+      "eric chien 2018 fism|surprise",
+      "eric chien imagination coins|surprise",
+      "family violence|anger",
+      "fantastic museum|anger",
+      "foster father|sadness",
+      "goodbye jinhua station|happiness",
+      "hardware conflict|neutral",
+      "hear me|happiness",
+      "home sweet home|happiness",
+      "how to make your|disgust",
+      "hsue shen tsien|happiness",
+      "hungry ghost ritual|fear",
+      "ide interface repair|neutral",
+      "introduction of ibm ilm300|neutral",
+      "little daddy|sadness",
+      "magic show|surprise",
+      "meet miss anxiety|happiness",
+      "mother abuses daughter|anger",
+      "ode to joy|anger",
+      "pet abuse|anger",
+      "riot of hong kong|anger",
+      "rob b hood|happiness",
+      "school bullying|anger",
+      "shin lim magician baffles|surprise",
+      "shin lim s epic|surprise",
+      "so young|sadness",
+      "tangshan barbecue restaurant beating|anger",
+      "the child s eye|fear",
+      "the eye x|fear",
+      "the stolen years|happiness",
+      "the story of xing|anger",
+      "under the hawthorn tree|happiness",
+      "under the hawthorn tree|sadness",
+      "very happy|sadness",
+      "world heritage in china|neutral",
+      "you are my life|happiness",
+      "you are my life|sadness",
+      "you are the apple|happiness"
+    ],
+    "channels": [
+      "FP1",
+      "FP2",
+      "FZ",
+      "F3",
+      "F4",
+      "F7",
+      "F8",
+      "FC1",
+      "FC2",
+      "FC5",
+      "FC6",
+      "CZ",
+      "C3",
+      "C4",
+      "T7",
+      "T8",
+      "CP1",
+      "CP2",
+      "CP5",
+      "CP6",
+      "PZ",
+      "P3",
+      "P4",
+      "P7",
+      "P8",
+      "PO3",
+      "PO4",
+      "OZ",
+      "O1",
+      "O2"
+    ],
+    "class_trial_counts": [
+      240,
+      240,
+      240,
+      240,
+      160,
+      240,
+      240
+    ],
+    "dataset": "SEED-VII",
+    "edge_shape": [
+      1600,
+      12,
+      435
+    ],
+    "emotions": [
+      "anger",
+      "disgust",
+      "fear",
+      "sadness",
+      "neutral",
+      "happiness",
+      "surprise"
+    ],
+    "inputs": {
+      "clips.csv": {
+        "bytes": 5512,
+        "path": "/home/users/l/lourenca/EEG_emotion_revision_2026-10/seed7_gnn_2026-10-24/input_cache/clips.csv",
+        "sha256": "724b751d5c3db2c3a542f55217aa34f33215b8d0a906b332d13046b19719f244"
+      },
+      "features_arrays.npz": {
+        "bytes": 68731908,
+        "path": "/home/users/l/lourenca/EEG_emotion_revision_2026-10/seed7_gnn_2026-10-24/input_cache/features_arrays.npz",
+        "sha256": "eba3e0a5d35d63a067774349311586b81aba5ea1266e3a90a49b2c91e94bdad8"
+      },
+      "features_scalar.csv": {
+        "bytes": 2067681,
+        "path": "/home/users/l/lourenca/EEG_emotion_revision_2026-10/seed7_gnn_2026-10-24/input_cache/features_scalar.csv",
+        "sha256": "73530af38d068d8fdecdc9f503a9562c66405f969f764ca36e7997e0b40926d2"
+      },
+      "meta.csv": {
+        "bytes": 125182,
+        "path": "/home/users/l/lourenca/EEG_emotion_revision_2026-10/seed7_gnn_2026-10-24/input_cache/meta.csv",
+        "sha256": "fc891088af453c5a54e07212732cb3928583b6be1664c3d522e427bb082d6386"
+      },
+      "recurrence_features.npz": {
+        "bytes": 2471210,
+        "path": "/home/users/l/lourenca/EEG_emotion_revision_2026-10/seed7_gnn_2026-10-24/input_cache/recurrence_features.npz",
+        "sha256": "a6704291ec9d1a72f3c2ad5f3d895cc4e48555b5a7083ddace3f120bcadcf692"
+      }
+    },
+    "mixed_source_programmes": [
+      "under the hawthorn tree",
+      "you are my life"
+    ],
+    "n_classes": 7,
+    "n_participants": 20,
+    "n_sessions": 4,
+    "n_source_condition_blocks": 56,
+    "n_source_programmes": 54,
+    "n_trials": 1600,
+    "n_unique_features": 5520,
+    "n_videos": 80,
+    "node_names": [
+      "logpower_delta",
+      "logpower_theta",
+      "logpower_alpha",
+      "logpower_beta",
+      "logpower_gamma",
+      "rqa_DET",
+      "rqa_LAM",
+      "rqa_Lmean",
+      "rqa_ENTR",
+      "rqa_TT"
+    ],
+    "node_shape": [
+      1600,
+      30,
+      10
+    ],
+    "null": "Labels shuffled across 56 source-by-original-condition blocks, shared by every participant; block-class counts preserved, clip-class counts may change",
+    "participant_display_ids": [
+      1,
+      20
+    ],
+    "participant_internal_ids": [
+      1,
+      20
+    ],
+    "preprocessing": "Raw cached features; scaling is fitted separately on training participants only",
+    "scope": "Unseen participants viewing the familiar clips and sessions; sessions differ in condition composition",
+    "session_by_class_clip_counts": [
+      [
+        4,
+        4,
+        0,
+        4,
+        4,
+        4,
+        0
+      ],
+      [
+        4,
+        0,
+        4,
+        4,
+        4,
+        0,
+        4
+      ],
+      [
+        4,
+        4,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      [
+        0,
+        4,
+        4,
+        4,
+        0,
+        4,
+        4
+      ]
+    ],
+    "source_epoch": "Official preprocessed 62-channel EEG at 200 Hz; same 30 FACED sensors; last 30 seconds resampled by 5/4 to 250 Hz (7500 samples)",
+    "video_to_block": [
+      39,
+      52,
+      5,
+      8,
+      35,
+      15,
+      50,
+      11,
+      30,
+      55,
+      47,
+      52,
+      17,
+      22,
+      37,
+      38,
+      54,
+      4,
+      52,
+      28,
+      40,
+      8,
+      29,
+      52,
+      33,
+      41,
+      52,
+      45,
+      32,
+      21,
+      48,
+      10,
+      12,
+      31,
+      33,
+      33,
+      24,
+      29,
+      14,
+      37,
+      39,
+      16,
+      3,
+      45,
+      20,
+      36,
+      29,
+      27,
+      33,
+      34,
+      53,
+      33,
+      17,
+      46,
+      40,
+      44,
+      13,
+      11,
+      18,
+      26,
+      2,
+      14,
+      29,
+      42,
+      23,
+      25,
+      33,
+      9,
+      22,
+      6,
+      7,
+      43,
+      0,
+      33,
+      49,
+      1,
+      19,
+      12,
+      51,
+      7
+    ],
+    "video_to_class": [
+      5,
+      4,
+      1,
+      3,
+      0,
+      0,
+      3,
+      1,
+      4,
+      5,
+      5,
+      4,
+      1,
+      3,
+      0,
+      0,
+      3,
+      1,
+      4,
+      5,
+      0,
+      3,
+      2,
+      4,
+      6,
+      6,
+      4,
+      2,
+      3,
+      0,
+      0,
+      3,
+      2,
+      4,
+      6,
+      6,
+      4,
+      2,
+      3,
+      0,
+      5,
+      6,
+      1,
+      2,
+      0,
+      0,
+      2,
+      1,
+      6,
+      5,
+      5,
+      6,
+      1,
+      2,
+      0,
+      0,
+      2,
+      1,
+      6,
+      5,
+      1,
+      3,
+      2,
+      6,
+      5,
+      5,
+      6,
+      2,
+      3,
+      1,
+      1,
+      3,
+      2,
+      6,
+      5,
+      5,
+      6,
+      2,
+      3,
+      1
+    ],
+    "video_to_session": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "view_names": [
+      "wpli_delta",
+      "wpli_theta",
+      "wpli_alpha",
+      "wpli_beta",
+      "wpli_gamma",
+      "oaec_delta",
+      "oaec_theta",
+      "oaec_alpha",
+      "oaec_beta",
+      "oaec_gamma",
+      "rho_signed",
+      "joint_recurrence"
+    ]
+  },
+  "dataset": "SEED-VII",
+  "epochs": 40,
+  "expected_permutations": 99,
+  "feature_count": 5520,
+  "fold_seed": 20261024,
+  "groups": [
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "logpower_delta",
+      "node_indices": [
+        0
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "logpower_theta",
+      "node_indices": [
+        1
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "logpower_alpha",
+      "node_indices": [
+        2
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "logpower_beta",
+      "node_indices": [
+        3
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "logpower_gamma",
+      "node_indices": [
+        4
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "rqa_DET",
+      "node_indices": [
+        5
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "rqa_LAM",
+      "node_indices": [
+        6
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "rqa_Lmean",
+      "node_indices": [
+        7
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "rqa_ENTR",
+      "node_indices": [
+        8
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "atomic",
+      "name": "rqa_TT",
+      "node_indices": [
+        9
+      ]
+    },
+    {
+      "edge_indices": [
+        0
+      ],
+      "kind": "atomic",
+      "name": "wpli_delta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        1
+      ],
+      "kind": "atomic",
+      "name": "wpli_theta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        2
+      ],
+      "kind": "atomic",
+      "name": "wpli_alpha",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        3
+      ],
+      "kind": "atomic",
+      "name": "wpli_beta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        4
+      ],
+      "kind": "atomic",
+      "name": "wpli_gamma",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        5
+      ],
+      "kind": "atomic",
+      "name": "oaec_delta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        6
+      ],
+      "kind": "atomic",
+      "name": "oaec_theta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        7
+      ],
+      "kind": "atomic",
+      "name": "oaec_alpha",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        8
+      ],
+      "kind": "atomic",
+      "name": "oaec_beta",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        9
+      ],
+      "kind": "atomic",
+      "name": "oaec_gamma",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        10
+      ],
+      "kind": "atomic",
+      "name": "rho_signed",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        11
+      ],
+      "kind": "atomic",
+      "name": "joint_recurrence",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [],
+      "kind": "family",
+      "name": "power_all",
+      "node_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "edge_indices": [],
+      "kind": "family",
+      "name": "rqa_all",
+      "node_indices": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "kind": "family",
+      "name": "wpli_all",
+      "node_indices": []
+    },
+    {
+      "edge_indices": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "kind": "family",
+      "name": "oaec_all",
+      "node_indices": []
+    }
+  ],
+  "importance": "Whole input-block permutations across videos within each held-out participant; identical video reordering across held-out participants",
+  "importance_repeats": 30,
+  "model_names": [
+    "hybrid_gnn",
+    "sfgnn",
+    "lda_full"
+  ],
+  "n_classes": 7,
+  "n_folds": 5,
+  "null": "Permutation of 56 source-by-condition block labels shared by every participant; full refitting; preserves block-class counts, while clip-class counts may vary",
+  "null_seed_offset": 10000,
+  "null_unit": "source_condition_block",
+  "primary_seed": 20261024,
+  "protocol": "Five-fold participant-held-out SEED-VII evaluation; familiar clips and sessions in all folds",
+  "selection": "Fixed inherited architectures and hyperparameters; no outcome-based feature selection or tuning; exploratory extension",
+  "sensitivity_seeds": [
+    11,
+    29
+  ],
+  "session_scope": "Familiar sessions; source-block null does not preserve session-by-condition counts; separate session-only control",
+  "software": {
+    "numpy": "2.4.6",
+    "python": "3.11.17",
+    "torch": "2.8.0+cpu"
+  },
+  "source_sha256": {
+    "data.py": "063111fb08d00157a789af4d91b9c59367f17eb59d0fe2b7f45c4ee86ce9cc53",
+    "linear.py": "ddad78ef22d44af58ae9d86a3c82dc8781b996c90055c2a4fb77b0bb75c6278e",
+    "run.py": "15855d087b69178fe3b40ce519c65e7c089d87730caeb2080cb9b1c9d95e5f2d",
+    "vendor/sdgnn.py": "48cd7607c41a4f70b66dadfd3bc1b0080c5a6df6c8cddbe65d2ecb6556c7a9ea"
+  },
+  "standardization": "Per scalar feature, training participants only; constant training features set to zero",
+  "training": {
+    "hybrid_gnn": {
+      "architecture": "hybrid",
+      "lambda_video_adversary": 1.0
+    },
+    "lda_full": {
+      "estimator": "sklearn lsqr/auto equivalent",
+      "implementation": "float64 exact sample-space covariance solve",
+      "shrinkage": "auto"
+    },
+    "sfgnn": {
+      "architecture": "sfgnn",
+      "lambda_video_adversary": 0.0
+    }
+  }
+}

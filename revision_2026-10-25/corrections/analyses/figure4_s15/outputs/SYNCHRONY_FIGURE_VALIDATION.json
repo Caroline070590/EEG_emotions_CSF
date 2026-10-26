@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "scope": "Re-rendering of verified original one-second results only; no inferential fits run by this rendering script.",
+  "source_sha256": "675afa7403e01c89f72a376d908080dd688f7be09563923fc13f603d8503fe95",
+  "lineage_validation_sha256": "246a5a3171cf5b5a663f8fb0a44f772aba723b38f58068cd5bf7812917d5f1b4",
+  "lineage_scope": "Historical trial-level participant-clustered OLS reproduces all 294 original heatmap cells at displayed color resolution. Exact hidden floating-point values cannot be reconstructed from the PDF alone; coefficients are reproduced by the identified historical code and verified input caches.",
+  "model": "Pooled: topology_z~synchrony_z, intercept included. Condition-specific: topology_z~synchrony_z*C(emotion), participant-clustered OLS. Interaction: 8-df Wald test. Within-participant sample-SD standardization. 3444 trials.",
+  "annotations": "All stars, counts, and daggers are nominal, unadjusted comparisons; stars p<.05/.01/.001; daggers interaction p<.05. No FDR interpretation is introduced.",
+  "n_fingerprint_cells": 54,
+  "n_pooled_coefficients": 24,
+  "n_condition_coefficients": 216,
+  "original_colormaps_and_limits_preserved": true,
+  "coupling_magnitudes_and_counts_match_verified_table": true,
+  "input_sha256": {
+    "agg_meta_spearman.csv": "713c822952bbac7f0eae662d3d4e5ee0f6d063afe79b7f457b06cb4a320db90c",
+    "agg_spearman.npy": "974fefbb30ac885beee589a3fd13f2c65b474edc56691679b4d12875a646a311",
+    "coupling_condition_slopes.csv": "b580504d82768863101ad5d69d867efa8d86d114aa33bb438916df348275ae2c",
+    "coupling_interactions.csv": "b52e54d82ce1f1b914d9f035539cbc169e4ac1f1bf340c0f12049c0e0c0834f6",
+    "coupling_magnitude.csv": "0ef2f15bd42cc8a7b51f8c6ae520a441ae8de2cefdfe4143f0f008b6086b9de1",
+    "coupling_pooled.csv": "277262ec84ef0ece3639b1a0acfff08914a95941100e310fef17ec9bdfab1650",
+    "nbs_spearman_vs_neutral.csv": "ca6d7b6c8dbab19f810956dfda196888d51f30545e8572fa98d6c7295edf1dc3",
+    "synchronization_contrasts.csv": "d449ff552f8573b72ff88a0b252d1493d449b96eca8d0b2ba0317d4c78ac0a4e",
+    "trial_synchrony_metrics.csv": "56f03b9d2d0a8dfc004e5386bbd7db6f012a49f36f9d6adebd5a6b34021f89ce"
+  },
+  "output_sha256": {
+    "Figure_Part2_synchrony_condition_slopes_readable.pdf": "c87122691f5f4606f9cdb1addc5347a490eb98749e1639cf9f86f55718208850",
+    "Figure_Part2_synchrony_condition_slopes_readable.png": "230ed0c0918d1415888d8e27fae90861d08316643ca507f9560f86c15fb6cc44",
+    "Figure_Part2_synchrony_overview_readable.pdf": "80afcb3721bd8d0976f7a35e9104edd9c657504196e1aa17b35ec2d36c5edeb6",
+    "Figure_Part2_synchrony_overview_readable.png": "23366835bf8084c72411955bae6c04f6362972320d8678599a8365dcd3e250bc",
+    "synchrony_plotted_values.npz": "28776fdfa1fa456079f6059e78431230dfd3b0ade791299cdd0bee7be6c6a454"
+  },
+  "PDF_geometry_checks": {
+    "Figure_Part2_synchrony_overview_readable.pdf": {
+      "pages": 1,
+      "all_text_inside_page": true
+    },
+    "Figure_Part2_synchrony_condition_slopes_readable.pdf": {
+      "pages": 1,
+      "all_text_inside_page": true
+    },
+    "Figure_D1_NBSSubnetworks_readable.pdf": {
+      "pages": 1,
+      "all_text_inside_page": true
+    }
+  },
+  "visual_review": {
+    "passed": true,
+    "files": [
+      "Figure_Part2_synchrony_overview_readable.png",
+      "Figure_Part2_synchrony_condition_slopes_readable.png"
+    ],
+    "findings": "Both new layouts inspected at full resolution; readable condition/metric labels, nominal stars/daggers, bars/counts, and color scales; no text clipping or overlaps."
+  }
+}

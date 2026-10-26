@@ -1,0 +1,35 @@
+{
+  "status": "recomputed with figure-generator settings",
+  "source": "emotion_eeg_paper_updated-FINAL/emotion_eeg_paper_fixed/cache/trial_synchrony_metrics.csv",
+  "source_sha256": "56f03b9d2d0a8dfc004e5386bbd7db6f012a49f36f9d6adebd5a6b34021f89ce",
+  "bootstrap_draws": 1000,
+  "seed": 0,
+  "correction": "pointwise unadjusted; no multiplicity correction",
+  "standardization": "pooled standard deviation of the two participant-condition mean series, held fixed in bootstrap",
+  "results": [
+    {
+      "row": "sadness",
+      "column": "anger",
+      "n_participants": 123,
+      "d": 0.47987761387602396,
+      "pointwise_unadjusted_ci_low": 0.2545992678553316,
+      "pointwise_unadjusted_ci_high": 0.692087830379074
+    },
+    {
+      "row": "sadness",
+      "column": "disgust",
+      "n_participants": 123,
+      "d": 0.5013317348795092,
+      "pointwise_unadjusted_ci_low": 0.29104302102019547,
+      "pointwise_unadjusted_ci_high": 0.7002773110391692
+    },
+    {
+      "row": "sadness",
+      "column": "fear",
+      "n_participants": 123,
+      "d": 0.315687641693596,
+      "pointwise_unadjusted_ci_low": 0.12565004946800484,
+      "pointwise_unadjusted_ci_high": 0.5130003850641238
+    }
+  ]
+}

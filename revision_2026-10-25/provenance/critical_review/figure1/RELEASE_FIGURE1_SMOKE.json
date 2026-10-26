@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "release_root": "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate",
+  "resolved_source": "/home/carolinealves/Documents/Emotions-eeg/CRITICAL_REVIEW_CSF_2026-10-25/release_candidate/faced_1s_exploratory/src",
+  "actual_release_source_sha256": {
+    "lib/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lib/chord.py": "fc7cf008aee3e8c89b37063d12df3645ba43330002870723df04b70e45b4f701",
+    "lib/config.py": "a2f2bcab0f59557b3e37200bcfafb23644bae253537f4932c3b3e94ebfd90b0d",
+    "lib/embedding.py": "a49ad0f53c1bc810cf75a7fdbbbd27ad7ec0fe84c1578e76208dabee2916c857",
+    "lib/layout.py": "980b793d1a8622ab2a90d34bc22a7b9fb30604342634b1be3dccee920afec10c",
+    "lib/metrics.py": "5f5415022b484a8a54be4deac550ab79e81af040f4d83822f73a9157998c4494",
+    "lib/regions.py": "d998ab7fec0f296d2cf4892292755025792ed53e38622a49929ef0892749b795",
+    "lib/regions_q30.py": "7a19675b23da023a466323f8e45917bff7821195f0f11636ead24fd37d1f8cb0",
+    "lib/representations.py": "073b80e9237433d460e3e29d94a941d77cc9915992836e01cea21999b2708d75",
+    "lib/stats.py": "a862ed95c5a15d003101a83ba1aa05b987052558c769f166f11e36475a53e0d0",
+    "lib/synchrony.py": "19697d93477dff24add65bbbb86a792259ffb478c827ceb89e7961775ac35d4b",
+    "lib/synchrony_bands.py": "01ccbbe3a92842c05cf169bd3b73f1817d45f9079f2706b6f7a6af5c0a4ed563",
+    "lib/synchrony_regions.py": "86131d14e51301a129b2df75b9cf63c450df8bbb7bd4005502b16728a80ce594",
+    "lib/topology.py": "243ac4058869ea2e4a4498215eb621b2db742048aefbf484f4852776121d4fa0",
+    "part1_topology/compute_metrics.py": "73dc21403e122ac208997ea7df46100746208d44b6c87a112c68cefc3c8208e6",
+    "part1_topology/compute_metrics_q30.py": "5e94bbf78750807e450e11b895c7a53f14d2df8f1754f6a7727ee368f1d6f5a8",
+    "part1_topology/make_fdr_tables_q30.py": "a7a587e55bccaea156fec864957de8824299e4d33f14f9bf78414b9f0bf96f05",
+    "part1_topology/run_bootstrap_effects.py": "8e27fbc59bf6bb253a342f3ad21840e04868c129f2ad1b6665997469f0e8f7ba",
+    "part1_topology/run_chords_supp_q30.py": "1066d9f60e8284403bca091c2884e60f286a45c681a648a50b560084a8754849",
+    "part1_topology/run_fingerprint_splithalf_final.py": "e9d9fe1da5f4614e8c412c5bc4b95469f56c2f8a8c9cc7688a643392e0bf70d4",
+    "part1_topology/run_pairwise.py": "eb206903e52eca30e10a865a4bf652c9ef2182e0f35c511a75968c3a562aa12c",
+    "part1_topology/run_part1.py": "f445f9a24f712f7dc0f20c90fa00c57e169db829cee5926babc635e69b9ebd8f",
+    "part1_topology/run_part1_q30.py": "21a20e4b115f6438f7cb9681d0a7e69806df704ed084c0c309e7e121cd1f5f37"
+  },
+  "fixture_sha256": {
+    "src/cache/trial_metrics_mtf.csv": "960c0e0cd9c2721d022a896bec7b056d56819342daeee0640c6eaabff013e975",
+    "src/cache/trial_metrics_qg.csv": "f0b8b9e1ca88d55853e593fbf7f4e3f2d014e763328db5c0de05f0aa5b31f99d",
+    "src/cache/trial_metrics_spearman.csv": "ebf681e3af7e9150839d9fc315660d04bbbce8d14d5d30947ca137afdf3c0430",
+    "reference_rasters/panel-000.png": "f848381472e261cf9ed577cadce48d46a46d01a17be998793d9345b270595333",
+    "reference_rasters/panel-001.png": "6b40458756db76431bcdd55c208a385fdcce45c12d9a46fb128cdaf681c82313",
+    "reference_rasters/panel-002.png": "533368f6edd2ffff7e6e7c47190ce8e96e1169fe6c367dcd4c0e9652605cb63c",
+    "reference_rasters/panel-003.png": "5fab947f0f6f0b0e0a712cf25e82844742998d34183eed5ade65c3d4bb98832c",
+    "reference_rasters/panel-004.png": "76dd9c51c01dd8b1f16f1afb72cdd4d2c2964a063ebb818829d3846931277992",
+    "reference_rasters/panel-005.png": "6633597deb3cc8b90141c343765adccc000458962f2abc9f613c5507271b336c"
+  },
+  "imported_generator": true,
+  "q13_input_rejected": true,
+  "fingerprint_checks": {
+    "spearman": {
+      "rows": 3444,
+      "finite_metric_counts": {
+        "sigma_small_world": 3441,
+        "gamma_C_over_Crand": 3441,
+        "lambda_L_over_Lrand": 3441,
+        "transitivity": 3444,
+        "char_path_len_gcc": 3444,
+        "global_efficiency": 3444
+      },
+      "exact_fingerprint_cells": 54,
+      "total_cells": 54,
+      "max_rgb_difference": 0
+    },
+    "mtf_q30": {
+      "rows": 3444,
+      "finite_metric_counts": {
+        "sigma_small_world": 3444,
+        "gamma_C_over_Crand": 3444,
+        "lambda_L_over_Lrand": 3444,
+        "transitivity": 3444,
+        "char_path_len_gcc": 3444,
+        "global_efficiency": 3444
+      },
+      "exact_fingerprint_cells": 54,
+      "total_cells": 54,
+      "max_rgb_difference": 0
+    },
+    "qg_q30": {
+      "rows": 3444,
+      "finite_metric_counts": {
+        "sigma_small_world": 3444,
+        "gamma_C_over_Crand": 3444,
+        "lambda_L_over_Lrand": 3444,
+        "transitivity": 3444,
+        "char_path_len_gcc": 3444,
+        "global_efficiency": 3444
+      },
+      "exact_fingerprint_cells": 54,
+      "total_cells": 54,
+      "max_rgb_difference": 0
+    }
+  },
+  "bootstrap_mean_and_intervals_verified": true,
+  "generated_pdf_sha256": "0825b7952a4d8e6f877d21a0e68a26af8250084eba7ef6781da5baa1c83734d7",
+  "limitation": "Checks the selected release generator against retained metric fixtures and original numerical fingerprints. It does not rerun raw topology or assert PDF-byte identity."
+}

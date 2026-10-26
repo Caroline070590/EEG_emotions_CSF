@@ -1,0 +1,65 @@
+{
+  "analysis_status": "complete",
+  "classification_model": "Band-specific synchronization + power; shrinkage LDA",
+  "n_subjects": 20,
+  "n_clips": 80,
+  "n_rows": 1600,
+  "n_source_folds": 54,
+  "observed_balanced_accuracy": 0.29523809523809524,
+  "original_saved_balanced_accuracy": 0.2952380952380952,
+  "exact_original_reproduced_at_tolerance": 1e-14,
+  "session_majority_first_tie_balanced_accuracy": 0.0,
+  "session_majority_tie_averaged_expected_balanced_accuracy": 0.0,
+  "session_frequency_expected_balanced_accuracy": 0.14292266614248042,
+  "paired_lda_minus_frequency_expected": 0.1523154290956148,
+  "paired_lda_minus_frequency_expected_conditional_participant_bootstrap_95": [
+    0.1258273338575196,
+    0.18177971480990052
+  ],
+  "bootstrap_scope": "Descriptive participant resampling of fixed out-of-fold predictions; no model refit and no source sampling.",
+  "majority_caveat": "Holding out a source depletes its condition within each training session; the observed held-out label is never among the session-frequency maxima. Zero majority accuracy does not remove session confounding.",
+  "probabilistic_reference_caveat": "Expected balanced accuracy of sampling labels from training session frequencies, not measured accuracy of a fitted EEG classifier.",
+  "permutation_seed": 20261025,
+  "requested_permutations": 1000,
+  "null_exchangeability": "Permute single-condition source labels within identical four-session clip-count profiles; all excerpts stay together. Mixed-condition and unique-profile sources fixed.",
+  "n_exchangeable_sources": 47,
+  "n_fixed_sources": 7,
+  "n_exchangeable_strata": 8,
+  "mixed_condition_sources_fixed": [
+    "under the hawthorn tree",
+    "you are my life"
+  ],
+  "n_unique_possible_label_allocations": "13175020438272000000",
+  "n_unique_draws": 1000,
+  "session_condition_counts_invariant_all_draws": true,
+  "same_source_excerpt_labels_preserved_all_draws": true,
+  "preprocessing": "Original within-participant all-clip label-free normalization (ddof=1), then training-only pooled StandardScaler in each fold. Preprocessing and source folds identical across all label maps.",
+  "post_audit_sensitivity": true,
+  "inference_scope": "One additional model-specific conditional permutation sensitivity; no multiplicity claim, independent replication claim, or exclusion of all session/stimulus confounding.",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.1.4",
+    "sklearn": "1.6.1"
+  },
+  "input_sha256": {
+    "/home/carolinealves/Documents/Emotions-eeg/seed7_replication/cache/features_scalar.csv": "73530af38d068d8fdecdc9f503a9562c66405f969f764ca36e7997e0b40926d2",
+    "/home/carolinealves/Documents/Emotions-eeg/seed7_replication/cache/features_arrays.npz": "eba3e0a5d35d63a067774349311586b81aba5ea1266e3a90a49b2c91e94bdad8",
+    "/home/carolinealves/Documents/Emotions-eeg/seed7_replication/cache/clips.csv": "724b751d5c3db2c3a542f55217aa34f33215b8d0a906b332d13046b19719f244"
+  },
+  "script_sha256": "5960027fab28c9a27ccb9ff1e138dca66e32699d57d877357a073da5b04322ea",
+  "completed_permutations": 1000,
+  "restricted_null_mean": 0.1317657738095238,
+  "restricted_null_95th_percentile": 0.16550595238095236,
+  "restricted_null_exceedances": 0,
+  "restricted_null_p_plus_one": 0.000999000999000999,
+  "gain_over_restricted_null_mean": 0.16347232142857143,
+  "resumed_from_checkpoint_entries": 240,
+  "resume_elapsed_seconds": 790.2151931709959,
+  "resume_provenance": {
+    "checkpoint_entries_retained": 240,
+    "remaining_entries": 760,
+    "fixed_label_maps_sha256": "7aa81406791e984d79de8c61c03eaae7c483375a03c9a0c48ddd3df53d6b42c6",
+    "resume_script_sha256": "aaa8acf7ff204abecce0d2188da8c8b8f8efd1024c97925155b2edb05b59cea2",
+    "initial_checkpoint_sha256": "d5a3de64b44c1b088dfe79146ec2afa03166e119a943525faf4161d5a60a8e69"
+  }
+}

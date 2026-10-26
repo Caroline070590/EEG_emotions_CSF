@@ -1,0 +1,128 @@
+[
+  {
+    "file": "manuscript/main.tex",
+    "old": "Matching \\(q=30\\) to the number of channels equates graph size and edge count",
+    "new": "Matching \\(q=30\\) to the number of channels equates node count and nominal graph density",
+    "reason": "R1.2: realized edge counts can differ because of cutoff ties or too few nonzero edges."
+  },
+  {
+    "file": "response/response.tex",
+    "old": "Matching \\(q\\) to the number of channels controls graph size and edge count at a specified density",
+    "new": "Matching \\(q\\) to the number of channels controls node count and target density",
+    "reason": "R1.2: match the construction actually specified in Methods."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "\\subsection{Emotion-specific descriptive interpretation}",
+    "new": "\\subsection{Descriptive interpretation across affective video conditions}",
+    "reason": "R1.5/R3.8: avoid emotion-specific interpretation in a supplementary heading."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "Muscle-sensitive 30--45~Hz power over frontopolar and frontotemporal electrodes did not differ between any condition and neutral (all \\(p\\geq0.076\\));",
+    "new": "No condition-versus-neutral difference was detected in muscle-sensitive 30--45~Hz power over frontopolar and frontotemporal electrodes (all \\(p\\geq0.076\\));",
+    "reason": "R1.6: nonsignificance does not establish equality of artifact-related power."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "Independent raw-data rejection of facial and neck EMG was not performed.",
+    "new": "Independent raw-data rejection of facial and neck EMG was not performed. Muscle activity shared across electrodes can contribute correlated broadband fluctuations and amplitude envelopes, potentially biasing AEC, MaxXC, and the channel correlations used to construct topology; their association may therefore contain a common myogenic contribution \\citep{Goncharova2003EMGContamination,Muthukumaraswamy2013HighFrequencyMuscle}.",
+    "reason": "R1.6: explicitly explain the requested metric-specific residual EMG bias."
+  },
+  {
+    "file": "response/response.tex",
+    "old": "The Discussion retains these boundaries and the limitation that independent component-level rejection on raw data was not performed.",
+    "new": "The Discussion retains these boundaries and explains that muscle activity shared across electrodes can bias amplitude-envelope coupling, broadband cross-correlation, and the channel correlations used to construct topology, potentially contributing to their association. Independent component-level rejection on raw data was not performed.",
+    "reason": "R1.6: identify the added metric-specific explanation without claiming a new artifact-removal experiment."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "SEED-VII 30-s: topology and wPLI/oAEC & 168 & BH once & P and clips; P and sources & Replication",
+    "new": "SEED-VII 30-s: topology and wPLI/oAEC & 168 & BH once & P and clips; P and sources & Independent assessment",
+    "reason": "R6.3: independent cohort assessment is not a replicated condition contrast."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "SEED-VII 30-s: recurrence & 36 & BH once & P and clips & Replication",
+    "new": "SEED-VII 30-s: recurrence & 36 & BH once & P and clips & Independent assessment",
+    "reason": "R6.3: independent cohort assessment is not a replicated condition contrast."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "SEED-VII 30-s: decoding & 5 feature sets & clip and source-block permutation nulls & sources held out & Replication",
+    "new": "SEED-VII 30-s: decoding & 5 feature sets & clip and source-block permutation nulls & sources held out & Independent assessment",
+    "reason": "R6.3: independent cohort assessment is not a replicated condition contrast."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "Full uncorrected tables for all topology and synchronization contrasts are provided in the public code repository (see Code availability).",
+    "new": "Complete uncorrected and adjusted topology and synchronization contrasts are provided in the accompanying reproducibility archive (see Code availability).",
+    "reason": "R3.4/R3.11: direct readers to the available, corrected archive rather than unpublished repository updates."
+  },
+  {
+    "file": "response/response.tex",
+    "old": "Adjusted scalar contrast values are provided in the public code repository, with the output and figure-generation limitations specified under Code availability.",
+    "new": "Adjusted scalar contrast values are provided in the accompanying reproducibility archive, with the output and figure-generation limitations specified under Code availability.",
+    "reason": "R3.4/R3.11: align response availability statement with actual release status."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "\\section*{Code availability}",
+    "new": "\\section*{Data availability}\n\nFACED recordings are available through the Synapse repository identified by \\citet{Chen2023FACED}. SEED-VII recordings are available on application to the dataset providers (\\url{https://bcmi.sjtu.edu.cn/home/seed/seed-vii.html}; \\citealp{Jiang2025SEEDVII}). The accompanying reproducibility archive contains the derived numerical results used in this revision; raw EEG recordings are not redistributed.\n\n\\section*{Code availability}",
+    "reason": "Submission completeness: make the existing dataset-access information explicit without inventing an ethics or access declaration."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "Spearman topology profiles were moderately stable across densities (profile correlation with the primary setting 0.64--1.00), whereas MTF and QG profiles were stable only for \\(q\\geq20\\) at the primary density (\\(r=0.84\\)--\\(0.90\\) for MTF, \\(0.67\\)--\\(0.83\\) for QG) and changed substantially across densities (median \\(r=0.27\\) and \\(0.42\\)) and at \\(q=10\\) (Supplementary Fig.~\\ref{fig:rev-sweep}). No contrast survived correction with videos random in any of the 78 settings except at the coarsest QG resolution (\\(q=10\\)), whose profile was unrelated to the primary profile (\\(r=0.26\\), sign agreement 50\\%) and is therefore not interpreted.",
+    "new": "Spearman topology profiles were moderately stable across densities (profile correlation with the primary setting 0.64--1.00), whereas MTF and QG profiles were stable only for \\(q\\geq20\\) at the primary density (\\(r=0.84\\)--\\(0.90\\) for MTF, \\(0.67\\)--\\(0.83\\) for QG) and changed substantially across densities (median \\(r=0.27\\) and \\(0.42\\)) and at \\(q=10\\) (Supplementary Fig.~\\ref{fig:rev-sweep}). No contrast survived correction with videos random in any of the 78 settings except at the coarsest QG resolution (\\(q=10\\)), whose profile was weakly correlated with the primary profile (\\(r=0.26\\), sign agreement 50\\%) and is therefore not interpreted.",
+    "reason": "R1.2/R3.3: r=0.26 indicates weak correlation, not no relationship."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "    \\caption{\\textbf{Robustness of topology profiles to quantile resolution and density (30-s trials).} \\textbf{a,} Spearman networks: correlation of the 48-element effect profile (8 contrasts \\(\\times\\) 6 metrics, Cohen's \\(d_z\\)) with the primary profile at 10\\% density. \\textbf{b--c,} The same for MTF and QG across \\(q\\) and density; cell values are the profile correlations. Markers follow the convention of the other figures and summarize the 48 contrasts of each setting: filled circles, at least one contrast with \\(q<0.05\\) when participants and videos are random factors; open circles, at least one contrast with \\(q<0.05\\) only when videos are treated as fixed. With videos random, contrasts survived only for QG at the coarsest resolution (\\(q=10\\)), whose profile was unrelated to the primary profile; with videos fixed, contrasts survived in many settings. Red box: primary setting.}",
+    "new": "    \\caption{\\textbf{Robustness of topology profiles to quantile resolution and density (30-s trials).} \\textbf{a,} Spearman networks: correlation of the 48-element effect profile (8 contrasts \\(\\times\\) 6 metrics, Cohen's \\(d_z\\)) with the primary profile at 10\\% density. \\textbf{b--c,} The same for MTF and QG across \\(q\\) and density; cell values are the profile correlations. Markers follow the convention of the other figures and summarize the 48 contrasts of each setting: filled circles, at least one contrast with \\(q<0.05\\) when participants and videos are random factors; open circles, at least one contrast with \\(q<0.05\\) only when videos are treated as fixed. With videos random, contrasts survived only for QG at the coarsest resolution (\\(q=10\\)), whose profile was weakly correlated with the primary profile; with videos fixed, contrasts survived in many settings. Red box: primary setting.}",
+    "reason": "R1.2/R3.3: r=0.26 indicates weak correlation, not no relationship."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "\\section*{CRediT authorship contribution statement}",
+    "new": "\\section*{Declaration of competing interests}\n\nThe authors declare that they have no competing interests.\n\n\\section*{CRediT authorship contribution statement}",
+    "reason": "Author explicitly confirmed no competing interests in this conversation."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "The prespecified family therefore contained 224 contrasts, corrected jointly",
+    "new": "This family therefore contained 224 contrasts, corrected jointly",
+    "reason": "R3.4: retain joint correction without unsupported advance-timing claim; existing FACED plan specifies a different192-test analysis."
+  },
+  {
+    "file": "response/response.tex",
+    "old": "A family of 224 contrasts was defined before the 30-s validation and corrected jointly",
+    "new": "The 30-s validation uses a jointly corrected family of 224 contrasts",
+    "reason": "R3.4: no independently documented timing for this224-test specification."
+  },
+  {
+    "file": "response/response.tex",
+    "old": "we implemented a single primary family defined before computing those results: 224 emotion-versus-neutral tests",
+    "new": "we implemented a single primary family of 224 emotion-versus-neutral tests",
+    "reason": "R3.4: report the implemented analysis family accurately without claiming unverified prespecification."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "The same FACED-derived representation was retained throughout the study to maintain a consistent preprocessing and segmentation framework across all analyses.",
+    "new": "The same provider-preprocessed FACED recordings supplied the main and supplementary analyses; analysis-specific windowing and additional preprocessing are specified below.",
+    "reason": "Technical preflight: distinguish common input recordings from the explicitly different analysis windowing and preprocessing."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "adjusting for the EMG index left the primary synchronization effects essentially unchanged",
+    "new": "the primary synchronization effect-size profiles before and after adjustment for the EMG index were highly correlated",
+    "reason": "R1.6: profile correlation is not an equivalence test."
+  },
+  {
+    "file": "manuscript/main.tex",
+    "old": "Stimulus-aware validation of emotion-dependent EEG\n    network organization.",
+    "new": "Stimulus-aware assessment of EEG network organization\n    across affective video conditions.",
+    "reason": "R1.5: retain condition-level interpretation in Figure S26 caption."
+  }
+]

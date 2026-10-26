@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-25",
+  "file": "POINT_BY_POINT_CSF_2026-10-25/manuscript/cas-refs.bib",
+  "baseline_file": "POINT_BY_POINT_CSF_2026-10-25/audit/BASELINE_cas-refs.bib",
+  "before_sha256": "04a58ef003fb9b3fff350765c25404eb6cb6139c75624ad635a548b656d55ca1",
+  "after_sha256": "9fd0bef53ca9359b4eb724b6a1c7addff4f8d15348b650e4a79e7c74523a6adc",
+  "changes": [
+    {
+      "key": "touroutoglou2015intrinsic",
+      "line": 1028,
+      "old_title": "Intrinsic connectivity in the human brain does not reveal networks for ‘basic’emotions",
+      "new_title": "Intrinsic connectivity in the human brain does not reveal networks for ‘basic’ emotions",
+      "doi_added": "10.1093/scan/nsv013",
+      "old_full_record": "@article{touroutoglou2015intrinsic,\n  title={Intrinsic connectivity in the human brain does not reveal networks for ‘basic’emotions},\n  author={Touroutoglou, Alexandra and Lindquist, Kristen A and Dickerson, Bradford C and Barrett, Lisa Feldman},\n  journal={Social cognitive and affective neuroscience},\n  volume={10},\n  number={9},\n  pages={1257--1265},\n  year={2015},\n  publisher={Oxford University Press}\n}",
+      "new_full_record": "@article{touroutoglou2015intrinsic,\n  title={Intrinsic connectivity in the human brain does not reveal networks for ‘basic’ emotions},\n  author={Touroutoglou, Alexandra and Lindquist, Kristen A and Dickerson, Bradford C and Barrett, Lisa Feldman},\n  journal={Social cognitive and affective neuroscience},\n  volume={10},\n  number={9},\n  pages={1257--1265},\n  year={2015},\n  doi={10.1093/scan/nsv013},\n  publisher={Oxford University Press}\n}",
+      "authoritative_source_url": "https://academic.oup.com/scan/article/10/9/1257/1675553",
+      "old_record_sha256": "503e7945726fe6c72fdb9359cbd1830d49776a9ba8f9eb3d30ce9dc8620ebded",
+      "new_record_sha256": "f424bdfc944addd3f3e95fab92d0d99696861aa96d8908bea7be2ed8fb4c5012"
+    },
+    {
+      "key": "maris2007nonparametric",
+      "line": 1061,
+      "old_title": "Nonparametric statistical testing of EEG-and MEG-data",
+      "new_title": "Nonparametric statistical testing of EEG- and MEG-data",
+      "doi_added": "10.1016/j.jneumeth.2007.03.024",
+      "old_full_record": "@article{maris2007nonparametric,\n  title={Nonparametric statistical testing of EEG-and MEG-data},\n  author={Maris, Eric and Oostenveld, Robert},\n  journal={Journal of neuroscience methods},\n  volume={164},\n  number={1},\n  pages={177--190},\n  year={2007},\n  publisher={Elsevier}\n}",
+      "new_full_record": "@article{maris2007nonparametric,\n  title={Nonparametric statistical testing of EEG- and MEG-data},\n  author={Maris, Eric and Oostenveld, Robert},\n  journal={Journal of neuroscience methods},\n  volume={164},\n  number={1},\n  pages={177--190},\n  year={2007},\n  doi={10.1016/j.jneumeth.2007.03.024},\n  publisher={Elsevier}\n}",
+      "authoritative_source_url": "https://www.sciencedirect.com/science/article/pii/S0165027007001707",
+      "old_record_sha256": "71d04fc66b1f699a4cabda3f572fd8ea3a772347dc70d1742bb2b611da48c203",
+      "new_record_sha256": "f671aa41434ab5298e4e3dbf0ad08e4cd719fe49715c7ebd133c777275e23952"
+    }
+  ],
+  "scope": "Two cited reference title-spacing corrections and their publisher-verified DOIs; no other records changed."
+}

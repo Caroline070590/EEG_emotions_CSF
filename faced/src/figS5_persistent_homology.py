@@ -1,10 +1,10 @@
 """Supplementary Figure S5: metric validity and emotion effects of persistent homology.
 
-D = sqrt(2(1 - rho)) on SIGNED Spearman correlations is the Euclidean distance between
-rank-standardised channel time series, hence a true metric. The submitted construction,
-sqrt(2(1 - |rho|)), is only a symmetric dissimilarity; we quantify how often it violates the
-triangle inequality. (A Vietoris-Rips filtration is well defined for any symmetric
-dissimilarity, but stability guarantees are stated for metric spaces.)
+D = sqrt(2(1 - rho)) is Euclidean distance between standardized rank series.
+The absolute-correlation construction sqrt(2(1 - |rho|)) is the sign-quotient
+pseudometric min(||u-v||, ||u+v||), which also satisfies the triangle inequality.
+Both distances therefore admit metric filtrations; the numerical triangle-ratio
+check illustrates the proof rather than testing whether only one construction is valid.
 """
 import os
 from itertools import combinations
@@ -90,7 +90,7 @@ ax.scatter(a.loc[j], b.loc[j], s=8, color="#2b6cb0", lw=0)
 lim = np.nanmax(np.abs(np.r_[a.loc[j], b.loc[j]])) * 1.05
 ax.plot([-lim, lim], [-lim, lim], color="#999", lw=0.6, ls="--")
 ax.text(0.04, 0.92, f"r = {np.corrcoef(a.loc[j], b.loc[j])[0, 1]:.2f}", transform=ax.transAxes, fontsize=6)
-ax.set_xlabel("$d_z$, submitted distance"); ax.set_ylabel("$d_z$, metric distance")
+ax.set_xlabel("$d_z$, absolute-correlation distance"); ax.set_ylabel("$d_z$, signed-correlation distance")
 ax.set_title("Agreement of constructions", loc="left"); panel(ax, "c")
 fig.text(0.30, -0.09, "●  BH q < 0.05 (exploratory family)   ○  p < 0.05 uncorrected; participants and videos random.", fontsize=6)
 save(fig, "FigS5_persistent_homology")

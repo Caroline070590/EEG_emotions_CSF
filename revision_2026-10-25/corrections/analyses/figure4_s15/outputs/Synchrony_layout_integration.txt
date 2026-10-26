@@ -1,0 +1,11 @@
+Replace the original dense composite with two NEW assets, preserving its figure number via ContinuedFloat:
+  Figure_Part2_synchrony_overview_readable.pdf — panels a–c
+  Figure_Part2_synchrony_condition_slopes_readable.pdf — panels d–g
+
+The original PDF is unchanged. Both new figures preserve all heatmap values,
+color limits, nominal stars, and the summary counts. Panel c numbers are the
+number of nominal p<0.05 slopes among 24 pairs. This is not a corrected count.
+Daggers mark nominal p<0.05 in 8-df emotion-by-synchronization Wald tests.
+The model is trial-level participant-clustered OLS, not MixedLM or an LRT.
+Use the main figure caption for all tests; the continued caption may simply
+identify panels d–g as condition-specific slopes with nominal stars/daggers.

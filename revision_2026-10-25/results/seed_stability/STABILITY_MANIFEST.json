@@ -1,0 +1,19 @@
+{
+  "snapshot": "/home/carolinealves/Documents/Emotions-eeg/matched_eegnet_2026-10-24/final_results_20261025",
+  "source_verification": "INDEPENDENT_VERIFICATION.json",
+  "completed_folds": 300,
+  "completed_model_runs": 60,
+  "seeds": [
+    20261024,
+    11,
+    29
+  ],
+  "scope": "Descriptive stability of the existing frozen experiment. Every planned seed/fold retained. No new significance tests or winner selection.",
+  "files_sha256": {
+    "all_seed_comparisons.csv": "d28721625d60107831b03e567837ca078374224c0057b96e9b11c0d5ac3a152d",
+    "all_seed_scores.csv": "d2dacfb8bf93c88e34291ba5687fed29f488efca165097270673a67b7765de61",
+    "seed_stability.pdf": "8d01195b9bc853b26fe9423cf2ad5a451b1e52bcc99dfcaf74075a24328ceb6f",
+    "all_fold_diagnostics.csv": "b252f63c6d1f3fbfc2d97577755e7cd8429640728f275347b0417f5479917a8e",
+    "seed_stability.png": "5414f77956946af38cc1fc49ae0d9910cb55ea181345f0cfaa920a4525c600cb"
+  }
+}
