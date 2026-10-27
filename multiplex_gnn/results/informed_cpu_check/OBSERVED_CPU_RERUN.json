@@ -1,0 +1,23 @@
+{
+  "purpose": "Local CPU rerun of the observed (permutation 0) runs from the public files, 27 October 2026; checks that the public pipeline runs end to end. The manuscript values come from the original GPU runs.",
+  "features": "extract.py on all 3,444 FACED full-trial files; every source SHA-256 matched inputs/disjoint_signed/input_qc.csv",
+  "informed_observed_balanced_accuracy": {
+    "no_graph": 0.1415236374585968,
+    "distance_graph": 0.1384372177055104,
+    "recurrence_graph": 0.1375338753387534
+  },
+  "manuscript_informed_observed": "no graph 13.8%, distance prior 13.8% (difference -0.1 points), recurrence-similarity graph 13.5%",
+  "pilot_observed_balanced_accuracy_cpu": {
+    "connectivity": 0.12962962962962962,
+    "recurrence": 0.1375338753387534,
+    "multiplex": 0.1357271906052394,
+    "connectivity_rqa": 0.13286660644384224
+  },
+  "pilot_observed_balanced_accuracy_gpu_retained": {
+    "connectivity": 0.11254140319180969,
+    "recurrence": 0.13527551942186086,
+    "multiplex": 0.14092140921409213,
+    "connectivity_rqa": 0.13527551942186092
+  },
+  "note": "CPU and GPU training are not bit-identical: against the retained GPU pilot prediction file, the CPU class probabilities differ by at most 0.048 with identical trial keys and labels, which near chance (11.1%) moves balanced accuracy by up to about 2 points. Both runs agree that neither graph improves on the no-graph model."
+}

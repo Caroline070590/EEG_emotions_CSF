@@ -1,7 +1,8 @@
 """
 run_chords_supp_q30.py — Fig. S2 (representation-similarity chords) regenerated
-with q=30 (node-count-matched) MTF/QG. Reuses run_chords_supp.py's chord()
-helper; only the input CSVs differ (mtf_q30/qg_q30 instead of mtf/qg).
+with q=30 (node-count-matched) MTF/QG. Reuses the chord() and _profile()
+helpers of run_part1.py (identical to those of the unreleased July
+run_chords_supp.py) and the q=30 input loader of run_part1_q30.py.
 Saved separately, does not overwrite the original q=13 Fig. S2.
 """
 import sys
@@ -14,14 +15,10 @@ from matplotlib.gridspec import GridSpec
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from lib.config import CACHE, FIG_DIR, EMOS, EMO_COLORS, METRICS, set_nature_style, save, W2, panel_letter
-from part1_topology.run_chords_supp import chord, _profile
+from part1_topology.run_part1 import chord, _profile
+from part1_topology.run_part1_q30 import _load
 
 METHODS_Q30 = {"spearman": "Spearman", "mtf_q30": "MTF (q=30)", "qg_q30": "QG (q=30)"}
-
-
-def _load(tag):
-    f = CACHE / f"trial_metrics_{tag}.csv"
-    return pd.read_csv(f) if f.exists() else None
 
 
 def main():
